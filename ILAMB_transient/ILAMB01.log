@@ -1,0 +1,542 @@
+[INFO][0][<module>] Linux renato-VirtualBox 5.0.0-31-generic #33~18.04.1-Ubuntu SMP Tue Oct 1 10:20:39 UTC 2019 x86_64
+[INFO][0][<module>] /home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB (2.4)
+[INFO][0][<module>] /home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy (1.17.0)
+[INFO][0][<module>] /home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/matplotlib (3.1.1)
+[INFO][0][<module>] /home/renato/.local/lib/python3.7/site-packages/netCDF4 (1.5.1.2)
+[INFO][0][<module>] /home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/cf_units (2.1.3)
+[INFO][0][<module>] /home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/sympy (1.4)
+[INFO][0][<module>] /home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/mpi4py (3.0.1)
+[INFO][0][<module>] 2019-10-11 16:14:16.549460
+[INFO][0][confront][Biomass/GlobalCarbon][IHistClm50Bgc] Success
+[INFO][0][confront][Biomass/GlobalCarbon][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Biomass/GlobalCarbon][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Biomass/GlobalCarbon][IHistClm50BgcSulman] Success
+[INFO][0][confront][Biomass/NBCD2000][IHistClm50Bgc] Success
+[INFO][0][confront][Biomass/NBCD2000][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Biomass/NBCD2000][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Biomass/NBCD2000][IHistClm50BgcSulman] Success
+[INFO][0][confront][Biomass/USForest][IHistClm50Bgc] Success
+[INFO][0][confront][Biomass/USForest][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Biomass/USForest][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Biomass/USForest][IHistClm50BgcSulman] Success
+[INFO][0][confront][BurnedArea/GFED3][IHistClm50Bgc] Success
+[INFO][0][confront][BurnedArea/GFED3][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][BurnedArea/GFED3][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][BurnedArea/GFED3][IHistClm50BgcSulman] Success
+[INFO][0][confront][BurnedArea/GFED4][IHistClm50Bgc] Success
+[INFO][0][confront][BurnedArea/GFED4][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][BurnedArea/GFED4][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][BurnedArea/GFED4][IHistClm50BgcSulman] Success
+[INFO][0][confront][BurnedArea/GFED4S][IHistClm50Bgc] Success
+[INFO][0][confront][BurnedArea/GFED4S][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][BurnedArea/GFED4S][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][BurnedArea/GFED4S][IHistClm50BgcSulman] Success
+[INFO][0][confront][GrossPrimaryProductivity/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][GrossPrimaryProductivity/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][GrossPrimaryProductivity/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][GrossPrimaryProductivity/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][GrossPrimaryProductivity/GBAF][IHistClm50Bgc] Success
+[INFO][0][confront][GrossPrimaryProductivity/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][GrossPrimaryProductivity/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][GrossPrimaryProductivity/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][confront][LeafAreaIndex/AVHRR][IHistClm50Bgc] Success
+[INFO][0][confront][LeafAreaIndex/AVHRR][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][LeafAreaIndex/AVHRR][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][LeafAreaIndex/AVHRR][IHistClm50BgcSulman] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][IHistClm50Bgc] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][IHistClm50BgcSulman] Success
+[INFO][0][confront][NetEcosystemExchange/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][NetEcosystemExchange/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][NetEcosystemExchange/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][NetEcosystemExchange/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][NetEcosystemExchange/GBAF][IHistClm50Bgc] Success
+[INFO][0][confront][NetEcosystemExchange/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][NetEcosystemExchange/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][NetEcosystemExchange/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][confront][EcosystemRespiration/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][EcosystemRespiration/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][EcosystemRespiration/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][EcosystemRespiration/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][EcosystemRespiration/GBAF][IHistClm50Bgc] Success
+[INFO][0][confront][EcosystemRespiration/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][EcosystemRespiration/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][EcosystemRespiration/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][confront][SoilCarbon/HWSD][IHistClm50Bgc] Success
+[INFO][0][confront][SoilCarbon/HWSD][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SoilCarbon/HWSD][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SoilCarbon/HWSD][IHistClm50BgcSulman] Success
+[INFO][0][confront][SoilCarbon/NCSCDV22][IHistClm50Bgc] Success
+[INFO][0][confront][SoilCarbon/NCSCDV22][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SoilCarbon/NCSCDV22][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SoilCarbon/NCSCDV22][IHistClm50BgcSulman] Success
+[INFO][0][confront][Evapotranspiration/GLEAM][IHistClm50Bgc] Success
+[INFO][0][confront][Evapotranspiration/GLEAM][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Evapotranspiration/GLEAM][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Evapotranspiration/GLEAM][IHistClm50BgcSulman] Success
+[INFO][0][confront][Evapotranspiration/MODIS][IHistClm50Bgc] Success
+[INFO][0][confront][Evapotranspiration/MODIS][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Evapotranspiration/MODIS][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Evapotranspiration/MODIS][IHistClm50BgcSulman] Success
+[INFO][0][confront][EvaporativeFraction/GBAF][IHistClm50Bgc] Success
+[INFO][0][confront][EvaporativeFraction/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][EvaporativeFraction/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][EvaporativeFraction/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][confront][LatentHeat/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][LatentHeat/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][LatentHeat/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][LatentHeat/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][LatentHeat/GBAF][IHistClm50Bgc] Success
+[INFO][0][confront][LatentHeat/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][LatentHeat/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][LatentHeat/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][confront][SensibleHeat/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][SensibleHeat/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SensibleHeat/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SensibleHeat/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][SensibleHeat/GBAF][IHistClm50Bgc] Success
+[INFO][0][confront][SensibleHeat/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SensibleHeat/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SensibleHeat/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][confront][Albedo/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][Albedo/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Albedo/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Albedo/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][Albedo/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][Albedo/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Albedo/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Albedo/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][Albedo/MODIS][IHistClm50Bgc] Success
+[INFO][0][confront][Albedo/MODIS][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Albedo/MODIS][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Albedo/MODIS][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetSWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetSWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetSWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetSWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetLWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetLWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetLWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetLWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetRadiation/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetRadiation/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetRadiation/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetRadiation/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceAirTemperature/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceAirTemperature/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceAirTemperature/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceAirTemperature/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][Precipitation/CMAP][IHistClm50Bgc] Success
+[INFO][0][confront][Precipitation/CMAP][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Precipitation/CMAP][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Precipitation/CMAP][IHistClm50BgcSulman] Success
+[INFO][0][confront][Precipitation/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][Precipitation/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Precipitation/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Precipitation/Fluxnet][IHistClm50BgcSulman] Success
+[DEBUG][0][WorkConfront][Precipitation/GPCC][IHistClm50Bgc]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/EGG-INFO/scripts/ilamb-run", line 333, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Confrontation.py", line 311, in confront
+    mass_weighting    = mass_weighting)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/ilamblib.py", line 1532, in AnalysisMeanStateSpace
+    area = REF.area, ndata = REF.ndata).rms()
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 1576, in rms
+    time  = self.time).integrateInTime(mean=True)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 307, in integrateInTime
+    integral = (self.data[ind]*dt).sum(axis=0)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 4102, in __mul__
+    return multiply(self, other)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 1015, in __call__
+    result = self.f(da, db, *args, **kwargs)
+numpy.core._exceptions.MemoryError: Unable to allocate array with shape (1320, 450, 863) and data type float64
+
+[DEBUG][0][WorkConfront][Precipitation/GPCC][IHistClm50BgcSoudzi]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/EGG-INFO/scripts/ilamb-run", line 333, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Confrontation.py", line 311, in confront
+    mass_weighting    = mass_weighting)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/ilamblib.py", line 1532, in AnalysisMeanStateSpace
+    area = REF.area, ndata = REF.ndata).rms()
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 1576, in rms
+    time  = self.time).integrateInTime(mean=True)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 307, in integrateInTime
+    integral = (self.data[ind]*dt).sum(axis=0)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 4102, in __mul__
+    return multiply(self, other)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 1015, in __call__
+    result = self.f(da, db, *args, **kwargs)
+numpy.core._exceptions.MemoryError: Unable to allocate array with shape (1320, 450, 863) and data type float64
+
+[DEBUG][0][WorkConfront][Precipitation/GPCC][IHistClm50BgcSteidinger]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/EGG-INFO/scripts/ilamb-run", line 333, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Confrontation.py", line 311, in confront
+    mass_weighting    = mass_weighting)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/ilamblib.py", line 1532, in AnalysisMeanStateSpace
+    area = REF.area, ndata = REF.ndata).rms()
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 1576, in rms
+    time  = self.time).integrateInTime(mean=True)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 307, in integrateInTime
+    integral = (self.data[ind]*dt).sum(axis=0)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 4102, in __mul__
+    return multiply(self, other)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 1015, in __call__
+    result = self.f(da, db, *args, **kwargs)
+numpy.core._exceptions.MemoryError: Unable to allocate array with shape (1320, 450, 863) and data type float64
+
+[DEBUG][0][WorkConfront][Precipitation/GPCC][IHistClm50BgcSulman]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/EGG-INFO/scripts/ilamb-run", line 333, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Confrontation.py", line 311, in confront
+    mass_weighting    = mass_weighting)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/ilamblib.py", line 1532, in AnalysisMeanStateSpace
+    area = REF.area, ndata = REF.ndata).rms()
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 1576, in rms
+    time  = self.time).integrateInTime(mean=True)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/ILAMB-2.4-py3.7.egg/ILAMB/Variable.py", line 307, in integrateInTime
+    integral = (self.data[ind]*dt).sum(axis=0)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 4102, in __mul__
+    return multiply(self, other)
+  File "/home/renato/anaconda3/envs/ilamb2/lib/python3.7/site-packages/numpy/ma/core.py", line 1015, in __call__
+    result = self.f(da, db, *args, **kwargs)
+numpy.core._exceptions.MemoryError: Unable to allocate array with shape (1320, 450, 863) and data type float64
+
+[INFO][0][confront][Precipitation/GPCP2][IHistClm50Bgc] Success
+[INFO][0][confront][Precipitation/GPCP2][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][Precipitation/GPCP2][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][Precipitation/GPCP2][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceRelativeHumidity/ERA][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceRelativeHumidity/ERA][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceRelativeHumidity/ERA][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceRelativeHumidity/ERA][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Biomass/USForest][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Biomass/USForest][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Biomass/USForest][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Biomass/USForest][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][BurnedArea/GFED3][IHistClm50Bgc] Success
+[INFO][0][modelPlots][BurnedArea/GFED3][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][BurnedArea/GFED3][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][BurnedArea/GFED3][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][BurnedArea/GFED4][IHistClm50Bgc] Success
+[INFO][0][modelPlots][BurnedArea/GFED4][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][BurnedArea/GFED4][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][BurnedArea/GFED4][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][BurnedArea/GFED4S][IHistClm50Bgc] Success
+[INFO][0][modelPlots][BurnedArea/GFED4S][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][BurnedArea/GFED4S][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][BurnedArea/GFED4S][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][IHistClm50Bgc] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][IHistClm50Bgc] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][IHistClm50Bgc] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][IHistClm50Bgc] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][IHistClm50Bgc] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][NetEcosystemExchange/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][NetEcosystemExchange/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][NetEcosystemExchange/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][NetEcosystemExchange/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][IHistClm50Bgc] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][NetEcosystemExchange/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][EcosystemRespiration/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][EcosystemRespiration/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][EcosystemRespiration/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][EcosystemRespiration/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][IHistClm50Bgc] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][EcosystemRespiration/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAM][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAM][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAM][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAM][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][EvaporativeFraction/GBAF][IHistClm50Bgc] Success
+[INFO][0][modelPlots][EvaporativeFraction/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][EvaporativeFraction/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][EvaporativeFraction/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][LatentHeat/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][LatentHeat/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][LatentHeat/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][LatentHeat/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][LatentHeat/GBAF][IHistClm50Bgc] Success
+[INFO][0][modelPlots][LatentHeat/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][LatentHeat/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][LatentHeat/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Runoff/Dai][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Runoff/Dai][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Runoff/Dai][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Runoff/Dai][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SensibleHeat/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SensibleHeat/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SensibleHeat/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SensibleHeat/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SensibleHeat/GBAF][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SensibleHeat/GBAF][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SensibleHeat/GBAF][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SensibleHeat/GBAF][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][IHistClm50Bgc] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Albedo/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Albedo/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Albedo/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Albedo/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Albedo/MODIS][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Albedo/MODIS][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Albedo/MODIS][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Albedo/MODIS][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Precipitation/CMAP][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Precipitation/CMAP][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Precipitation/CMAP][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Precipitation/CMAP][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Precipitation/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Precipitation/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Precipitation/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Precipitation/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Precipitation/GPCC][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Precipitation/GPCC][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Precipitation/GPCC][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Precipitation/GPCC][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][Precipitation/GPCP2][IHistClm50Bgc] Success
+[INFO][0][modelPlots][Precipitation/GPCP2][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][Precipitation/GPCP2][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][Precipitation/GPCP2][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/ERA][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/ERA][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/ERA][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/ERA][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/Fluxnet][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERES][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERES][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERES][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERES][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][IHistClm50BgcSulman] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50Bgc] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50BgcSoudzi] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50BgcSteidinger] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][IHistClm50BgcSulman] Success
+[INFO][0][<module>][total time] 23290.7 s
