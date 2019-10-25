@@ -1,0 +1,56 @@
+DIAG SET 5: CLM ANNUAL MEANS OVER LAND
+ 
+TEST CASE (case1):      ISSP585Clm50BgcCrop_myc  (yrs 2016-2075)
+ 
+REFERENCE CASE (case2): ISSP585Clm50BgcCrop_all  (yrs 2016-2075)
+ 
+Variable                                                                 case1               case2
+ 
+TSA(K) 2m air temperature                                                283.118             283.118
+PREC(mm/d) ppt: rain+snow                                                  2.087               2.087
+RAIN(mm/d) atmospheric rain                                                1.860               1.860
+SNOW(mm/d) atmospheric snow                                                0.228               0.228
+SNOWDP(m) snow height                                                      2.426               2.426
+FSNO(unitless) fraction of ground covered by snow                          0.227               0.227
+H2OSNO(mm) total snow water equiv (SNOWICE + SNOWLIQ)                   1090.340            1090.338
+VBSA(% reflected) visible black-sky albedo                                23.292              23.292
+NBSA(% reflected) near-IR black-sky albedo                                28.653              28.653
+VWSA(% reflected) visible white-sky albedo                                24.603              24.603
+NWSA(% reflected) near-IR white-sky albedo                                33.864              33.863
+RNET(W/m^2) net radiation:fsa-fira                                        64.605              64.605
+LHEAT(W/m^2) latent heat:FCTR+FCEV+FGEV                                   33.806              33.801
+FSH(W/m^2) sensible heat                                                  30.085              30.089
+FSH_TO_COUPLER(W/m^2) sensible heat sent to coupler                       30.058              30.062
+FSH_PRECIP_CONVERSION(W/m^2) SHF from conv of rain/snow atm forcing       -0.019              -0.019
+FSH_RUNOFF_ICE_TO_LIQ(W/m^2) SHF from conv of ice runoff to liquid        -0.007              -0.007
+CPL_ENERGY_BAL(W/m2) Coupler Energy Balance (Land Area)                    0.151               0.151
+FSDS(W/m^2) atmospheric incident solar radiation                         181.450             181.450
+FSA(W/m^2) absorbed solar radiation                                      136.507             136.507
+FLDS(W/m^2) atmospheric longwave radiation                               309.373             309.373
+FIRE(W/m^2) emitted infrared (longwave) radiation                        381.274             381.275
+FCTR(W/m^2) canopy transpiration                                          17.108              17.105
+FCEV(W/m^2) canopy evaporation                                             6.341               6.338
+FGEV(W/m^2) ground evaporation                                            10.356              10.358
+FGR(W/m^2) heat flux into snow/soil (includes snow melt)                   0.720               0.720
+FSM(W/m^2) snow melt heat flux                                             1.053               1.054
+TLAI(m2/m2) total one-sided leaf area index                                1.814               1.813
+TSAI(m2/m2) total one-sided stem area index                                0.471               0.471
+LAISUN(m^2/m^2) Sunlit Projected Leaf Area Index                           0.167               0.167
+LAISHA(m^2/m^2) Shaded Projected Leaf Area Index                           1.623               1.622
+FPSN(PgC/y) photosynthesis                                               146.377             146.304
+ET(mm/d) Evapotranspiration                                             -999.000            -999.000
+QOVER(mm/d) surface runoff                                                 0.296               0.296
+QIRRIG(mm/d) water added through irrig                                     0.020               0.020
+QDRAI(mm/d) sub-surface drainage                                           0.500               0.500
+QRGWL(mm/d) surface runoff at glaciers (liquid only), wetlands, lakes; also includes melted ice runoff from QSNWCPICE0.012                                               0.012
+WA(mm) water in the unconfined aquifer                                  4999.960            4999.960
+ZWT(m) water table depth                                                   5.949               5.948
+TWS(mm) total water storage                                             7716.267            7716.304
+VOLR(m3) river channel total water storage                         785665408.000       785808576.000
+QCHARGE(mm/d) aquifer recharge rate                                        0.000               0.000
+FCOV(unitless [0-1]) fractional area with water table at surface           0.123               0.123
+CO2_PPMV(ppmv) CO2 concentration                                         557.094             557.094
+DSTDEP(Pg/y) total dust deposition (dry+wet) from atmosphere               1.700               1.700
+DSTFLXT(Pg/y) total surface dust emission                                  7.610               7.611
+OCDEP(Pg/y) total OC deposition (dry+wet) from atmosphere                  0.059               0.059
+BCDEP(Pg/y) total BC deposition (dry+wet) from atmosphere                  0.005               0.005
