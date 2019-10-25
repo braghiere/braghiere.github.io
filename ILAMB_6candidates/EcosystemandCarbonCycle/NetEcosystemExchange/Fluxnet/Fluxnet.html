@@ -1,0 +1,661 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.16.5/math.min.js"></script>
+    <script>
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                if(pair[0] == variable){return pair[1];}
+            }
+            return(false);
+        }
+    </script>
+    <script type='text/javascript'>
+        function pageLoad() {
+           pageLoadMeanState();
+        }
+    </script>
+    <script type='text/javascript'>
+
+        function updateImagesAndHeadersMeanState(){
+            var rsel  = document.getElementById("MeanStateRegion");
+            var msel  = document.getElementById("MeanStateModel");
+            var rid   = rsel.selectedIndex;
+            var mid   = msel.selectedIndex;
+            var RNAME = rsel.options[rid].value;
+            var MNAME = msel.options[mid].value;
+            var CNAME = "NetEcosystemExchange / Fluxnet / 1996-2005";
+            var head  = "CNAME / RNAME / MNAME";
+            head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
+            $("#MeanStateHead").text(head);
+            
+          document.getElementById('timeint').src =  MNAME + '_' + RNAME + '_timeint.png'
+          document.getElementById('benchmark_timeint').src =  'Benchmark_' + RNAME + '_timeint.png'
+          document.getElementById('bias').src =  MNAME + '_' + RNAME + '_bias.png'
+          document.getElementById('biasscore').src =  MNAME + '_' + RNAME + '_biasscore.png'
+          document.getElementById('phase').src =  MNAME + '_' + RNAME + '_phase.png'
+          document.getElementById('benchmark_phase').src =  'Benchmark_' + RNAME + '_phase.png'
+          document.getElementById('shift').src =  MNAME + '_' + RNAME + '_shift.png'
+          document.getElementById('shiftscore').src =  MNAME + '_' + RNAME + '_shiftscore.png'
+          document.getElementById('rmse').src =  MNAME + '_' + RNAME + '_rmse.png'
+          document.getElementById('rmsescore').src =  MNAME + '_' + RNAME + '_rmsescore.png'
+          document.getElementById('iav').src =  MNAME + '_' + RNAME + '_iav.png'
+          document.getElementById('benchmark_iav').src =  'Benchmark_' + RNAME + '_iav.png'
+          document.getElementById('iavscore').src =  MNAME + '_' + RNAME + '_iavscore.png'
+          document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
+          document.getElementById('dtcycle').src =  MNAME + '_' + RNAME + '_dtcycle.png'
+          document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
+          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
+          document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
+        }
+
+        function highlightRowMeanState(cell) {
+            var select = document.getElementById("MeanStateRegion");
+            for (var i = 0; i < select.length; i++){
+                var table = document.getElementById("MeanState_table_" + select.options[i].value);
+                var rows  = table.getElementsByTagName("tr");
+                for (var r = 2; r < rows.length; r++) {
+                    for (var c = 0; c < rows[r].cells.length-6; c++) {
+                        rows[r].cells[c].style.backgroundColor = "#ffffff";
+                    }
+                }
+                var r = cell.closest("tr").rowIndex;
+                document.getElementById("MeanStateModel").selectedIndex = r-1;
+                for (var c = 0; c < rows[r].cells.length-6; c++) {
+                    rows[r].cells[c].style.backgroundColor = "#c1c1c1";
+                }
+            }
+            updateImagesAndHeadersMeanState();
+        }
+
+        function paintScoreCellsMeanState(RNAME) {
+
+	    var PuOr = ['#b35806','#e08214','#fdb863','#fee0b6','#f7f7f7','#d8daeb','#b2abd2','#8073ac','#542788'];
+	    var GnRd = ['#b2182b','#d6604d','#f4a582','#fddbc7','#f7f7f7','#d9f0d3','#a6dba0','#5aae61','#1b7837'];
+	    var colors = GnRd;
+            var nc = colors.length;
+            var table  = document.getElementById("MeanState_table_" + RNAME);
+            var rows   = table.getElementsByTagName("tr");
+            for (var c = rows[0].cells.length-5; c < rows[0].cells.length; c++) {
+                var scores = [];
+                for (var r = 2; r < rows.length; r++) {
+                    val = rows[r].cells[c].innerHTML;
+                    if (val=="") {
+                      scores[r-2] = 0;
+                    }else{
+                      scores[r-2] = parseFloat(val);
+                    }
+                }
+                var mean = math.mean(scores);
+                var std  = math.max(0.02,math.std(scores));
+                for (var r = 2; r < rows.length; r++) {
+                    scores[r-2] = Math.min(+2,Math.max(-2,(scores[r-2]-mean)/std));
+                }
+                for (var r = 2; r < rows.length; r++) {
+		    var e  = scores[r-2];
+                    var ae = Math.abs(e);
+                    var clr;
+                    if(ae >= 0.25){
+                      clr = math.round(2*e+4);
+                    }else{
+		      clr = math.round(4*e+4);
+                    }
+                    clr = math.min(math.max(0,clr),8);
+                    rows[r].cells[c].style.backgroundColor = colors[clr];
+                }
+            }
+        }
+
+        function pageLoadMeanState() {
+            var select = document.getElementById("MeanStateRegion");
+            var region = getQueryVariable("region");
+            var model  = getQueryVariable("model");
+            if (region) {
+                for (var i = 0; i < select.length; i++){
+                    if (select.options[i].value == region) select.selectedIndex = i;
+                }
+            }
+            var table = document.getElementById("MeanState_table_" + select.options[select.selectedIndex].value);
+            var rows  = table.getElementsByTagName("tr");
+            if (model) {
+                for (var r = 0; r < rows.length; r++) {
+                    if(rows[r].cells[0].innerHTML==model) highlightRowMeanState(rows[r].cells[0]);
+                }
+            }else{
+                highlightRowMeanState(rows[2]);
+            }
+            for (var i = 0; i < select.length; i++){
+                paintScoreCellsMeanState(select.options[i].value);
+            }
+            changeRegionMeanState();
+        }
+
+        function changeRegionMeanState() {
+            var select = document.getElementById("MeanStateRegion");
+            for (var i = 0; i < select.length; i++){
+                RNAME = select.options[i].value;
+                if (i == select.selectedIndex) {
+                    document.getElementById("MeanState_table_" + RNAME).style.display = "table";
+                }else{
+                    document.getElementById("MeanState_table_" + RNAME).style.display = "none";
+                }
+            }
+            updateImagesAndHeadersMeanState();
+        }
+      function AllSelect() {
+        var header = "CNAME / RNAME / MNAME";
+        var CNAME  = "NetEcosystemExchange / Fluxnet / 1996-2005";
+        header     = header.replace("CNAME",CNAME);
+        var rid    = document.getElementById("AllModelsRegion").selectedIndex;
+        var RNAME  = document.getElementById("AllModelsRegion").options[rid].value;
+        var pid    = document.getElementById("AllModelsPlot").selectedIndex;
+        var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
+        header     = header.replace("RNAME",RNAME);
+        $("#AllModelsHead").text(header);
+        if(PNAME == "bias" || PNAME == "biasscore" || PNAME == "shift" || PNAME == "shiftscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "iavscore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
+          document.getElementById("Benchmark_div").style.display = 'none';
+        }else{
+          document.getElementById("Benchmark_div").style.display = 'inline';
+        }
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
+          document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("CLM50BGCFUN2_legend").style.display = 'none';
+          document.getElementById("CLM50BGCFUN2-Soudzi_grid_legend").style.display = 'none';
+          document.getElementById("CLM50BGCFUN2-Soudzilovskaia_legend").style.display = 'none';
+          document.getElementById("CLM50BGCFUN2-Steidinger_legend").style.display = 'none';
+          document.getElementById("CLM50BGCFUN2-Stein_grid_legend").style.display = 'none';
+          document.getElementById("CLM50BGCFUN2-Sulman_legend").style.display = 'none';
+          document.getElementById("CLM50BGCFUN2-Sulman_grid_legend").style.display = 'none';
+        }else{
+          document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("CLM50BGCFUN2_legend").style.display = 'inline';
+          document.getElementById("CLM50BGCFUN2-Soudzi_grid_legend").style.display = 'inline';
+          document.getElementById("CLM50BGCFUN2-Soudzilovskaia_legend").style.display = 'inline';
+          document.getElementById("CLM50BGCFUN2-Steidinger_legend").style.display = 'inline';
+          document.getElementById("CLM50BGCFUN2-Stein_grid_legend").style.display = 'inline';
+          document.getElementById("CLM50BGCFUN2-Sulman_legend").style.display = 'inline';
+          document.getElementById("CLM50BGCFUN2-Sulman_grid_legend").style.display = 'inline';
+        }
+        document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2').src = 'CLM50BGCFUN2_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Soudzi_grid').src = 'CLM50BGCFUN2-Soudzi_grid_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Soudzi_grid_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Soudzilovskaia').src = 'CLM50BGCFUN2-Soudzilovskaia_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Soudzilovskaia_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Steidinger').src = 'CLM50BGCFUN2-Steidinger_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Steidinger_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Stein_grid').src = 'CLM50BGCFUN2-Stein_grid_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Stein_grid_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Sulman').src = 'CLM50BGCFUN2-Sulman_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Sulman_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Sulman_grid').src = 'CLM50BGCFUN2-Sulman_grid_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM50BGCFUN2-Sulman_grid_legend').src = 'legend_' + PNAME + '.png';
+      }
+
+      $(document).on('pageshow', '[data-role="page"]', function(){
+        AllSelect()
+      });
+    </script>
+    <style type="text/css">
+      .container{
+        display:inline;
+      }
+      .break{
+        clear:left;
+      }
+      .child{
+        margin-bottom:10px;
+        display:inline-block;
+        padding:5px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      table.table-header-rotated {
+          border-collapse: collapse;
+      }
+      td {
+          text-align: center;
+          padding: 10px 5px;
+          border: 1px solid #ccc;
+      }
+      th {
+          padding: 5px 10px;
+      }
+      th.rotate {
+          height: 280px;
+          white-space: nowrap;
+      }
+      th.rotate > div {
+          transform: translate(10px, 135px) rotate(-45deg);
+          width: 0px;
+      }
+      th.rotate > div > span {
+      }
+      th.row-header {
+          padding: 0px 10px;
+          text-align: right;
+      }
+      td.divider {
+          width: 0px;
+          border: 0px solid #ccc;
+          padding: 0px 0px
+      }
+    </style>
+  </head>
+  <body onload="pageLoad()">
+    <div data-role="page" id="MeanState">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 id="MeanStateHead">Mean State</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href='#MeanState' class=ui-btn-active ui-state-persist>Mean State</a></li>
+            <li><a href='#AllModels'>All Models</a></li>
+            <li><a href='#DataInformation'>Data Information</a></li>
+          </ul>
+        </div>
+      </div>
+      <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='global' selected="selected">Globe</option>
+      </select>
+      <div style="display:none">
+      <select id="MeanStateModel">
+        <option value='Benchmark'>Benchmark</option>
+        <option value='CLM50BGCFUN2' selected="selected">CLM50BGCFUN2</option>
+        <option value='CLM50BGCFUN2-Soudzi_grid'>CLM50BGCFUN2-Soudzi_grid</option>
+        <option value='CLM50BGCFUN2-Soudzilovskaia'>CLM50BGCFUN2-Soudzilovskaia</option>
+        <option value='CLM50BGCFUN2-Steidinger'>CLM50BGCFUN2-Steidinger</option>
+        <option value='CLM50BGCFUN2-Stein_grid'>CLM50BGCFUN2-Stein_grid</option>
+        <option value='CLM50BGCFUN2-Sulman'>CLM50BGCFUN2-Sulman</option>
+        <option value='CLM50BGCFUN2-Sulman_grid'>CLM50BGCFUN2-Sulman_grid</option>
+      </select>
+      </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_global">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids)  [g m-2 d-1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias  [g m-2 d-1]</span></div></th>
+               <th class="rotate"><div><span>RMSE  [g m-2 d-1]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift  [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score  [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score  [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score  [1]</span></div></th>
+               <th class="rotate"><div><span>Interannual Variability Score  [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score  [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="Fluxnet_Benchmark.nc" download>[-]</a></td>
+               <td>0.648</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM50BGCFUN2</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxnet_CLM50BGCFUN2.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.0500</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.598</td>
+               <td onclick="highlightRowMeanState(this)">1.57</td>
+               <td onclick="highlightRowMeanState(this)">1.06</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.495</td>
+               <td onclick="highlightRowMeanState(this)">0.451</td>
+               <td onclick="highlightRowMeanState(this)">0.936</td>
+               <td onclick="highlightRowMeanState(this)">0.616</td>
+               <td onclick="highlightRowMeanState(this)">0.590</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM50BGCFUN2-Soudzi_grid</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxnet_CLM50BGCFUN2-Soudzi_grid.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.0502</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.597</td>
+               <td onclick="highlightRowMeanState(this)">1.58</td>
+               <td onclick="highlightRowMeanState(this)">1.06</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.495</td>
+               <td onclick="highlightRowMeanState(this)">0.451</td>
+               <td onclick="highlightRowMeanState(this)">0.938</td>
+               <td onclick="highlightRowMeanState(this)">0.616</td>
+               <td onclick="highlightRowMeanState(this)">0.590</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM50BGCFUN2-Soudzilovskaia</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxnet_CLM50BGCFUN2-Soudzilovskaia.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.0510</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.597</td>
+               <td onclick="highlightRowMeanState(this)">1.57</td>
+               <td onclick="highlightRowMeanState(this)">1.03</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.496</td>
+               <td onclick="highlightRowMeanState(this)">0.451</td>
+               <td onclick="highlightRowMeanState(this)">0.944</td>
+               <td onclick="highlightRowMeanState(this)">0.615</td>
+               <td onclick="highlightRowMeanState(this)">0.591</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM50BGCFUN2-Steidinger</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxnet_CLM50BGCFUN2-Steidinger.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.0553</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.592</td>
+               <td onclick="highlightRowMeanState(this)">1.57</td>
+               <td onclick="highlightRowMeanState(this)">1.07</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.497</td>
+               <td onclick="highlightRowMeanState(this)">0.451</td>
+               <td onclick="highlightRowMeanState(this)">0.934</td>
+               <td onclick="highlightRowMeanState(this)">0.616</td>
+               <td onclick="highlightRowMeanState(this)">0.590</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM50BGCFUN2-Stein_grid</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxnet_CLM50BGCFUN2-Stein_grid.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.0567</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.591</td>
+               <td onclick="highlightRowMeanState(this)">1.57</td>
+               <td onclick="highlightRowMeanState(this)">1.08</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.498</td>
+               <td onclick="highlightRowMeanState(this)">0.451</td>
+               <td onclick="highlightRowMeanState(this)">0.939</td>
+               <td onclick="highlightRowMeanState(this)">0.618</td>
+               <td onclick="highlightRowMeanState(this)">0.591</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM50BGCFUN2-Sulman</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxnet_CLM50BGCFUN2-Sulman.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.0516</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.596</td>
+               <td onclick="highlightRowMeanState(this)">1.57</td>
+               <td onclick="highlightRowMeanState(this)">1.05</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.496</td>
+               <td onclick="highlightRowMeanState(this)">0.451</td>
+               <td onclick="highlightRowMeanState(this)">0.940</td>
+               <td onclick="highlightRowMeanState(this)">0.617</td>
+               <td onclick="highlightRowMeanState(this)">0.591</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM50BGCFUN2-Sulman_grid</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxnet_CLM50BGCFUN2-Sulman_grid.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.0525</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.595</td>
+               <td onclick="highlightRowMeanState(this)">1.57</td>
+               <td onclick="highlightRowMeanState(this)">1.02</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.496</td>
+               <td onclick="highlightRowMeanState(this)">0.451</td>
+               <td onclick="highlightRowMeanState(this)">0.943</td>
+               <td onclick="highlightRowMeanState(this)">0.615</td>
+               <td onclick="highlightRowMeanState(this)">0.591</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <div data-role="collapsible" data-collapsed="false"><h1>Temporally integrated period mean</h1>
+        <div class="container" id="benchmark_timeint_div">
+          <div class="child">
+          <center>BENCHMARK&nbsp;MEAN</center>
+          <img src="" id="benchmark_timeint" alt="Data not available" ></img>
+          <center><img src="legend_timeint.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="timeint_div">
+          <div class="child">
+          <center>MODEL&nbsp;MEAN</center>
+          <img src="" id="timeint" alt="Data not available" ></img>
+          <center><img src="legend_timeint.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="bias_div">
+          <div class="child">
+          <center>BIAS</center>
+          <img src="" id="bias" alt="Data not available" ></img>
+          <center><img src="legend_bias.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="biasscore_div">
+          <div class="child">
+          <center>BIAS&nbsp;SCORE</center>
+          <img src="" id="biasscore" alt="Data not available" ></img>
+          <center><img src="legend_biasscore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="rmse_div">
+          <div class="child">
+          <center>RMSE</center>
+          <img src="" id="rmse" alt="Data not available" ></img>
+          <center><img src="legend_rmse.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="rmsescore_div">
+          <div class="child">
+          <center>RMSE&nbsp;SCORE</center>
+          <img src="" id="rmsescore" alt="Data not available" ></img>
+          <center><img src="legend_rmsescore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="benchmark_iav_div">
+          <div class="child">
+          <center>BENCHMARK&nbsp;INTERANNUAL&nbsp;VARIABILITY</center>
+          <img src="" id="benchmark_iav" alt="Data not available" ></img>
+          <center><img src="legend_iav.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="iav_div">
+          <div class="child">
+          <center>MODEL&nbsp;INTERANNUAL&nbsp;VARIABILITY</center>
+          <img src="" id="iav" alt="Data not available" ></img>
+          <center><img src="legend_iav.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="iavscore_div">
+          <div class="child">
+          <center>INTERANNUAL&nbsp;VARIABILITY&nbsp;SCORE</center>
+          <img src="" id="iavscore" alt="Data not available" ></img>
+          <center><img src="legend_iavscore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="benchmark_phase_div">
+          <div class="child">
+          <center>BENCHMARK&nbsp;MAX&nbsp;MONTH</center>
+          <img src="" id="benchmark_phase" alt="Data not available" ></img>
+          <center><img src="legend_phase.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="phase_div">
+          <div class="child">
+          <center>MODEL&nbsp;MAX&nbsp;MONTH</center>
+          <img src="" id="phase" alt="Data not available" ></img>
+          <center><img src="legend_phase.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="shift_div">
+          <div class="child">
+          <center>DIFFERENCE&nbsp;IN&nbsp;MAX&nbsp;MONTH</center>
+          <img src="" id="shift" alt="Data not available" ></img>
+          <center><img src="legend_shift.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="shiftscore_div">
+          <div class="child">
+          <center>SEASONAL&nbsp;CYCLE&nbsp;SCORE</center>
+          <img src="" id="shiftscore" alt="Data not available" ></img>
+          <center><img src="legend_shiftscore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>Spatially integrated regional mean</h1>
+        <div class="container" id="legend_compcycle_div">
+          <div class="child">
+          <center>MODEL&nbsp;COLORS</center>
+          <img src="" id="legend_compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="spaceint_div">
+          <div class="child">
+          <center>REGIONAL&nbsp;MEAN</center>
+          <img src="" id="spaceint" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="cycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="cycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="dtcycle_div">
+          <div class="child">
+          <center>MONTHLY&nbsp;ANOMALY</center>
+          <img src="" id="dtcycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="compcycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div data-role="page" id="AllModels">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 id="AllModelsHead">All Models</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href='#MeanState'>Mean State</a></li>
+            <li><a href='#AllModels' class=ui-btn-active ui-state-persist>All Models</a></li>
+            <li><a href='#DataInformation'>Data Information</a></li>
+          </ul>
+        </div>
+      </div>
+      <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='global' selected="selected">Globe</option>
+      </select>
+      <select id="AllModelsPlot" onchange="AllSelect()">
+        <option value='timeint' selected="selected">Temporally integrated period mean</option>
+        <option value='bias'>Temporally integrated period mean bias</option>
+        <option value='biasscore'>Temporally integrated period mean bias score</option>
+        <option value='phase'>Temporally integrated period mean max month</option>
+        <option value='shift'>Temporally integrated mean phase shift</option>
+        <option value='shiftscore'>Temporally integrated mean phase shift score</option>
+        <option value='rmse'>Temporally integrated period mean rmse</option>
+        <option value='rmsescore'>Temporally integrated period mean rmse score</option>
+        <option value='iav'>Interannual variability</option>
+        <option value='iavscore'>Interannual variability score</option>
+        <option value='cycle'>Spatially integrated regional mean cycle</option>
+        <option value='dtcycle'>Spatially integrated regional mean detrended cycle</option>
+        <option value='spaceint'>Spatially integrated regional mean</option>
+      </select>
+        <div class="container" id="Benchmark_div">
+          <div class="child">
+          <center>Benchmark</center>
+          <img src="" id="Benchmark" alt="Data not available" ></img>
+          <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CLM50BGCFUN2_div">
+          <div class="child">
+          <center>CLM50BGCFUN2</center>
+          <img src="" id="CLM50BGCFUN2" alt="Data not available" ></img>
+          <center><img src="legend_CLM50BGCFUN2.png" id="CLM50BGCFUN2_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CLM50BGCFUN2-Soudzi_grid_div">
+          <div class="child">
+          <center>CLM50BGCFUN2-Soudzi_grid</center>
+          <img src="" id="CLM50BGCFUN2-Soudzi_grid" alt="Data not available" ></img>
+          <center><img src="legend_CLM50BGCFUN2-Soudzi_grid.png" id="CLM50BGCFUN2-Soudzi_grid_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CLM50BGCFUN2-Soudzilovskaia_div">
+          <div class="child">
+          <center>CLM50BGCFUN2-Soudzilovskaia</center>
+          <img src="" id="CLM50BGCFUN2-Soudzilovskaia" alt="Data not available" ></img>
+          <center><img src="legend_CLM50BGCFUN2-Soudzilovskaia.png" id="CLM50BGCFUN2-Soudzilovskaia_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CLM50BGCFUN2-Steidinger_div">
+          <div class="child">
+          <center>CLM50BGCFUN2-Steidinger</center>
+          <img src="" id="CLM50BGCFUN2-Steidinger" alt="Data not available" ></img>
+          <center><img src="legend_CLM50BGCFUN2-Steidinger.png" id="CLM50BGCFUN2-Steidinger_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CLM50BGCFUN2-Stein_grid_div">
+          <div class="child">
+          <center>CLM50BGCFUN2-Stein_grid</center>
+          <img src="" id="CLM50BGCFUN2-Stein_grid" alt="Data not available" ></img>
+          <center><img src="legend_CLM50BGCFUN2-Stein_grid.png" id="CLM50BGCFUN2-Stein_grid_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CLM50BGCFUN2-Sulman_div">
+          <div class="child">
+          <center>CLM50BGCFUN2-Sulman</center>
+          <img src="" id="CLM50BGCFUN2-Sulman" alt="Data not available" ></img>
+          <center><img src="legend_CLM50BGCFUN2-Sulman.png" id="CLM50BGCFUN2-Sulman_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CLM50BGCFUN2-Sulman_grid_div">
+          <div class="child">
+          <center>CLM50BGCFUN2-Sulman_grid</center>
+          <img src="" id="CLM50BGCFUN2-Sulman_grid" alt="Data not available" ></img>
+          <center><img src="legend_CLM50BGCFUN2-Sulman_grid.png" id="CLM50BGCFUN2-Sulman_grid_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+    </div>
+    <div data-role="page" id="DataInformation">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 id="DataInformationHead">Data Information</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href='#MeanState'>Mean State</a></li>
+            <li><a href='#AllModels'>All Models</a></li>
+            <li><a href='#DataInformation' class=ui-btn-active ui-state-persist>Data Information</a></li>
+          </ul>
+        </div>
+      </div>
+      
+<p><b>&nbsp;&nbsp;altitude:&nbsp;</b>EBF,SAV,WSA,WSA,EBF,EBF,ENF,ENF,ENF,ENF,GRA,GRA,DBF,CRO,GRA,WSA,EBF,EBF,ENF,DBF,ENF,SAV,CRO,CRO,CRO,CRO,EBF,DBF,GRA,GRA,DBF,DBF,DBF,OSH,ENF,EBF,DBF,ENF,DBF,ENF,DBF,ENF,ENF,WET,DBF,GRA,GRA,GRA,DBF,MF,ENF,GRA,CSH,GRA,MF,ENF,GRA,ENF,GRA,GRA,GRA,DBF,ENF,ENF,ENF,ENF,MF,ENF,ENF,DBF,CRO,DBF,GRA,MF,GRA,GRA,ENF,CRO,ENF,ENF,ENF,GRA,DBF,CRO,ENF,ENF,ENF,ENF,CRO,ENF,ENF,OSH,ENF,OSH,EBF,ENF,ENF,ENF,DBF,ENF,WET,ENF,WET,OSH</p>
+<p><b>&nbsp;&nbsp;site_name:&nbsp;</b>AU-Tum,ZA-Kru,BW-Ma1,AU-How,BR-Sa3,ID-Pag,US-SP1,US-SP3,US-SP2,IL-Yat,US-Aud,US-Goo,US-WBW,US-ARM,US-Var,US-Ton,PT-Mi1,PT-Esp,US-Blo,US-MMS,ES-ES1,ES-LMa,US-Bo1,US-Ne2,US-Ne1,US-Ne3,IT-Cpz,IT-Col,IT-Amp,ES-VDA,IT-Ro2,IT-Ro1,US-Ha1,IT-Pia,IT-SRo,FR-Pue,US-Bar,US-Me4,IT-Non,FR-LBr,IT-PT1,US-Ho1,US-Ho2,CA-Mer,US-UMB,IT-LMa,FR-Lq2,FR-Lq1,US-WCr,US-PFa,IT-Lav,IT-MBo,US-Los,IT-Mal,US-Syv,IT-Ren,HU-Bug,US-Wi4,CH-Oe1,HU-Mat,US-FPe,FR-Hes,CA-Qcu,CZ-BK1,CA-Qfo,DE-Bay,BE-Vie,DE-Wet,DE-Tha,DE-Hai,DE-Geb,UK-Ham,DE-Meh,BE-Bra,NL-Ca1,IE-Dri,NL-Loo,IE-Ca1,CA-SF3,CA-SF2,CA-SF1,RU-Ha1,DK-Sor,DK-Ris,CA-NS5,CA-NS1,CA-Man,CA-NS2,UK-ESa,CA-NS4,CA-NS3,CA-NS6,UK-Gri,CA-NS7,SE-Nor,SE-Sk2,RU-Zot,FI-Hyy,IS-Gun,SE-Fla,SE-Deg,FI-Sod,FI-Kaa,RU-Cok</p>
+<p><b>&nbsp;&nbsp;creation_date:&nbsp;</b>Wed Jun 11 09:04:10 PDT 2014</p>
+<p><b>&nbsp;&nbsp;Conventions:&nbsp;</b>Please contact Prof. James Randerson (Email: jranders@uci.edu) or Dr. Mingquan Mu (mmu@uci.edu) for any question</p>
+<p><b>&nbsp;&nbsp;source_file:&nbsp;</b>This product is generated from monthly FluxNet observations</p>
+<p><b>&nbsp;&nbsp;title:&nbsp;</b>derived FluxNet</p>
+<p><b>&nbsp;&nbsp;Approach:&nbsp;</b>I read this variable from individual site data files. Meanwhile I also change the direction of nee (the positive means land sinks co2 from atmosphere now) and convert the unit from umol_m-2_s-1 to Kg C m-2 s-1. Then organized those sites with valid data, and save the data in NetCDF format by each month and each year.</p>
+<p><b>&nbsp;&nbsp;Temporal resolution:&nbsp;</b>monthly</p>
+<p><b>&nbsp;&nbsp;General information:&nbsp;</b>This product was derived from site level estimates of GPP and TER from FLUXNET eddy covariance stations.</p>
+<p><b>&nbsp;&nbsp;Spatial resolution:&nbsp;</b>site observation</p>
+<p><b>&nbsp;&nbsp;Derived data code:&nbsp;</b>http://redwood.ess.uci.edu/mingquan/www/ILAMB/Download/CODES/CODES/subroutines/convert/convert-FluxNet.ncl</p>
+
+    </div>
+  </body>
+</html>
