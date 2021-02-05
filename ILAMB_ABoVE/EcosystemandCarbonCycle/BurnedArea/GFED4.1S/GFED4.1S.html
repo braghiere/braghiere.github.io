@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.16.5/math.min.js"></script>
+    <script>
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                if(pair[0] == variable){return pair[1];}
+            }
+            return(false);
+        }
+    </script>
+    <script type='text/javascript'>
+        function pageLoad() {
+        }
+    </script>
+    <script type='text/javascript'>
+      function AllSelect() {
+        var header = "CNAME / RNAME / MNAME";
+        var CNAME  = "BurnedArea / GFED4.1S / 1997-2017";
+        header     = header.replace("CNAME",CNAME);
+        var rid    = document.getElementById("AllModelsRegion").selectedIndex;
+        var RNAME  = document.getElementById("AllModelsRegion").options[rid].value;
+        var pid    = document.getElementById("AllModelsPlot").selectedIndex;
+        var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
+        header     = header.replace("RNAME",RNAME);
+        $("#AllModelsHead").text(header);
+        if(0){
+          document.getElementById("Benchmark_div").style.display = 'none';
+        }else{
+          document.getElementById("Benchmark_div").style.display = 'inline';
+        }
+        if(0){
+        }else{
+        }
+      }
+
+      $(document).on('pageshow', '[data-role="page"]', function(){
+        AllSelect()
+      });
+    </script>
+    <style type="text/css">
+      .container{
+        display:inline;
+      }
+      .break{
+        clear:left;
+      }
+      .child{
+        margin-bottom:10px;
+        display:inline-block;
+        padding:5px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      table.table-header-rotated {
+          border-collapse: collapse;
+      }
+      td {
+          text-align: center;
+          padding: 10px 5px;
+          border: 1px solid #ccc;
+      }
+      th {
+          padding: 5px 10px;
+      }
+      th.rotate {
+          height: 280px;
+          white-space: nowrap;
+      }
+      th.rotate > div {
+          transform: translate(10px, 135px) rotate(-45deg);
+          width: 0px;
+      }
+      th.rotate > div > span {
+      }
+      th.row-header {
+          padding: 0px 10px;
+          text-align: right;
+      }
+      td.divider {
+          width: 0px;
+          border: 0px solid #ccc;
+          padding: 0px 0px
+      }
+    </style>
+  </head>
+  <body onload="pageLoad()">
+    <div data-role="page" id="MeanState">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 id="MeanStateHead">Mean State</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href='#MeanState' class=ui-btn-active ui-state-persist>Mean State</a></li>
+            <li><a href='#Relationships'>Relationships</a></li>
+            <li><a href='#AllModels'>All Models</a></li>
+            <li><a href='#DataInformation'>Data Information</a></li>
+          </ul>
+        </div>
+      </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>Spatially integrated regional mean</h1>
+        <div class="container" id="legend_compcycle_div">
+          <div class="child">
+          <center>MODEL&nbsp;COLORS</center>
+          <img src="" id="legend_compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div data-role="page" id="Relationships">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 id="RelationshipsHead">Relationships</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href='#MeanState'>Mean State</a></li>
+            <li><a href='#Relationships' class=ui-btn-active ui-state-persist>Relationships</a></li>
+            <li><a href='#AllModels'>All Models</a></li>
+            <li><a href='#DataInformation'>Data Information</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div data-role="page" id="AllModels">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 id="AllModelsHead">All Models</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href='#MeanState'>Mean State</a></li>
+            <li><a href='#Relationships'>Relationships</a></li>
+            <li><a href='#AllModels' class=ui-btn-active ui-state-persist>All Models</a></li>
+            <li><a href='#DataInformation'>Data Information</a></li>
+          </ul>
+        </div>
+      </div>
+      <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='above'>ABoVE domain</option>
+        <option value='global' selected="selected">Global - Land</option>
+      </select>
+    </div>
+    <div data-role="page" id="DataInformation">
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 id="DataInformationHead">Data Information</h1>
+        <div data-role="navbar">
+          <ul>
+            <li><a href='#MeanState'>Mean State</a></li>
+            <li><a href='#Relationships'>Relationships</a></li>
+            <li><a href='#AllModels'>All Models</a></li>
+            <li><a href='#DataInformation' class=ui-btn-active ui-state-persist>Data Information</a></li>
+          </ul>
+        </div>
+      </div>
+      
+<p><dl><dt><b>&nbsp;&nbsp;Title:</dt></b><dd>GFED version 4.1 burned area fraction with small fires (GFED4.1s)</dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Version:</dt></b><dd>4.1s</dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Institutions:</dt></b><dd>VU University Amsterdam, Faculty of Earth and Life Sciences, Earth and Climate Cluster, Netherlands</dd><dd>Goddard Space Flight Center, USA</dd><dd>University of California Irvine, Department of Earth System Science, USA</dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Source:</dt></b><dd>Satellite (MODIS Terra and Aqua) derived product</dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;History:</dt></b><dd>2019-03-13: downloaded source from <a href='https://www.geo.vu.nl/~gwerf/GFED/GFED4/'>https://www.geo.vu.nl/~gwerf/GFED/GFED4/</a></dd><dd>2019-05-07: converted to netCDF with <a href='https://github.com/mmu2019/Datasets/blob/master/read-ba-gfed.py'>https://github.com/mmu2019/Datasets/blob/master/read-ba-gfed.py</a></dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;References:</dt></b><dd>van der Werf, G.R., J.T. Randerson, L. Giglio, T.T. van Leeuwen, Y. Chen, B.M. Rogers, M. Mu, M.J.E. van Marle, D.C. Morton, G.J. Collatz, R.J. Yokelson, and P.S. Kasibhatla (2017), Global fire emissions estimates during 1997-2016, <i>Earth Syst. Sci. Data</i>, <i>9</i>, 697-720, <a href='https://doi.org/10.5194/essd-9-697-2017'>doi:10.5194/essd-9-697-2017</a></dd><br><dd>Giglio, L., J.T. Randerson and G.R. van der Werf (2013), Analysis of daily, monthly, and annual burned area using the fourth-generation global fire emissions database (GFED4), <i>J. of Geophys. Res.-Biogeosciences</i>, <i>118(1)</i>, 317-328, <a href='https://doi.org/10.1002/jgrg.20042'>doi:10.1002/jgrg.20042</a></dd><br><dd>Randerson, J.T., Y. Chen, G.R. van der Werf, B.M. Rogers and D.C. Morton (2012), Global burned area and biomass burning emissions from small fires, <i>J. of Geophys. Res.-Biogeosciences</i>, <i>117(G4)</i>, G04012, <a href='https://doi.org/10.1029/2012JG002128'>doi:10.1029/2012JG002128</a></dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Comments:</dt></b><dd>time_period: 1997-01 through 2016-12</dd><dd>original_temporal_resolution: monthly</dd><dd>original_spatial_resolution: 0.25 degree</dd><dd>original_units: fractions</dd><dd>final_temporal_resolution: monthly</dd><dd>final_spatial_resolution: 0.5 degree</dd><dd>final_units: %</dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Convention:</dt></b><dd>CF-1.7</dd></dl></p>
+    </div>
+  </body>
+</html>
