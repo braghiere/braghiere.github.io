@@ -236,6 +236,7 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
@@ -246,6 +247,89 @@
         <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Pg]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [Pg]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [Pg]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [Pg]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [Pg]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [kg m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="NCSCDV22_Benchmark.nc" download>[-]</a></td>
+               <td>160.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="NCSCDV22_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">233.</td>
+               <td onclick="highlightRowMeanState(this)">171.</td>
+               <td onclick="highlightRowMeanState(this)">160.</td>
+               <td onclick="highlightRowMeanState(this)">55.3</td>
+               <td onclick="highlightRowMeanState(this)">0.231</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">1.38</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.540</td>
+               <td onclick="highlightRowMeanState(this)">0.806</td>
+               <td onclick="highlightRowMeanState(this)">0.673</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="NCSCDV22_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">218.</td>
+               <td onclick="highlightRowMeanState(this)">162.</td>
+               <td onclick="highlightRowMeanState(this)">160.</td>
+               <td onclick="highlightRowMeanState(this)">50.4</td>
+               <td onclick="highlightRowMeanState(this)">0.231</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.235</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.539</td>
+               <td onclick="highlightRowMeanState(this)">0.802</td>
+               <td onclick="highlightRowMeanState(this)">0.670</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="NCSCDV22_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">163.</td>
+               <td onclick="highlightRowMeanState(this)">123.</td>
+               <td onclick="highlightRowMeanState(this)">160.</td>
+               <td onclick="highlightRowMeanState(this)">36.5</td>
+               <td onclick="highlightRowMeanState(this)">0.231</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-4.54</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.532</td>
+               <td onclick="highlightRowMeanState(this)">0.732</td>
+               <td onclick="highlightRowMeanState(this)">0.632</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -392,6 +476,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">

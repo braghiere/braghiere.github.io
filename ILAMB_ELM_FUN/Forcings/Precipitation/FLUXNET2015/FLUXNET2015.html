@@ -48,6 +48,7 @@
           document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
           document.getElementById('dtcycle').src =  MNAME + '_' + RNAME + '_dtcycle.png'
           document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
+          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
           document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
         }
 
@@ -162,14 +163,22 @@
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
+          document.getElementById("ELM_FUN_legend").style.display = 'none';
+          document.getElementById("ELM_FUNP_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("ELM_legend").style.display = 'inline';
+          document.getElementById("ELM_FUN_legend").style.display = 'inline';
+          document.getElementById("ELM_FUNP_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUN').src = 'ELM_FUN_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUN_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP').src = 'ELM_FUNP_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -235,14 +244,95 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='ELM' selected="selected">ELM</option>
+        <option value='ELM_FUN'>ELM_FUN</option>
+        <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [mm d-1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>RMSE [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="FLUXNET2015_Benchmark.nc" download>[-]</a></td>
+               <td>0.847</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.912</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0644</td>
+               <td onclick="highlightRowMeanState(this)">0.818</td>
+               <td onclick="highlightRowMeanState(this)">1.02</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.765</td>
+               <td onclick="highlightRowMeanState(this)">0.426</td>
+               <td onclick="highlightRowMeanState(this)">0.888</td>
+               <td onclick="highlightRowMeanState(this)">0.626</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.912</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0644</td>
+               <td onclick="highlightRowMeanState(this)">0.818</td>
+               <td onclick="highlightRowMeanState(this)">1.02</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.765</td>
+               <td onclick="highlightRowMeanState(this)">0.426</td>
+               <td onclick="highlightRowMeanState(this)">0.888</td>
+               <td onclick="highlightRowMeanState(this)">0.626</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.912</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0644</td>
+               <td onclick="highlightRowMeanState(this)">0.818</td>
+               <td onclick="highlightRowMeanState(this)">1.02</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.765</td>
+               <td onclick="highlightRowMeanState(this)">0.426</td>
+               <td onclick="highlightRowMeanState(this)">0.888</td>
+               <td onclick="highlightRowMeanState(this)">0.626</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -279,16 +369,44 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
                <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.17e+03</td>
+               <td onclick="highlightRowMeanState(this)">2.17</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">2.15e+03</td>
-               <td onclick="highlightRowMeanState(this)">2.88e+03</td>
+               <td onclick="highlightRowMeanState(this)">-0.0299</td>
+               <td onclick="highlightRowMeanState(this)">1.49</td>
                <td onclick="highlightRowMeanState(this)">1.26</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.00</td>
-               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)">0.711</td>
+               <td onclick="highlightRowMeanState(this)">0.471</td>
                <td onclick="highlightRowMeanState(this)">0.817</td>
-               <td onclick="highlightRowMeanState(this)">0.204</td>
+               <td onclick="highlightRowMeanState(this)">0.618</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">2.17</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.0299</td>
+               <td onclick="highlightRowMeanState(this)">1.49</td>
+               <td onclick="highlightRowMeanState(this)">1.26</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.711</td>
+               <td onclick="highlightRowMeanState(this)">0.471</td>
+               <td onclick="highlightRowMeanState(this)">0.817</td>
+               <td onclick="highlightRowMeanState(this)">0.618</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">2.17</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.0299</td>
+               <td onclick="highlightRowMeanState(this)">1.49</td>
+               <td onclick="highlightRowMeanState(this)">1.26</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.711</td>
+               <td onclick="highlightRowMeanState(this)">0.471</td>
+               <td onclick="highlightRowMeanState(this)">0.817</td>
+               <td onclick="highlightRowMeanState(this)">0.618</td>
              </tr>
           </tbody>
         </table>
@@ -390,6 +508,12 @@
           <img src="" id="dtcycle" alt="Data not available" ></img>
           </div>
         </div>
+        <div class="container" id="compcycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
         </div>
     </div>
     <div data-role="page" id="AllModels">
@@ -404,6 +528,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
@@ -431,6 +556,20 @@
           <center>ELM</center>
           <img src="" id="ELM" alt="Data not available" ></img>
           <center><img src="legend_ELM.png" id="ELM_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUN_div">
+          <div class="child">
+          <center>ELM_FUN</center>
+          <img src="" id="ELM_FUN" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUN.png" id="ELM_FUN_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUNP_div">
+          <div class="child">
+          <center>ELM_FUNP</center>
+          <img src="" id="ELM_FUNP" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUNP.png" id="ELM_FUNP_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>

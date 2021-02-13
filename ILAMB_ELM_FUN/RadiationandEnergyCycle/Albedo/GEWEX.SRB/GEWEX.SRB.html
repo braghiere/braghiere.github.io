@@ -246,6 +246,7 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
@@ -256,6 +257,109 @@
         <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE [1]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="GEWEX.SRB_Benchmark.nc" download>[-]</a></td>
+               <td>0.267</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GEWEX.SRB_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.303</td>
+               <td onclick="highlightRowMeanState(this)">0.307</td>
+               <td onclick="highlightRowMeanState(this)">0.266</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">0.263</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0408</td>
+               <td onclick="highlightRowMeanState(this)">0.162</td>
+               <td onclick="highlightRowMeanState(this)">1.94</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.669</td>
+               <td onclick="highlightRowMeanState(this)">0.446</td>
+               <td onclick="highlightRowMeanState(this)">0.745</td>
+               <td onclick="highlightRowMeanState(this)">0.901</td>
+               <td onclick="highlightRowMeanState(this)">0.641</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GEWEX.SRB_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.303</td>
+               <td onclick="highlightRowMeanState(this)">0.307</td>
+               <td onclick="highlightRowMeanState(this)">0.266</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">0.263</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0409</td>
+               <td onclick="highlightRowMeanState(this)">0.163</td>
+               <td onclick="highlightRowMeanState(this)">1.94</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.669</td>
+               <td onclick="highlightRowMeanState(this)">0.441</td>
+               <td onclick="highlightRowMeanState(this)">0.745</td>
+               <td onclick="highlightRowMeanState(this)">0.901</td>
+               <td onclick="highlightRowMeanState(this)">0.639</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GEWEX.SRB_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.311</td>
+               <td onclick="highlightRowMeanState(this)">0.316</td>
+               <td onclick="highlightRowMeanState(this)">0.266</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">0.263</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0496</td>
+               <td onclick="highlightRowMeanState(this)">0.179</td>
+               <td onclick="highlightRowMeanState(this)">2.02</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.659</td>
+               <td onclick="highlightRowMeanState(this)">0.410</td>
+               <td onclick="highlightRowMeanState(this)">0.726</td>
+               <td onclick="highlightRowMeanState(this)">0.906</td>
+               <td onclick="highlightRowMeanState(this)">0.622</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -488,6 +592,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">

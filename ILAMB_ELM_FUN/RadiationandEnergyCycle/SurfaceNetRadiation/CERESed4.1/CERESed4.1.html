@@ -246,6 +246,7 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
@@ -256,6 +257,109 @@
         <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [W m-2]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [W m-2]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [W m-2]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [W m-2]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [W m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [W m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [W m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CERESed4.1_Benchmark.nc" download>[-]</a></td>
+               <td>36.2</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CERESed4.1_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">37.2</td>
+               <td onclick="highlightRowMeanState(this)">36.4</td>
+               <td onclick="highlightRowMeanState(this)">37.1</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">34.3</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.729</td>
+               <td onclick="highlightRowMeanState(this)">14.4</td>
+               <td onclick="highlightRowMeanState(this)">0.110</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.889</td>
+               <td onclick="highlightRowMeanState(this)">0.823</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
+               <td onclick="highlightRowMeanState(this)">0.982</td>
+               <td onclick="highlightRowMeanState(this)">0.902</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CERESed4.1_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">37.1</td>
+               <td onclick="highlightRowMeanState(this)">36.2</td>
+               <td onclick="highlightRowMeanState(this)">37.1</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">34.3</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.883</td>
+               <td onclick="highlightRowMeanState(this)">14.4</td>
+               <td onclick="highlightRowMeanState(this)">0.108</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.889</td>
+               <td onclick="highlightRowMeanState(this)">0.823</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
+               <td onclick="highlightRowMeanState(this)">0.983</td>
+               <td onclick="highlightRowMeanState(this)">0.902</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CERESed4.1_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">35.7</td>
+               <td onclick="highlightRowMeanState(this)">34.8</td>
+               <td onclick="highlightRowMeanState(this)">37.1</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">34.3</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-2.30</td>
+               <td onclick="highlightRowMeanState(this)">14.5</td>
+               <td onclick="highlightRowMeanState(this)">0.113</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.889</td>
+               <td onclick="highlightRowMeanState(this)">0.821</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
+               <td onclick="highlightRowMeanState(this)">0.984</td>
+               <td onclick="highlightRowMeanState(this)">0.902</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -488,6 +592,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">

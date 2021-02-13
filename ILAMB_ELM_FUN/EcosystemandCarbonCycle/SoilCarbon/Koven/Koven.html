@@ -151,14 +151,22 @@
         if(PNAME == "timeint" || PNAME == "rel_tas"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
+          document.getElementById("ELM_FUN_legend").style.display = 'none';
+          document.getElementById("ELM_FUNP_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("ELM_legend").style.display = 'inline';
+          document.getElementById("ELM_FUN_legend").style.display = 'inline';
+          document.getElementById("ELM_FUNP_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUN').src = 'ELM_FUN_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUN_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP').src = 'ELM_FUNP_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -230,6 +238,8 @@
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='ELM' selected="selected">ELM</option>
+        <option value='ELM_FUN'>ELM_FUN</option>
+        <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
         <center>
@@ -262,13 +272,35 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
                <td onclick="highlightRowMeanState(this)"><a href="Koven_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.00</td>
+               <td onclick="highlightRowMeanState(this)">2.28</td>
                <td onclick="highlightRowMeanState(this)">1.46</td>
-               <td onclick="highlightRowMeanState(this)">1.15</td>
+               <td onclick="highlightRowMeanState(this)">1.05</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.599</td>
-               <td onclick="highlightRowMeanState(this)">0.865</td>
-               <td onclick="highlightRowMeanState(this)">0.776</td>
+               <td onclick="highlightRowMeanState(this)">0.622</td>
+               <td onclick="highlightRowMeanState(this)">0.879</td>
+               <td onclick="highlightRowMeanState(this)">0.793</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Koven_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">2.30</td>
+               <td onclick="highlightRowMeanState(this)">1.49</td>
+               <td onclick="highlightRowMeanState(this)">1.07</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.640</td>
+               <td onclick="highlightRowMeanState(this)">0.873</td>
+               <td onclick="highlightRowMeanState(this)">0.795</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Koven_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">2.79</td>
+               <td onclick="highlightRowMeanState(this)">1.69</td>
+               <td onclick="highlightRowMeanState(this)">1.16</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.592</td>
+               <td onclick="highlightRowMeanState(this)">0.851</td>
+               <td onclick="highlightRowMeanState(this)">0.765</td>
              </tr>
           </tbody>
         </table>
@@ -306,6 +338,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
@@ -324,6 +357,20 @@
           <center>ELM</center>
           <img src="" id="ELM" alt="Data not available" ></img>
           <center><img src="legend_ELM.png" id="ELM_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUN_div">
+          <div class="child">
+          <center>ELM_FUN</center>
+          <img src="" id="ELM_FUN" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUN.png" id="ELM_FUN_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUNP_div">
+          <div class="child">
+          <center>ELM_FUNP</center>
+          <img src="" id="ELM_FUNP" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUNP.png" id="ELM_FUNP_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>

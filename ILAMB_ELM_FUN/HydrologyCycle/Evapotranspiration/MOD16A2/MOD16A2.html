@@ -364,6 +364,7 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
@@ -374,6 +375,109 @@
         <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [mm d-1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>RMSE [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="MOD16A2_Benchmark.nc" download>[-]</a></td>
+               <td>0.950</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="MOD16A2_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.401</td>
+               <td onclick="highlightRowMeanState(this)">0.415</td>
+               <td onclick="highlightRowMeanState(this)">0.949</td>
+               <td onclick="highlightRowMeanState(this)">0.358</td>
+               <td onclick="highlightRowMeanState(this)">1.11</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.534</td>
+               <td onclick="highlightRowMeanState(this)">0.676</td>
+               <td onclick="highlightRowMeanState(this)">0.894</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.495</td>
+               <td onclick="highlightRowMeanState(this)">0.595</td>
+               <td onclick="highlightRowMeanState(this)">0.909</td>
+               <td onclick="highlightRowMeanState(this)">0.940</td>
+               <td onclick="highlightRowMeanState(this)">0.707</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="MOD16A2_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.417</td>
+               <td onclick="highlightRowMeanState(this)">0.438</td>
+               <td onclick="highlightRowMeanState(this)">0.949</td>
+               <td onclick="highlightRowMeanState(this)">0.360</td>
+               <td onclick="highlightRowMeanState(this)">1.11</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.512</td>
+               <td onclick="highlightRowMeanState(this)">0.646</td>
+               <td onclick="highlightRowMeanState(this)">0.954</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.510</td>
+               <td onclick="highlightRowMeanState(this)">0.608</td>
+               <td onclick="highlightRowMeanState(this)">0.905</td>
+               <td onclick="highlightRowMeanState(this)">0.936</td>
+               <td onclick="highlightRowMeanState(this)">0.714</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="MOD16A2_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.490</td>
+               <td onclick="highlightRowMeanState(this)">0.539</td>
+               <td onclick="highlightRowMeanState(this)">0.949</td>
+               <td onclick="highlightRowMeanState(this)">0.372</td>
+               <td onclick="highlightRowMeanState(this)">1.11</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.410</td>
+               <td onclick="highlightRowMeanState(this)">0.550</td>
+               <td onclick="highlightRowMeanState(this)">0.887</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.583</td>
+               <td onclick="highlightRowMeanState(this)">0.644</td>
+               <td onclick="highlightRowMeanState(this)">0.923</td>
+               <td onclick="highlightRowMeanState(this)">0.977</td>
+               <td onclick="highlightRowMeanState(this)">0.754</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -607,6 +711,7 @@
         </div>
       </div>
       <select id="RelationshipsRegion" onchange="changeRegionRelationships()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
@@ -616,6 +721,54 @@
         <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="Relationships_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Precipitation Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature Hellinger Distance [1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Precipitation RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td onclick="highlightRowRelationships(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowRelationships(this)"><a href="MOD16A2_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.325</td>
+               <td onclick="highlightRowRelationships(this)">0.287</td>
+               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)">0.610</td>
+               <td onclick="highlightRowRelationships(this)">0.602</td>
+               <td onclick="highlightRowRelationships(this)">0.606</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowRelationships(this)"><a href="MOD16A2_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.345</td>
+               <td onclick="highlightRowRelationships(this)">0.300</td>
+               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)">0.622</td>
+               <td onclick="highlightRowRelationships(this)">0.612</td>
+               <td onclick="highlightRowRelationships(this)">0.617</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowRelationships(this)"><a href="MOD16A2_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.324</td>
+               <td onclick="highlightRowRelationships(this)">0.443</td>
+               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)">0.667</td>
+               <td onclick="highlightRowRelationships(this)">0.669</td>
+               <td onclick="highlightRowRelationships(this)">0.668</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="Relationships_table_global">
            <thead>
@@ -634,32 +787,32 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ELM</td>
                <td onclick="highlightRowRelationships(this)"><a href="MOD16A2_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.00</td>
+               <td onclick="highlightRowRelationships(this)">0.437</td>
                <td onclick="highlightRowRelationships(this)">0.451</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.525</td>
                <td onclick="highlightRowRelationships(this)">0.577</td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.551</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUN</td>
                <td onclick="highlightRowRelationships(this)"><a href="MOD16A2_ELM_FUN.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.438</td>
                <td onclick="highlightRowRelationships(this)">0.450</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.526</td>
                <td onclick="highlightRowRelationships(this)">0.581</td>
-               <td onclick="highlightRowRelationships(this)">0.581</td>
+               <td onclick="highlightRowRelationships(this)">0.554</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUNP</td>
                <td onclick="highlightRowRelationships(this)"><a href="MOD16A2_ELM_FUNP.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.404</td>
                <td onclick="highlightRowRelationships(this)">0.473</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.544</td>
                <td onclick="highlightRowRelationships(this)">0.618</td>
-               <td onclick="highlightRowRelationships(this)">0.618</td>
+               <td onclick="highlightRowRelationships(this)">0.581</td>
              </tr>
           </tbody>
         </table>
@@ -722,6 +875,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">

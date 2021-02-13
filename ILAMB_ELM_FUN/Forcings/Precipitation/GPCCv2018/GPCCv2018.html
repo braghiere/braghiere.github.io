@@ -50,6 +50,7 @@
           document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
           document.getElementById('dtcycle').src =  MNAME + '_' + RNAME + '_dtcycle.png'
           document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
+          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
           document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
         }
 
@@ -164,14 +165,22 @@
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
+          document.getElementById("ELM_FUN_legend").style.display = 'none';
+          document.getElementById("ELM_FUNP_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("ELM_legend").style.display = 'inline';
+          document.getElementById("ELM_FUN_legend").style.display = 'inline';
+          document.getElementById("ELM_FUNP_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUN').src = 'ELM_FUN_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUN_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP').src = 'ELM_FUNP_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -237,14 +246,120 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='ELM' selected="selected">ELM</option>
+        <option value='ELM_FUN'>ELM_FUN</option>
+        <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [mm d-1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>RMSE [mm d-1]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="GPCCv2018_Benchmark.nc" download>[-]</a></td>
+               <td>1.38</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GPCCv2018_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.963</td>
+               <td onclick="highlightRowMeanState(this)">0.916</td>
+               <td onclick="highlightRowMeanState(this)">1.35</td>
+               <td onclick="highlightRowMeanState(this)">1.14</td>
+               <td onclick="highlightRowMeanState(this)">3.07</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.433</td>
+               <td onclick="highlightRowMeanState(this)">0.693</td>
+               <td onclick="highlightRowMeanState(this)">0.398</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.596</td>
+               <td onclick="highlightRowMeanState(this)">0.613</td>
+               <td onclick="highlightRowMeanState(this)">0.942</td>
+               <td onclick="highlightRowMeanState(this)">0.924</td>
+               <td onclick="highlightRowMeanState(this)">0.738</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GPCCv2018_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.963</td>
+               <td onclick="highlightRowMeanState(this)">0.916</td>
+               <td onclick="highlightRowMeanState(this)">1.35</td>
+               <td onclick="highlightRowMeanState(this)">1.14</td>
+               <td onclick="highlightRowMeanState(this)">3.07</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.433</td>
+               <td onclick="highlightRowMeanState(this)">0.693</td>
+               <td onclick="highlightRowMeanState(this)">0.398</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.596</td>
+               <td onclick="highlightRowMeanState(this)">0.613</td>
+               <td onclick="highlightRowMeanState(this)">0.942</td>
+               <td onclick="highlightRowMeanState(this)">0.924</td>
+               <td onclick="highlightRowMeanState(this)">0.738</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GPCCv2018_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.963</td>
+               <td onclick="highlightRowMeanState(this)">0.916</td>
+               <td onclick="highlightRowMeanState(this)">1.35</td>
+               <td onclick="highlightRowMeanState(this)">1.14</td>
+               <td onclick="highlightRowMeanState(this)">3.07</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.433</td>
+               <td onclick="highlightRowMeanState(this)">0.693</td>
+               <td onclick="highlightRowMeanState(this)">0.398</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.596</td>
+               <td onclick="highlightRowMeanState(this)">0.613</td>
+               <td onclick="highlightRowMeanState(this)">0.942</td>
+               <td onclick="highlightRowMeanState(this)">0.924</td>
+               <td onclick="highlightRowMeanState(this)">0.738</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -291,21 +406,59 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
                <td onclick="highlightRowMeanState(this)"><a href="GPCCv2018_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.97e+03</td>
-               <td onclick="highlightRowMeanState(this)">2.09e+03</td>
+               <td onclick="highlightRowMeanState(this)">1.97</td>
+               <td onclick="highlightRowMeanState(this)">2.09</td>
                <td onclick="highlightRowMeanState(this)">2.24</td>
-               <td onclick="highlightRowMeanState(this)">993.</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
                <td onclick="highlightRowMeanState(this)">4.12</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">2.09e+03</td>
-               <td onclick="highlightRowMeanState(this)">2.57e+03</td>
+               <td onclick="highlightRowMeanState(this)">-0.151</td>
+               <td onclick="highlightRowMeanState(this)">0.690</td>
                <td onclick="highlightRowMeanState(this)">0.668</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.85e-05</td>
-               <td onclick="highlightRowMeanState(this)">2.73e-06</td>
+               <td onclick="highlightRowMeanState(this)">0.788</td>
+               <td onclick="highlightRowMeanState(this)">0.768</td>
                <td onclick="highlightRowMeanState(this)">0.906</td>
-               <td onclick="highlightRowMeanState(this)">3.75e-06</td>
-               <td onclick="highlightRowMeanState(this)">0.181</td>
+               <td onclick="highlightRowMeanState(this)">0.971</td>
+               <td onclick="highlightRowMeanState(this)">0.840</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GPCCv2018_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">1.97</td>
+               <td onclick="highlightRowMeanState(this)">2.09</td>
+               <td onclick="highlightRowMeanState(this)">2.24</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
+               <td onclick="highlightRowMeanState(this)">4.12</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.151</td>
+               <td onclick="highlightRowMeanState(this)">0.690</td>
+               <td onclick="highlightRowMeanState(this)">0.668</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.788</td>
+               <td onclick="highlightRowMeanState(this)">0.768</td>
+               <td onclick="highlightRowMeanState(this)">0.906</td>
+               <td onclick="highlightRowMeanState(this)">0.971</td>
+               <td onclick="highlightRowMeanState(this)">0.840</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GPCCv2018_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">1.97</td>
+               <td onclick="highlightRowMeanState(this)">2.09</td>
+               <td onclick="highlightRowMeanState(this)">2.24</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
+               <td onclick="highlightRowMeanState(this)">4.12</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.151</td>
+               <td onclick="highlightRowMeanState(this)">0.690</td>
+               <td onclick="highlightRowMeanState(this)">0.668</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.788</td>
+               <td onclick="highlightRowMeanState(this)">0.768</td>
+               <td onclick="highlightRowMeanState(this)">0.906</td>
+               <td onclick="highlightRowMeanState(this)">0.971</td>
+               <td onclick="highlightRowMeanState(this)">0.840</td>
              </tr>
           </tbody>
         </table>
@@ -419,6 +572,12 @@
           <img src="" id="dtcycle" alt="Data not available" ></img>
           </div>
         </div>
+        <div class="container" id="compcycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
         </div>
     </div>
     <div data-role="page" id="AllModels">
@@ -433,6 +592,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
@@ -460,6 +620,20 @@
           <center>ELM</center>
           <img src="" id="ELM" alt="Data not available" ></img>
           <center><img src="legend_ELM.png" id="ELM_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUN_div">
+          <div class="child">
+          <center>ELM_FUN</center>
+          <img src="" id="ELM_FUN" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUN.png" id="ELM_FUN_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUNP_div">
+          <div class="child">
+          <center>ELM_FUNP</center>
+          <img src="" id="ELM_FUNP" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUNP.png" id="ELM_FUNP_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>

@@ -18,9 +18,125 @@
     </script>
     <script type='text/javascript'>
         function pageLoad() {
+           pageLoadMeanState();
         }
     </script>
     <script type='text/javascript'>
+
+        function updateImagesAndHeadersMeanState(){
+            var rsel  = document.getElementById("MeanStateRegion");
+            var msel  = document.getElementById("MeanStateModel");
+            var rid   = rsel.selectedIndex;
+            var mid   = msel.selectedIndex;
+            var RNAME = rsel.options[rid].value;
+            var MNAME = msel.options[mid].value;
+            var CNAME = "EvaporativeFraction / GBAF / 1982-2006";
+            var head  = "CNAME / RNAME / MNAME";
+            head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
+            $("#MeanStateHead").text(head);
+            
+          document.getElementById('timeint').src =  MNAME + '_' + RNAME + '_timeint.png'
+          document.getElementById('benchmark_timeint').src =  'Benchmark_' + RNAME + '_timeint.png'
+          document.getElementById('bias').src =  MNAME + '_' + RNAME + '_bias.png'
+          document.getElementById('biasscore').src =  MNAME + '_' + RNAME + '_biasscore.png'
+          document.getElementById('spatial_variance').src =  RNAME + '_spatial_variance.png'
+          document.getElementById('legend_spatial_variance').src =  'legend_spatial_variance.png'
+          document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
+        }
+
+        function highlightRowMeanState(cell) {
+            var select = document.getElementById("MeanStateRegion");
+            for (var i = 0; i < select.length; i++){
+                var table = document.getElementById("MeanState_table_" + select.options[i].value);
+                var rows  = table.getElementsByTagName("tr");
+                for (var r = 2; r < rows.length; r++) {
+                    for (var c = 0; c < rows[r].cells.length-4; c++) {
+                        rows[r].cells[c].style.backgroundColor = "#ffffff";
+                    }
+                }
+                var r = cell.closest("tr").rowIndex;
+                document.getElementById("MeanStateModel").selectedIndex = r-1;
+                for (var c = 0; c < rows[r].cells.length-4; c++) {
+                    rows[r].cells[c].style.backgroundColor = "#c1c1c1";
+                }
+            }
+            updateImagesAndHeadersMeanState();
+        }
+
+        function paintScoreCellsMeanState(RNAME) {
+
+	    var PuOr = ['#b35806','#e08214','#fdb863','#fee0b6','#f7f7f7','#d8daeb','#b2abd2','#8073ac','#542788'];
+	    var GnRd = ['#b2182b','#d6604d','#f4a582','#fddbc7','#f7f7f7','#d9f0d3','#a6dba0','#5aae61','#1b7837'];
+	    var colors = GnRd;
+            var nc = colors.length;
+            var table  = document.getElementById("MeanState_table_" + RNAME);
+            var rows   = table.getElementsByTagName("tr");
+            for (var c = rows[0].cells.length-3; c < rows[0].cells.length; c++) {
+                var scores = [];
+                for (var r = 2; r < rows.length; r++) {
+                    val = rows[r].cells[c].innerHTML;
+                    if (val=="") {
+                      scores[r-2] = 0;
+                    }else{
+                      scores[r-2] = parseFloat(val);
+                    }
+                }
+                var mean = math.mean(scores);
+                var std  = math.max(0.02,math.std(scores));
+                for (var r = 2; r < rows.length; r++) {
+                    scores[r-2] = Math.min(+2,Math.max(-2,(scores[r-2]-mean)/std));
+                }
+                for (var r = 2; r < rows.length; r++) {
+		    var e  = scores[r-2];
+                    var ae = Math.abs(e);
+                    var clr;
+                    if(ae >= 0.25){
+                      clr = math.round(2*e+4);
+                    }else{
+		      clr = math.round(4*e+4);
+                    }
+                    clr = math.min(math.max(0,clr),8);
+                    rows[r].cells[c].style.backgroundColor = colors[clr];
+                }
+            }
+        }
+
+        function pageLoadMeanState() {
+            var select = document.getElementById("MeanStateRegion");
+            var region = getQueryVariable("region");
+            var model  = getQueryVariable("model");
+            if (region) {
+                for (var i = 0; i < select.length; i++){
+                    if (select.options[i].value == region) select.selectedIndex = i;
+                }
+            }
+            var table = document.getElementById("MeanState_table_" + select.options[select.selectedIndex].value);
+            var rows  = table.getElementsByTagName("tr");
+            if (model) {
+                for (var r = 0; r < rows.length; r++) {
+                    if(rows[r].cells[0].innerHTML==model) highlightRowMeanState(rows[r].cells[0]);
+                }
+            }else{
+                highlightRowMeanState(rows[2]);
+            }
+            for (var i = 0; i < select.length; i++){
+                paintScoreCellsMeanState(select.options[i].value);
+            }
+            changeRegionMeanState();
+        }
+
+        function changeRegionMeanState() {
+            var select = document.getElementById("MeanStateRegion");
+            for (var i = 0; i < select.length; i++){
+                RNAME = select.options[i].value;
+                if (i == select.selectedIndex) {
+                    document.getElementById("MeanState_table_" + RNAME).style.display = "table";
+                }else{
+                    document.getElementById("MeanState_table_" + RNAME).style.display = "none";
+                }
+            }
+            updateImagesAndHeadersMeanState();
+        }
       function AllSelect() {
         var header = "CNAME / RNAME / MNAME";
         var CNAME  = "EvaporativeFraction / GBAF / 1982-2006";
@@ -31,14 +147,30 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(0){
+        if(PNAME == "bias" || PNAME == "biasscore"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
         if(0){
+          document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("ELM_legend").style.display = 'none';
+          document.getElementById("ELM_FUN_legend").style.display = 'none';
+          document.getElementById("ELM_FUNP_legend").style.display = 'none';
         }else{
+          document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("ELM_legend").style.display = 'inline';
+          document.getElementById("ELM_FUN_legend").style.display = 'inline';
+          document.getElementById("ELM_FUNP_legend").style.display = 'inline';
         }
+        document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUN').src = 'ELM_FUN_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUN_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP').src = 'ELM_FUNP_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUNP_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -103,6 +235,226 @@
           </ul>
         </div>
       </div>
+      <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='bona'>Boreal North America</option>
+        <option value='global' selected="selected">Global - Land</option>
+      </select>
+      <div style="display:none">
+      <select id="MeanStateModel">
+        <option value='Benchmark'>Benchmark</option>
+        <option value='ELM' selected="selected">ELM</option>
+        <option value='ELM_FUN'>ELM_FUN</option>
+        <option value='ELM_FUNP'>ELM_FUNP</option>
+      </select>
+      </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="GBAF_Benchmark.nc" download>[-]</a></td>
+               <td>0.453</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GBAF_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.639</td>
+               <td onclick="highlightRowMeanState(this)">0.752</td>
+               <td onclick="highlightRowMeanState(this)">0.452</td>
+               <td onclick="highlightRowMeanState(this)">0.208</td>
+               <td onclick="highlightRowMeanState(this)">0.538</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.315</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.592</td>
+               <td onclick="highlightRowMeanState(this)">0.000623</td>
+               <td onclick="highlightRowMeanState(this)">0.296</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GBAF_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.144</td>
+               <td onclick="highlightRowMeanState(this)">0.163</td>
+               <td onclick="highlightRowMeanState(this)">0.452</td>
+               <td onclick="highlightRowMeanState(this)">0.0196</td>
+               <td onclick="highlightRowMeanState(this)">0.538</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.274</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.617</td>
+               <td onclick="highlightRowMeanState(this)">0.00264</td>
+               <td onclick="highlightRowMeanState(this)">0.310</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GBAF_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.416</td>
+               <td onclick="highlightRowMeanState(this)">0.458</td>
+               <td onclick="highlightRowMeanState(this)">0.452</td>
+               <td onclick="highlightRowMeanState(this)">0.253</td>
+               <td onclick="highlightRowMeanState(this)">0.538</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0211</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.645</td>
+               <td onclick="highlightRowMeanState(this)">0.000869</td>
+               <td onclick="highlightRowMeanState(this)">0.323</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_global">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [1]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [1]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [1]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="GBAF_Benchmark.nc" download>[-]</a></td>
+               <td>0.488</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GBAF_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.445</td>
+               <td onclick="highlightRowMeanState(this)">0.513</td>
+               <td onclick="highlightRowMeanState(this)">0.488</td>
+               <td onclick="highlightRowMeanState(this)">0.287</td>
+               <td onclick="highlightRowMeanState(this)">0.573</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0300</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.781</td>
+               <td onclick="highlightRowMeanState(this)">0.0134</td>
+               <td onclick="highlightRowMeanState(this)">0.397</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GBAF_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.540</td>
+               <td onclick="highlightRowMeanState(this)">0.561</td>
+               <td onclick="highlightRowMeanState(this)">0.488</td>
+               <td onclick="highlightRowMeanState(this)">0.350</td>
+               <td onclick="highlightRowMeanState(this)">0.573</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0802</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.785</td>
+               <td onclick="highlightRowMeanState(this)">0.000604</td>
+               <td onclick="highlightRowMeanState(this)">0.393</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GBAF_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.380</td>
+               <td onclick="highlightRowMeanState(this)">0.365</td>
+               <td onclick="highlightRowMeanState(this)">0.488</td>
+               <td onclick="highlightRowMeanState(this)">0.0193</td>
+               <td onclick="highlightRowMeanState(this)">0.573</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.120</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.794</td>
+               <td onclick="highlightRowMeanState(this)">0.000749</td>
+               <td onclick="highlightRowMeanState(this)">0.397</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <div data-role="collapsible" data-collapsed="false"><h1>Temporally integrated period mean</h1>
+        <div class="container" id="benchmark_timeint_div">
+          <div class="child">
+          <center>BENCHMARK&nbsp;MEAN</center>
+          <img src="" id="benchmark_timeint" alt="Data not available" ></img>
+          <center><img src="legend_timeint.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="timeint_div">
+          <div class="child">
+          <center>MODEL&nbsp;MEAN</center>
+          <img src="" id="timeint" alt="Data not available" ></img>
+          <center><img src="legend_timeint.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="bias_div">
+          <div class="child">
+          <center>BIAS</center>
+          <img src="" id="bias" alt="Data not available" ></img>
+          <center><img src="legend_bias.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="biasscore_div">
+          <div class="child">
+          <center>BIAS&nbsp;SCORE</center>
+          <img src="" id="biasscore" alt="Data not available" ></img>
+          <center><img src="legend_biasscore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div><br>
+        <div class="container" id="spatial_variance_div">
+          <div class="child">
+          <center>SPATIAL&nbsp;TAYLOR&nbsp;DIAGRAM</center>
+          <img src="" id="spatial_variance" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="legend_spatial_variance_div">
+          <div class="child">
+          <center>MODEL&nbsp;COLORS</center>
+          <img src="" id="legend_spatial_variance" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
         <div data-role="collapsible" data-collapsed="false"><h1>Spatially integrated regional mean</h1>
         <div class="container" id="legend_compcycle_div">
           <div class="child">
@@ -124,8 +476,42 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
+      <select id="AllModelsPlot" onchange="AllSelect()">
+        <option value='timeint' selected="selected">Temporally integrated period mean</option>
+        <option value='bias'>Temporally integrated period mean bias</option>
+        <option value='biasscore'>Temporally integrated period mean bias score</option>
+      </select>
+        <div class="container" id="Benchmark_div">
+          <div class="child">
+          <center>Benchmark</center>
+          <img src="" id="Benchmark" alt="Data not available" ></img>
+          <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_div">
+          <div class="child">
+          <center>ELM</center>
+          <img src="" id="ELM" alt="Data not available" ></img>
+          <center><img src="legend_ELM.png" id="ELM_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUN_div">
+          <div class="child">
+          <center>ELM_FUN</center>
+          <img src="" id="ELM_FUN" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUN.png" id="ELM_FUN_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUNP_div">
+          <div class="child">
+          <center>ELM_FUNP</center>
+          <img src="" id="ELM_FUNP" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUNP.png" id="ELM_FUNP_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
     </div>
     <div data-role="page" id="DataInformation">
       <div data-role="header" data-position="fixed" data-tap-toggle="false">
