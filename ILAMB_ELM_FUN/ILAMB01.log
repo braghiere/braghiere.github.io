@@ -1,0 +1,805 @@
+[INFO][0][<module>] Linux renato-VirtualBox 5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021 x86_64
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/ILAMB (2.5)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/numpy (1.19.1)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/matplotlib (3.3.2)
+[INFO][0][<module>] /home/renato/.local/lib/python3.7/site-packages/netCDF4 (1.5.1.2)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/cf_units (2.1.4)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/sympy (1.6.2)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/mpi4py (3.0.3)
+[INFO][0][<module>] 2021-02-12 14:59:54.139918
+[INFO][0][confront][Biomass/Tropical][ELM] Success
+[INFO][0][confront][Biomass/Tropical][ELM_FUN] Success
+[INFO][0][confront][Biomass/Tropical][ELM_FUNP] Success
+[INFO][0][confront][Biomass/GlobalCarbon][ELM] Success
+[INFO][0][confront][Biomass/GlobalCarbon][ELM_FUN] Success
+[INFO][0][confront][Biomass/GlobalCarbon][ELM_FUNP] Success
+[INFO][0][confront][Biomass/NBCD2000][ELM] Success
+[INFO][0][confront][Biomass/NBCD2000][ELM_FUN] Success
+[INFO][0][confront][Biomass/NBCD2000][ELM_FUNP] Success
+[INFO][0][confront][Biomass/USForest][ELM] Success
+[INFO][0][confront][Biomass/USForest][ELM_FUN] Success
+[INFO][0][confront][Biomass/USForest][ELM_FUNP] Success
+[INFO][0][confront][Biomass/Thurner][ELM] Success
+[INFO][0][confront][Biomass/Thurner][ELM_FUN] Success
+[INFO][0][confront][Biomass/Thurner][ELM_FUNP] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ELM] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ELM] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ELM_FUN] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ELM_FUNP] Success
+[INFO][0][confront][LeafAreaIndex/AVHRR][ELM] Success
+[INFO][0][confront][LeafAreaIndex/AVHRR][ELM_FUN] Success
+[INFO][0][confront][LeafAreaIndex/AVHRR][ELM_FUNP] Success
+[INFO][0][confront][LeafAreaIndex/AVH15C1][ELM] Success
+[INFO][0][confront][LeafAreaIndex/AVH15C1][ELM_FUN] Success
+[INFO][0][confront][LeafAreaIndex/AVH15C1][ELM_FUNP] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][ELM] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][ELM_FUN] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][ELM_FUNP] Success
+[DEBUG][0][WorkConfront][GlobalNetEcosystemCarbonBalance/Hoffman][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ConfNBP.py", line 121, in confront
+    s = np.exp(-eps)
+FloatingPointError: underflow encountered in exp
+
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ELM] Success
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ELM] Success
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][EcosystemRespiration/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ELM] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ELM_FUN] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ELM_FUNP] Success
+[INFO][0][confront][SoilCarbon/HWSD][ELM] Success
+[INFO][0][confront][SoilCarbon/HWSD][ELM_FUN] Success
+[INFO][0][confront][SoilCarbon/HWSD][ELM_FUNP] Success
+[INFO][0][confront][SoilCarbon/NCSCDV22][ELM] Success
+[INFO][0][confront][SoilCarbon/NCSCDV22][ELM_FUN] Success
+[INFO][0][confront][SoilCarbon/NCSCDV22][ELM_FUNP] Success
+[DEBUG][0][WorkConfront][SoilCarbon/Koven][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('mm yr-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ConfSoilCarbon.py", line 105, in confront
+    final_time   = tf).integrateInTime(mean=True).convert("mm yr-1")
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[DEBUG][0][WorkConfront][SoilCarbon/Koven][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('mm yr-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ConfSoilCarbon.py", line 105, in confront
+    final_time   = tf).integrateInTime(mean=True).convert("mm yr-1")
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ELM] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ELM_FUN] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ELM_FUNP] Success
+[INFO][0][confront][Evapotranspiration/MODIS][ELM] Success
+[INFO][0][confront][Evapotranspiration/MODIS][ELM_FUN] Success
+[INFO][0][confront][Evapotranspiration/MODIS][ELM_FUNP] Success
+[INFO][0][confront][Evapotranspiration/MOD16A2][ELM] Success
+[INFO][0][confront][Evapotranspiration/MOD16A2][ELM_FUN] Success
+[INFO][0][confront][Evapotranspiration/MOD16A2][ELM_FUNP] Success
+[DEBUG][0][WorkConfront][EvaporativeFraction/GBAF][ELM]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('W m-2')' to 'Unit('1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[DEBUG][0][WorkConfront][EvaporativeFraction/GBAF][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('W m-2')' to 'Unit('1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[DEBUG][0][WorkConfront][EvaporativeFraction/GBAF][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('W m-2')' to 'Unit('1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[INFO][0][confront][LatentHeat/FLUXNET2015][ELM] Success
+[INFO][0][confront][LatentHeat/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][LatentHeat/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][LatentHeat/FLUXCOM][ELM] Success
+[INFO][0][confront][LatentHeat/FLUXCOM][ELM_FUN] Success
+[INFO][0][confront][LatentHeat/FLUXCOM][ELM_FUNP] Success
+[INFO][0][confront][LatentHeat/DOLCE][ELM] Success
+[INFO][0][confront][LatentHeat/DOLCE][ELM_FUN] Success
+[INFO][0][confront][LatentHeat/DOLCE][ELM_FUNP] Success
+[INFO][0][confront][Runoff/LORA][ELM] Success
+[INFO][0][confront][Runoff/LORA][ELM_FUN] Success
+[INFO][0][confront][Runoff/LORA][ELM_FUNP] Success
+[INFO][0][confront][SensibleHeat/FLUXNET2015][ELM] Success
+[INFO][0][confront][SensibleHeat/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SensibleHeat/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SensibleHeat/FLUXCOM][ELM] Success
+[INFO][0][confront][SensibleHeat/FLUXCOM][ELM_FUN] Success
+[INFO][0][confront][SensibleHeat/FLUXCOM][ELM_FUNP] Success
+[INFO][0][confront][Albedo/CERESed4.1][ELM] Success
+[INFO][0][confront][Albedo/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][Albedo/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][Albedo/GEWEX.SRB][ELM] Success
+[INFO][0][confront][Albedo/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][Albedo/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERESed4.1][ELM] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetSWRadiation/CERESed4.1][ELM] Success
+[INFO][0][confront][SurfaceNetSWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetSWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetSWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceNetSWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetSWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERESed4.1][ELM] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetLWRadiation/CERESed4.1][ELM] Success
+[INFO][0][confront][SurfaceNetLWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetLWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetLWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceNetLWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetLWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetRadiation/CERESed4.1][ELM] Success
+[INFO][0][confront][SurfaceNetRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetRadiation/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceNetRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][ELM] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][ELM_FUN] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][ELM_FUNP] Success
+[INFO][0][confront][SurfaceAirTemperature/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceAirTemperature/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceAirTemperature/FLUXNET2015][ELM_FUNP] Success
+[DEBUG][0][extractTimeSeries][ELM] Could not find [tasmax] in the model results
+[DEBUG][0][WorkConfront][DiurnalMaxTemperature/CRU4.02][ELM]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM_FUN] Could not find [tasmax] in the model results
+[DEBUG][0][WorkConfront][DiurnalMaxTemperature/CRU4.02][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM_FUNP] Could not find [tasmax] in the model results
+[DEBUG][0][WorkConfront][DiurnalMaxTemperature/CRU4.02][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM] Could not find [tasmin] in the model results
+[DEBUG][0][WorkConfront][DiurnalMinTemperature/CRU4.02][ELM]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM_FUN] Could not find [tasmin] in the model results
+[DEBUG][0][WorkConfront][DiurnalMinTemperature/CRU4.02][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM_FUNP] Could not find [tasmin] in the model results
+[DEBUG][0][WorkConfront][DiurnalMinTemperature/CRU4.02][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM] Could not find [tasmax] in the model results
+[DEBUG][0][WorkConfront][DiurnalTemperatureRange/CRU4.02][ELM]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 304, in extractTimeSeries
+    final_time   = final_time)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 364, in derivedVariable
+    final_time   = final_time)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM_FUN] Could not find [tasmax] in the model results
+[DEBUG][0][WorkConfront][DiurnalTemperatureRange/CRU4.02][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 304, in extractTimeSeries
+    final_time   = final_time)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 364, in derivedVariable
+    final_time   = final_time)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ELM_FUNP] Could not find [tasmax] in the model results
+[DEBUG][0][WorkConfront][DiurnalTemperatureRange/CRU4.02][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 301, in stageData
+    lons         = None if obs.spatial else obs.lon)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 304, in extractTimeSeries
+    final_time   = final_time)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 364, in derivedVariable
+    final_time   = final_time)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ModelResult.py", line 309, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][confront][Precipitation/CMAPv1904][ELM] Success
+[DEBUG][0][WorkConfront][Precipitation/CMAPv1904][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('kg m-2 s-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[DEBUG][0][WorkConfront][Precipitation/CMAPv1904][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('kg m-2 s-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[INFO][0][confront][Precipitation/FLUXNET2015][ELM] Success
+[DEBUG][0][WorkConfront][Precipitation/FLUXNET2015][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('mm d-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[DEBUG][0][WorkConfront][Precipitation/FLUXNET2015][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('mm d-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[INFO][0][confront][Precipitation/GPCCv2018][ELM] Success
+[DEBUG][0][WorkConfront][Precipitation/GPCCv2018][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('mm d-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[DEBUG][0][WorkConfront][Precipitation/GPCCv2018][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('mm d-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[INFO][0][confront][Precipitation/GPCPv2.3][ELM] Success
+[DEBUG][0][WorkConfront][Precipitation/GPCPv2.3][ELM_FUN]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('kg m-2 s-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[DEBUG][0][WorkConfront][Precipitation/GPCPv2.3][ELM_FUNP]
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 877, in convert
+    src_unit.convert(self.data,tar_unit,inplace=True)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/cf_units/__init__.py", line 1907, in convert
+    (self, other))
+ValueError: Unable to convert from 'Unit('%')' to 'Unit('kg m-2 s-1')'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
+    c.confront(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 348, in confront
+    obs,mod = self.stageData(m)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Confrontation.py", line 306, in stageData
+    logstring = "[%s][%s]" % (self.longname,m.name))
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ilamblib.py", line 1874, in MakeComparable
+    com = com.convert(ref.unit)
+  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/Variable.py", line 882, in convert
+    raise il.UnitConversionError()
+ILAMB.ilamblib.UnitConversionError: UnitConversionError
+
+[INFO][0][confront][SurfaceRelativeHumidity/ERA5][ELM] Success
+[INFO][0][confront][SurfaceRelativeHumidity/ERA5][ELM_FUN] Success
+[INFO][0][confront][SurfaceRelativeHumidity/ERA5][ELM_FUNP] Success
+[INFO][0][confront][SurfaceRelativeHumidity/CRU4.02][ELM] Success
+[INFO][0][confront][SurfaceRelativeHumidity/CRU4.02][ELM_FUN] Success
+[INFO][0][confront][SurfaceRelativeHumidity/CRU4.02][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][ELM] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERESed4.1][ELM] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][modelPlots][Biomass/Tropical][ELM] Success
+[INFO][0][modelPlots][Biomass/Tropical][ELM_FUN] Success
+[INFO][0][modelPlots][Biomass/Tropical][ELM_FUNP] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][ELM] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][ELM_FUN] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][ELM_FUNP] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][ELM] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][ELM_FUN] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][ELM_FUNP] Success
+[INFO][0][modelPlots][Biomass/USForest][ELM] Success
+[INFO][0][modelPlots][Biomass/USForest][ELM_FUN] Success
+[INFO][0][modelPlots][Biomass/USForest][ELM_FUNP] Success
+[INFO][0][modelPlots][Biomass/Thurner][ELM] Success
+[INFO][0][modelPlots][Biomass/Thurner][ELM_FUN] Success
+[INFO][0][modelPlots][Biomass/Thurner][ELM_FUNP] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ELM] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ELM_FUN] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ELM_FUNP] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][ELM] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][ELM_FUN] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][ELM_FUNP] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][ELM] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][ELM_FUN] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][ELM_FUNP] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ELM] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ELM_FUN] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ELM_FUNP] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][ELM] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][ELM_FUN] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][ELM_FUNP] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][ELM] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][ELM_FUNP] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ELM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ELM_FUN] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ELM_FUNP] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ELM] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ELM_FUN] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ELM_FUNP] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][ELM] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][ELM_FUN] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][ELM_FUNP] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ELM] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ELM_FUN] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ELM_FUNP] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ELM] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ELM_FUN] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ELM_FUNP] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ELM] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ELM_FUN] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ELM_FUNP] Success
+[INFO][0][modelPlots][LatentHeat/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][LatentHeat/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][LatentHeat/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][ELM] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][ELM_FUN] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][ELM_FUNP] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][ELM] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][ELM_FUN] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][ELM_FUNP] Success
+[INFO][0][modelPlots][Runoff/Dai][ELM] Success
+[INFO][0][modelPlots][Runoff/Dai][ELM_FUN] Success
+[INFO][0][modelPlots][Runoff/Dai][ELM_FUNP] Success
+[INFO][0][modelPlots][Runoff/LORA][ELM] Success
+[INFO][0][modelPlots][Runoff/LORA][ELM_FUN] Success
+[INFO][0][modelPlots][Runoff/LORA][ELM_FUNP] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][ELM] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][ELM_FUN] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][ELM_FUNP] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][ELM] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][ELM_FUN] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][ELM_FUNP] Success
+[INFO][0][modelPlots][Albedo/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][Albedo/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][Albedo/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][ELM] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][ELM] Success
+[INFO][0][modelPlots][Precipitation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][ELM] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][ELM] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/ERA5][ELM] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/ERA5][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/ERA5][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/CRU4.02][ELM] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/CRU4.02][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceRelativeHumidity/CRU4.02][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERESed4.1][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERESed4.1][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERESed4.1][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/FLUXNET2015][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/FLUXNET2015][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/FLUXNET2015][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ELM_FUNP] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM_FUN] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM_FUNP] Success
+[INFO][0][<module>][total time] 5611.0 s
