@@ -1535,12 +1535,16 @@ HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Precipitation Hellinger Dis
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Precipitation RMSE Score,Relationships,global,score,1,0.51411
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.292803
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Precipitation RMSE Score,Relationships,bona,score,1,0.602276
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.429578
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.547626
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.430963
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.595727
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.45819
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.56938
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.480665
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.571871
-HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Overall Score,Relationships,global,score,1,0.541745
-HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Overall Score,Relationships,bona,score,1,0.587074
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Overall Score,Relationships,global,score,1,0.543706
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUN,Overall Score,Relationships,bona,score,1,0.589958
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Benchmark Period Mean (intersection),MeanState,global,scalar,mm d-1,1.34015
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Benchmark Period Mean (complement),MeanState,global,scalar,mm d-1,2.67313
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Period Mean (original grids),MeanState,global,scalar,mm d-1,0.658594
@@ -1571,12 +1575,16 @@ HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Precipitation Hellinger Di
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Precipitation RMSE Score,Relationships,global,score,1,0.532188
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.207324
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Precipitation RMSE Score,Relationships,bona,score,1,0.65598
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.409647
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.572558
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.390663
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.67324
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.408417
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.602425
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.430541
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.612227
-HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Overall Score,Relationships,global,score,1,0.567307
-HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.634103
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Overall Score,Relationships,global,score,1,0.569057
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.647149
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Benchmark Period Mean (intersection),MeanState,global,scalar,mm d-1,1.34015
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Benchmark Period Mean (complement),MeanState,global,scalar,mm d-1,2.67313
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Period Mean (original grids),MeanState,global,scalar,mm d-1,0.579436
@@ -1607,12 +1615,16 @@ HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Precipitation Hellinger Distanc
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Precipitation RMSE Score,Relationships,global,score,1,0.513425
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.298957
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Precipitation RMSE Score,Relationships,bona,score,1,0.587814
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.428023
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.545063
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.430467
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.581216
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.464505
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.564704
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.497422
 HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.565223
-HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Overall Score,Relationships,global,score,1,0.539064
-HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Overall Score,Relationships,bona,score,1,0.576519
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Overall Score,Relationships,global,score,1,0.541064
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,ELM,Overall Score,Relationships,bona,score,1,0.578084
 HydrologyCycle,Evapotranspiration,MOD16A2,ELM,Benchmark Period Mean (intersection),MeanState,global,scalar,mm d-1,1.5601
 HydrologyCycle,Evapotranspiration,MOD16A2,ELM,Benchmark Period Mean (complement),MeanState,global,scalar,mm d-1,2.14542
 HydrologyCycle,Evapotranspiration,MOD16A2,ELM,Period Mean (original grids),MeanState,global,scalar,mm d-1,0.587038
@@ -3433,16 +3445,16 @@ EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUNP,Interannual Variabi
 EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUNP,Max Phase Score,MeanState,global,score,1,0.833328
 EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUNP,Min Phase Score,MeanState,global,score,1,0.89786
 EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUNP,Overall Score,MeanState,global,score,1,0.61749
-EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Amplitude Score,MeanState,global,score,1,0.397929
-EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Interannual Variability Score,MeanState,global,score,1,0.244627
+EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Amplitude Score,MeanState,global,score,1,0.368723
+EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Interannual Variability Score,MeanState,global,score,1,0.370278
 EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Max Phase Score,MeanState,global,score,1,0.713778
 EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Min Phase Score,MeanState,global,score,1,0.89711
-EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Overall Score,MeanState,global,score,1,0.563361
-EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Amplitude Score,MeanState,global,score,1,0.367881
-EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Interannual Variability Score,MeanState,global,score,1,0.367882
+EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM_FUN,Overall Score,MeanState,global,score,1,0.587472
+EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Amplitude Score,MeanState,global,score,1,0.368963
+EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Interannual Variability Score,MeanState,global,score,1,0.370611
 EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Max Phase Score,MeanState,global,score,1,0.728587
 EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Min Phase Score,MeanState,global,score,1,0.932433
-EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Overall Score,MeanState,global,score,1,0.599196
+EcosystemandCarbonCycle,CarbonDioxide,NOAA.Emulated,ELM,Overall Score,MeanState,global,score,1,0.600148
 EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,ELM,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg yr-1,113.418
 EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,ELM,Benchmark Period Mean (complement),MeanState,global,scalar,Pg yr-1,0.274308
 EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,ELM,Period Mean (original grids),MeanState,global,scalar,Pg yr-1,171.013
@@ -3791,8 +3803,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Precipitation Hellinger Dist
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Precipitation RMSE Score,Relationships,global,score,1,0.53156
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.351359
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Precipitation RMSE Score,Relationships,bona,score,1,0.437917
-EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Overall Score,Relationships,global,score,1,0.53156
-EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Overall Score,Relationships,bona,score,1,0.437917
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.27207
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.647473
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.342003
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.589843
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.239234
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.617793
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.325789
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.682028
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Overall Score,Relationships,global,score,1,0.598942
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUN,Overall Score,Relationships,bona,score,1,0.569929
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.35636
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.99728
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Period Mean (original grids),MeanState,global,scalar,1,1.15863
@@ -3823,8 +3843,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Precipitation Hellinger Dis
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Precipitation RMSE Score,Relationships,global,score,1,0.881145
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.280785
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Precipitation RMSE Score,Relationships,bona,score,1,0.815215
-EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Overall Score,Relationships,global,score,1,0.881145
-EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.815215
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.269648
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.822743
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.287185
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.703386
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.237595
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.773895
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.258943
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.780804
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Overall Score,Relationships,global,score,1,0.825928
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.766468
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.35636
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.99728
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Period Mean (original grids),MeanState,global,scalar,1,2.24038
@@ -3855,8 +3883,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Precipitation Hellinger Distance
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Precipitation RMSE Score,Relationships,global,score,1,0.36736
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.289489
 EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Precipitation RMSE Score,Relationships,bona,score,1,0.289429
-EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Overall Score,Relationships,global,score,1,0.36736
-EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Overall Score,Relationships,bona,score,1,0.289429
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.288672
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.490504
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.344445
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.468364
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.270473
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.469597
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.342316
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.506876
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Overall Score,Relationships,global,score,1,0.442487
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,ELM,Overall Score,Relationships,bona,score,1,0.421557
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.48695
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.81971
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Period Mean (original grids),MeanState,global,scalar,1,2.18739
@@ -3887,8 +3923,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Precipitation Hellinger Distance
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Precipitation RMSE Score,Relationships,global,score,1,0.356262
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.249704
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Precipitation RMSE Score,Relationships,bona,score,1,0.101991
-EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Overall Score,Relationships,global,score,1,0.356262
-EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Overall Score,Relationships,bona,score,1,0.101991
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.340097
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.450675
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.363777
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.213218
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.319874
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.42403
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.334313
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.225913
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Overall Score,Relationships,global,score,1,0.410322
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM,Overall Score,Relationships,bona,score,1,0.180374
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.48695
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.81971
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Period Mean (original grids),MeanState,global,scalar,1,1.82999
@@ -3919,8 +3963,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Precipitation Hellinger Dist
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Precipitation RMSE Score,Relationships,global,score,1,0.516874
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.256833
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Precipitation RMSE Score,Relationships,bona,score,1,0.193645
-EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Overall Score,Relationships,global,score,1,0.516874
-EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Overall Score,Relationships,bona,score,1,0.193645
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.332574
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.602675
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.403912
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.319345
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.310897
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.56911
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.31565
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.355816
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Overall Score,Relationships,global,score,1,0.562886
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUN,Overall Score,Relationships,bona,score,1,0.289602
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.48695
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.81971
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Period Mean (original grids),MeanState,global,scalar,1,1.13063
@@ -3951,8 +4003,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Precipitation Hellinger Dis
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Precipitation RMSE Score,Relationships,global,score,1,0.8699
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.27968
 EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Precipitation RMSE Score,Relationships,bona,score,1,0.589734
-EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Overall Score,Relationships,global,score,1,0.8699
-EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.589734
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.307678
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.851554
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.298801
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.737256
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.285575
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.804797
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.339615
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.736639
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Overall Score,Relationships,global,score,1,0.842083
+EcosystemandCarbonCycle,LeafAreaIndex,AVHRR,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.687876
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.21606
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.78545
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Period Mean (original grids),MeanState,global,scalar,1,2.18478
@@ -3983,8 +4043,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Precipitation Hellinger Distan
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Precipitation RMSE Score,Relationships,global,score,1,0.346245
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.319689
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Precipitation RMSE Score,Relationships,bona,score,1,0.0652027
-EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Overall Score,Relationships,global,score,1,0.346245
-EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Overall Score,Relationships,bona,score,1,0.0652027
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.35243
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.394871
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.347916
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.1694
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.319925
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.333627
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.298965
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.157647
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Overall Score,Relationships,global,score,1,0.358248
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM,Overall Score,Relationships,bona,score,1,0.13075
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.21606
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.78545
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Period Mean (original grids),MeanState,global,scalar,1,1.12912
@@ -4015,8 +4083,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Precipitation Hellinger D
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Precipitation RMSE Score,Relationships,global,score,1,0.804857
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.360265
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Precipitation RMSE Score,Relationships,bona,score,1,0.471998
-EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Overall Score,Relationships,global,score,1,0.804857
-EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.471998
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.306465
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.874654
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.333337
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.699335
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.277771
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.796048
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.315496
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.64717
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Overall Score,Relationships,global,score,1,0.825186
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUNP,Overall Score,Relationships,bona,score,1,0.606167
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.21606
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.78545
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Period Mean (original grids),MeanState,global,scalar,1,1.82783
@@ -4047,8 +4123,16 @@ EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Precipitation Hellinger Di
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Precipitation RMSE Score,Relationships,global,score,1,0.498938
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Precipitation Hellinger Distance,Relationships,bona,scalar,1,0.342932
 EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Precipitation RMSE Score,Relationships,bona,score,1,0.135491
-EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Overall Score,Relationships,global,score,1,0.498938
-EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Overall Score,Relationships,bona,score,1,0.135491
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,global,scalar,1,0.342424
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,global,score,1,0.537163
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceDownwardSWRadiation Hellinger Distance,Relationships,bona,scalar,1,0.35548
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceDownwardSWRadiation RMSE Score,Relationships,bona,score,1,0.263435
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,global,scalar,1,0.315813
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,global,score,1,0.465085
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceAirTemperature Hellinger Distance,Relationships,bona,scalar,1,0.323647
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,SurfaceAirTemperature RMSE Score,Relationships,bona,score,1,0.267546
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Overall Score,Relationships,global,score,1,0.500395
+EcosystemandCarbonCycle,LeafAreaIndex,AVH15C1,ELM_FUN,Overall Score,Relationships,bona,score,1,0.222158
 EcosystemandCarbonCycle,NetEcosystemExchange,FLUXNET2015,ELM_FUN,Period Mean (original grids),MeanState,global,scalar,g m-2 d-1,0.80933
 EcosystemandCarbonCycle,NetEcosystemExchange,FLUXNET2015,ELM_FUN,Period Mean (original grids),MeanState,bona,scalar,g m-2 d-1,0.447445
 EcosystemandCarbonCycle,NetEcosystemExchange,FLUXNET2015,ELM_FUN,Bias,MeanState,global,scalar,g m-2 d-1,1.53849
@@ -4313,31 +4397,36 @@ EcosystemandCarbonCycle,Biomass,Tropical,ELM_FUN,Spatial Distribution Score,Mean
 EcosystemandCarbonCycle,Biomass,Tropical,ELM_FUN,Bias,MeanState,global,scalar,kg m-2,2.25735
 EcosystemandCarbonCycle,Biomass,Tropical,ELM_FUN,Bias Score,MeanState,global,score,1,0.534603
 EcosystemandCarbonCycle,Biomass,Tropical,ELM_FUN,Overall Score,MeanState,global,score,1,0.540462
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUN,nbp(2011),MeanState,nbp(2011),scalar,Pg,5.70557
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUN,diff(2011),MeanState,diff(2011),scalar,Pg,-2.33918
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUN,Difference Score,MeanState,global,score,1,0.984254
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUN,Trajectory Score,MeanState,global,score,1,0.315258
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUN,Overall Score,MeanState,global,score,1,0.649756
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUNP,nbp(2011),MeanState,nbp(2011),scalar,Pg,4.22346
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUNP,diff(2011),MeanState,diff(2011),scalar,Pg,-3.82129
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUNP,Difference Score,MeanState,global,score,1,0.974406
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUNP,Trajectory Score,MeanState,global,score,1,0.308348
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM_FUNP,Overall Score,MeanState,global,score,1,0.641377
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,nbp(2011),MeanState,nbp(2011),scalar,Pg,0.00619101
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,diff(2011),MeanState,diff(2011),scalar,Pg,-8.03856
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,Difference Score,MeanState,global,score,1,0.94692
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,Trajectory Score,MeanState,global,score,1,0.285363
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,Overall Score,MeanState,global,score,1,0.616141
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,nbp(2011),MeanState,nbp(2011),scalar,Pg,2210.24
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,diff(2011),MeanState,diff(2011),scalar,Pg,2244.34
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Difference Score,MeanState,global,score,1,1.25342e-26
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Trajectory Score,MeanState,global,score,1,4.73651e-18
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Temporal Distribution Score,MeanState,global,score,1,0.0071102
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Overall Score,MeanState,global,score,1,0.00237007
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,nbp(2011),MeanState,nbp(2011),scalar,Pg,6.19101
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,diff(2011),MeanState,diff(2011),scalar,Pg,-1.85373
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,Difference Score,MeanState,global,score,1,0.987501
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,Trajectory Score,MeanState,global,score,1,0.312538
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,Hoffman,ELM,Overall Score,MeanState,global,score,1,0.65002
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,nbp(2011),MeanState,nbp(2011),scalar,Pg,2.21024
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,diff(2011),MeanState,diff(2011),scalar,Pg,36.3166
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Difference Score,MeanState,global,score,1,0.380953
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Trajectory Score,MeanState,global,score,1,1
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Temporal Distribution Score,MeanState,global,score,1,0.000423113
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUN,Overall Score,MeanState,global,score,1,0.460459
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUNP,nbp(2011),MeanState,nbp(2011),scalar,Pg,1.42764
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUNP,diff(2011),MeanState,diff(2011),scalar,Pg,35.534
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUNP,Difference Score,MeanState,global,score,1,0.388959
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUNP,Trajectory Score,MeanState,global,score,1,1
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUNP,Temporal Distribution Score,MeanState,global,score,1,0.000347043
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM_FUNP,Overall Score,MeanState,global,score,1,0.463102
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,nbp(2011),MeanState,nbp(2011),scalar,Pg,0.00254102
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,diff(2011),MeanState,diff(2011),scalar,Pg,34.1089
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,Difference Score,MeanState,global,score,1,0.403971
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,nbp(2011),MeanState,nbp(2011),scalar,Pg,2.54102
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,diff(2011),MeanState,diff(2011),scalar,Pg,36.6474
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,Difference Score,MeanState,global,score,1,0.377619
 EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,Trajectory Score,MeanState,global,score,1,1
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,Temporal Distribution Score,MeanState,global,score,1,5.37526e-10
-EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,Overall Score,MeanState,global,score,1,0.46799
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,Temporal Distribution Score,MeanState,global,score,1,0.000537196
+EcosystemandCarbonCycle,GlobalNetEcosystemCarbonBalance,GCP,ELM,Overall Score,MeanState,global,score,1,0.459385

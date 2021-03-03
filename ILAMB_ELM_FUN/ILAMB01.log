@@ -6,7 +6,7 @@
 [INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/cf_units (2.1.4)
 [INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/sympy (1.6.2)
 [INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/mpi4py (3.0.3)
-[INFO][0][<module>] 2021-02-13 11:04:06.145465
+[INFO][0][<module>] 2021-03-02 17:58:50.514188
 [INFO][0][confront][Biomass/Tropical][ELM] Success
 [INFO][0][confront][Biomass/Tropical][ELM_FUN] Success
 [INFO][0][confront][Biomass/Tropical][ELM_FUNP] Success
@@ -37,14 +37,6 @@
 [INFO][0][confront][LeafAreaIndex/MODIS][ELM] Success
 [INFO][0][confront][LeafAreaIndex/MODIS][ELM_FUN] Success
 [INFO][0][confront][LeafAreaIndex/MODIS][ELM_FUNP] Success
-[DEBUG][0][WorkConfront][GlobalNetEcosystemCarbonBalance/Hoffman][ELM_FUN]
-Traceback (most recent call last):
-  File "/home/renato/anaconda3/bin/ilamb-run", line 382, in WorkConfront
-    c.confront(m)
-  File "/home/renato/anaconda3/lib/python3.7/site-packages/ILAMB/ConfNBP.py", line 121, in confront
-    s = np.exp(-eps)
-FloatingPointError: underflow encountered in exp
-
 [INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ELM] Success
 [INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ELM_FUN] Success
 [INFO][0][confront][NetEcosystemExchange/FLUXNET2015][ELM_FUNP] Success
@@ -238,6 +230,7 @@ FloatingPointError: underflow encountered in exp
 [INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][ELM_FUN] Success
 [INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][ELM_FUNP] Success
 [INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][ELM] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][ELM_FUN] Success
 [INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][ELM_FUNP] Success
 [INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ELM] Success
 [INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][ELM_FUN] Success
@@ -404,4 +397,4 @@ FloatingPointError: underflow encountered in exp
 [INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM] Success
 [INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM_FUN] Success
 [INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ELM_FUNP] Success
-[INFO][0][<module>][total time] 6901.3 s
+[INFO][0][<module>][total time] 6960.2 s

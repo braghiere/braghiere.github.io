@@ -152,16 +152,20 @@
         if(PNAME == "spaceint" || PNAME == "accumulate" || PNAME == "compaccumulation"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
+          document.getElementById("ELM_FUN_legend").style.display = 'none';
           document.getElementById("ELM_FUNP_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("ELM_legend").style.display = 'inline';
+          document.getElementById("ELM_FUN_legend").style.display = 'inline';
           document.getElementById("ELM_FUNP_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ELM_FUN').src = 'ELM_FUN_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ELM_FUN_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM_FUNP').src = 'ELM_FUNP_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ELM_FUNP_legend').src = 'legend_' + PNAME + '.png';
       }
@@ -235,6 +239,7 @@
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='ELM' selected="selected">ELM</option>
+        <option value='ELM_FUN'>ELM_FUN</option>
         <option value='ELM_FUNP'>ELM_FUNP</option>
       </select>
       </div>
@@ -266,12 +271,22 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
                <td onclick="highlightRowMeanState(this)"><a href="Hoffman_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.00619</td>
-               <td onclick="highlightRowMeanState(this)">-8.04</td>
+               <td onclick="highlightRowMeanState(this)">6.19</td>
+               <td onclick="highlightRowMeanState(this)">-1.85</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.947</td>
-               <td onclick="highlightRowMeanState(this)">0.285</td>
-               <td onclick="highlightRowMeanState(this)">0.616</td>
+               <td onclick="highlightRowMeanState(this)">0.988</td>
+               <td onclick="highlightRowMeanState(this)">0.313</td>
+               <td onclick="highlightRowMeanState(this)">0.650</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Hoffman_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">5.71</td>
+               <td onclick="highlightRowMeanState(this)">-2.34</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.984</td>
+               <td onclick="highlightRowMeanState(this)">0.315</td>
+               <td onclick="highlightRowMeanState(this)">0.650</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
@@ -344,6 +359,13 @@
           <center>ELM</center>
           <img src="" id="ELM" alt="Data not available" ></img>
           <center><img src="legend_ELM.png" id="ELM_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ELM_FUN_div">
+          <div class="child">
+          <center>ELM_FUN</center>
+          <img src="" id="ELM_FUN" alt="Data not available" ></img>
+          <center><img src="legend_ELM_FUN.png" id="ELM_FUN_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ELM_FUNP_div">

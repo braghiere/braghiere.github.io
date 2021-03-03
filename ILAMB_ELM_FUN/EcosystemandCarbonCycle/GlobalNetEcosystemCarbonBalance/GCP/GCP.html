@@ -40,7 +40,6 @@
           document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
           document.getElementById('temporal_variance').src =  'temporal_variance.png'
           document.getElementById('compaccumulation').src =  RNAME + '_compaccumulation.png'
-          document.getElementById('compdaccumulation').src =  RNAME + '_compdaccumulation.png'
         }
 
         function highlightRowMeanState(cell) {
@@ -146,12 +145,12 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(PNAME == "spaceint" || PNAME == "accumulate" || PNAME == "temporal_variance" || PNAME == "compaccumulation" || PNAME == "compdaccumulation"){
+        if(PNAME == "spaceint" || PNAME == "accumulate" || PNAME == "temporal_variance" || PNAME == "compaccumulation"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(PNAME == "spaceint" || PNAME == "accumulate" || PNAME == "temporal_variance" || PNAME == "compaccumulation" || PNAME == "compdaccumulation"){
+        if(PNAME == "spaceint" || PNAME == "accumulate" || PNAME == "temporal_variance" || PNAME == "compaccumulation"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
           document.getElementById("ELM_FUN_legend").style.display = 'none';
@@ -277,26 +276,26 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
                <td onclick="highlightRowMeanState(this)"><a href="GCP_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.00254</td>
-               <td onclick="highlightRowMeanState(this)">34.1</td>
+               <td onclick="highlightRowMeanState(this)">2.54</td>
+               <td onclick="highlightRowMeanState(this)">36.6</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.404</td>
+               <td onclick="highlightRowMeanState(this)">0.378</td>
                <td onclick="highlightRowMeanState(this)">1.00</td>
-               <td onclick="highlightRowMeanState(this)">5.38e-10</td>
-               <td onclick="highlightRowMeanState(this)">0.468</td>
+               <td onclick="highlightRowMeanState(this)">0.000537</td>
+               <td onclick="highlightRowMeanState(this)">0.459</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
                <td onclick="highlightRowMeanState(this)"><a href="GCP_ELM_FUN.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.21e+03</td>
-               <td onclick="highlightRowMeanState(this)">2.24e+03</td>
+               <td onclick="highlightRowMeanState(this)">2.21</td>
+               <td onclick="highlightRowMeanState(this)">36.3</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.25e-26</td>
-               <td onclick="highlightRowMeanState(this)">4.74e-18</td>
-               <td onclick="highlightRowMeanState(this)">0.00711</td>
-               <td onclick="highlightRowMeanState(this)">0.00237</td>
+               <td onclick="highlightRowMeanState(this)">0.381</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.000423</td>
+               <td onclick="highlightRowMeanState(this)">0.460</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
@@ -324,12 +323,6 @@
           <div class="child">
           <center>ACCUMULATION</center>
           <img src="" id="compaccumulation" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="compdaccumulation_div">
-          <div class="child">
-          <center>ACCUMULATION&nbsp;DETAIL</center>
-          <img src="" id="compdaccumulation" alt="Data not available" ></img>
           </div>
         </div>
         <div class="container" id="temporal_variance_div">
