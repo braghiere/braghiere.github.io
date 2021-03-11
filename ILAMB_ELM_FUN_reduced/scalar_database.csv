@@ -1,0 +1,487 @@
+Section,Variable,Source,Model,ScalarName,AnalysisType,Region,ScalarType,Units,Data
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,global,scalar,mm d-1,1.34015
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,global,scalar,mm d-1,2.67313
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Period Mean (original grids),MeanState,global,scalar,mm d-1,0.658594
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,global,scalar,mm d-1,0.634249
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Model Period Mean (complement),MeanState,global,scalar,mm d-1,0.83926
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,mm d-1,0.879749
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,bona,scalar,mm d-1,0.979036
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Period Mean (original grids),MeanState,bona,scalar,mm d-1,0.489967
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,bona,scalar,mm d-1,0.492227
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Model Period Mean (complement),MeanState,bona,scalar,mm d-1,0.440193
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Spatial Distribution Score,MeanState,global,score,1,0.456297
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Spatial Distribution Score,MeanState,bona,score,1,0.631939
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Phase Shift,MeanState,global,scalar,months,1.19822
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,global,score,1,0.800402
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Phase Shift,MeanState,bona,scalar,months,0.420158
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,bona,score,1,0.962249
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Bias,MeanState,global,scalar,mm d-1,-0.705583
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Bias Score,MeanState,global,score,1,0.322071
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Bias,MeanState,bona,scalar,mm d-1,-0.386824
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Bias Score,MeanState,bona,score,1,0.655967
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,RMSE,MeanState,global,scalar,mm d-1,0.92091
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,RMSE Score,MeanState,global,score,1,0.565988
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,RMSE,MeanState,bona,scalar,mm d-1,0.627182
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,RMSE Score,MeanState,bona,score,1,0.622105
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Overall Score,MeanState,global,score,1,0.542149
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Overall Score,MeanState,bona,score,1,0.698873
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Overall Score,Relationships,global,score,1,0
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN3.0,Overall Score,Relationships,bona,score,1,0
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Benchmark Period Mean (intersection),MeanState,global,scalar,mm d-1,1.34015
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Benchmark Period Mean (complement),MeanState,global,scalar,mm d-1,2.67313
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Period Mean (original grids),MeanState,global,scalar,mm d-1,0.579436
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Model Period Mean (intersection),MeanState,global,scalar,mm d-1,0.555548
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Model Period Mean (complement),MeanState,global,scalar,mm d-1,0.761601
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Benchmark Period Mean (intersection),MeanState,bona,scalar,mm d-1,0.879749
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Benchmark Period Mean (complement),MeanState,bona,scalar,mm d-1,0.979036
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Period Mean (original grids),MeanState,bona,scalar,mm d-1,0.397522
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Model Period Mean (intersection),MeanState,bona,scalar,mm d-1,0.38669
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Model Period Mean (complement),MeanState,bona,scalar,mm d-1,0.414735
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Spatial Distribution Score,MeanState,global,score,1,0.394718
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Spatial Distribution Score,MeanState,bona,score,1,0.461026
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Phase Shift,MeanState,global,scalar,months,1.3173
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Seasonal Cycle Score,MeanState,global,score,1,0.775202
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Phase Shift,MeanState,bona,scalar,months,0.634592
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Seasonal Cycle Score,MeanState,bona,score,1,0.935996
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Bias,MeanState,global,scalar,mm d-1,-0.784376
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Bias Score,MeanState,global,score,1,0.299344
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Bias,MeanState,bona,scalar,mm d-1,-0.492417
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Bias Score,MeanState,bona,score,1,0.591158
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,RMSE,MeanState,global,scalar,mm d-1,0.997986
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,RMSE Score,MeanState,global,score,1,0.534414
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,RMSE,MeanState,bona,scalar,mm d-1,0.774305
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,RMSE Score,MeanState,bona,score,1,0.553245
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Overall Score,MeanState,global,score,1,0.507618
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Overall Score,MeanState,bona,score,1,0.618934
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Overall Score,Relationships,global,score,1,0
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM,Overall Score,Relationships,bona,score,1,0
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,global,scalar,mm d-1,1.34015
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,global,scalar,mm d-1,2.67313
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Period Mean (original grids),MeanState,global,scalar,mm d-1,0.588
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,global,scalar,mm d-1,0.563478
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Model Period Mean (complement),MeanState,global,scalar,mm d-1,0.774264
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,mm d-1,0.879749
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,bona,scalar,mm d-1,0.979036
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Period Mean (original grids),MeanState,bona,scalar,mm d-1,0.414175
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,bona,scalar,mm d-1,0.405959
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Model Period Mean (complement),MeanState,bona,scalar,mm d-1,0.419336
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Spatial Distribution Score,MeanState,global,score,1,0.398837
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Spatial Distribution Score,MeanState,bona,score,1,0.476117
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Phase Shift,MeanState,global,scalar,months,1.29924
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,global,score,1,0.779928
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Phase Shift,MeanState,bona,scalar,months,0.595792
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,bona,score,1,0.941034
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Bias,MeanState,global,scalar,mm d-1,-0.776466
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Bias Score,MeanState,global,score,1,0.302393
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Bias,MeanState,bona,scalar,mm d-1,-0.473179
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Bias Score,MeanState,bona,score,1,0.602565
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,RMSE,MeanState,global,scalar,mm d-1,0.988393
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,RMSE Score,MeanState,global,score,1,0.540555
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,RMSE,MeanState,bona,scalar,mm d-1,0.746474
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,RMSE Score,MeanState,bona,score,1,0.566113
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Overall Score,MeanState,global,score,1,0.512453
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Overall Score,MeanState,bona,score,1,0.630388
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Overall Score,Relationships,global,score,1,0
+HydrologyCycle,Evapotranspiration,GLEAMv3.3a,E3SM-FUN2.0,Overall Score,Relationships,bona,score,1,0
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg,1324.18
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Benchmark Period Mean (complement),MeanState,global,scalar,Pg,9.84469
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Period Mean (original grids),MeanState,global,scalar,Pg,2352.55
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Model Period Mean (intersection),MeanState,global,scalar,Pg,2147.65
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Model Period Mean (complement),MeanState,global,scalar,Pg,148.467
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg,155.055
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg,2.64024
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Period Mean (original grids),MeanState,bona,scalar,Pg,232.733
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Model Period Mean (intersection),MeanState,bona,scalar,Pg,215.845
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Model Period Mean (complement),MeanState,bona,scalar,Pg,10.9577
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Spatial Distribution Score,MeanState,global,score,1,0.595401
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Spatial Distribution Score,MeanState,bona,score,1,0.774416
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Bias,MeanState,global,scalar,kg m-2,5.83311
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Bias Score,MeanState,global,score,1,0.504401
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Bias,MeanState,bona,scalar,kg m-2,5.50338
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Bias Score,MeanState,bona,score,1,0.540339
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Overall Score,MeanState,global,score,1,0.549901
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Overall Score,MeanState,bona,score,1,0.657377
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.439956
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Evapotranspiration RMSE Score,Relationships,global,score,1,0.401401
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.474547
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.412178
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Overall Score,Relationships,global,score,1,0.401401
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM,Overall Score,Relationships,bona,score,1,0.412178
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg,1324.18
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg,9.84469
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Period Mean (original grids),MeanState,global,scalar,Pg,1472.81
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,global,scalar,Pg,1350.62
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Model Period Mean (complement),MeanState,global,scalar,Pg,88.5653
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg,155.055
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg,2.64024
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Period Mean (original grids),MeanState,bona,scalar,Pg,163.403
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg,152.372
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Model Period Mean (complement),MeanState,bona,scalar,Pg,7.35264
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Spatial Distribution Score,MeanState,global,score,1,0.764528
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Spatial Distribution Score,MeanState,bona,score,1,0.839647
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Bias,MeanState,global,scalar,kg m-2,0.184262
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Bias Score,MeanState,global,score,1,0.597357
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Bias,MeanState,bona,scalar,kg m-2,-0.269517
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Bias Score,MeanState,bona,score,1,0.571184
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Overall Score,MeanState,global,score,1,0.680943
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Overall Score,MeanState,bona,score,1,0.705416
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.435401
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Evapotranspiration RMSE Score,Relationships,global,score,1,0.656342
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.493479
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.54971
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Overall Score,Relationships,global,score,1,0.656342
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN3.0,Overall Score,Relationships,bona,score,1,0.54971
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg,1324.18
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg,9.84469
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Period Mean (original grids),MeanState,global,scalar,Pg,2091.72
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,global,scalar,Pg,1917.99
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Model Period Mean (complement),MeanState,global,scalar,Pg,126.442
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg,155.055
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg,2.64024
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Period Mean (original grids),MeanState,bona,scalar,Pg,217.843
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg,202.566
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Model Period Mean (complement),MeanState,bona,scalar,Pg,9.96087
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Spatial Distribution Score,MeanState,global,score,1,0.631143
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Spatial Distribution Score,MeanState,bona,score,1,0.788013
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Bias,MeanState,global,scalar,kg m-2,4.20609
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Bias Score,MeanState,global,score,1,0.538449
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Bias,MeanState,bona,scalar,kg m-2,4.29609
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Bias Score,MeanState,bona,score,1,0.548766
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Overall Score,MeanState,global,score,1,0.584796
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Overall Score,MeanState,bona,score,1,0.66839
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.436467
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Evapotranspiration RMSE Score,Relationships,global,score,1,0.489877
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.482751
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.449328
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Overall Score,Relationships,global,score,1,0.489877
+EcosystemandCarbonCycle,SoilCarbon,HWSD,E3SM-FUN2.0,Overall Score,Relationships,bona,score,1,0.449328
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg yr-1,113.418
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg yr-1,0.274308
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Period Mean (original grids),MeanState,global,scalar,Pg yr-1,143.999
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,global,scalar,Pg yr-1,118.539
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Model Period Mean (complement),MeanState,global,scalar,Pg yr-1,21.1593
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,2.74242
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.0114996
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Period Mean (original grids),MeanState,bona,scalar,Pg yr-1,5.24691
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,4.49197
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Model Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.527659
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Spatial Distribution Score,MeanState,global,score,1,0.967768
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Spatial Distribution Score,MeanState,bona,score,1,0.833353
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Phase Shift,MeanState,global,scalar,months,1.27416
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,global,score,1,0.835915
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Phase Shift,MeanState,bona,scalar,months,1.42798
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,bona,score,1,0.945852
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Bias,MeanState,global,scalar,g m-2 d-1,0.116359
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Bias Score,MeanState,global,score,1,0.542688
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Bias,MeanState,bona,scalar,g m-2 d-1,0.514458
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Bias Score,MeanState,bona,score,1,0.656481
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,RMSE,MeanState,global,scalar,g m-2 d-1,1.23467
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,RMSE Score,MeanState,global,score,1,0.526216
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,RMSE,MeanState,bona,scalar,g m-2 d-1,1.09603
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,RMSE Score,MeanState,bona,score,1,0.637022
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Overall Score,MeanState,global,score,1,0.679761
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Overall Score,MeanState,bona,score,1,0.741946
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.479276
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Evapotranspiration RMSE Score,Relationships,global,score,1,0.136795
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.51329
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.136604
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Overall Score,Relationships,global,score,1,0.136795
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN3.0,Overall Score,Relationships,bona,score,1,0.136604
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg yr-1,113.418
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg yr-1,0.274308
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Period Mean (original grids),MeanState,global,scalar,Pg yr-1,167.076
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,global,scalar,Pg yr-1,138.672
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Model Period Mean (complement),MeanState,global,scalar,Pg yr-1,23.737
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,2.74242
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.0114996
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Period Mean (original grids),MeanState,bona,scalar,Pg yr-1,7.41203
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,6.35048
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Model Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.73626
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Spatial Distribution Score,MeanState,global,score,1,0.963199
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Spatial Distribution Score,MeanState,bona,score,1,0.730483
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Phase Shift,MeanState,global,scalar,months,0.992473
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,global,score,1,0.84559
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Phase Shift,MeanState,bona,scalar,months,0.777384
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,bona,score,1,0.968829
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Bias,MeanState,global,scalar,g m-2 d-1,0.580356
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Bias Score,MeanState,global,score,1,0.518143
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Bias,MeanState,bona,scalar,g m-2 d-1,1.06479
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Bias Score,MeanState,bona,score,1,0.500825
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,RMSE,MeanState,global,scalar,g m-2 d-1,1.4287
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,RMSE Score,MeanState,global,score,1,0.509749
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,RMSE,MeanState,bona,scalar,g m-2 d-1,1.70817
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,RMSE Score,MeanState,bona,score,1,0.505545
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Overall Score,MeanState,global,score,1,0.669286
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Overall Score,MeanState,bona,score,1,0.642245
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.497588
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Evapotranspiration RMSE Score,Relationships,global,score,1,0.0832202
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.514987
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.00661604
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Overall Score,Relationships,global,score,1,0.0832202
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM-FUN2.0,Overall Score,Relationships,bona,score,1,0.00661604
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg yr-1,113.418
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Benchmark Period Mean (complement),MeanState,global,scalar,Pg yr-1,0.274308
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Period Mean (original grids),MeanState,global,scalar,Pg yr-1,171.013
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Model Period Mean (intersection),MeanState,global,scalar,Pg yr-1,141.646
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Model Period Mean (complement),MeanState,global,scalar,Pg yr-1,24.5413
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,2.74242
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.0114996
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Period Mean (original grids),MeanState,bona,scalar,Pg yr-1,7.80746
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Model Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,6.67525
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Model Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.789201
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Spatial Distribution Score,MeanState,global,score,1,0.961059
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Spatial Distribution Score,MeanState,bona,score,1,0.692165
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Phase Shift,MeanState,global,scalar,months,1.00304
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Seasonal Cycle Score,MeanState,global,score,1,0.845968
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Phase Shift,MeanState,bona,scalar,months,0.794281
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Seasonal Cycle Score,MeanState,bona,score,1,0.966443
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Bias,MeanState,global,scalar,g m-2 d-1,0.648848
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Bias Score,MeanState,global,score,1,0.509111
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Bias,MeanState,bona,scalar,g m-2 d-1,1.16087
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Bias Score,MeanState,bona,score,1,0.468914
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,RMSE,MeanState,global,scalar,g m-2 d-1,1.47026
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,RMSE Score,MeanState,global,score,1,0.504836
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,RMSE,MeanState,bona,scalar,g m-2 d-1,1.83629
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,RMSE Score,MeanState,bona,score,1,0.47263
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Overall Score,MeanState,global,score,1,0.665162
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Overall Score,MeanState,bona,score,1,0.614556
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.492287
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Evapotranspiration RMSE Score,Relationships,global,score,1,0.0645581
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.543494
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.00548149
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Overall Score,Relationships,global,score,1,0.0645581
+EcosystemandCarbonCycle,GrossPrimaryProductivity,FLUXCOM,E3SM,Overall Score,Relationships,bona,score,1,0.00548149
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg yr-1,95.378
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg yr-1,0.211168
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Period Mean (original grids),MeanState,global,scalar,Pg yr-1,166.682
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,global,scalar,Pg yr-1,136.96
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Model Period Mean (complement),MeanState,global,scalar,Pg yr-1,24.6867
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,2.92958
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.00947465
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Period Mean (original grids),MeanState,bona,scalar,Pg yr-1,6.32864
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,5.41608
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Model Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.65119
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Spatial Distribution Score,MeanState,global,score,1,0.736837
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Spatial Distribution Score,MeanState,bona,score,1,0.523253
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Phase Shift,MeanState,global,scalar,months,0.993201
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,global,score,1,0.816778
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Phase Shift,MeanState,bona,scalar,months,0.393723
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,bona,score,1,0.981866
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Bias,MeanState,global,scalar,g m-2 d-1,0.956629
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Bias Score,MeanState,global,score,1,0.272934
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Bias,MeanState,bona,scalar,g m-2 d-1,0.731104
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Bias Score,MeanState,bona,score,1,0.368112
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,RMSE,MeanState,global,scalar,g m-2 d-1,1.53429
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,RMSE Score,MeanState,global,score,1,0.518152
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,RMSE,MeanState,bona,scalar,g m-2 d-1,1.14828
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,RMSE Score,MeanState,bona,score,1,0.494341
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Overall Score,MeanState,global,score,1,0.57257
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Overall Score,MeanState,bona,score,1,0.572382
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.512869
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Evapotranspiration RMSE Score,Relationships,global,score,1,0.0650659
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.330125
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.176099
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Overall Score,Relationships,global,score,1,0.0650659
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN3.0,Overall Score,Relationships,bona,score,1,0.176099
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg yr-1,95.378
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg yr-1,0.211168
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Period Mean (original grids),MeanState,global,scalar,Pg yr-1,203.579
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,global,scalar,Pg yr-1,168.765
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Model Period Mean (complement),MeanState,global,scalar,Pg yr-1,29.0744
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,2.92958
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.00947465
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Period Mean (original grids),MeanState,bona,scalar,Pg yr-1,9.41659
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,8.07411
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Model Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.960147
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Spatial Distribution Score,MeanState,global,score,1,0.691237
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Spatial Distribution Score,MeanState,bona,score,1,0.380421
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Phase Shift,MeanState,global,scalar,months,1.10657
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,global,score,1,0.807276
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Phase Shift,MeanState,bona,scalar,months,0.368293
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,bona,score,1,0.980557
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Bias,MeanState,global,scalar,g m-2 d-1,1.6895
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Bias Score,MeanState,global,score,1,0.19587
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Bias,MeanState,bona,scalar,g m-2 d-1,1.51771
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Bias Score,MeanState,bona,score,1,0.199917
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,RMSE,MeanState,global,scalar,g m-2 d-1,2.13905
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,RMSE Score,MeanState,global,score,1,0.407201
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,RMSE,MeanState,bona,scalar,g m-2 d-1,2.00324
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,RMSE Score,MeanState,bona,score,1,0.356772
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Overall Score,MeanState,global,score,1,0.501757
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Overall Score,MeanState,bona,score,1,0.454888
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.469794
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Evapotranspiration RMSE Score,Relationships,global,score,1,0.0299787
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.288186
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.0175475
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Overall Score,Relationships,global,score,1,0.0299787
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM-FUN2.0,Overall Score,Relationships,bona,score,1,0.0175475
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg yr-1,95.378
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Benchmark Period Mean (complement),MeanState,global,scalar,Pg yr-1,0.211168
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Period Mean (original grids),MeanState,global,scalar,Pg yr-1,209.979
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Model Period Mean (intersection),MeanState,global,scalar,Pg yr-1,173.132
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Model Period Mean (complement),MeanState,global,scalar,Pg yr-1,30.742
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,2.92958
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg yr-1,0.00947465
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Period Mean (original grids),MeanState,bona,scalar,Pg yr-1,9.90257
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Model Period Mean (intersection),MeanState,bona,scalar,Pg yr-1,8.46466
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Model Period Mean (complement),MeanState,bona,scalar,Pg yr-1,1.03723
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Spatial Distribution Score,MeanState,global,score,1,0.661504
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Spatial Distribution Score,MeanState,bona,score,1,0.349204
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Phase Shift,MeanState,global,scalar,months,1.13263
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Seasonal Cycle Score,MeanState,global,score,1,0.810501
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Phase Shift,MeanState,bona,scalar,months,0.55288
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Seasonal Cycle Score,MeanState,bona,score,1,0.966141
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Bias,MeanState,global,scalar,g m-2 d-1,1.79038
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Bias Score,MeanState,global,score,1,0.196502
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Bias,MeanState,bona,scalar,g m-2 d-1,1.63322
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Bias Score,MeanState,bona,score,1,0.181566
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,RMSE,MeanState,global,scalar,g m-2 d-1,2.23193
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,RMSE Score,MeanState,global,score,1,0.408511
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,RMSE,MeanState,bona,scalar,g m-2 d-1,2.12575
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,RMSE Score,MeanState,bona,score,1,0.328899
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Overall Score,MeanState,global,score,1,0.497106
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Overall Score,MeanState,bona,score,1,0.430942
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Evapotranspiration Hellinger Distance,Relationships,global,scalar,1,0.457337
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Evapotranspiration RMSE Score,Relationships,global,score,1,0.0200195
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Evapotranspiration Hellinger Distance,Relationships,bona,scalar,1,0.342244
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Evapotranspiration RMSE Score,Relationships,bona,score,1,0.0149682
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Overall Score,Relationships,global,score,1,0.0200195
+EcosystemandCarbonCycle,EcosystemRespiration,FLUXCOM,E3SM,Overall Score,Relationships,bona,score,1,0.0149682
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.35636
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.99728
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Period Mean (original grids),MeanState,global,scalar,1,2.24038
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Model Period Mean (intersection),MeanState,global,scalar,1,2.30121
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Model Period Mean (complement),MeanState,global,scalar,1,1.79089
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Benchmark Period Mean (intersection),MeanState,bona,scalar,1,1.08558
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Benchmark Period Mean (complement),MeanState,bona,scalar,1,0.840895
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Period Mean (original grids),MeanState,bona,scalar,1,1.59873
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Model Period Mean (intersection),MeanState,bona,scalar,1,1.77809
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Model Period Mean (complement),MeanState,bona,scalar,1,0.736387
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Spatial Distribution Score,MeanState,global,score,1,0.6481
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Spatial Distribution Score,MeanState,bona,score,1,0.77631
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Phase Shift,MeanState,global,scalar,months,1.90631
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Seasonal Cycle Score,MeanState,global,score,1,0.649986
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Phase Shift,MeanState,bona,scalar,months,1.90518
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Seasonal Cycle Score,MeanState,bona,score,1,0.780275
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Bias,MeanState,global,scalar,1,0.945777
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Bias Score,MeanState,global,score,1,0.188736
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Bias,MeanState,bona,scalar,1,0.690467
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Bias Score,MeanState,bona,score,1,0.202836
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,RMSE,MeanState,global,scalar,1,1.37477
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,RMSE Score,MeanState,global,score,1,0.240639
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,RMSE,MeanState,bona,scalar,1,1.08762
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,RMSE Score,MeanState,bona,score,1,0.260693
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Overall Score,MeanState,global,score,1,0.39362
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Overall Score,MeanState,bona,score,1,0.456161
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Overall Score,Relationships,global,score,1,0
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM,Overall Score,Relationships,bona,score,1,0
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.35636
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.99728
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Period Mean (original grids),MeanState,global,scalar,1,1.8709
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,global,scalar,1,1.93312
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Model Period Mean (complement),MeanState,global,scalar,1,1.45635
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,1,1.08558
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,bona,scalar,1,0.840895
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Period Mean (original grids),MeanState,bona,scalar,1,1.3445
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,bona,scalar,1,1.50094
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Model Period Mean (complement),MeanState,bona,scalar,1,0.603416
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Spatial Distribution Score,MeanState,global,score,1,0.800252
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Spatial Distribution Score,MeanState,bona,score,1,0.896684
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Phase Shift,MeanState,global,scalar,months,1.91823
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,global,score,1,0.64806
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Phase Shift,MeanState,bona,scalar,months,1.89755
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Seasonal Cycle Score,MeanState,bona,score,1,0.784183
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Bias,MeanState,global,scalar,1,0.577434
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Bias Score,MeanState,global,score,1,0.249765
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Bias,MeanState,bona,scalar,1,0.413574
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Bias Score,MeanState,bona,score,1,0.333005
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,RMSE,MeanState,global,scalar,1,1.03504
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,RMSE Score,MeanState,global,score,1,0.267729
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,RMSE,MeanState,bona,scalar,1,0.84156
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,RMSE Score,MeanState,bona,score,1,0.288312
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Overall Score,MeanState,global,score,1,0.446707
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Overall Score,MeanState,bona,score,1,0.518099
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Overall Score,Relationships,global,score,1,0
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN2.0,Overall Score,Relationships,bona,score,1,0
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,global,scalar,1,1.35636
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,global,scalar,1,1.99728
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Period Mean (original grids),MeanState,global,scalar,1,1.15863
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,global,scalar,1,1.19134
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Model Period Mean (complement),MeanState,global,scalar,1,0.919773
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,1,1.08558
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,bona,scalar,1,0.840895
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Period Mean (original grids),MeanState,bona,scalar,1,0.707716
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,bona,scalar,1,0.785692
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Model Period Mean (complement),MeanState,bona,scalar,1,0.32147
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Spatial Distribution Score,MeanState,global,score,1,0.938431
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Spatial Distribution Score,MeanState,bona,score,1,0.899144
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Phase Shift,MeanState,global,scalar,months,2.14624
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,global,score,1,0.634504
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Phase Shift,MeanState,bona,scalar,months,2.58299
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Seasonal Cycle Score,MeanState,bona,score,1,0.731881
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Bias,MeanState,global,scalar,1,-0.164889
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Bias Score,MeanState,global,score,1,0.246402
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Bias,MeanState,bona,scalar,1,-0.301889
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Bias Score,MeanState,bona,score,1,0.331204
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,RMSE,MeanState,global,scalar,1,0.701884
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,RMSE Score,MeanState,global,score,1,0.354248
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,RMSE,MeanState,bona,scalar,1,0.546642
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,RMSE Score,MeanState,bona,score,1,0.446085
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Overall Score,MeanState,global,score,1,0.505567
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Overall Score,MeanState,bona,score,1,0.57088
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Overall Score,Relationships,global,score,1,0
+EcosystemandCarbonCycle,LeafAreaIndex,MODIS,E3SM-FUN3.0,Overall Score,Relationships,bona,score,1,0
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg,363.43
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Benchmark Period Mean (complement),MeanState,global,scalar,Pg,0.896938
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Period Mean (original grids),MeanState,global,scalar,Pg,992.513
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Model Period Mean (intersection),MeanState,global,scalar,Pg,891.894
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Model Period Mean (complement),MeanState,global,scalar,Pg,70.2163
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg,19.0036
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg,0.116016
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Period Mean (original grids),MeanState,bona,scalar,Pg,53.6689
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Model Period Mean (intersection),MeanState,bona,scalar,Pg,48.2624
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Model Period Mean (complement),MeanState,bona,scalar,Pg,2.51633
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Spatial Distribution Score,MeanState,global,score,1,0.455166
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Spatial Distribution Score,MeanState,bona,score,1,0.692527
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Bias,MeanState,global,scalar,kg m-2,4.28289
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Bias Score,MeanState,global,score,1,0.435986
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Bias,MeanState,bona,scalar,kg m-2,3.00187
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Bias Score,MeanState,bona,score,1,0.411821
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Overall Score,MeanState,global,score,1,0.445576
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM,Overall Score,MeanState,bona,score,1,0.552174
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg,363.43
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg,0.896938
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Period Mean (original grids),MeanState,global,scalar,Pg,536.448
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,global,scalar,Pg,482.323
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Model Period Mean (complement),MeanState,global,scalar,Pg,37.9372
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg,19.0036
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg,0.116016
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Period Mean (original grids),MeanState,bona,scalar,Pg,24.2932
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg,21.9735
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Model Period Mean (complement),MeanState,bona,scalar,Pg,1.2427
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Spatial Distribution Score,MeanState,global,score,1,0.826878
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Spatial Distribution Score,MeanState,bona,score,1,0.797602
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Bias,MeanState,global,scalar,kg m-2,0.959386
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Bias Score,MeanState,global,score,1,0.614018
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Bias,MeanState,bona,scalar,kg m-2,0.300993
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Bias Score,MeanState,bona,score,1,0.624938
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Overall Score,MeanState,global,score,1,0.720448
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN3.0,Overall Score,MeanState,bona,score,1,0.71127
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,global,scalar,Pg,363.43
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,global,scalar,Pg,0.896938
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Period Mean (original grids),MeanState,global,scalar,Pg,778.519
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,global,scalar,Pg,699.301
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Model Period Mean (complement),MeanState,global,scalar,Pg,54.9233
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Benchmark Period Mean (intersection),MeanState,bona,scalar,Pg,19.0036
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Benchmark Period Mean (complement),MeanState,bona,scalar,Pg,0.116016
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Period Mean (original grids),MeanState,bona,scalar,Pg,35.7733
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Model Period Mean (intersection),MeanState,bona,scalar,Pg,32.2874
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Model Period Mean (complement),MeanState,bona,scalar,Pg,1.62452
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Spatial Distribution Score,MeanState,global,score,1,0.575321
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Spatial Distribution Score,MeanState,bona,score,1,0.883637
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Bias,MeanState,global,scalar,kg m-2,2.7201
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Bias Score,MeanState,global,score,1,0.51146
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Bias,MeanState,bona,scalar,kg m-2,1.36408
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Bias Score,MeanState,bona,score,1,0.543681
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Overall Score,MeanState,global,score,1,0.54339
+EcosystemandCarbonCycle,Biomass,GlobalCarbon,E3SM-FUN2.0,Overall Score,MeanState,bona,score,1,0.713659

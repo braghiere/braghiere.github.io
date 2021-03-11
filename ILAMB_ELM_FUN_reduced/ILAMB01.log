@@ -1,0 +1,46 @@
+[INFO][0][<module>] Linux renato-VirtualBox 5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021 x86_64
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/ILAMB (2.5)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/numpy (1.19.1)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/matplotlib (3.3.2)
+[INFO][0][<module>] /home/renato/.local/lib/python3.7/site-packages/netCDF4 (1.5.1.2)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/cf_units (2.1.4)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/sympy (1.6.2)
+[INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/mpi4py (3.0.3)
+[INFO][0][<module>] 2021-03-11 12:09:27.268375
+[INFO][0][confront][Biomass/GlobalCarbon][E3SM] Success
+[INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN2.0] Success
+[INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN3.0] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][E3SM] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][E3SM] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][E3SM-FUN2.0] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][E3SM-FUN3.0] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][E3SM] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][confront][SoilCarbon/HWSD][E3SM] Success
+[INFO][0][confront][SoilCarbon/HWSD][E3SM-FUN2.0] Success
+[INFO][0][confront][SoilCarbon/HWSD][E3SM-FUN3.0] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM-FUN2.0] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][E3SM] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][E3SM] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][E3SM] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM-FUN3.0] Success
+[INFO][0][<module>][total time] 1132.2 s
