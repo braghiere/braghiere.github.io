@@ -161,10 +161,18 @@
             head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
             $("#RelationshipsHead").text(head);
             
-          document.getElementById('benchmark_rel_Evapotranspiration').src =  'Benchmark_' + RNAME + '_rel_Evapotranspiration.png'
-          document.getElementById('rel_Evapotranspiration').src =  MNAME + '_' + RNAME + '_rel_Evapotranspiration.png'
-          document.getElementById('rel_diff_Evapotranspiration').src =  MNAME + '_' + RNAME + '_rel_diff_Evapotranspiration.png'
-          document.getElementById('rel_func_Evapotranspiration').src =  MNAME + '_' + RNAME + '_rel_func_Evapotranspiration.png'
+          document.getElementById('benchmark_rel_Precipitation').src =  'Benchmark_' + RNAME + '_rel_Precipitation.png'
+          document.getElementById('rel_Precipitation').src =  MNAME + '_' + RNAME + '_rel_Precipitation.png'
+          document.getElementById('rel_diff_Precipitation').src =  MNAME + '_' + RNAME + '_rel_diff_Precipitation.png'
+          document.getElementById('rel_func_Precipitation').src =  MNAME + '_' + RNAME + '_rel_func_Precipitation.png'
+          document.getElementById('benchmark_rel_SurfaceDownwardSWRadiation').src =  'Benchmark_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
+          document.getElementById('rel_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
+          document.getElementById('rel_diff_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_diff_SurfaceDownwardSWRadiation.png'
+          document.getElementById('rel_func_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceDownwardSWRadiation.png'
+          document.getElementById('benchmark_rel_SurfaceAirTemperature').src =  'Benchmark_' + RNAME + '_rel_SurfaceAirTemperature.png'
+          document.getElementById('rel_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_SurfaceAirTemperature.png'
+          document.getElementById('rel_diff_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_diff_SurfaceAirTemperature.png'
+          document.getElementById('rel_func_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceAirTemperature.png'
         }
 
         function highlightRowRelationships(cell) {
@@ -173,13 +181,13 @@
                 var table = document.getElementById("Relationships_table_" + select.options[i].value);
                 var rows  = table.getElementsByTagName("tr");
                 for (var r = 1; r < rows.length; r++) {
-                    for (var c = 0; c < rows[r].cells.length-3; c++) {
+                    for (var c = 0; c < rows[r].cells.length-5; c++) {
                         rows[r].cells[c].style.backgroundColor = "#ffffff";
                     }
                 }
                 var r = cell.closest("tr").rowIndex;
                 document.getElementById("RelationshipsModel").selectedIndex = r-1;
-                for (var c = 0; c < rows[r].cells.length-3; c++) {
+                for (var c = 0; c < rows[r].cells.length-5; c++) {
                     rows[r].cells[c].style.backgroundColor = "#c1c1c1";
                 }
             }
@@ -194,7 +202,7 @@
             var nc = colors.length;
             var table  = document.getElementById("Relationships_table_" + RNAME);
             var rows   = table.getElementsByTagName("tr");
-            for (var c = rows[0].cells.length-2; c < rows[0].cells.length; c++) {
+            for (var c = rows[0].cells.length-4; c < rows[0].cells.length; c++) {
                 var scores = [];
                 for (var r = 1; r < rows.length; r++) {
                     val = rows[r].cells[c].innerHTML;
@@ -270,12 +278,12 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_diff_Evapotranspiration" || PNAME == "rel_func_Evapotranspiration"){
+        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_diff_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_diff_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_diff_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Evapotranspiration" || PNAME == "rel_diff_Evapotranspiration" || PNAME == "rel_func_Evapotranspiration"){
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Precipitation" || PNAME == "rel_diff_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceDownwardSWRadiation" || PNAME == "rel_diff_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_diff_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("E3SM_legend").style.display = 'none';
           document.getElementById("E3SM-FUN2.0_legend").style.display = 'none';
@@ -723,9 +731,13 @@
              <tr>
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Evapotranspiration Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>Precipitation Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature Hellinger Distance [1]</span></div></th>
                <th></th>
-               <th class="rotate"><div><span>Evapotranspiration RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Precipitation RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature RMSE Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
            </thead>
@@ -733,26 +745,38 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">E3SM</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.543</td>
+               <td onclick="highlightRowRelationships(this)">0.440</td>
+               <td onclick="highlightRowRelationships(this)">0.498</td>
+               <td onclick="highlightRowRelationships(this)">0.428</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.00548</td>
-               <td onclick="highlightRowRelationships(this)">0.00548</td>
+               <td onclick="highlightRowRelationships(this)">0.321</td>
+               <td onclick="highlightRowRelationships(this)">0.249</td>
+               <td onclick="highlightRowRelationships(this)">0.418</td>
+               <td onclick="highlightRowRelationships(this)">0.329</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">E3SM-FUN2.0</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM-FUN2.0.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.515</td>
+               <td onclick="highlightRowRelationships(this)">0.466</td>
+               <td onclick="highlightRowRelationships(this)">0.506</td>
+               <td onclick="highlightRowRelationships(this)">0.479</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.00662</td>
-               <td onclick="highlightRowRelationships(this)">0.00662</td>
+               <td onclick="highlightRowRelationships(this)">0.356</td>
+               <td onclick="highlightRowRelationships(this)">0.276</td>
+               <td onclick="highlightRowRelationships(this)">0.452</td>
+               <td onclick="highlightRowRelationships(this)">0.361</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">E3SM-FUN3.0</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM-FUN3.0.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.513</td>
+               <td onclick="highlightRowRelationships(this)">0.404</td>
+               <td onclick="highlightRowRelationships(this)">0.442</td>
+               <td onclick="highlightRowRelationships(this)">0.512</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.137</td>
-               <td onclick="highlightRowRelationships(this)">0.137</td>
+               <td onclick="highlightRowRelationships(this)">0.535</td>
+               <td onclick="highlightRowRelationships(this)">0.502</td>
+               <td onclick="highlightRowRelationships(this)">0.657</td>
+               <td onclick="highlightRowRelationships(this)">0.565</td>
              </tr>
           </tbody>
         </table>
@@ -763,9 +787,13 @@
              <tr>
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Evapotranspiration Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>Precipitation Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature Hellinger Distance [1]</span></div></th>
                <th></th>
-               <th class="rotate"><div><span>Evapotranspiration RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Precipitation RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature RMSE Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
            </thead>
@@ -773,49 +801,105 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">E3SM</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.492</td>
+               <td onclick="highlightRowRelationships(this)">0.494</td>
+               <td onclick="highlightRowRelationships(this)">0.352</td>
+               <td onclick="highlightRowRelationships(this)">0.367</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.0646</td>
-               <td onclick="highlightRowRelationships(this)">0.0646</td>
+               <td onclick="highlightRowRelationships(this)">0.757</td>
+               <td onclick="highlightRowRelationships(this)">0.751</td>
+               <td onclick="highlightRowRelationships(this)">0.682</td>
+               <td onclick="highlightRowRelationships(this)">0.730</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">E3SM-FUN2.0</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM-FUN2.0.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.498</td>
+               <td onclick="highlightRowRelationships(this)">0.488</td>
+               <td onclick="highlightRowRelationships(this)">0.340</td>
+               <td onclick="highlightRowRelationships(this)">0.356</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.0832</td>
-               <td onclick="highlightRowRelationships(this)">0.0832</td>
+               <td onclick="highlightRowRelationships(this)">0.775</td>
+               <td onclick="highlightRowRelationships(this)">0.775</td>
+               <td onclick="highlightRowRelationships(this)">0.708</td>
+               <td onclick="highlightRowRelationships(this)">0.753</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">E3SM-FUN3.0</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM-FUN3.0.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.479</td>
+               <td onclick="highlightRowRelationships(this)">0.415</td>
+               <td onclick="highlightRowRelationships(this)">0.328</td>
+               <td onclick="highlightRowRelationships(this)">0.324</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.137</td>
-               <td onclick="highlightRowRelationships(this)">0.137</td>
+               <td onclick="highlightRowRelationships(this)">0.855</td>
+               <td onclick="highlightRowRelationships(this)">0.892</td>
+               <td onclick="highlightRowRelationships(this)">0.874</td>
+               <td onclick="highlightRowRelationships(this)">0.874</td>
              </tr>
           </tbody>
         </table>
         </center>
-        <div data-role="collapsible" data-collapsed="false"><h1>Evapotranspiration/GLEAMv3.3a</h1>
-        <div class="container" id="benchmark_rel_Evapotranspiration_div">
+        <div data-role="collapsible" data-collapsed="false"><h1>Precipitation/GPCPv2.3</h1>
+        <div class="container" id="benchmark_rel_Precipitation_div">
           <div class="child">
-          <img src="" id="benchmark_rel_Evapotranspiration" alt="Data not available" ></img>
+          <img src="" id="benchmark_rel_Precipitation" alt="Data not available" ></img>
           </div>
         </div>
-        <div class="container" id="rel_Evapotranspiration_div">
+        <div class="container" id="rel_Precipitation_div">
           <div class="child">
-          <img src="" id="rel_Evapotranspiration" alt="Data not available" ></img>
+          <img src="" id="rel_Precipitation" alt="Data not available" ></img>
           </div>
         </div>
-        <div class="container" id="rel_diff_Evapotranspiration_div">
+        <div class="container" id="rel_diff_Precipitation_div">
           <div class="child">
-          <img src="" id="rel_diff_Evapotranspiration" alt="Data not available" ></img>
+          <img src="" id="rel_diff_Precipitation" alt="Data not available" ></img>
           </div>
         </div>
-        <div class="container" id="rel_func_Evapotranspiration_div">
+        <div class="container" id="rel_func_Precipitation_div">
           <div class="child">
-          <img src="" id="rel_func_Evapotranspiration" alt="Data not available" ></img>
+          <img src="" id="rel_func_Precipitation" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceDownwardSWRadiation/CERESed4.1</h1>
+        <div class="container" id="benchmark_rel_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_diff_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="rel_diff_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="rel_func_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceAirTemperature/CRU4.02</h1>
+        <div class="container" id="benchmark_rel_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="rel_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_diff_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="rel_diff_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="rel_func_SurfaceAirTemperature" alt="Data not available" ></img>
           </div>
         </div>
         </div>
@@ -848,9 +932,15 @@
         <option value='cycle'>Spatially integrated regional mean cycle</option>
         <option value='dtcycle'>Spatially integrated regional mean detrended cycle</option>
         <option value='spaceint'>Spatially integrated regional mean</option>
-        <option value='rel_Evapotranspiration'>Relationship with Evapotranspiration</option>
-        <option value='rel_diff_Evapotranspiration'>Relationship with diff_Evapotranspiration</option>
-        <option value='rel_func_Evapotranspiration'>Relationship with func_Evapotranspiration</option>
+        <option value='rel_Precipitation'>Relationship with Precipitation</option>
+        <option value='rel_diff_Precipitation'>Relationship with diff_Precipitation</option>
+        <option value='rel_func_Precipitation'>Relationship with func_Precipitation</option>
+        <option value='rel_SurfaceDownwardSWRadiation'>Relationship with SurfaceDownwardSWRadiation</option>
+        <option value='rel_diff_SurfaceDownwardSWRadiation'>Relationship with diff_SurfaceDownwardSWRadiation</option>
+        <option value='rel_func_SurfaceDownwardSWRadiation'>Relationship with func_SurfaceDownwardSWRadiation</option>
+        <option value='rel_SurfaceAirTemperature'>Relationship with SurfaceAirTemperature</option>
+        <option value='rel_diff_SurfaceAirTemperature'>Relationship with diff_SurfaceAirTemperature</option>
+        <option value='rel_func_SurfaceAirTemperature'>Relationship with func_SurfaceAirTemperature</option>
       </select>
         <div class="container" id="Benchmark_div">
           <div class="child">

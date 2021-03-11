@@ -6,7 +6,7 @@
 [INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/cf_units (2.1.4)
 [INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/sympy (1.6.2)
 [INFO][0][<module>] /home/renato/anaconda3/lib/python3.7/site-packages/mpi4py (3.0.3)
-[INFO][0][<module>] 2021-03-11 12:09:27.268375
+[INFO][0][<module>] 2021-03-11 14:07:58.419111
 [INFO][0][confront][Biomass/GlobalCarbon][E3SM] Success
 [INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN2.0] Success
 [INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN3.0] Success
@@ -25,6 +25,15 @@
 [INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM] Success
 [INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM-FUN2.0] Success
 [INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM-FUN3.0] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][E3SM] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][E3SM-FUN2.0] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][E3SM-FUN3.0] Success
+[INFO][0][confront][Precipitation/GPCPv2.3][E3SM] Success
+[INFO][0][confront][Precipitation/GPCPv2.3][E3SM-FUN2.0] Success
+[INFO][0][confront][Precipitation/GPCPv2.3][E3SM-FUN3.0] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][E3SM] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN2.0] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN3.0] Success
 [INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM] Success
 [INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM-FUN2.0] Success
 [INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM-FUN3.0] Success
@@ -43,4 +52,13 @@
 [INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM] Success
 [INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM-FUN2.0] Success
 [INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM-FUN3.0] Success
-[INFO][0][<module>][total time] 1132.2 s
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][E3SM] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][E3SM] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN3.0] Success
+[INFO][0][<module>][total time] 1542.4 s
