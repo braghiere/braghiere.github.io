@@ -6,7 +6,7 @@
 [INFO][0][<module>] /usr/local/lib/python3.9/site-packages/cf_units (3.0.1)
 [INFO][0][<module>] /usr/local/lib/python3.9/site-packages/sympy (1.8)
 [INFO][0][<module>] /usr/local/lib/python3.9/site-packages/mpi4py (3.0.3)
-[INFO][0][<module>] 2021-09-01 12:38:11.726189
+[INFO][0][<module>] 2021-09-01 14:57:10.801822
 [INFO][0][confront][Biomass/GlobalCarbon][E3SM] Success
 [INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN2.0] Success
 [INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN3.0] Success
@@ -52,58 +52,8 @@
 [INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][E3SM] Success
 [INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][E3SM-FUN2.0] Success
 [INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][E3SM-FUN3.0] Success
-[DEBUG][0][WorkPost][NetEcosystemExchange/FLUXNET2015][E3SM]
-Traceback (most recent call last):
-  File "/Users/braghier/Documents/models/ILAMB/bin/ilamb-run", line 426, in WorkPost
-    c.modelPlots(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 711, in modelPlots
-    self._relationship(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 1003, in _relationship
-    ref.makeComparable(com,region=region)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Relationship.py", line 108, in makeComparable
-    if recompute_b: b.buildResponse(region=region)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Relationship.py", line 224, in buildResponse
-    i = gauss_critval*(y-np.polyval(p,x)).std()
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 5378, in std
-    dvar = self.var(axis, dtype, out, ddof, **kwargs)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 5327, in var
-    danom = self - self.mean(axis, dtype, keepdims=True)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 5247, in mean
-    result = dsum * 1. / cnt
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 4192, in __truediv__
-    return true_divide(self, other)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 1166, in __call__
-    m |= domain(da, db)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 853, in __call__
-    return umath.absolute(a) * self.tolerance >= umath.absolute(b)
-FloatingPointError: underflow encountered in multiply
-
-[DEBUG][0][WorkPost][NetEcosystemExchange/FLUXNET2015][E3SM-FUN2.0]
-Traceback (most recent call last):
-  File "/Users/braghier/Documents/models/ILAMB/bin/ilamb-run", line 426, in WorkPost
-    c.modelPlots(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 711, in modelPlots
-    self._relationship(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 1003, in _relationship
-    ref.makeComparable(com,region=region)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Relationship.py", line 108, in makeComparable
-    if recompute_b: b.buildResponse(region=region)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Relationship.py", line 224, in buildResponse
-    i = gauss_critval*(y-np.polyval(p,x)).std()
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 5378, in std
-    dvar = self.var(axis, dtype, out, ddof, **kwargs)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 5327, in var
-    danom = self - self.mean(axis, dtype, keepdims=True)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 5247, in mean
-    result = dsum * 1. / cnt
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 4192, in __truediv__
-    return true_divide(self, other)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 1166, in __call__
-    m |= domain(da, db)
-  File "/usr/local/lib/python3.9/site-packages/numpy/ma/core.py", line 853, in __call__
-    return umath.absolute(a) * self.tolerance >= umath.absolute(b)
-FloatingPointError: underflow encountered in multiply
-
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][E3SM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][E3SM-FUN2.0] Success
 [INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][E3SM-FUN3.0] Success
 [INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM] Success
 [INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM-FUN2.0] Success
@@ -123,4 +73,4 @@ FloatingPointError: underflow encountered in multiply
 [INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM] Success
 [INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN2.0] Success
 [INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN3.0] Success
-[INFO][0][<module>][total time] 1705.9 s
+[INFO][0][<module>][total time] 1667.3 s
