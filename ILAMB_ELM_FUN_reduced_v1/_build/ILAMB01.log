@@ -1,0 +1,76 @@
+[INFO][0][<module>] Darwin MT-202641 19.6.0 Darwin Kernel Version 19.6.0: Tue Jun 22 19:49:55 PDT 2021; root:xnu-6153.141.35~1/RELEASE_X86_64 x86_64
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/ILAMB (2.6)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/numpy (1.20.0)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/matplotlib (3.4.2)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/netCDF4 (1.5.7)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/cf_units (3.0.1)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/sympy (1.8)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/mpi4py (3.0.3)
+[INFO][0][<module>] 2021-09-01 14:57:10.801822
+[INFO][0][confront][Biomass/GlobalCarbon][E3SM] Success
+[INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN2.0] Success
+[INFO][0][confront][Biomass/GlobalCarbon][E3SM-FUN3.0] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][E3SM] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][E3SM] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][E3SM-FUN2.0] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][E3SM-FUN3.0] Success
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][E3SM] Success
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][E3SM-FUN2.0] Success
+[INFO][0][confront][NetEcosystemExchange/FLUXNET2015][E3SM-FUN3.0] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][E3SM] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][confront][SoilCarbon/HWSD][E3SM] Success
+[INFO][0][confront][SoilCarbon/HWSD][E3SM-FUN2.0] Success
+[INFO][0][confront][SoilCarbon/HWSD][E3SM-FUN3.0] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM-FUN2.0] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][E3SM-FUN3.0] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][E3SM] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][E3SM-FUN2.0] Success
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][E3SM-FUN3.0] Success
+[INFO][0][confront][Precipitation/GPCPv2.3][E3SM] Success
+[INFO][0][confront][Precipitation/GPCPv2.3][E3SM-FUN2.0] Success
+[INFO][0][confront][Precipitation/GPCPv2.3][E3SM-FUN3.0] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][E3SM] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN2.0] Success
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][E3SM] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][E3SM] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][E3SM] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][E3SM] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][E3SM] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXNET2015][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][E3SM] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][E3SM] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][E3SM] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][E3SM-FUN3.0] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN2.0] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][E3SM-FUN3.0] Success
+[INFO][0][<module>][total time] 1667.3 s
