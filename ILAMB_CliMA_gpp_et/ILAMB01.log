@@ -1,0 +1,106 @@
+[INFO][0][<module>] Darwin MT-202641 19.6.0 Darwin Kernel Version 19.6.0: Tue Jun 22 19:49:55 PDT 2021; root:xnu-6153.141.35~1/RELEASE_X86_64 x86_64
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/ILAMB (2.6)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/numpy (1.20.0)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/matplotlib (3.4.2)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/netCDF4 (1.5.7)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/cf_units (3.0.1)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/sympy (1.8)
+[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/mpi4py (3.0.3)
+[INFO][0][<module>] 2021-09-07 12:52:24.145531
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP5] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP6] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][CliMA] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP5] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP6] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA] Success
+[DEBUG][0][extractTimeSeries][EnsembleCMIP5] Could not find [et,evspsbl] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][EnsembleCMIP5]
+Traceback (most recent call last):
+  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+    c.confront(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
+    obs,mod = self.stageData(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
+    mod = m.extractTimeSeries(self.variable,
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][EnsembleCMIP6] Could not find [et,evspsbl] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][EnsembleCMIP6]
+Traceback (most recent call last):
+  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+    c.confront(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
+    obs,mod = self.stageData(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
+    mod = m.extractTimeSeries(self.variable,
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA] Success
+[DEBUG][0][extractTimeSeries][EnsembleCMIP5] Could not find [et,evspsbl] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][EnsembleCMIP5]
+Traceback (most recent call last):
+  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+    c.confront(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
+    obs,mod = self.stageData(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
+    mod = m.extractTimeSeries(self.variable,
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][EnsembleCMIP6] Could not find [et,evspsbl] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][EnsembleCMIP6]
+Traceback (most recent call last):
+  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+    c.confront(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
+    obs,mod = self.stageData(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
+    mod = m.extractTimeSeries(self.variable,
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][confront][Evapotranspiration/MODIS][CliMA] Success
+[DEBUG][0][extractTimeSeries][EnsembleCMIP5] Could not find [et,evspsbl] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][EnsembleCMIP5]
+Traceback (most recent call last):
+  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+    c.confront(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
+    obs,mod = self.stageData(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
+    mod = m.extractTimeSeries(self.variable,
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][EnsembleCMIP6] Could not find [et,evspsbl] in the model results
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][EnsembleCMIP6]
+Traceback (most recent call last):
+  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+    c.confront(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
+    obs,mod = self.stageData(m)
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
+    mod = m.extractTimeSeries(self.variable,
+  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP5] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][CliMA] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP5] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA] Success
+[INFO][0][<module>][total time] 373.8 s
