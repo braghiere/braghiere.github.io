@@ -42,6 +42,9 @@
           document.getElementById('benchmark_phase').src =  'Benchmark_' + RNAME + '_phase.png'
           document.getElementById('shift').src =  MNAME + '_' + RNAME + '_shift.png'
           document.getElementById('shiftscore').src =  MNAME + '_' + RNAME + '_shiftscore.png'
+          document.getElementById('iav').src =  MNAME + '_' + RNAME + '_iav.png'
+          document.getElementById('benchmark_iav').src =  'Benchmark_' + RNAME + '_iav.png'
+          document.getElementById('iavscore').src =  MNAME + '_' + RNAME + '_iavscore.png'
           document.getElementById('bias').src =  MNAME + '_' + RNAME + '_bias.png'
           document.getElementById('biasscore').src =  MNAME + '_' + RNAME + '_biasscore.png'
           document.getElementById('rmse').src =  MNAME + '_' + RNAME + '_rmse.png'
@@ -61,13 +64,13 @@
                 var table = document.getElementById("MeanState_table_" + select.options[i].value);
                 var rows  = table.getElementsByTagName("tr");
                 for (var r = 2; r < rows.length; r++) {
-                    for (var c = 0; c < rows[r].cells.length-6; c++) {
+                    for (var c = 0; c < rows[r].cells.length-7; c++) {
                         rows[r].cells[c].style.backgroundColor = "#ffffff";
                     }
                 }
                 var r = cell.closest("tr").rowIndex;
                 document.getElementById("MeanStateModel").selectedIndex = r-1;
-                for (var c = 0; c < rows[r].cells.length-6; c++) {
+                for (var c = 0; c < rows[r].cells.length-7; c++) {
                     rows[r].cells[c].style.backgroundColor = "#c1c1c1";
                 }
             }
@@ -82,7 +85,7 @@
             var nc = colors.length;
             var table  = document.getElementById("MeanState_table_" + RNAME);
             var rows   = table.getElementsByTagName("tr");
-            for (var c = rows[0].cells.length-5; c < rows[0].cells.length; c++) {
+            for (var c = rows[0].cells.length-6; c < rows[0].cells.length; c++) {
                 var scores = [];
                 for (var r = 2; r < rows.length; r++) {
                     val = rows[r].cells[c].innerHTML;
@@ -163,23 +166,18 @@
             
           document.getElementById('benchmark_rel_Evapotranspiration').src =  'Benchmark_' + RNAME + '_rel_Evapotranspiration.png'
           document.getElementById('rel_Evapotranspiration').src =  MNAME + '_' + RNAME + '_rel_Evapotranspiration.png'
-          document.getElementById('rel_diff_Evapotranspiration').src =  MNAME + '_' + RNAME + '_rel_diff_Evapotranspiration.png'
           document.getElementById('rel_func_Evapotranspiration').src =  MNAME + '_' + RNAME + '_rel_func_Evapotranspiration.png'
           document.getElementById('benchmark_rel_Precipitation').src =  'Benchmark_' + RNAME + '_rel_Precipitation.png'
           document.getElementById('rel_Precipitation').src =  MNAME + '_' + RNAME + '_rel_Precipitation.png'
-          document.getElementById('rel_diff_Precipitation').src =  MNAME + '_' + RNAME + '_rel_diff_Precipitation.png'
           document.getElementById('rel_func_Precipitation').src =  MNAME + '_' + RNAME + '_rel_func_Precipitation.png'
           document.getElementById('benchmark_rel_SurfaceDownwardSWRadiation').src =  'Benchmark_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
           document.getElementById('rel_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
-          document.getElementById('rel_diff_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_diff_SurfaceDownwardSWRadiation.png'
           document.getElementById('rel_func_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceDownwardSWRadiation.png'
           document.getElementById('benchmark_rel_SurfaceNetSWRadiation').src =  'Benchmark_' + RNAME + '_rel_SurfaceNetSWRadiation.png'
           document.getElementById('rel_SurfaceNetSWRadiation').src =  MNAME + '_' + RNAME + '_rel_SurfaceNetSWRadiation.png'
-          document.getElementById('rel_diff_SurfaceNetSWRadiation').src =  MNAME + '_' + RNAME + '_rel_diff_SurfaceNetSWRadiation.png'
           document.getElementById('rel_func_SurfaceNetSWRadiation').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceNetSWRadiation.png'
           document.getElementById('benchmark_rel_SurfaceAirTemperature').src =  'Benchmark_' + RNAME + '_rel_SurfaceAirTemperature.png'
           document.getElementById('rel_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_SurfaceAirTemperature.png'
-          document.getElementById('rel_diff_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_diff_SurfaceAirTemperature.png'
           document.getElementById('rel_func_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceAirTemperature.png'
         }
 
@@ -286,30 +284,30 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_diff_Evapotranspiration" || PNAME == "rel_func_Evapotranspiration" || PNAME == "rel_diff_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_diff_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_diff_SurfaceNetSWRadiation" || PNAME == "rel_func_SurfaceNetSWRadiation" || PNAME == "rel_diff_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
+        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "iavscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_func_Evapotranspiration" || PNAME == "rel_func_Precipitation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceNetSWRadiation" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Evapotranspiration" || PNAME == "rel_diff_Evapotranspiration" || PNAME == "rel_func_Evapotranspiration" || PNAME == "rel_Precipitation" || PNAME == "rel_diff_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceDownwardSWRadiation" || PNAME == "rel_diff_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_SurfaceNetSWRadiation" || PNAME == "rel_diff_SurfaceNetSWRadiation" || PNAME == "rel_func_SurfaceNetSWRadiation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_diff_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Evapotranspiration" || PNAME == "rel_func_Evapotranspiration" || PNAME == "rel_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_SurfaceNetSWRadiation" || PNAME == "rel_func_SurfaceNetSWRadiation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("ELM_legend").style.display = 'none';
-          document.getElementById("ELM_FUN_legend").style.display = 'none';
-          document.getElementById("ELM_FUNP_legend").style.display = 'none';
+          document.getElementById("E3SM_legend").style.display = 'none';
+          document.getElementById("E3SM-FUN2.0_legend").style.display = 'none';
+          document.getElementById("E3SM-FUN3.0_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("ELM_legend").style.display = 'inline';
-          document.getElementById("ELM_FUN_legend").style.display = 'inline';
-          document.getElementById("ELM_FUNP_legend").style.display = 'inline';
+          document.getElementById("E3SM_legend").style.display = 'inline';
+          document.getElementById("E3SM-FUN2.0_legend").style.display = 'inline';
+          document.getElementById("E3SM-FUN3.0_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ELM_FUN').src = 'ELM_FUN_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ELM_FUN_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ELM_FUNP').src = 'ELM_FUNP_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ELM_FUNP_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('E3SM').src = 'E3SM_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('E3SM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN2.0').src = 'E3SM-FUN2.0_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN2.0_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN3.0').src = 'E3SM-FUN3.0_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN3.0_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -376,120 +374,16 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
-        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ELM' selected="selected">ELM</option>
-        <option value='ELM_FUN'>ELM_FUN</option>
-        <option value='ELM_FUNP'>ELM_FUNP</option>
+        <option value='E3SM' selected="selected">E3SM</option>
+        <option value='E3SM-FUN2.0'>E3SM-FUN2.0</option>
+        <option value='E3SM-FUN3.0'>E3SM-FUN3.0</option>
       </select>
       </div>
-        <center>
-        <table class="table-header-rotated" id="MeanState_table_bona">
-           <thead>
-             <tr>
-               <th></th>
-               <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Period Mean (original grids) [Pg yr-1]</span></div></th>
-               <th class="rotate"><div><span>Model Period Mean (intersection) [Pg yr-1]</span></div></th>
-               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [Pg yr-1]</span></div></th>
-               <th class="rotate"><div><span>Model Period Mean (complement) [Pg yr-1]</span></div></th>
-               <th class="rotate"><div><span>Benchmark Period Mean (complement) [Pg yr-1]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias [g m-2 d-1]</span></div></th>
-               <th class="rotate"><div><span>RMSE [g m-2 d-1]</span></div></th>
-               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
-               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
-               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
-               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td class="row-header">Benchmark</td>
-               <td><a href="FLUXCOM_Benchmark.nc" download>[-]</a></td>
-               <td>2.75</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">7.81</td>
-               <td onclick="highlightRowMeanState(this)">6.68</td>
-               <td onclick="highlightRowMeanState(this)">2.74</td>
-               <td onclick="highlightRowMeanState(this)">0.789</td>
-               <td onclick="highlightRowMeanState(this)">0.0115</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.16</td>
-               <td onclick="highlightRowMeanState(this)">1.84</td>
-               <td onclick="highlightRowMeanState(this)">0.794</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.469</td>
-               <td onclick="highlightRowMeanState(this)">0.473</td>
-               <td onclick="highlightRowMeanState(this)">0.966</td>
-               <td onclick="highlightRowMeanState(this)">0.692</td>
-               <td onclick="highlightRowMeanState(this)">0.615</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ELM_FUN.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">7.41</td>
-               <td onclick="highlightRowMeanState(this)">6.35</td>
-               <td onclick="highlightRowMeanState(this)">2.74</td>
-               <td onclick="highlightRowMeanState(this)">0.736</td>
-               <td onclick="highlightRowMeanState(this)">0.0115</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.06</td>
-               <td onclick="highlightRowMeanState(this)">1.71</td>
-               <td onclick="highlightRowMeanState(this)">0.777</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.501</td>
-               <td onclick="highlightRowMeanState(this)">0.506</td>
-               <td onclick="highlightRowMeanState(this)">0.969</td>
-               <td onclick="highlightRowMeanState(this)">0.730</td>
-               <td onclick="highlightRowMeanState(this)">0.642</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ELM_FUNP.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">5.25</td>
-               <td onclick="highlightRowMeanState(this)">4.49</td>
-               <td onclick="highlightRowMeanState(this)">2.74</td>
-               <td onclick="highlightRowMeanState(this)">0.528</td>
-               <td onclick="highlightRowMeanState(this)">0.0115</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.514</td>
-               <td onclick="highlightRowMeanState(this)">1.10</td>
-               <td onclick="highlightRowMeanState(this)">1.43</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.656</td>
-               <td onclick="highlightRowMeanState(this)">0.637</td>
-               <td onclick="highlightRowMeanState(this)">0.946</td>
-               <td onclick="highlightRowMeanState(this)">0.833</td>
-               <td onclick="highlightRowMeanState(this)">0.742</td>
-             </tr>
-          </tbody>
-        </table>
-        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -510,6 +404,7 @@
                <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
                <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
                <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Interannual Variability Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
            </thead>
@@ -532,10 +427,11 @@
                <td></td>
                <td></td>
                <td></td>
+               <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_E3SM.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">171.</td>
                <td onclick="highlightRowMeanState(this)">142.</td>
                <td onclick="highlightRowMeanState(this)">113.</td>
@@ -550,11 +446,12 @@
                <td onclick="highlightRowMeanState(this)">0.505</td>
                <td onclick="highlightRowMeanState(this)">0.846</td>
                <td onclick="highlightRowMeanState(this)">0.961</td>
-               <td onclick="highlightRowMeanState(this)">0.665</td>
+               <td onclick="highlightRowMeanState(this)">0.0502</td>
+               <td onclick="highlightRowMeanState(this)">0.563</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM-FUN2.0</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_E3SM-FUN2.0.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">167.</td>
                <td onclick="highlightRowMeanState(this)">139.</td>
                <td onclick="highlightRowMeanState(this)">113.</td>
@@ -569,11 +466,12 @@
                <td onclick="highlightRowMeanState(this)">0.510</td>
                <td onclick="highlightRowMeanState(this)">0.846</td>
                <td onclick="highlightRowMeanState(this)">0.963</td>
-               <td onclick="highlightRowMeanState(this)">0.669</td>
+               <td onclick="highlightRowMeanState(this)">0.0549</td>
+               <td onclick="highlightRowMeanState(this)">0.567</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM-FUN3.0</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_E3SM-FUN3.0.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">144.</td>
                <td onclick="highlightRowMeanState(this)">119.</td>
                <td onclick="highlightRowMeanState(this)">113.</td>
@@ -588,7 +486,8 @@
                <td onclick="highlightRowMeanState(this)">0.526</td>
                <td onclick="highlightRowMeanState(this)">0.836</td>
                <td onclick="highlightRowMeanState(this)">0.968</td>
-               <td onclick="highlightRowMeanState(this)">0.680</td>
+               <td onclick="highlightRowMeanState(this)">0.0676</td>
+               <td onclick="highlightRowMeanState(this)">0.578</td>
              </tr>
           </tbody>
         </table>
@@ -634,6 +533,27 @@
           <center>RMSE&nbsp;SCORE</center>
           <img src="" id="rmsescore" alt="Data not available" ></img>
           <center><img src="legend_rmsescore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="benchmark_iav_div">
+          <div class="child">
+          <center>BENCHMARK&nbsp;INTERANNUAL&nbsp;VARIABILITY</center>
+          <img src="" id="benchmark_iav" alt="Data not available" ></img>
+          <center><img src="legend_iav.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="iav_div">
+          <div class="child">
+          <center>MODEL&nbsp;INTERANNUAL&nbsp;VARIABILITY</center>
+          <img src="" id="iav" alt="Data not available" ></img>
+          <center><img src="legend_iav.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="iavscore_div">
+          <div class="child">
+          <center>INTERANNUAL&nbsp;VARIABILITY&nbsp;SCORE</center>
+          <img src="" id="iavscore" alt="Data not available" ></img>
+          <center><img src="legend_iavscore.png" id="leg"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="benchmark_phase_div">
@@ -723,156 +643,83 @@
         </div>
       </div>
       <select id="RelationshipsRegion" onchange="changeRegionRelationships()">
-        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="RelationshipsModel">
-        <option value='ELM'>ELM</option>
-        <option value='ELM_FUN' selected="selected">ELM_FUN</option>
-        <option value='ELM_FUNP'>ELM_FUNP</option>
+        <option value='E3SM'>E3SM</option>
+        <option value='E3SM-FUN2.0' selected="selected">E3SM-FUN2.0</option>
+        <option value='E3SM-FUN3.0'>E3SM-FUN3.0</option>
       </select>
       </div>
-        <center>
-        <table class="table-header-rotated" id="Relationships_table_bona">
-           <thead>
-             <tr>
-               <th></th>
-               <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Evapotranspiration Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>Precipitation Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceDownwardSWRadiation Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceNetSWRadiation Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceAirTemperature Hellinger Distance [1]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Evapotranspiration RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>Precipitation RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceDownwardSWRadiation RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceNetSWRadiation RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceAirTemperature RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">ELM</td>
-               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.543</td>
-               <td onclick="highlightRowRelationships(this)">0.440</td>
-               <td onclick="highlightRowRelationships(this)">0.498</td>
-               <td onclick="highlightRowRelationships(this)">0.556</td>
-               <td onclick="highlightRowRelationships(this)">0.428</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.00548</td>
-               <td onclick="highlightRowRelationships(this)">0.321</td>
-               <td onclick="highlightRowRelationships(this)">0.249</td>
-               <td onclick="highlightRowRelationships(this)">0.302</td>
-               <td onclick="highlightRowRelationships(this)">0.418</td>
-               <td onclick="highlightRowRelationships(this)">0.259</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUN</td>
-               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_ELM_FUN.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.515</td>
-               <td onclick="highlightRowRelationships(this)">0.466</td>
-               <td onclick="highlightRowRelationships(this)">0.506</td>
-               <td onclick="highlightRowRelationships(this)">0.545</td>
-               <td onclick="highlightRowRelationships(this)">0.479</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.00662</td>
-               <td onclick="highlightRowRelationships(this)">0.356</td>
-               <td onclick="highlightRowRelationships(this)">0.276</td>
-               <td onclick="highlightRowRelationships(this)">0.336</td>
-               <td onclick="highlightRowRelationships(this)">0.452</td>
-               <td onclick="highlightRowRelationships(this)">0.285</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUNP</td>
-               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_ELM_FUNP.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.513</td>
-               <td onclick="highlightRowRelationships(this)">0.404</td>
-               <td onclick="highlightRowRelationships(this)">0.442</td>
-               <td onclick="highlightRowRelationships(this)">0.466</td>
-               <td onclick="highlightRowRelationships(this)">0.512</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.137</td>
-               <td onclick="highlightRowRelationships(this)">0.535</td>
-               <td onclick="highlightRowRelationships(this)">0.502</td>
-               <td onclick="highlightRowRelationships(this)">0.555</td>
-               <td onclick="highlightRowRelationships(this)">0.657</td>
-               <td onclick="highlightRowRelationships(this)">0.477</td>
-             </tr>
-          </tbody>
-        </table>
-        </center>
         <center>
         <table class="table-header-rotated" id="Relationships_table_global">
            <thead>
              <tr>
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Evapotranspiration Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>Precipitation Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceDownwardSWRadiation Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceNetSWRadiation Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceAirTemperature Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>Evapotranspiration|GLEAMv3.3a Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>Precipitation|GPCPv2.3 Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CERESed4.1 Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceNetSWRadiation|CERESed4.1 Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Hellinger Distance [1]</span></div></th>
                <th></th>
-               <th class="rotate"><div><span>Evapotranspiration RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>Precipitation RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceDownwardSWRadiation RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceNetSWRadiation RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceAirTemperature RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Evapotranspiration|GLEAMv3.3a Score [1]</span></div></th>
+               <th class="rotate"><div><span>Precipitation|GPCPv2.3 Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CERESed4.1 Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceNetSWRadiation|CERESed4.1 Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
            </thead>
            <tbody>
              <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">ELM</td>
-               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.492</td>
-               <td onclick="highlightRowRelationships(this)">0.494</td>
-               <td onclick="highlightRowRelationships(this)">0.352</td>
-               <td onclick="highlightRowRelationships(this)">0.358</td>
-               <td onclick="highlightRowRelationships(this)">0.367</td>
+               <td onclick="highlightRowRelationships(this)" class="row-header">E3SM</td>
+               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.404</td>
+               <td onclick="highlightRowRelationships(this)">0.480</td>
+               <td onclick="highlightRowRelationships(this)">0.544</td>
+               <td onclick="highlightRowRelationships(this)">0.588</td>
+               <td onclick="highlightRowRelationships(this)">0.623</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.0646</td>
-               <td onclick="highlightRowRelationships(this)">0.757</td>
-               <td onclick="highlightRowRelationships(this)">0.751</td>
-               <td onclick="highlightRowRelationships(this)">0.744</td>
-               <td onclick="highlightRowRelationships(this)">0.682</td>
-               <td onclick="highlightRowRelationships(this)">0.600</td>
+               <td onclick="highlightRowRelationships(this)">0.0910</td>
+               <td onclick="highlightRowRelationships(this)">0.779</td>
+               <td onclick="highlightRowRelationships(this)">0.796</td>
+               <td onclick="highlightRowRelationships(this)">0.738</td>
+               <td onclick="highlightRowRelationships(this)">0.761</td>
+               <td onclick="highlightRowRelationships(this)">0.633</td>
              </tr>
              <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUN</td>
-               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_ELM_FUN.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.498</td>
-               <td onclick="highlightRowRelationships(this)">0.488</td>
-               <td onclick="highlightRowRelationships(this)">0.340</td>
-               <td onclick="highlightRowRelationships(this)">0.343</td>
-               <td onclick="highlightRowRelationships(this)">0.356</td>
+               <td onclick="highlightRowRelationships(this)" class="row-header">E3SM-FUN2.0</td>
+               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM-FUN2.0.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.392</td>
+               <td onclick="highlightRowRelationships(this)">0.483</td>
+               <td onclick="highlightRowRelationships(this)">0.545</td>
+               <td onclick="highlightRowRelationships(this)">0.587</td>
+               <td onclick="highlightRowRelationships(this)">0.632</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.0832</td>
-               <td onclick="highlightRowRelationships(this)">0.775</td>
-               <td onclick="highlightRowRelationships(this)">0.775</td>
-               <td onclick="highlightRowRelationships(this)">0.765</td>
-               <td onclick="highlightRowRelationships(this)">0.708</td>
-               <td onclick="highlightRowRelationships(this)">0.621</td>
+               <td onclick="highlightRowRelationships(this)">0.111</td>
+               <td onclick="highlightRowRelationships(this)">0.797</td>
+               <td onclick="highlightRowRelationships(this)">0.806</td>
+               <td onclick="highlightRowRelationships(this)">0.750</td>
+               <td onclick="highlightRowRelationships(this)">0.792</td>
+               <td onclick="highlightRowRelationships(this)">0.651</td>
              </tr>
              <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">ELM_FUNP</td>
-               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_ELM_FUNP.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.479</td>
-               <td onclick="highlightRowRelationships(this)">0.415</td>
-               <td onclick="highlightRowRelationships(this)">0.328</td>
-               <td onclick="highlightRowRelationships(this)">0.332</td>
-               <td onclick="highlightRowRelationships(this)">0.324</td>
+               <td onclick="highlightRowRelationships(this)" class="row-header">E3SM-FUN3.0</td>
+               <td onclick="highlightRowRelationships(this)"><a href="FLUXCOM_E3SM-FUN3.0.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.405</td>
+               <td onclick="highlightRowRelationships(this)">0.505</td>
+               <td onclick="highlightRowRelationships(this)">0.522</td>
+               <td onclick="highlightRowRelationships(this)">0.585</td>
+               <td onclick="highlightRowRelationships(this)">0.615</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.137</td>
-               <td onclick="highlightRowRelationships(this)">0.855</td>
-               <td onclick="highlightRowRelationships(this)">0.892</td>
-               <td onclick="highlightRowRelationships(this)">0.895</td>
-               <td onclick="highlightRowRelationships(this)">0.874</td>
-               <td onclick="highlightRowRelationships(this)">0.731</td>
+               <td onclick="highlightRowRelationships(this)">0.225</td>
+               <td onclick="highlightRowRelationships(this)">0.871</td>
+               <td onclick="highlightRowRelationships(this)">0.805</td>
+               <td onclick="highlightRowRelationships(this)">0.808</td>
+               <td onclick="highlightRowRelationships(this)">0.884</td>
+               <td onclick="highlightRowRelationships(this)">0.719</td>
              </tr>
           </tbody>
         </table>
@@ -886,11 +733,6 @@
         <div class="container" id="rel_Evapotranspiration_div">
           <div class="child">
           <img src="" id="rel_Evapotranspiration" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_diff_Evapotranspiration_div">
-          <div class="child">
-          <img src="" id="rel_diff_Evapotranspiration" alt="Data not available" ></img>
           </div>
         </div>
         <div class="container" id="rel_func_Evapotranspiration_div">
@@ -910,11 +752,6 @@
           <img src="" id="rel_Precipitation" alt="Data not available" ></img>
           </div>
         </div>
-        <div class="container" id="rel_diff_Precipitation_div">
-          <div class="child">
-          <img src="" id="rel_diff_Precipitation" alt="Data not available" ></img>
-          </div>
-        </div>
         <div class="container" id="rel_func_Precipitation_div">
           <div class="child">
           <img src="" id="rel_func_Precipitation" alt="Data not available" ></img>
@@ -930,11 +767,6 @@
         <div class="container" id="rel_SurfaceDownwardSWRadiation_div">
           <div class="child">
           <img src="" id="rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_diff_SurfaceDownwardSWRadiation_div">
-          <div class="child">
-          <img src="" id="rel_diff_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
           </div>
         </div>
         <div class="container" id="rel_func_SurfaceDownwardSWRadiation_div">
@@ -954,11 +786,6 @@
           <img src="" id="rel_SurfaceNetSWRadiation" alt="Data not available" ></img>
           </div>
         </div>
-        <div class="container" id="rel_diff_SurfaceNetSWRadiation_div">
-          <div class="child">
-          <img src="" id="rel_diff_SurfaceNetSWRadiation" alt="Data not available" ></img>
-          </div>
-        </div>
         <div class="container" id="rel_func_SurfaceNetSWRadiation_div">
           <div class="child">
           <img src="" id="rel_func_SurfaceNetSWRadiation" alt="Data not available" ></img>
@@ -974,11 +801,6 @@
         <div class="container" id="rel_SurfaceAirTemperature_div">
           <div class="child">
           <img src="" id="rel_SurfaceAirTemperature" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_diff_SurfaceAirTemperature_div">
-          <div class="child">
-          <img src="" id="rel_diff_SurfaceAirTemperature" alt="Data not available" ></img>
           </div>
         </div>
         <div class="container" id="rel_func_SurfaceAirTemperature_div">
@@ -1001,7 +823,6 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
-        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
@@ -1009,6 +830,8 @@
         <option value='phase'>Temporally integrated period mean max month</option>
         <option value='shift'>Temporally integrated mean phase shift</option>
         <option value='shiftscore'>Temporally integrated mean phase shift score</option>
+        <option value='iav'>Interannual variability</option>
+        <option value='iavscore'>Interannual variability score</option>
         <option value='bias'>Temporally integrated period mean bias</option>
         <option value='biasscore'>Temporally integrated period mean bias score</option>
         <option value='rmse'>Temporally integrated period mean rmse</option>
@@ -1017,19 +840,14 @@
         <option value='dtcycle'>Spatially integrated regional mean detrended cycle</option>
         <option value='spaceint'>Spatially integrated regional mean</option>
         <option value='rel_Evapotranspiration'>Relationship with Evapotranspiration</option>
-        <option value='rel_diff_Evapotranspiration'>Relationship with diff_Evapotranspiration</option>
         <option value='rel_func_Evapotranspiration'>Relationship with func_Evapotranspiration</option>
         <option value='rel_Precipitation'>Relationship with Precipitation</option>
-        <option value='rel_diff_Precipitation'>Relationship with diff_Precipitation</option>
         <option value='rel_func_Precipitation'>Relationship with func_Precipitation</option>
         <option value='rel_SurfaceDownwardSWRadiation'>Relationship with SurfaceDownwardSWRadiation</option>
-        <option value='rel_diff_SurfaceDownwardSWRadiation'>Relationship with diff_SurfaceDownwardSWRadiation</option>
         <option value='rel_func_SurfaceDownwardSWRadiation'>Relationship with func_SurfaceDownwardSWRadiation</option>
         <option value='rel_SurfaceNetSWRadiation'>Relationship with SurfaceNetSWRadiation</option>
-        <option value='rel_diff_SurfaceNetSWRadiation'>Relationship with diff_SurfaceNetSWRadiation</option>
         <option value='rel_func_SurfaceNetSWRadiation'>Relationship with func_SurfaceNetSWRadiation</option>
         <option value='rel_SurfaceAirTemperature'>Relationship with SurfaceAirTemperature</option>
-        <option value='rel_diff_SurfaceAirTemperature'>Relationship with diff_SurfaceAirTemperature</option>
         <option value='rel_func_SurfaceAirTemperature'>Relationship with func_SurfaceAirTemperature</option>
       </select>
         <div class="container" id="Benchmark_div">
@@ -1039,25 +857,25 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ELM_div">
+        <div class="container" id="E3SM_div">
           <div class="child">
-          <center>ELM</center>
-          <img src="" id="ELM" alt="Data not available" ></img>
-          <center><img src="legend_ELM.png" id="ELM_legend"  alt="Data not available" ></img></center>
+          <center>E3SM</center>
+          <img src="" id="E3SM" alt="Data not available" ></img>
+          <center><img src="legend_E3SM.png" id="E3SM_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ELM_FUN_div">
+        <div class="container" id="E3SM-FUN2.0_div">
           <div class="child">
-          <center>ELM_FUN</center>
-          <img src="" id="ELM_FUN" alt="Data not available" ></img>
-          <center><img src="legend_ELM_FUN.png" id="ELM_FUN_legend"  alt="Data not available" ></img></center>
+          <center>E3SM-FUN2.0</center>
+          <img src="" id="E3SM-FUN2.0" alt="Data not available" ></img>
+          <center><img src="legend_E3SM-FUN2.0.png" id="E3SM-FUN2.0_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ELM_FUNP_div">
+        <div class="container" id="E3SM-FUN3.0_div">
           <div class="child">
-          <center>ELM_FUNP</center>
-          <img src="" id="ELM_FUNP" alt="Data not available" ></img>
-          <center><img src="legend_ELM_FUNP.png" id="ELM_FUNP_legend"  alt="Data not available" ></img></center>
+          <center>E3SM-FUN3.0</center>
+          <img src="" id="E3SM-FUN3.0" alt="Data not available" ></img>
+          <center><img src="legend_E3SM-FUN3.0.png" id="E3SM-FUN3.0_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>

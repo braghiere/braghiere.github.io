@@ -162,23 +162,23 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("ELM_legend").style.display = 'none';
-          document.getElementById("ELM_FUN_legend").style.display = 'none';
-          document.getElementById("ELM_FUNP_legend").style.display = 'none';
+          document.getElementById("E3SM_legend").style.display = 'none';
+          document.getElementById("E3SM-FUN2.0_legend").style.display = 'none';
+          document.getElementById("E3SM-FUN3.0_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("ELM_legend").style.display = 'inline';
-          document.getElementById("ELM_FUN_legend").style.display = 'inline';
-          document.getElementById("ELM_FUNP_legend").style.display = 'inline';
+          document.getElementById("E3SM_legend").style.display = 'inline';
+          document.getElementById("E3SM-FUN2.0_legend").style.display = 'inline';
+          document.getElementById("E3SM-FUN3.0_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ELM_FUN').src = 'ELM_FUN_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ELM_FUN_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ELM_FUNP').src = 'ELM_FUNP_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ELM_FUNP_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('E3SM').src = 'E3SM_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('E3SM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN2.0').src = 'E3SM-FUN2.0_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN2.0_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN3.0').src = 'E3SM-FUN3.0_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('E3SM-FUN3.0_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -244,95 +244,16 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
-        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ELM' selected="selected">ELM</option>
-        <option value='ELM_FUN'>ELM_FUN</option>
-        <option value='ELM_FUNP'>ELM_FUNP</option>
+        <option value='E3SM' selected="selected">E3SM</option>
+        <option value='E3SM-FUN2.0'>E3SM-FUN2.0</option>
+        <option value='E3SM-FUN3.0'>E3SM-FUN3.0</option>
       </select>
       </div>
-        <center>
-        <table class="table-header-rotated" id="MeanState_table_bona">
-           <thead>
-             <tr>
-               <th></th>
-               <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
-               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
-               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
-               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
-               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td class="row-header">Benchmark</td>
-               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
-               <td>260.</td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">263.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">3.07</td>
-               <td onclick="highlightRowMeanState(this)">14.1</td>
-               <td onclick="highlightRowMeanState(this)">0.517</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.936</td>
-               <td onclick="highlightRowMeanState(this)">0.766</td>
-               <td onclick="highlightRowMeanState(this)">0.965</td>
-               <td onclick="highlightRowMeanState(this)">0.858</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ELM_FUN.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">263.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">3.07</td>
-               <td onclick="highlightRowMeanState(this)">14.1</td>
-               <td onclick="highlightRowMeanState(this)">0.517</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.936</td>
-               <td onclick="highlightRowMeanState(this)">0.766</td>
-               <td onclick="highlightRowMeanState(this)">0.965</td>
-               <td onclick="highlightRowMeanState(this)">0.858</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ELM_FUNP.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">263.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">3.07</td>
-               <td onclick="highlightRowMeanState(this)">14.1</td>
-               <td onclick="highlightRowMeanState(this)">0.517</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.936</td>
-               <td onclick="highlightRowMeanState(this)">0.766</td>
-               <td onclick="highlightRowMeanState(this)">0.965</td>
-               <td onclick="highlightRowMeanState(this)">0.858</td>
-             </tr>
-          </tbody>
-        </table>
-        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -367,8 +288,8 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ELM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_E3SM.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">307.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">-4.29</td>
@@ -381,8 +302,8 @@
                <td onclick="highlightRowMeanState(this)">0.751</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUN</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ELM_FUN.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM-FUN2.0</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_E3SM-FUN2.0.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">307.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">-4.29</td>
@@ -395,8 +316,8 @@
                <td onclick="highlightRowMeanState(this)">0.751</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ELM_FUNP</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ELM_FUNP.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM-FUN3.0</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_E3SM-FUN3.0.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">307.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">-4.29</td>
@@ -528,7 +449,6 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
-        <option value='bona'>Boreal North America</option>
         <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
@@ -551,25 +471,25 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ELM_div">
+        <div class="container" id="E3SM_div">
           <div class="child">
-          <center>ELM</center>
-          <img src="" id="ELM" alt="Data not available" ></img>
-          <center><img src="legend_ELM.png" id="ELM_legend"  alt="Data not available" ></img></center>
+          <center>E3SM</center>
+          <img src="" id="E3SM" alt="Data not available" ></img>
+          <center><img src="legend_E3SM.png" id="E3SM_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ELM_FUN_div">
+        <div class="container" id="E3SM-FUN2.0_div">
           <div class="child">
-          <center>ELM_FUN</center>
-          <img src="" id="ELM_FUN" alt="Data not available" ></img>
-          <center><img src="legend_ELM_FUN.png" id="ELM_FUN_legend"  alt="Data not available" ></img></center>
+          <center>E3SM-FUN2.0</center>
+          <img src="" id="E3SM-FUN2.0" alt="Data not available" ></img>
+          <center><img src="legend_E3SM-FUN2.0.png" id="E3SM-FUN2.0_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ELM_FUNP_div">
+        <div class="container" id="E3SM-FUN3.0_div">
           <div class="child">
-          <center>ELM_FUNP</center>
-          <img src="" id="ELM_FUNP" alt="Data not available" ></img>
-          <center><img src="legend_ELM_FUNP.png" id="ELM_FUNP_legend"  alt="Data not available" ></img></center>
+          <center>E3SM-FUN3.0</center>
+          <img src="" id="E3SM-FUN3.0" alt="Data not available" ></img>
+          <center><img src="legend_E3SM-FUN3.0.png" id="E3SM-FUN3.0_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
