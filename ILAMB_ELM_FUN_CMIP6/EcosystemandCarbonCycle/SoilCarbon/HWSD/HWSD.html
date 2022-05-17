@@ -275,49 +275,19 @@
         }
         if(PNAME == "rel_Precipitation" || PNAME == "rel_diff_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceDownwardSWRadiation" || PNAME == "rel_diff_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_diff_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("ACCESS-ESM1-5_legend").style.display = 'none';
-          document.getElementById("BCC-CSM2-MR_legend").style.display = 'none';
-          document.getElementById("CanESM5_legend").style.display = 'none';
-          document.getElementById("CESM2_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
           document.getElementById("ELM-FUN2.0_legend").style.display = 'none';
           document.getElementById("ELM-FUN3.0_legend").style.display = 'none';
           document.getElementById("EnsembleCMIP6_legend").style.display = 'none';
-          document.getElementById("GFDL_ESM4_legend").style.display = 'none';
-          document.getElementById("GISS-E2-1-G_legend").style.display = 'none';
-          document.getElementById("IPSL-CM6A-LR_legend").style.display = 'none';
-          document.getElementById("MIROC-ES2L_legend").style.display = 'none';
-          document.getElementById("MPI-ESM1-2-LR_legend").style.display = 'none';
-          document.getElementById("NorESM2-LM_legend").style.display = 'none';
-          document.getElementById("UKESM1-0-LL_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("ACCESS-ESM1-5_legend").style.display = 'inline';
-          document.getElementById("BCC-CSM2-MR_legend").style.display = 'inline';
-          document.getElementById("CanESM5_legend").style.display = 'inline';
-          document.getElementById("CESM2_legend").style.display = 'inline';
           document.getElementById("ELM_legend").style.display = 'inline';
           document.getElementById("ELM-FUN2.0_legend").style.display = 'inline';
           document.getElementById("ELM-FUN3.0_legend").style.display = 'inline';
           document.getElementById("EnsembleCMIP6_legend").style.display = 'inline';
-          document.getElementById("GFDL_ESM4_legend").style.display = 'inline';
-          document.getElementById("GISS-E2-1-G_legend").style.display = 'inline';
-          document.getElementById("IPSL-CM6A-LR_legend").style.display = 'inline';
-          document.getElementById("MIROC-ES2L_legend").style.display = 'inline';
-          document.getElementById("MPI-ESM1-2-LR_legend").style.display = 'inline';
-          document.getElementById("NorESM2-LM_legend").style.display = 'inline';
-          document.getElementById("UKESM1-0-LL_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ACCESS-ESM1-5').src = 'ACCESS-ESM1-5_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ACCESS-ESM1-5_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('BCC-CSM2-MR').src = 'BCC-CSM2-MR_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('BCC-CSM2-MR_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CanESM5').src = 'CanESM5_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CanESM5_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CESM2').src = 'CESM2_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CESM2_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ELM_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM-FUN2.0').src = 'ELM-FUN2.0_' + RNAME + '_' + PNAME + '.png';
@@ -326,20 +296,6 @@
         document.getElementById('ELM-FUN3.0_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('EnsembleCMIP6').src = 'EnsembleCMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('EnsembleCMIP6_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('GFDL_ESM4').src = 'GFDL_ESM4_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('GFDL_ESM4_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('GISS-E2-1-G').src = 'GISS-E2-1-G_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('GISS-E2-1-G_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('IPSL-CM6A-LR').src = 'IPSL-CM6A-LR_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('IPSL-CM6A-LR_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('MIROC-ES2L').src = 'MIROC-ES2L_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('MIROC-ES2L_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('MPI-ESM1-2-LR').src = 'MPI-ESM1-2-LR_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('MPI-ESM1-2-LR_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('NorESM2-LM').src = 'NorESM2-LM_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('NorESM2-LM_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('UKESM1-0-LL').src = 'UKESM1-0-LL_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('UKESM1-0-LL_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -406,26 +362,15 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
-        <option value='global' selected="selected">Globe</option>
+        <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ACCESS-ESM1-5' selected="selected">ACCESS-ESM1-5</option>
-        <option value='BCC-CSM2-MR'>BCC-CSM2-MR</option>
-        <option value='CanESM5'>CanESM5</option>
-        <option value='CESM2'>CESM2</option>
-        <option value='ELM'>ELM</option>
+        <option value='ELM' selected="selected">ELM</option>
         <option value='ELM-FUN2.0'>ELM-FUN2.0</option>
         <option value='ELM-FUN3.0'>ELM-FUN3.0</option>
         <option value='EnsembleCMIP6'>EnsembleCMIP6</option>
-        <option value='GFDL_ESM4'>GFDL_ESM4</option>
-        <option value='GISS-E2-1-G'>GISS-E2-1-G</option>
-        <option value='IPSL-CM6A-LR'>IPSL-CM6A-LR</option>
-        <option value='MIROC-ES2L'>MIROC-ES2L</option>
-        <option value='MPI-ESM1-2-LR'>MPI-ESM1-2-LR</option>
-        <option value='NorESM2-LM'>NorESM2-LM</option>
-        <option value='UKESM1-0-LL'>UKESM1-0-LL</option>
       </select>
       </div>
         <center>
@@ -451,7 +396,7 @@
              <tr>
                <td class="row-header">Benchmark</td>
                <td><a href="HWSD_Benchmark.nc" download>[-]</a></td>
-               <td>1.38e+03</td>
+               <td>1.33e+03</td>
                <td></td>
                <td></td>
                <td></td>
@@ -462,107 +407,47 @@
                <td></td>
                <td></td>
                <td></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ACCESS-ESM1-5</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_ACCESS-ESM1-5.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">871.</td>
-               <td onclick="highlightRowMeanState(this)">884.</td>
-               <td onclick="highlightRowMeanState(this)">1.33e+03</td>
-               <td onclick="highlightRowMeanState(this)">16.2</td>
-               <td onclick="highlightRowMeanState(this)">43.4</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-3.15</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.607</td>
-               <td onclick="highlightRowMeanState(this)">0.772</td>
-               <td onclick="highlightRowMeanState(this)">0.689</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">BCC-CSM2-MR</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_BCC-CSM2-MR.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.32e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.58e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.33e+03</td>
-               <td onclick="highlightRowMeanState(this)">40.4</td>
-               <td onclick="highlightRowMeanState(this)">46.9</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.75</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.534</td>
-               <td onclick="highlightRowMeanState(this)">0.444</td>
-               <td onclick="highlightRowMeanState(this)">0.489</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CanESM5</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_CanESM5.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.57e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.51e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.38e+03</td>
-               <td onclick="highlightRowMeanState(this)">297.</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.934</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.609</td>
-               <td onclick="highlightRowMeanState(this)">0.864</td>
-               <td onclick="highlightRowMeanState(this)">0.737</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CESM2</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_CESM2.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.42e+03</td>
-               <td onclick="highlightRowMeanState(this)">2.07e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.32e+03</td>
-               <td onclick="highlightRowMeanState(this)">404.</td>
-               <td onclick="highlightRowMeanState(this)">55.3</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">5.38</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.563</td>
-               <td onclick="highlightRowMeanState(this)">0.0143</td>
-               <td onclick="highlightRowMeanState(this)">0.289</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM</td>
                <td onclick="highlightRowMeanState(this)"><a href="HWSD_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.50e+03</td>
-               <td onclick="highlightRowMeanState(this)">2.18e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.34e+03</td>
-               <td onclick="highlightRowMeanState(this)">330.</td>
-               <td onclick="highlightRowMeanState(this)">34.7</td>
+               <td onclick="highlightRowMeanState(this)">2.35e+03</td>
+               <td onclick="highlightRowMeanState(this)">2.15e+03</td>
+               <td onclick="highlightRowMeanState(this)">1.32e+03</td>
+               <td onclick="highlightRowMeanState(this)">148.</td>
+               <td onclick="highlightRowMeanState(this)">9.84</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">5.84</td>
+               <td onclick="highlightRowMeanState(this)">5.83</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.503</td>
-               <td onclick="highlightRowMeanState(this)">0.596</td>
+               <td onclick="highlightRowMeanState(this)">0.504</td>
+               <td onclick="highlightRowMeanState(this)">0.595</td>
                <td onclick="highlightRowMeanState(this)">0.550</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM-FUN2.0</td>
                <td onclick="highlightRowMeanState(this)"><a href="HWSD_ELM-FUN2.0.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.22e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.94e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.34e+03</td>
-               <td onclick="highlightRowMeanState(this)">279.</td>
-               <td onclick="highlightRowMeanState(this)">34.7</td>
+               <td onclick="highlightRowMeanState(this)">2.09e+03</td>
+               <td onclick="highlightRowMeanState(this)">1.92e+03</td>
+               <td onclick="highlightRowMeanState(this)">1.32e+03</td>
+               <td onclick="highlightRowMeanState(this)">126.</td>
+               <td onclick="highlightRowMeanState(this)">9.84</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">4.20</td>
+               <td onclick="highlightRowMeanState(this)">4.21</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.538</td>
-               <td onclick="highlightRowMeanState(this)">0.632</td>
+               <td onclick="highlightRowMeanState(this)">0.631</td>
                <td onclick="highlightRowMeanState(this)">0.585</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ELM-FUN3.0</td>
                <td onclick="highlightRowMeanState(this)"><a href="HWSD_ELM-FUN3.0.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.56e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.37e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.34e+03</td>
-               <td onclick="highlightRowMeanState(this)">195.</td>
-               <td onclick="highlightRowMeanState(this)">34.7</td>
+               <td onclick="highlightRowMeanState(this)">1.47e+03</td>
+               <td onclick="highlightRowMeanState(this)">1.35e+03</td>
+               <td onclick="highlightRowMeanState(this)">1.32e+03</td>
+               <td onclick="highlightRowMeanState(this)">88.6</td>
+               <td onclick="highlightRowMeanState(this)">9.84</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.176</td>
+               <td onclick="highlightRowMeanState(this)">0.184</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.597</td>
                <td onclick="highlightRowMeanState(this)">0.765</td>
@@ -571,122 +456,17 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">EnsembleCMIP6</td>
                <td onclick="highlightRowMeanState(this)"><a href="HWSD_EnsembleCMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.67e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.34e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.38e+03</td>
-               <td onclick="highlightRowMeanState(this)">333.</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.280</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.650</td>
-               <td onclick="highlightRowMeanState(this)">0.411</td>
-               <td onclick="highlightRowMeanState(this)">0.530</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">GFDL_ESM4</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_GFDL_ESM4.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">310.</td>
-               <td onclick="highlightRowMeanState(this)">351.</td>
-               <td onclick="highlightRowMeanState(this)">1.38e+03</td>
-               <td onclick="highlightRowMeanState(this)">62.5</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-7.03</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.474</td>
-               <td onclick="highlightRowMeanState(this)">0.472</td>
-               <td onclick="highlightRowMeanState(this)">0.473</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">GISS-E2-1-G</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_GISS-E2-1-G.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.56e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.73e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.30e+03</td>
-               <td onclick="highlightRowMeanState(this)">103.</td>
-               <td onclick="highlightRowMeanState(this)">72.9</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">3.12</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.532</td>
-               <td onclick="highlightRowMeanState(this)">0.515</td>
-               <td onclick="highlightRowMeanState(this)">0.524</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">IPSL-CM6A-LR</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_IPSL-CM6A-LR.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">641.</td>
-               <td onclick="highlightRowMeanState(this)">588.</td>
+               <td onclick="highlightRowMeanState(this)">1.46e+03</td>
+               <td onclick="highlightRowMeanState(this)">1.31e+03</td>
                <td onclick="highlightRowMeanState(this)">1.33e+03</td>
-               <td onclick="highlightRowMeanState(this)">52.6</td>
-               <td onclick="highlightRowMeanState(this)">47.5</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-5.22</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.565</td>
-               <td onclick="highlightRowMeanState(this)">0.387</td>
-               <td onclick="highlightRowMeanState(this)">0.476</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">MIROC-ES2L</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_MIROC-ES2L.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.20e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.22e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.36e+03</td>
-               <td onclick="highlightRowMeanState(this)">202.</td>
-               <td onclick="highlightRowMeanState(this)">13.4</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.963</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.556</td>
-               <td onclick="highlightRowMeanState(this)">0.731</td>
-               <td onclick="highlightRowMeanState(this)">0.644</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">MPI-ESM1-2-LR</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_MPI-ESM1-2-LR.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">686.</td>
-               <td onclick="highlightRowMeanState(this)">696.</td>
-               <td onclick="highlightRowMeanState(this)">1.19e+03</td>
-               <td onclick="highlightRowMeanState(this)">13.2</td>
-               <td onclick="highlightRowMeanState(this)">187.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-3.83</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.626</td>
-               <td onclick="highlightRowMeanState(this)">0.583</td>
-               <td onclick="highlightRowMeanState(this)">0.604</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">NorESM2-LM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_NorESM2-LM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.61e+03</td>
-               <td onclick="highlightRowMeanState(this)">2.58e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.38e+03</td>
-               <td onclick="highlightRowMeanState(this)">751.</td>
+               <td onclick="highlightRowMeanState(this)">133.</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">8.22</td>
+               <td onclick="highlightRowMeanState(this)">-0.163</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.561</td>
-               <td onclick="highlightRowMeanState(this)">0.00625</td>
-               <td onclick="highlightRowMeanState(this)">0.284</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">UKESM1-0-LL</td>
-               <td onclick="highlightRowMeanState(this)"><a href="HWSD_UKESM1-0-LL.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.10e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.94e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.33e+03</td>
-               <td onclick="highlightRowMeanState(this)">183.</td>
-               <td onclick="highlightRowMeanState(this)">50.2</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">4.31</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.497</td>
-               <td onclick="highlightRowMeanState(this)">0.712</td>
-               <td onclick="highlightRowMeanState(this)">0.605</td>
+               <td onclick="highlightRowMeanState(this)">0.654</td>
+               <td onclick="highlightRowMeanState(this)">0.431</td>
+               <td onclick="highlightRowMeanState(this)">0.542</td>
              </tr>
           </tbody>
         </table>
@@ -755,25 +535,14 @@
         </div>
       </div>
       <select id="RelationshipsRegion" onchange="changeRegionRelationships()">
-        <option value='global' selected="selected">Globe</option>
+        <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="RelationshipsModel">
-        <option value='ACCESS-ESM1-5'>ACCESS-ESM1-5</option>
-        <option value='BCC-CSM2-MR' selected="selected">BCC-CSM2-MR</option>
-        <option value='CanESM5'>CanESM5</option>
-        <option value='CESM2'>CESM2</option>
         <option value='ELM'>ELM</option>
-        <option value='ELM-FUN2.0'>ELM-FUN2.0</option>
+        <option value='ELM-FUN2.0' selected="selected">ELM-FUN2.0</option>
         <option value='ELM-FUN3.0'>ELM-FUN3.0</option>
         <option value='EnsembleCMIP6'>EnsembleCMIP6</option>
-        <option value='GFDL_ESM4'>GFDL_ESM4</option>
-        <option value='GISS-E2-1-G'>GISS-E2-1-G</option>
-        <option value='IPSL-CM6A-LR'>IPSL-CM6A-LR</option>
-        <option value='MIROC-ES2L'>MIROC-ES2L</option>
-        <option value='MPI-ESM1-2-LR'>MPI-ESM1-2-LR</option>
-        <option value='NorESM2-LM'>NorESM2-LM</option>
-        <option value='UKESM1-0-LL'>UKESM1-0-LL</option>
       </select>
       </div>
         <center>
@@ -794,184 +563,52 @@
            </thead>
            <tbody>
              <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">ACCESS-ESM1-5</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_ACCESS-ESM1-5.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.407</td>
-               <td onclick="highlightRowRelationships(this)">0.340</td>
-               <td onclick="highlightRowRelationships(this)">0.346</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.643</td>
-               <td onclick="highlightRowRelationships(this)">0.747</td>
-               <td onclick="highlightRowRelationships(this)">0.662</td>
-               <td onclick="highlightRowRelationships(this)">0.684</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">BCC-CSM2-MR</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_BCC-CSM2-MR.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.459</td>
-               <td onclick="highlightRowRelationships(this)">0.451</td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.613</td>
-               <td onclick="highlightRowRelationships(this)">0.426</td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)">0.519</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">CanESM5</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_CanESM5.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.318</td>
-               <td onclick="highlightRowRelationships(this)">0.363</td>
-               <td onclick="highlightRowRelationships(this)">0.347</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.730</td>
-               <td onclick="highlightRowRelationships(this)">0.744</td>
-               <td onclick="highlightRowRelationships(this)">0.690</td>
-               <td onclick="highlightRowRelationships(this)">0.721</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">CESM2</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_CESM2.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)">0.398</td>
-               <td onclick="highlightRowRelationships(this)">0.372</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)">0.0641</td>
-               <td onclick="highlightRowRelationships(this)">0.000557</td>
-               <td onclick="highlightRowRelationships(this)">0.0323</td>
-             </tr>
-             <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ELM</td>
                <td onclick="highlightRowRelationships(this)"><a href="HWSD_ELM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.463</td>
-               <td onclick="highlightRowRelationships(this)">0.481</td>
-               <td onclick="highlightRowRelationships(this)">0.466</td>
+               <td onclick="highlightRowRelationships(this)">0.477</td>
+               <td onclick="highlightRowRelationships(this)">0.496</td>
+               <td onclick="highlightRowRelationships(this)">0.477</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.413</td>
-               <td onclick="highlightRowRelationships(this)">0.487</td>
-               <td onclick="highlightRowRelationships(this)">0.436</td>
-               <td onclick="highlightRowRelationships(this)">0.445</td>
+               <td onclick="highlightRowRelationships(this)">0.404</td>
+               <td onclick="highlightRowRelationships(this)">0.490</td>
+               <td onclick="highlightRowRelationships(this)">0.427</td>
+               <td onclick="highlightRowRelationships(this)">0.440</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ELM-FUN2.0</td>
                <td onclick="highlightRowRelationships(this)"><a href="HWSD_ELM-FUN2.0.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.435</td>
-               <td onclick="highlightRowRelationships(this)">0.468</td>
-               <td onclick="highlightRowRelationships(this)">0.443</td>
+               <td onclick="highlightRowRelationships(this)">0.448</td>
+               <td onclick="highlightRowRelationships(this)">0.470</td>
+               <td onclick="highlightRowRelationships(this)">0.452</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.537</td>
-               <td onclick="highlightRowRelationships(this)">0.557</td>
-               <td onclick="highlightRowRelationships(this)">0.478</td>
-               <td onclick="highlightRowRelationships(this)">0.524</td>
+               <td onclick="highlightRowRelationships(this)">0.522</td>
+               <td onclick="highlightRowRelationships(this)">0.561</td>
+               <td onclick="highlightRowRelationships(this)">0.468</td>
+               <td onclick="highlightRowRelationships(this)">0.517</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ELM-FUN3.0</td>
                <td onclick="highlightRowRelationships(this)"><a href="HWSD_ELM-FUN3.0.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.443</td>
+               <td onclick="highlightRowRelationships(this)">0.437</td>
                <td onclick="highlightRowRelationships(this)">0.419</td>
-               <td onclick="highlightRowRelationships(this)">0.418</td>
-               <td onclick="highlightRowRelationships(this)">0.400</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.794</td>
-               <td onclick="highlightRowRelationships(this)">0.756</td>
-               <td onclick="highlightRowRelationships(this)">0.658</td>
-               <td onclick="highlightRowRelationships(this)">0.736</td>
+               <td onclick="highlightRowRelationships(this)">0.774</td>
+               <td onclick="highlightRowRelationships(this)">0.769</td>
+               <td onclick="highlightRowRelationships(this)">0.647</td>
+               <td onclick="highlightRowRelationships(this)">0.730</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">EnsembleCMIP6</td>
                <td onclick="highlightRowRelationships(this)"><a href="HWSD_EnsembleCMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.366</td>
-               <td onclick="highlightRowRelationships(this)">0.319</td>
-               <td onclick="highlightRowRelationships(this)">0.322</td>
+               <td onclick="highlightRowRelationships(this)">0.387</td>
+               <td onclick="highlightRowRelationships(this)">0.326</td>
+               <td onclick="highlightRowRelationships(this)">0.325</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.643</td>
-               <td onclick="highlightRowRelationships(this)">0.554</td>
-               <td onclick="highlightRowRelationships(this)">0.190</td>
-               <td onclick="highlightRowRelationships(this)">0.462</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">GFDL_ESM4</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_GFDL_ESM4.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.528</td>
-               <td onclick="highlightRowRelationships(this)">0.646</td>
-               <td onclick="highlightRowRelationships(this)">0.616</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.495</td>
-               <td onclick="highlightRowRelationships(this)">0.499</td>
-               <td onclick="highlightRowRelationships(this)">0.497</td>
-               <td onclick="highlightRowRelationships(this)">0.497</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">GISS-E2-1-G</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_GISS-E2-1-G.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)">0.00</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">IPSL-CM6A-LR</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_IPSL-CM6A-LR.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.446</td>
-               <td onclick="highlightRowRelationships(this)">0.442</td>
-               <td onclick="highlightRowRelationships(this)">0.420</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.590</td>
-               <td onclick="highlightRowRelationships(this)">0.526</td>
-               <td onclick="highlightRowRelationships(this)">0.490</td>
-               <td onclick="highlightRowRelationships(this)">0.535</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">MIROC-ES2L</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_MIROC-ES2L.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.417</td>
-               <td onclick="highlightRowRelationships(this)">0.441</td>
-               <td onclick="highlightRowRelationships(this)">0.395</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.715</td>
-               <td onclick="highlightRowRelationships(this)">0.669</td>
-               <td onclick="highlightRowRelationships(this)">0.693</td>
-               <td onclick="highlightRowRelationships(this)">0.692</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">MPI-ESM1-2-LR</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_MPI-ESM1-2-LR.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.336</td>
-               <td onclick="highlightRowRelationships(this)">0.348</td>
-               <td onclick="highlightRowRelationships(this)">0.313</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.687</td>
-               <td onclick="highlightRowRelationships(this)">0.689</td>
-               <td onclick="highlightRowRelationships(this)">0.609</td>
-               <td onclick="highlightRowRelationships(this)">0.662</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">NorESM2-LM</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_NorESM2-LM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.392</td>
-               <td onclick="highlightRowRelationships(this)">0.385</td>
-               <td onclick="highlightRowRelationships(this)">0.359</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.0665</td>
-               <td onclick="highlightRowRelationships(this)">0.0217</td>
-               <td onclick="highlightRowRelationships(this)">5.98e-07</td>
-               <td onclick="highlightRowRelationships(this)">0.0294</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">UKESM1-0-LL</td>
-               <td onclick="highlightRowRelationships(this)"><a href="HWSD_UKESM1-0-LL.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.486</td>
-               <td onclick="highlightRowRelationships(this)">0.533</td>
-               <td onclick="highlightRowRelationships(this)">0.537</td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.495</td>
+               <td onclick="highlightRowRelationships(this)">0.683</td>
+               <td onclick="highlightRowRelationships(this)">0.559</td>
+               <td onclick="highlightRowRelationships(this)">0.171</td>
                <td onclick="highlightRowRelationships(this)">0.471</td>
-               <td onclick="highlightRowRelationships(this)">0.571</td>
-               <td onclick="highlightRowRelationships(this)">0.512</td>
              </tr>
           </tbody>
         </table>
@@ -1056,7 +693,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
-        <option value='global' selected="selected">Globe</option>
+        <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
         <option value='timeint' selected="selected">Temporally integrated period mean</option>
@@ -1077,34 +714,6 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="ACCESS-ESM1-5_div">
-          <div class="child">
-          <center>ACCESS-ESM1-5</center>
-          <img src="" id="ACCESS-ESM1-5" alt="Data not available" ></img>
-          <center><img src="legend_ACCESS-ESM1-5.png" id="ACCESS-ESM1-5_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="BCC-CSM2-MR_div">
-          <div class="child">
-          <center>BCC-CSM2-MR</center>
-          <img src="" id="BCC-CSM2-MR" alt="Data not available" ></img>
-          <center><img src="legend_BCC-CSM2-MR.png" id="BCC-CSM2-MR_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="CanESM5_div">
-          <div class="child">
-          <center>CanESM5</center>
-          <img src="" id="CanESM5" alt="Data not available" ></img>
-          <center><img src="legend_CanESM5.png" id="CanESM5_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="CESM2_div">
-          <div class="child">
-          <center>CESM2</center>
-          <img src="" id="CESM2" alt="Data not available" ></img>
-          <center><img src="legend_CESM2.png" id="CESM2_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ELM_div">
@@ -1133,55 +742,6 @@
           <center>EnsembleCMIP6</center>
           <img src="" id="EnsembleCMIP6" alt="Data not available" ></img>
           <center><img src="legend_EnsembleCMIP6.png" id="EnsembleCMIP6_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="GFDL_ESM4_div">
-          <div class="child">
-          <center>GFDL_ESM4</center>
-          <img src="" id="GFDL_ESM4" alt="Data not available" ></img>
-          <center><img src="legend_GFDL_ESM4.png" id="GFDL_ESM4_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="GISS-E2-1-G_div">
-          <div class="child">
-          <center>GISS-E2-1-G</center>
-          <img src="" id="GISS-E2-1-G" alt="Data not available" ></img>
-          <center><img src="legend_GISS-E2-1-G.png" id="GISS-E2-1-G_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="IPSL-CM6A-LR_div">
-          <div class="child">
-          <center>IPSL-CM6A-LR</center>
-          <img src="" id="IPSL-CM6A-LR" alt="Data not available" ></img>
-          <center><img src="legend_IPSL-CM6A-LR.png" id="IPSL-CM6A-LR_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="MIROC-ES2L_div">
-          <div class="child">
-          <center>MIROC-ES2L</center>
-          <img src="" id="MIROC-ES2L" alt="Data not available" ></img>
-          <center><img src="legend_MIROC-ES2L.png" id="MIROC-ES2L_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="MPI-ESM1-2-LR_div">
-          <div class="child">
-          <center>MPI-ESM1-2-LR</center>
-          <img src="" id="MPI-ESM1-2-LR" alt="Data not available" ></img>
-          <center><img src="legend_MPI-ESM1-2-LR.png" id="MPI-ESM1-2-LR_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="NorESM2-LM_div">
-          <div class="child">
-          <center>NorESM2-LM</center>
-          <img src="" id="NorESM2-LM" alt="Data not available" ></img>
-          <center><img src="legend_NorESM2-LM.png" id="NorESM2-LM_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="UKESM1-0-LL_div">
-          <div class="child">
-          <center>UKESM1-0-LL</center>
-          <img src="" id="UKESM1-0-LL" alt="Data not available" ></img>
-          <center><img src="legend_UKESM1-0-LL.png" id="UKESM1-0-LL_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
