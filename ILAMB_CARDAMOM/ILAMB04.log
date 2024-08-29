@@ -1,0 +1,156 @@
+[INFO][0][<module>] Linux login4.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/netCDF4 (1.7.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
+[INFO][0][<module>] 2024-08-28 17:44:36.040066
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 358, in GetTime
+    raise ValueError(msg)
+ValueError: Time intervals defined in MODELS/CARDAMOM/gpp_Lmon_CARDAMOM_historical_r1i1p1f1_gn_200101-202112.nc:time_bnds are not continuous
+
+[DEBUG][0][extractTimeSeries][CLM40cn] Could not find [gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][CLM40cn]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 358, in GetTime
+    raise ValueError(msg)
+ValueError: Time intervals defined in MODELS/CARDAMOM/gpp_Lmon_CARDAMOM_historical_r1i1p1f1_gn_200101-202112.nc:time_bnds are not continuous
+
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[DEBUG][0][extractTimeSeries][CLM40cn] Could not find [gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][CLM40cn]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[DEBUG][1][WorkConfront][GrossPrimaryProductivity/WECANN][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 358, in GetTime
+    raise ValueError(msg)
+ValueError: Time intervals defined in MODELS/CARDAMOM/gpp_Lmon_CARDAMOM_historical_r1i1p1f1_gn_200101-202112.nc:time_bnds are not continuous
+
+[DEBUG][1][extractTimeSeries][CLM40cn] Could not find [gpp] in the model results
+[DEBUG][1][WorkConfront][GrossPrimaryProductivity/WECANN][CLM40cn]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][1][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [gpp] in the model results
+[DEBUG][1][WorkConfront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
+[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][<module>][process time] 381.8 s
+[INFO][1][<module>][process time] 237.3 s
+[INFO][0][<module>][total time] 885.6 s
+[INFO][0][<module>][process balance] 1.61
+[INFO][0][<module>][parallel efficiency] 35%

@@ -1,0 +1,82 @@
+[INFO][0][<module>] Linux login3.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/netCDF4 (1.7.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
+[INFO][0][<module>] 2024-08-28 12:58:57.791666
+[DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][CLM40cn] Could not find [gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][CLM40cn]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][CLM40cn] Could not find [gpp] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][CLM40cn]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Success
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
