@@ -1,16 +1,147 @@
 [INFO][0][<module>] Linux login3.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/netCDF4 (1.7.1)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.1)
+[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2024-08-28 12:58:57.791666
-[DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [gpp] in the model results
-[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][CARDAMOM]
+[INFO][0][<module>] 2024-08-29 17:04:06.873660
+[INFO][0][MakeComparable][Biomass/NBCD2000][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][3][MakeComparable][Precipitation/CMAPv1904][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[DEBUG][2][extractTimeSeries][CARDAMOM] Could not find [rh] in the model results
+[DEBUG][2][WorkConfront][NetEcosystemExchange/FLUXCOM][CARDAMOM]
 Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][CARDAMOM] Success
+[INFO][0][MakeComparable][Biomass/NBCD2000][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/NBCD2000][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
+[INFO][2][MakeComparable][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][2][MakeComparable][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][ENSEMBLE-CMIP5] Success
+[INFO][0][MakeComparable][Biomass/NBCD2000][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/NBCD2000][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/USForest][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/USForest][CARDAMOM] Success
+[INFO][0][MakeComparable][Biomass/USForest][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/USForest][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
+[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/USForest][ENSEMBLE-CMIP5] Success
+[INFO][0][MakeComparable][Biomass/USForest][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/USForest][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
+[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Success
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/USForest][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/Thurner][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/CMAPv1904][CARDAMOM] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][CARDAMOM] Success
+[INFO][0][MakeComparable][Biomass/Thurner][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/Thurner][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [194  96 144] after: [194  73 142]
+[INFO][3][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][3][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [324  96 144] after: [324  73 142]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][ENSEMBLE-CMIP5] Success
+[INFO][0][MakeComparable][Biomass/Thurner][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/Thurner][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [241  96 144] after: [241  73 142]
+[INFO][2][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/XuSaatchi2021][CARDAMOM] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
+[INFO][2][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][2][confront][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP5] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/XuSaatchi2021][CARDAMOM] Success
+[INFO][0][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
+[INFO][0][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][2][MakeComparable][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][2][MakeComparable][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Success
+[INFO][0][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
+[INFO][0][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [180  96 144] after: [180  73 142]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/Saatchi2011][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Saatchi2011][CARDAMOM] Success
+[INFO][0][MakeComparable][Biomass/Saatchi2011][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/Saatchi2011][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [132  96 144] after: [132  73 142]
+[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Saatchi2011][ENSEMBLE-CMIP5] Success
+[INFO][0][MakeComparable][Biomass/Saatchi2011][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][0][MakeComparable][Biomass/Saatchi2011][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [132  96 144] after: [132  73 142]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Saatchi2011][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/GEOCARBON][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 281 720] after: [  1 281 710]
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][CARDAMOM] Success
+[INFO][0][MakeComparable][Biomass/GEOCARBON][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [  1 281 720] after: [  1 281 710]
+[INFO][0][MakeComparable][Biomass/GEOCARBON][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ENSEMBLE-CMIP5] Success
+[INFO][0][MakeComparable][Biomass/GEOCARBON][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 281 720] after: [  1 281 710]
+[INFO][0][MakeComparable][Biomass/GEOCARBON][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
+[INFO][3][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][3][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][2][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 281 721] after: [  1 269 711]
+[INFO][2][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][CARDAMOM] Success
+[INFO][2][confront][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXNET2015][CARDAMOM] Success
+[INFO][2][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][2][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[DEBUG][0][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [biomass,cVeg] in the model results
+[DEBUG][0][WorkConfront][Biomass/ESACCI][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
     obs, mod = self.stageData(m)
@@ -22,61 +153,494 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][0][extractTimeSeries][CLM40cn] Could not find [gpp] in the model results
-[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][CLM40cn]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][0][MakeComparable][Biomass/ESACCI][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 281 721] after: [  1 269 711]
+[INFO][0][MakeComparable][Biomass/ESACCI][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 12  96 144] after: [ 12  72 142]
+[INFO][2][MakeComparable][EcosystemRespiration/FLUXCOM][CARDAMOM] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][CARDAMOM] Success
 [INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP5] Success
 [INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
-[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
-[DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [gpp] in the model results
-[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][0][extractTimeSeries][CLM40cn] Could not find [gpp] in the model results
-[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][CLM40cn]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 561, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][GrossPrimaryProductivity/WECANN][CARDAMOM] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
+[INFO][2][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXCOM][CARDAMOM] Success
+[INFO][2][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][2][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
 [INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Success
-[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
-[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][1][confront][GrossPrimaryProductivity/WECANN][CARDAMOM] Success
+[DEBUG][1][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [gpp] in the model results
+[DEBUG][1][WorkConfront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
+[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][LeafAreaIndex/AVHRR][CARDAMOM] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/FLUXNET2015][CARDAMOM] Success
+[INFO][3][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][3][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][3][MakeComparable][Precipitation/GPCCv2018][CARDAMOM] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/AVHRR][CARDAMOM] Success
+[INFO][1][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
+[INFO][1][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][2][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Success
+[INFO][2][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][2][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/GPCCv2018][CARDAMOM] Success
+[INFO][3][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
+[INFO][3][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Success
+[INFO][1][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
+[INFO][1][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [348  96 144] after: [348  73 142]
+[INFO][2][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][2][MakeComparable][SoilCarbon/HWSD][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][2][confront][SoilCarbon/HWSD][CARDAMOM] Success
+[INFO][2][MakeComparable][SoilCarbon/HWSD][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][2][MakeComparable][SoilCarbon/HWSD][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 12  96 144] after: [ 12  73 142]
+[INFO][2][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][2][confront][SoilCarbon/HWSD][ENSEMBLE-CMIP5] Success
+[INFO][2][MakeComparable][SoilCarbon/HWSD][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][2][MakeComparable][SoilCarbon/HWSD][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 12  96 144] after: [ 12  73 142]
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Success
+[INFO][2][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][2][confront][SoilCarbon/HWSD][ENSEMBLE-CMIP6] Success
+[INFO][2][MakeComparable][SoilCarbon/NCSCDV22][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][3][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
+[INFO][3][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
+[INFO][2][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][2][confront][SoilCarbon/NCSCDV22][CARDAMOM] Success
+[INFO][2][MakeComparable][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][2][MakeComparable][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 12  96 144] after: [ 12  73 142]
+[INFO][2][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][2][confront][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP5] Success
+[INFO][2][MakeComparable][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
+[INFO][2][MakeComparable][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 12  96 144] after: [ 12  73 142]
+[INFO][2][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][2][confront][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkConfront][SoilCarbon/Koven][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 74, in confront
+    LAT, LON, npp = getSource("npp", self.keywords.get("npp_source"), "kg m-2 yr-1")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 18, in getSource
+    v = Variable(
+        ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 723, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/home/renatob/ILAMB_sample/DATA/soilc/Koven/npp_0.5x0.5.nc'
+
+[DEBUG][2][WorkConfront][SoilCarbon/Koven][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 74, in confront
+    LAT, LON, npp = getSource("npp", self.keywords.get("npp_source"), "kg m-2 yr-1")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 18, in getSource
+    v = Variable(
+        ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 723, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/home/renatob/ILAMB_sample/DATA/soilc/Koven/npp_0.5x0.5.nc'
+
+[DEBUG][2][WorkConfront][SoilCarbon/Koven][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 74, in confront
+    LAT, LON, npp = getSource("npp", self.keywords.get("npp_source"), "kg m-2 yr-1")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSoilCarbon.py", line 18, in getSource
+    v = Variable(
+        ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 723, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/home/renatob/ILAMB_sample/DATA/soilc/Koven/npp_0.5x0.5.nc'
+
+[DEBUG][2][extractTimeSeries][CARDAMOM] Could not find [tas] in the model results
+[DEBUG][2][WorkConfront][SurfaceAirTemperature/CRU4.02][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
+[INFO][2][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][LeafAreaIndex/AVH15C1][CARDAMOM] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][3][MakeComparable][Precipitation/GPCPv2.3][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Success
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/AVH15C1][CARDAMOM] Success
+[INFO][2][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
+[INFO][2][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
+[INFO][1][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
+[INFO][1][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [300  96 144] after: [300  73 142]
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/GPCPv2.3][CARDAMOM] Success
+[INFO][3][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][3][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [324  96 144] after: [324  73 142]
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Success
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
+[INFO][1][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Success
+[INFO][3][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][3][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CARDAMOM] Could not find [tas] in the model results
+[DEBUG][2][WorkConfront][SurfaceAirTemperature/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][2][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][3][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.1][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/CERESed4.1][CARDAMOM] Success
+[INFO][1][MakeComparable][LeafAreaIndex/MODIS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 70  96 144] after: [ 70  73 142]
+[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP5] Success
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/MODIS][CARDAMOM] Success
+[INFO][1][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
+[INFO][1][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/FLUXNET2015][CARDAMOM] Success
+[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [264  96 144] after: [264  73 142]
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Success
+[INFO][1][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
+[INFO][1][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][1][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[DEBUG][1][extractTimeSeries][CARDAMOM] Could not find [nbp] in the model results
+[DEBUG][1][WorkConfront][GlobalNetEcosystemCarbonBalance/GCP][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 98, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 65, in stageData
+    mod = m.extractTimeSeries(self.variable, alt_vars=self.alternate_vars)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][1][extractTimeSeries][CARDAMOM] Could not find [nbp] in the model results
+[DEBUG][1][WorkConfront][GlobalNetEcosystemCarbonBalance/Hoffman][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 98, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 65, in stageData
+    mod = m.extractTimeSeries(self.variable, alt_vars=self.alternate_vars)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][1][extractTimeSeries][CARDAMOM] Could not find [rh] in the model results
+[DEBUG][1][WorkConfront][NetEcosystemExchange/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][1][confront][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][1][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][1][confront][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Success
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][3][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5] Success
+[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][CARDAMOM] Success
+[INFO][3][modelPlots][Precipitation/CMAPv1904][CARDAMOM] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][ENSEMBLE-CMIP5] Success
+[INFO][2][modelPlots][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Success
+[INFO][2][modelPlots][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/USForest][CARDAMOM] Success
+[INFO][3][modelPlots][Precipitation/FLUXNET2015][CARDAMOM] Success
+[INFO][0][modelPlots][Biomass/USForest][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][EcosystemRespiration/FLUXNET2015][CARDAMOM] Success
+[INFO][3][modelPlots][Precipitation/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][Biomass/USForest][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/WECANN][CARDAMOM] Success
+[INFO][0][modelPlots][Biomass/Thurner][CARDAMOM] Success
+[INFO][2][modelPlots][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][Precipitation/GPCCv2018][CARDAMOM] Success
+[INFO][0][modelPlots][Biomass/Thurner][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][Biomass/Thurner][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/XuSaatchi2021][CARDAMOM] Success
+[INFO][1][modelPlots][LeafAreaIndex/AVHRR][CARDAMOM] Success
+[INFO][2][modelPlots][EcosystemRespiration/FLUXCOM][CARDAMOM] Success
+[INFO][3][modelPlots][Precipitation/GPCPv2.3][CARDAMOM] Success
+[INFO][0][modelPlots][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/Saatchi2011][CARDAMOM] Success
+[INFO][1][modelPlots][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][CARDAMOM] Success
+[INFO][0][modelPlots][Biomass/Saatchi2011][ENSEMBLE-CMIP5] Success
+[INFO][2][modelPlots][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkPost][SoilCarbon/HWSD][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 909, in modelPlots
+    self._relationship(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 1294, in _relationship
+    ref.makeComparable(com, region=region)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Relationship.py", line 128, in makeComparable
+    b.buildResponse(region=region)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Relationship.py", line 249, in buildResponse
+    p = np.polyfit(x, y, self.order)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/lib/polynomial.py", line 639, in polyfit
+    raise TypeError("expected non-empty vector for x")
+TypeError: expected non-empty vector for x
+
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][Biomass/Saatchi2011][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SoilCarbon/HWSD][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][LeafAreaIndex/AVH15C1][CARDAMOM] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][CARDAMOM] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/CERESed4.1][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SoilCarbon/HWSD][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkPost][SoilCarbon/NCSCDV22][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 909, in modelPlots
+    self._relationship(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 1294, in _relationship
+    ref.makeComparable(com, region=region)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Relationship.py", line 128, in makeComparable
+    b.buildResponse(region=region)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Relationship.py", line 249, in buildResponse
+    p = np.polyfit(x, y, self.order)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/lib/polynomial.py", line 639, in polyfit
+    raise TypeError("expected non-empty vector for x")
+TypeError: expected non-empty vector for x
+
+[INFO][0][modelPlots][Biomass/GEOCARBON][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][CARDAMOM] Success
+[INFO][2][modelPlots][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][2][modelPlots][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/ESACCI][CARDAMOM] Success
+[INFO][1][modelPlots][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][Biomass/ESACCI][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][1][modelPlots][LeafAreaIndex/MODIS][CARDAMOM] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][CARDAMOM] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][1][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][GlobalNetEcosystemCarbonBalance/GCP][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][ENSEMBLE-CMIP5] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][GlobalNetEcosystemCarbonBalance/Hoffman][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][1][modelPlots][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][1][<module>][process time] 6318.0 s
+[INFO][3][<module>][process time] 5813.8 s
+[INFO][0][<module>][process time] 5363.0 s
+[INFO][0][<module>][total time] 9771.1 s
+[INFO][0][<module>][process balance] 1.26
+[INFO][0][<module>][parallel efficiency] 58%
+[INFO][2][<module>][process time] 5029.1 s

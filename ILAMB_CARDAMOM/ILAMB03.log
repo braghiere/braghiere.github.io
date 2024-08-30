@@ -1,9 +1,0 @@
-[INFO][0][<module>] Linux login4.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.1)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/netCDF4 (1.7.1)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.1)
-[INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2024-08-28 17:44:17.418092

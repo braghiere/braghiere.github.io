@@ -159,6 +159,15 @@
             head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
             $("#RelationshipsHead").text(head);
             
+          document.getElementById('benchmark_rel_Precipitation').src =  'Benchmark_' + RNAME + '_rel_Precipitation.png'
+          document.getElementById('rel_Precipitation').src =  MNAME + '_' + RNAME + '_rel_Precipitation.png'
+          document.getElementById('rel_func_Precipitation').src =  MNAME + '_' + RNAME + '_rel_func_Precipitation.png'
+          document.getElementById('benchmark_rel_SurfaceDownwardSWRadiation').src =  'Benchmark_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
+          document.getElementById('rel_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
+          document.getElementById('rel_func_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceDownwardSWRadiation.png'
+          document.getElementById('benchmark_rel_SurfaceAirTemperature').src =  'Benchmark_' + RNAME + '_rel_SurfaceAirTemperature.png'
+          document.getElementById('rel_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_SurfaceAirTemperature.png'
+          document.getElementById('rel_func_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceAirTemperature.png'
         }
 
         function highlightRowRelationships(cell) {
@@ -167,13 +176,13 @@
                 var table = document.getElementById("Relationships_table_" + select.options[i].value);
                 var rows  = table.getElementsByTagName("tr");
                 for (var r = 1; r < rows.length; r++) {
-                    for (var c = 0; c < rows[r].cells.length-2; c++) {
+                    for (var c = 0; c < rows[r].cells.length-5; c++) {
                         rows[r].cells[c].style.backgroundColor = "#ffffff";
                     }
                 }
                 var r = cell.closest("tr").rowIndex;
                 document.getElementById("RelationshipsModel").selectedIndex = r-1;
-                for (var c = 0; c < rows[r].cells.length-2; c++) {
+                for (var c = 0; c < rows[r].cells.length-5; c++) {
                     rows[r].cells[c].style.backgroundColor = "#c1c1c1";
                 }
             }
@@ -188,7 +197,7 @@
             var nc = colors.length;
             var table  = document.getElementById("Relationships_table_" + RNAME);
             var rows   = table.getElementsByTagName("tr");
-            for (var c = rows[0].cells.length-1; c < rows[0].cells.length; c++) {
+            for (var c = rows[0].cells.length-4; c < rows[0].cells.length; c++) {
                 var scores = [];
                 for (var r = 1; r < rows.length; r++) {
                     val = rows[r].cells[c].innerHTML;
@@ -264,12 +273,12 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(PNAME == "bias" || PNAME == "biasscore" || PNAME == "shift" || PNAME == "shiftscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
+        if(PNAME == "bias" || PNAME == "biasscore" || PNAME == "shift" || PNAME == "shiftscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_func_Precipitation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("CARDAMOM_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'none';
@@ -386,7 +395,7 @@
              <tr>
                <td class="row-header">Benchmark</td>
                <td><a href="FLUXNET2015_Benchmark.nc" download>[-]</a></td>
-               <td>3.35</td>
+               <td>3.34</td>
                <td class="divider"></td>
                <td></td>
                <td></td>
@@ -409,7 +418,7 @@
                <td onclick="highlightRowMeanState(this)">0.654</td>
                <td onclick="highlightRowMeanState(this)">0.519</td>
                <td onclick="highlightRowMeanState(this)">0.905</td>
-               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">0.650</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP5</td>
@@ -564,8 +573,9 @@
       </select>
       <div style="display:none">
       <select id="RelationshipsModel">
-        <option value='ENSEMBLE-CMIP5'>ENSEMBLE-CMIP5</option>
-        <option value='ENSEMBLE-CMIP6' selected="selected">ENSEMBLE-CMIP6</option>
+        <option value='CARDAMOM'>CARDAMOM</option>
+        <option value='ENSEMBLE-CMIP5' selected="selected">ENSEMBLE-CMIP5</option>
+        <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
         <center>
@@ -574,26 +584,107 @@
              <tr>
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Precipitation|GPCPv2.3 Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CERESed4.1 Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Hellinger Distance [1]</span></div></th>
                <th></th>
+               <th class="rotate"><div><span>Precipitation|GPCPv2.3 Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CERESed4.1 Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
            </thead>
            <tbody>
              <tr>
+               <td onclick="highlightRowRelationships(this)" class="row-header">CARDAMOM</td>
+               <td onclick="highlightRowRelationships(this)"><a href="FLUXNET2015_CARDAMOM.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.671</td>
+               <td onclick="highlightRowRelationships(this)">0.836</td>
+               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)">0.787</td>
+               <td onclick="highlightRowRelationships(this)">0.656</td>
+               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.722</td>
+             </tr>
+             <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ENSEMBLE-CMIP5</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXNET2015_ENSEMBLE-CMIP5.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.680</td>
+               <td onclick="highlightRowRelationships(this)">0.750</td>
+               <td onclick="highlightRowRelationships(this)">0.724</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.00</td>
+               <td onclick="highlightRowRelationships(this)">0.767</td>
+               <td onclick="highlightRowRelationships(this)">0.742</td>
+               <td onclick="highlightRowRelationships(this)">0.726</td>
+               <td onclick="highlightRowRelationships(this)">0.745</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowRelationships(this)"><a href="FLUXNET2015_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.677</td>
+               <td onclick="highlightRowRelationships(this)">0.792</td>
+               <td onclick="highlightRowRelationships(this)">0.668</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.00</td>
+               <td onclick="highlightRowRelationships(this)">0.782</td>
+               <td onclick="highlightRowRelationships(this)">0.704</td>
+               <td onclick="highlightRowRelationships(this)">0.717</td>
+               <td onclick="highlightRowRelationships(this)">0.734</td>
              </tr>
           </tbody>
         </table>
         </center>
+        <div data-role="collapsible" data-collapsed="false"><h1>Precipitation/GPCPv2.3</h1>
+        <div class="container" id="benchmark_rel_Precipitation_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_Precipitation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_Precipitation_div">
+          <div class="child">
+          <img src="" id="rel_Precipitation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_Precipitation_div">
+          <div class="child">
+          <img src="" id="rel_func_Precipitation" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceDownwardSWRadiation/CERESed4.1</h1>
+        <div class="container" id="benchmark_rel_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="rel_func_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceAirTemperature/CRU4.02</h1>
+        <div class="container" id="benchmark_rel_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="rel_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="rel_func_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
     </div>
     <div data-role="page" id="AllModels">
       <div data-role="header" data-position="fixed" data-tap-toggle="false">
@@ -622,6 +713,12 @@
         <option value='cycle'>Spatially integrated regional mean cycle</option>
         <option value='dtcycle'>Spatially integrated regional mean detrended cycle</option>
         <option value='spaceint'>Spatially integrated regional mean</option>
+        <option value='rel_Precipitation'>Relationship with Precipitation</option>
+        <option value='rel_func_Precipitation'>Relationship with func_Precipitation</option>
+        <option value='rel_SurfaceDownwardSWRadiation'>Relationship with SurfaceDownwardSWRadiation</option>
+        <option value='rel_func_SurfaceDownwardSWRadiation'>Relationship with func_SurfaceDownwardSWRadiation</option>
+        <option value='rel_SurfaceAirTemperature'>Relationship with SurfaceAirTemperature</option>
+        <option value='rel_func_SurfaceAirTemperature'>Relationship with func_SurfaceAirTemperature</option>
       </select>
         <div class="container" id="Benchmark_div">
           <div class="child">
