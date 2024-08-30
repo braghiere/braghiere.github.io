@@ -164,12 +164,6 @@
           document.getElementById('benchmark_rel_Precipitation').src =  'Benchmark_' + RNAME + '_rel_Precipitation.png'
           document.getElementById('rel_Precipitation').src =  MNAME + '_' + RNAME + '_rel_Precipitation.png'
           document.getElementById('rel_func_Precipitation').src =  MNAME + '_' + RNAME + '_rel_func_Precipitation.png'
-          document.getElementById('benchmark_rel_SurfaceDownwardSWRadiation').src =  'Benchmark_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
-          document.getElementById('rel_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
-          document.getElementById('rel_func_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceDownwardSWRadiation.png'
-          document.getElementById('benchmark_rel_SurfaceAirTemperature').src =  'Benchmark_' + RNAME + '_rel_SurfaceAirTemperature.png'
-          document.getElementById('rel_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_SurfaceAirTemperature.png'
-          document.getElementById('rel_func_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceAirTemperature.png'
         }
 
         function highlightRowRelationships(cell) {
@@ -178,13 +172,13 @@
                 var table = document.getElementById("Relationships_table_" + select.options[i].value);
                 var rows  = table.getElementsByTagName("tr");
                 for (var r = 1; r < rows.length; r++) {
-                    for (var c = 0; c < rows[r].cells.length-5; c++) {
+                    for (var c = 0; c < rows[r].cells.length-3; c++) {
                         rows[r].cells[c].style.backgroundColor = "#ffffff";
                     }
                 }
                 var r = cell.closest("tr").rowIndex;
                 document.getElementById("RelationshipsModel").selectedIndex = r-1;
-                for (var c = 0; c < rows[r].cells.length-5; c++) {
+                for (var c = 0; c < rows[r].cells.length-3; c++) {
                     rows[r].cells[c].style.backgroundColor = "#c1c1c1";
                 }
             }
@@ -199,7 +193,7 @@
             var nc = colors.length;
             var table  = document.getElementById("Relationships_table_" + RNAME);
             var rows   = table.getElementsByTagName("tr");
-            for (var c = rows[0].cells.length-4; c < rows[0].cells.length; c++) {
+            for (var c = rows[0].cells.length-2; c < rows[0].cells.length; c++) {
                 var scores = [];
                 for (var r = 1; r < rows.length; r++) {
                     val = rows[r].cells[c].innerHTML;
@@ -275,12 +269,12 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_func_Precipitation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceAirTemperature"){
+        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_func_Precipitation"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Precipitation" || PNAME == "rel_func_Precipitation"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("CARDAMOM_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'none';
@@ -365,7 +359,7 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
-        <option value='global' selected="selected">Globe</option>
+        <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
@@ -421,14 +415,14 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CARDAMOM</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_CARDAMOM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.25</td>
+               <td onclick="highlightRowMeanState(this)">1.24</td>
                <td onclick="highlightRowMeanState(this)">1.20</td>
                <td onclick="highlightRowMeanState(this)">1.36</td>
-               <td onclick="highlightRowMeanState(this)">1.55</td>
-               <td onclick="highlightRowMeanState(this)">1.27</td>
+               <td onclick="highlightRowMeanState(this)">1.46</td>
+               <td onclick="highlightRowMeanState(this)">1.26</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">-0.166</td>
-               <td onclick="highlightRowMeanState(this)">0.590</td>
+               <td onclick="highlightRowMeanState(this)">0.591</td>
                <td onclick="highlightRowMeanState(this)">1.71</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.305</td>
@@ -440,40 +434,40 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP5</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_ENSEMBLE-CMIP5.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.707</td>
                <td onclick="highlightRowMeanState(this)">1.88</td>
+               <td onclick="highlightRowMeanState(this)">1.89</td>
                <td onclick="highlightRowMeanState(this)">1.36</td>
-               <td onclick="highlightRowMeanState(this)">0.205</td>
+               <td onclick="highlightRowMeanState(this)">1.70</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.520</td>
+               <td onclick="highlightRowMeanState(this)">0.525</td>
                <td onclick="highlightRowMeanState(this)">0.830</td>
                <td onclick="highlightRowMeanState(this)">1.50</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.273</td>
+               <td onclick="highlightRowMeanState(this)">0.274</td>
                <td onclick="highlightRowMeanState(this)">0.401</td>
-               <td onclick="highlightRowMeanState(this)">0.777</td>
-               <td onclick="highlightRowMeanState(this)">0.940</td>
-               <td onclick="highlightRowMeanState(this)">0.558</td>
+               <td onclick="highlightRowMeanState(this)">0.778</td>
+               <td onclick="highlightRowMeanState(this)">0.941</td>
+               <td onclick="highlightRowMeanState(this)">0.559</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.615</td>
+               <td onclick="highlightRowMeanState(this)">1.57</td>
                <td onclick="highlightRowMeanState(this)">1.54</td>
                <td onclick="highlightRowMeanState(this)">1.36</td>
-               <td onclick="highlightRowMeanState(this)">0.218</td>
+               <td onclick="highlightRowMeanState(this)">1.59</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.182</td>
+               <td onclick="highlightRowMeanState(this)">0.185</td>
                <td onclick="highlightRowMeanState(this)">0.563</td>
                <td onclick="highlightRowMeanState(this)">1.60</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.345</td>
-               <td onclick="highlightRowMeanState(this)">0.424</td>
-               <td onclick="highlightRowMeanState(this)">0.778</td>
+               <td onclick="highlightRowMeanState(this)">0.347</td>
+               <td onclick="highlightRowMeanState(this)">0.425</td>
+               <td onclick="highlightRowMeanState(this)">0.779</td>
                <td onclick="highlightRowMeanState(this)">0.963</td>
-               <td onclick="highlightRowMeanState(this)">0.587</td>
+               <td onclick="highlightRowMeanState(this)">0.588</td>
              </tr>
           </tbody>
         </table>
@@ -608,7 +602,7 @@
         </div>
       </div>
       <select id="RelationshipsRegion" onchange="changeRegionRelationships()">
-        <option value='global' selected="selected">Globe</option>
+        <option value='global' selected="selected">Global - Land</option>
       </select>
       <div style="display:none">
       <select id="RelationshipsModel">
@@ -624,12 +618,8 @@
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
                <th class="rotate"><div><span>Precipitation|GPCPv2.3 Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CERESed4.1 Hellinger Distance [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Hellinger Distance [1]</span></div></th>
                <th></th>
                <th class="rotate"><div><span>Precipitation|GPCPv2.3 Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CERESed4.1 Score [1]</span></div></th>
-               <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
            </thead>
@@ -637,38 +627,26 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CARDAMOM</td>
                <td onclick="highlightRowRelationships(this)"><a href="MODIS_CARDAMOM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.755</td>
                <td onclick="highlightRowRelationships(this)">0.752</td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.851</td>
-               <td onclick="highlightRowRelationships(this)">0.879</td>
-               <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)">0.865</td>
+               <td onclick="highlightRowRelationships(this)">0.842</td>
+               <td onclick="highlightRowRelationships(this)">0.842</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ENSEMBLE-CMIP5</td>
                <td onclick="highlightRowRelationships(this)"><a href="MODIS_ENSEMBLE-CMIP5.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.497</td>
-               <td onclick="highlightRowRelationships(this)">0.570</td>
-               <td onclick="highlightRowRelationships(this)">0.590</td>
+               <td onclick="highlightRowRelationships(this)">0.654</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.536</td>
-               <td onclick="highlightRowRelationships(this)">0.606</td>
-               <td onclick="highlightRowRelationships(this)">0.623</td>
-               <td onclick="highlightRowRelationships(this)">0.588</td>
+               <td onclick="highlightRowRelationships(this)">0.737</td>
+               <td onclick="highlightRowRelationships(this)">0.737</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowRelationships(this)"><a href="MODIS_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.524</td>
-               <td onclick="highlightRowRelationships(this)">0.596</td>
-               <td onclick="highlightRowRelationships(this)">0.628</td>
+               <td onclick="highlightRowRelationships(this)">0.742</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.514</td>
-               <td onclick="highlightRowRelationships(this)">0.580</td>
-               <td onclick="highlightRowRelationships(this)">0.606</td>
-               <td onclick="highlightRowRelationships(this)">0.566</td>
+               <td onclick="highlightRowRelationships(this)">0.920</td>
+               <td onclick="highlightRowRelationships(this)">0.920</td>
              </tr>
           </tbody>
         </table>
@@ -690,40 +668,6 @@
           </div>
         </div>
         </div>
-        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceDownwardSWRadiation/CERESed4.1</h1>
-        <div class="container" id="benchmark_rel_SurfaceDownwardSWRadiation_div">
-          <div class="child">
-          <img src="" id="benchmark_rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_SurfaceDownwardSWRadiation_div">
-          <div class="child">
-          <img src="" id="rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_func_SurfaceDownwardSWRadiation_div">
-          <div class="child">
-          <img src="" id="rel_func_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
-          </div>
-        </div>
-        </div>
-        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceAirTemperature/CRU4.02</h1>
-        <div class="container" id="benchmark_rel_SurfaceAirTemperature_div">
-          <div class="child">
-          <img src="" id="benchmark_rel_SurfaceAirTemperature" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_SurfaceAirTemperature_div">
-          <div class="child">
-          <img src="" id="rel_SurfaceAirTemperature" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_func_SurfaceAirTemperature_div">
-          <div class="child">
-          <img src="" id="rel_func_SurfaceAirTemperature" alt="Data not available" ></img>
-          </div>
-        </div>
-        </div>
     </div>
     <div data-role="page" id="AllModels">
       <div data-role="header" data-position="fixed" data-tap-toggle="false">
@@ -738,7 +682,7 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
-        <option value='global' selected="selected">Globe</option>
+        <option value='global' selected="selected">Global - Land</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
         <option value='timeint' selected="selected">Temporally integrated period mean</option>
@@ -754,10 +698,6 @@
         <option value='spaceint'>Spatially integrated regional mean</option>
         <option value='rel_Precipitation'>Relationship with Precipitation</option>
         <option value='rel_func_Precipitation'>Relationship with func_Precipitation</option>
-        <option value='rel_SurfaceDownwardSWRadiation'>Relationship with SurfaceDownwardSWRadiation</option>
-        <option value='rel_func_SurfaceDownwardSWRadiation'>Relationship with func_SurfaceDownwardSWRadiation</option>
-        <option value='rel_SurfaceAirTemperature'>Relationship with SurfaceAirTemperature</option>
-        <option value='rel_func_SurfaceAirTemperature'>Relationship with func_SurfaceAirTemperature</option>
       </select>
         <div class="container" id="Benchmark_div">
           <div class="child">

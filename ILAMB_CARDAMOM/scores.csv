@@ -1,11 +1,36 @@
 Variables,CARDAMOM,ENSEMBLE-CMIP5,ENSEMBLE-CMIP6
-Biomass,0.6335023743401705,--,0.6661441398134893
-Gross Primary Productivity,0.700178193312295,--,0.6727824461825336
-Leaf Area Index,0.6149664819823483,0.5805565329530243,0.6227526550850441
+Biomass,0.6769759984121948,--,0.7084717274147295
+Burned Area,~,~,~
+Carbon Dioxide,--,0.7055640491268669,0.7495521416543309
+Gross Primary Productivity,0.6999808009087877,--,0.6795678263833985
+Leaf Area Index,0.6150638062204256,0.5816787872365007,0.6242529117472048
 Global Net Ecosystem Carbon Balance,--,0.7460368396530518,0.7838988430692068
-Net Ecosystem Exchange,--,0.23100305131878754,0.24462390064827066
-Ecosystem Respiration,0.6183035296377184,0.6128837354271303,0.6487389837498498
-Soil Carbon,--,0.4387411385471338,0.40885612898590795
-Surface Air Temperature,--,0.8333042713735941,0.8407907621908076
-Precipitation,0.7891279642843436,0.7104522323359638,0.7324272077719727
-Surface Downward SW Radiation,0.8568246560750187,0.8165234394148599,0.8389086675283202
+Net Ecosystem Exchange,--,0.47899892412119954,0.5422703150111083
+Ecosystem Respiration,0.6183371523167478,0.6131304794461009,0.6489552076020293
+Soil Carbon,--,0.735540065881156,0.6728508850490703
+Nitrogen Fixation,~,~,~
+Methane,0.4349196022674774,--,--
+Evapotranspiration,0.6545265352717927,--,--
+Evaporative Fraction,~,~,~
+Latent Heat,~,~,~
+Runoff,0.35929829400706126,--,--
+Sensible Heat,~,~,~
+Terrestrial Water Storage Anomaly,0.675944814327006,--,--
+Snow Water Equivalent,0.5228385525021874,--,--
+Permafrost,~,~,~
+Surface Soil Moisture,~,~,~
+Albedo,~,~,~
+Surface Upward SW Radiation,~,~,~
+Surface Net SW Radiation,~,~,~
+Surface Upward LW Radiation,~,~,~
+Surface Net LW Radiation,~,~,~
+Surface Net Radiation,~,~,~
+Ground Heat Flux,0.5442329333419298,--,--
+Surface Air Temperature,--,0.8346912633631753,0.842258438747462
+Diurnal Max Temperature,~,~,~
+Diurnal Min Temperature,~,~,~
+Diurnal Temperature Range,~,~,~
+Precipitation,0.650941837673539,0.597063099535266,0.6140131503386441
+Surface Relative Humidity,~,~,~
+Surface Downward SW Radiation,0.8582278584213368,0.8052030658021629,0.8294462634600089
+Surface Downward LW Radiation,~,~,~
