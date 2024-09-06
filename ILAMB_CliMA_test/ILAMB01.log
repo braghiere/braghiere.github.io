@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux hpc-22-14.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
+[INFO][0][<module>] Linux hpc-93-06.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.2)
@@ -6,4 +6,32 @@
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2024-09-05 18:28:43.363769
+[INFO][0][<module>] 2024-09-05 20:02:30.434962
+[INFO][1][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/FLUXNET2015][CARDAMOM] Success
+[INFO][2][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][2][confront][GrossPrimaryProductivity/FLUXNET2015][CliMA] Success
+[INFO][6][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][6][confront][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][5][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
+[INFO][5][confront][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][9][MakeComparable][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][14][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][13][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][14][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][13][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[INFO][10][MakeComparable][GrossPrimaryProductivity/FLUXCOM][CliMA] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][10][MakeComparable][GrossPrimaryProductivity/FLUXCOM][CliMA] Spatial data was clipped from the comparison:  before: [408  90 180] after: [408  68 178]
+[INFO][9][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][9][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][9][confront][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Success
+[INFO][10][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][10][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][10][confront][GrossPrimaryProductivity/FLUXCOM][CliMA] Success
+[INFO][13][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][13][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Success
