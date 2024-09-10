@@ -152,15 +152,19 @@
         }
         if(PNAME == "spaceint" || PNAME == "accumulate" || PNAME == "temporal_variance" || PNAME == "compaccumulation"){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("CARDAMOM_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("CARDAMOM_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CARDAMOM').src = 'CARDAMOM_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CARDAMOM_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP5').src = 'ENSEMBLE-CMIP5_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP5_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
@@ -235,7 +239,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ENSEMBLE-CMIP5' selected="selected">ENSEMBLE-CMIP5</option>
+        <option value='CARDAMOM' selected="selected">CARDAMOM</option>
+        <option value='ENSEMBLE-CMIP5'>ENSEMBLE-CMIP5</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -246,6 +251,7 @@
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
                <th class="rotate"><div><span>nbp(2016) [Pg]</span></div></th>
+               <th class="rotate"><div><span>diff(2016) [Pg]</span></div></th>
                <th class="rotate"><div><span>nbp(2006) [Pg]</span></div></th>
                <th class="rotate"><div><span>diff(2006) [Pg]</span></div></th>
                <th class="rotate"><div><span>nbp(2015) [Pg]</span></div></th>
@@ -266,6 +272,7 @@
                <td></td>
                <td></td>
                <td></td>
+               <td></td>
                <td class="divider"></td>
                <td></td>
                <td></td>
@@ -273,8 +280,24 @@
                <td></td>
              </tr>
              <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CARDAMOM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GCP_CARDAMOM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">-19.3</td>
+               <td onclick="highlightRowMeanState(this)">6.65</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.838</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.507</td>
+               <td onclick="highlightRowMeanState(this)">0.782</td>
+             </tr>
+             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP5</td>
                <td onclick="highlightRowMeanState(this)"><a href="GCP_ENSEMBLE-CMIP5.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)">-24.9</td>
                <td onclick="highlightRowMeanState(this)">-2.12</td>
@@ -289,6 +312,7 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowMeanState(this)"><a href="GCP_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)"></td>
@@ -359,6 +383,13 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CARDAMOM_div">
+          <div class="child">
+          <center>CARDAMOM</center>
+          <img src="" id="CARDAMOM" alt="Data not available" ></img>
+          <center><img src="legend_CARDAMOM.png" id="CARDAMOM_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP5_div">

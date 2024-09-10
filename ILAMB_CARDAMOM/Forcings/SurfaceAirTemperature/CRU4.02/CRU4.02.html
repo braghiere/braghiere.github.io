@@ -164,15 +164,19 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("CARDAMOM_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("CARDAMOM_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CARDAMOM').src = 'CARDAMOM_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CARDAMOM_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP5').src = 'ENSEMBLE-CMIP5_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP5_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
@@ -247,7 +251,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ENSEMBLE-CMIP5' selected="selected">ENSEMBLE-CMIP5</option>
+        <option value='CARDAMOM' selected="selected">CARDAMOM</option>
+        <option value='ENSEMBLE-CMIP5'>ENSEMBLE-CMIP5</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -293,6 +298,25 @@
                <td></td>
                <td></td>
                <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CARDAMOM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_CARDAMOM.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">288.</td>
+               <td onclick="highlightRowMeanState(this)">287.</td>
+               <td onclick="highlightRowMeanState(this)">287.</td>
+               <td onclick="highlightRowMeanState(this)">288.</td>
+               <td onclick="highlightRowMeanState(this)">281.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.181</td>
+               <td onclick="highlightRowMeanState(this)">1.91</td>
+               <td onclick="highlightRowMeanState(this)">0.371</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.726</td>
+               <td onclick="highlightRowMeanState(this)">0.818</td>
+               <td onclick="highlightRowMeanState(this)">0.958</td>
+               <td onclick="highlightRowMeanState(this)">0.998</td>
+               <td onclick="highlightRowMeanState(this)">0.864</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP5</td>
@@ -484,6 +508,13 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CARDAMOM_div">
+          <div class="child">
+          <center>CARDAMOM</center>
+          <img src="" id="CARDAMOM" alt="Data not available" ></img>
+          <center><img src="legend_CARDAMOM.png" id="CARDAMOM_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP5_div">

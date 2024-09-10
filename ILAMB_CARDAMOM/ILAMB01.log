@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux hpc-21-14.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
+[INFO][0][<module>] Linux hpc-21-15.cm.cluster 5.14.0-362.24.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Feb 15 07:18:13 EST 2024 x86_64 x86_64
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.2)
@@ -6,135 +6,7 @@
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2024-08-29 21:20:19.240640
-[DEBUG][0][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][4][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][13][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][12][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][8][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][10][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][6][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][11][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][9][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][7][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][5][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][14][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][15][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/home/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_AToM.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
+[INFO][0][<module>] 2024-09-09 19:23:08.730401
 [INFO][0][MakeComparable][Biomass/ESACCI][CARDAMOM] Spatial data was clipped from the reference:  before: [  1 281 721] after: [  1 269 711]
 [INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
 [INFO][0][confront][Biomass/ESACCI][CARDAMOM] Success
@@ -208,8 +80,8 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][0][MakeComparable][Biomass/USForest][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
 [INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
 [INFO][0][confront][Biomass/USForest][ENSEMBLE-CMIP5] Success
-[DEBUG][4][extractTimeSeries][CARDAMOM] Could not find [fBNF] in the model results
-[DEBUG][4][WorkConfront][NitrogenFixation/Davies-Barnard][CARDAMOM]
+[DEBUG][9][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceUpwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -223,43 +95,16 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [fBNF] in the model results
-[DEBUG][4][WorkConfront][NitrogenFixation/Davies-Barnard][ENSEMBLE-CMIP5]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [fBNF] in the model results
-[DEBUG][4][WorkConfront][NitrogenFixation/Davies-Barnard][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][7][AnalysisMeanStateSites][hfss] Bias scored using Collier2018
+[INFO][7][AnalysisMeanStateSites][hfss] RMSE scored using Collier2018
+[INFO][9][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][9][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][7][confront][SensibleHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][Biomass/USForest][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 273 710]
-[INFO][4][AnalysisMeanStateSites][FCH4] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSites][FCH4] RMSE scored using Collier2018
 [INFO][1][MakeComparable][Biomass/USForest][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
-[INFO][4][confront][Methane/FluxnetANN][CARDAMOM] Success
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [FCH4,ch4] in the model results
-[DEBUG][4][WorkConfront][Methane/FluxnetANN][ENSEMBLE-CMIP5]
+[INFO][9][confront][SurfaceUpwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[DEBUG][6][extractTimeSeries][CARDAMOM] Could not find [hfls,le] in the model results
+[DEBUG][6][WorkConfront][LatentHeat/CLASS][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -273,8 +118,37 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [FCH4,ch4] in the model results
-[DEBUG][4][WorkConfront][Methane/FluxnetANN][ENSEMBLE-CMIP6]
+[DEBUG][8][WorkConfront][Permafrost/Brown2002][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 193, in stageData
+    tsl = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[DEBUG][6][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfls,le] in the model results
+[DEBUG][6][WorkConfront][LatentHeat/CLASS][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -288,7 +162,1177 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][12][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][9][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][extractTimeSeries][CARDAMOM] Could not find [hfss,sh] in the model results
+[DEBUG][7][WorkConfront][SensibleHeat/FLUXCOM][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][2][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][6][MakeComparable][LatentHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][6][MakeComparable][LatentHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
+[DEBUG][6][WorkConfront][LatentHeat/CLASS][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
+
+[DEBUG][9][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfss,sh] in the model results
+[DEBUG][7][WorkConfront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][6][extractTimeSeries][CARDAMOM] Could not find [hfls,le] in the model results
+[DEBUG][6][WorkConfront][LatentHeat/WECANN][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][1][confront][Biomass/USForest][ENSEMBLE-CMIP6] Success
+[DEBUG][6][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfls,le] in the model results
+[DEBUG][6][WorkConfront][LatentHeat/WECANN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][MakeComparable][Biomass/XuSaatchi2021][CARDAMOM] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
+[INFO][6][MakeComparable][LatentHeat/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
+[INFO][6][MakeComparable][LatentHeat/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
+[INFO][3][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][3][confront][NetEcosystemExchange/FLUXNET2015][CARDAMOM] Success
+[INFO][9][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][9][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][7][MakeComparable][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 273 710]
+[INFO][7][MakeComparable][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
+[INFO][3][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][3][confront][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][3][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][3][confront][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][3][confront][EcosystemRespiration/FLUXNET2015][CARDAMOM] Success
+[INFO][3][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][3][confront][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][1][confront][Biomass/XuSaatchi2021][CARDAMOM] Success
+[INFO][3][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[DEBUG][8][WorkConfront][Permafrost/Obu2018][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 199, in stageData
+    mod = permafrost_extent_slater2013(tsl, dmax=dmax, Teps=Teps)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 36, in permafrost_extent_slater2013
+    tsl = tsl.trim(d=[0, dmax])
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 2186, in trim
+    raise ValueError
+ValueError
+
+[INFO][3][confront][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
+[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][CARDAMOM] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][1][confront][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Success
+[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
+[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [180  96 144] after: [180  73 142]
+[INFO][6][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][6][confront][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
+[DEBUG][8][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tsl,TSOI] in the model results
+[DEBUG][8][WorkConfront][Permafrost/Obu2018][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 193, in stageData
+    tsl = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][6][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [runoff,mrro] in the model results
+[DEBUG][6][WorkConfront][Runoff/Dai][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 144, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 56, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][6][WorkConfront][Runoff/Dai][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 144, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 56, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][1][confront][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Success
+[DEBUG][1][extractTimeSeries][CARDAMOM] Could not find [burntArea,burntFractionAll] in the model results
+[DEBUG][1][WorkConfront][BurnedArea/GFED4.1S][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][1][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [burntArea,burntFractionAll] in the model results
+[DEBUG][1][WorkConfront][BurnedArea/GFED4.1S][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][8][WorkConfront][Permafrost/Obu2018][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 193, in stageData
+    tsl = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[DEBUG][1][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [burntArea,burntFractionAll] in the model results
+[DEBUG][1][WorkConfront][BurnedArea/GFED4.1S][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][6][MakeComparable][Runoff/LORA][CARDAMOM] Spatial data was clipped from the reference:  before: [396 360 720] after: [396 273 710]
+[INFO][8][MakeComparable][SurfaceSoilMoisture/WangMao][CARDAMOM] Spatial data was clipped from the reference:  before: [564 360 720] after: [564 273 710]
+[DEBUG][8][WorkConfront][SurfaceSoilMoisture/WangMao][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2570, in MakeComparable
+    com = com.convert(ref.unit)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1022, in convert
+    src_unit = Unit(self.unit)
+               ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units/__init__.py", line 830, in __init__
+    raise value_error from None
+ValueError: [UT_UNKNOWN] Failed to parse unit "kgH2O m-2"
+
+[INFO][3][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[DEBUG][8][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [mrsos] in the model results
+[DEBUG][8][WorkConfront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][3][confront][EcosystemRespiration/FLUXCOM][CARDAMOM] Success
+[INFO][9][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][2][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][2][MakeComparable][GrossPrimaryProductivity/WECANN][CARDAMOM] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
+[DEBUG][8][WorkConfront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
+[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[DEBUG][8][extractTimeSeries][CARDAMOM] Could not find [rsus,FSR] in the model results
+[DEBUG][8][WorkConfront][Albedo/CERESed4.2][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+                                         ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 72, in stageData
+    up_mod = m.extractTimeSeries(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][9][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][9][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[DEBUG][9][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceUpwardSWRadiation/WRMC.BSRN][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][9][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][9][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][9][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][9][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[DEBUG][8][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus,FSR] in the model results
+[DEBUG][8][WorkConfront][Albedo/CERESed4.2][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+                                         ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 72, in stageData
+    up_mod = m.extractTimeSeries(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[DEBUG][9][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceNetSWRadiation/CERESed4.2][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][2][confront][GrossPrimaryProductivity/WECANN][CARDAMOM] Success
+[DEBUG][9][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][6][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][9][MakeComparable][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][9][MakeComparable][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[DEBUG][2][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [gpp] in the model results
+[DEBUG][2][WorkConfront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
+[INFO][2][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
+[INFO][6][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][6][confront][Runoff/LORA][CARDAMOM] Success
+[INFO][2][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][9][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][2][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[DEBUG][6][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [runoff,mrro] in the model results
+[DEBUG][6][WorkConfront][Runoff/LORA][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][9][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][9][confront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[DEBUG][9][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceNetSWRadiation/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][9][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceNetSWRadiation/FLUXNET2015][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][9][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
+[INFO][9][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
+[INFO][9][confront][SurfaceNetSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][2][MakeComparable][LeafAreaIndex/AVHRR][CARDAMOM] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
+[INFO][7][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][8][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[DEBUG][9][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][9][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][9][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][8][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][8][confront][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][9][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][9][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[DEBUG][6][WorkConfront][Runoff/LORA][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[INFO][6][MakeComparable][Runoff/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[DEBUG][8][extractTimeSeries][CARDAMOM] Could not find [rsus,FSR] in the model results
+[DEBUG][8][WorkConfront][Albedo/GEWEX.SRB][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+                                         ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 72, in stageData
+    up_mod = m.extractTimeSeries(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][7][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[DEBUG][6][WorkConfront][Runoff/CLASS][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
+
+[INFO][7][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[DEBUG][6][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [runoff,mrro] in the model results
+[DEBUG][6][WorkConfront][Runoff/CLASS][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][extractTimeSeries][CARDAMOM] Could not find [hfss,sh] in the model results
+[DEBUG][7][WorkConfront][SensibleHeat/CLASS][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][6][WorkConfront][Runoff/CLASS][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[DEBUG][6][extractTimeSeries][CARDAMOM] Could not find [hfss,sh] in the model results
+[DEBUG][6][WorkConfront][SensibleHeat/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][6][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfss,sh] in the model results
+[DEBUG][6][WorkConfront][SensibleHeat/FLUXNET2015][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfss,sh] in the model results
+[DEBUG][7][WorkConfront][SensibleHeat/CLASS][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][11][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetLWRadiation/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][11][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetLWRadiation/FLUXNET2015][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][10][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][10][WorkConfront][SurfaceNetSWRadiation/WRMC.BSRN][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][10][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][10][WorkConfront][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][11][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][11][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][11][confront][SurfaceNetLWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][10][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
+[INFO][10][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
+[INFO][10][confront][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][7][MakeComparable][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][7][MakeComparable][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
+[DEBUG][8][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus,FSR] in the model results
+[DEBUG][8][WorkConfront][Albedo/GEWEX.SRB][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+                                         ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 72, in stageData
+    up_mod = m.extractTimeSeries(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][WorkConfront][SensibleHeat/CLASS][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
+
+[DEBUG][10][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/CERESed4.2][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][extractTimeSeries][CARDAMOM] Could not find [hfss,sh] in the model results
+[DEBUG][7][WorkConfront][SensibleHeat/WECANN][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfss,sh] in the model results
+[DEBUG][7][WorkConfront][SensibleHeat/WECANN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][10][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][7][MakeComparable][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
+[INFO][7][MakeComparable][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
+[INFO][13][MakeComparable][DiurnalMaxTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
+[INFO][13][MakeComparable][DiurnalMaxTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [660  96 144] after: [660  73 142]
+[INFO][12][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][12][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][10][MakeComparable][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][10][MakeComparable][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[DEBUG][11][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetLWRadiation/GEWEX.SRB][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][14][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][14][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [324  96 144] after: [324  73 142]
+[DEBUG][11][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][11][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][11][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][10][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][2][confront][LeafAreaIndex/AVHRR][CARDAMOM] Success
+[INFO][10][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][10][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[DEBUG][10][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/FLUXNET2015][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][10][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/FLUXNET2015][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][10][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][10][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][10][confront][SurfaceUpwardLWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][2][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
+[INFO][2][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][7][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[DEBUG][10][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/GEWEX.SRB][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][7][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][7][confront][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[DEBUG][10][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][7][MakeComparable] Spatial data was clipped from the reference:  before: [156 360 720] after: [156 281 720]
+[INFO][10][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][10][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[DEBUG][7][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [mrro] in the model results
+[DEBUG][7][WorkConfront][TerrestrialWaterStorageAnomaly/GRACE][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfTWSA.py", line 147, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfTWSA.py", line 85, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][9][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[DEBUG][7][WorkConfront][TerrestrialWaterStorageAnomaly/GRACE][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfTWSA.py", line 147, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfTWSA.py", line 85, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[INFO][12][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][7][MakeComparable][SnowWaterEquivalent/CanSISE][CARDAMOM] Spatial data was clipped from the reference:  before: [360  90 360] after: [360  83 355]
+[INFO][7][MakeComparable][SnowWaterEquivalent/CanSISE][CARDAMOM] Spatial data was clipped from the comparison:  before: [120  35  72] after: [120  22  72]
+[INFO][12][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[DEBUG][12][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
 [DEBUG][12][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -309,7 +1353,7 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
 [DEBUG][12][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -330,28 +1374,13 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rlus] in the model results
-[DEBUG][12][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][12][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[INFO][12][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][9][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][9][confront][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][7][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
+[DEBUG][12][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
 [DEBUG][12][WorkConfront][SurfaceNetRadiation/CLASS][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -372,22 +1401,9 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][2][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [gpp] in the model results
-[DEBUG][2][WorkConfront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP5]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[INFO][7][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
+[INFO][7][confront][SnowWaterEquivalent/CanSISE][CARDAMOM] Success
+[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
 [DEBUG][12][WorkConfront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -408,149 +1424,99 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][2][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
-[INFO][2][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
-[INFO][4][MakeComparable][Evapotranspiration/GLEAMv3.3a][CARDAMOM] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
-[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rlus] in the model results
+[DEBUG][7][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [swe,snw] in the model results
+[DEBUG][7][WorkConfront][SnowWaterEquivalent/CanSISE][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSWE.py", line 9, in stageData
+    obs, mod = super(ConfSWE, self).stageData(m)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [swe,snw] in the model results
+[DEBUG][7][WorkConfront][SnowWaterEquivalent/CanSISE][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfSWE.py", line 9, in stageData
+    obs, mod = super(ConfSWE, self).stageData(m)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][12][MakeComparable][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][12][MakeComparable][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
 [DEBUG][12][WorkConfront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
 
-[INFO][3][AnalysisMeanStateSites][nee] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
-[INFO][3][confront][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][11][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [INFO][12][MakeComparable][GroundHeatFlux/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
-[DEBUG][13][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [tasmax] in the model results
-[DEBUG][13][WorkConfront][DiurnalMaxTemperature/CRU4.02][ENSEMBLE-CMIP6]
+[DEBUG][7][WorkConfront][Permafrost/Brown2002][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
     obs, mod = self.stageData(m)
                ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
-[INFO][1][confront][Biomass/USForest][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSites][nee] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
-[INFO][3][confront][NetEcosystemExchange/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][Biomass/XuSaatchi2021][CARDAMOM] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
-[INFO][3][AnalysisMeanStateSites][reco] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
-[INFO][3][confront][EcosystemRespiration/FLUXNET2015][CARDAMOM] Success
-[INFO][3][AnalysisMeanStateSites][reco] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
-[INFO][3][confront][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP5] Success
-[INFO][3][AnalysisMeanStateSites][reco] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
-[INFO][3][confront][EcosystemRespiration/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][CARDAMOM] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
-[INFO][13][MakeComparable][DiurnalMinTemperature/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
-[DEBUG][13][WorkConfront][DiurnalMinTemperature/CRU4.02][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2570, in MakeComparable
-    com = com.convert(ref.unit)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 199, in stageData
+    mod = permafrost_extent_slater2013(tsl, dmax=dmax, Teps=Teps)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 36, in permafrost_extent_slater2013
+    tsl = tsl.trim(d=[0, dmax])
           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1022, in convert
-    src_unit = Unit(self.unit)
-               ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units/__init__.py", line 830, in __init__
-    raise value_error from None
-ValueError: [UT_UNKNOWN] Failed to parse unit "deg C"
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 2186, in trim
+    raise ValueError
+ValueError
 
-[DEBUG][13][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tasmin] in the model results
-[DEBUG][13][WorkConfront][DiurnalMinTemperature/CRU4.02][ENSEMBLE-CMIP5]
+[DEBUG][7][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tsl,TSOI] in the model results
+[DEBUG][7][WorkConfront][Permafrost/Brown2002][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
     obs, mod = self.stageData(m)
                ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 193, in stageData
+    tsl = m.extractTimeSeries(
           ^^^^^^^^^^^^^^^^^^^^
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
-[INFO][1][confront][Biomass/XuSaatchi2021][CARDAMOM] Success
-[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
-[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
-[INFO][2][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[DEBUG][13][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [tasmin] in the model results
-[DEBUG][13][WorkConfront][DiurnalMinTemperature/CRU4.02][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][2][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][2][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
-[DEBUG][13][WorkConfront][DiurnalTemperatureRange/CRU4.02][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 549, in derivedVariable
-    result, unit = il.SympifyWithArgsUnits(expression, args, units)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 616, in SympifyWithArgsUnits
-    Unit(units[key]).convert(np.ones(1), Unit(units[key0]))
-    ^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units/__init__.py", line 830, in __init__
-    raise value_error from None
-ValueError: [UT_UNKNOWN] Failed to parse unit "deg C"
-
-[INFO][2][MakeComparable][LeafAreaIndex/AVHRR][CARDAMOM] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
-[DEBUG][13][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tasmax] in the model results
-[DEBUG][13][WorkConfront][DiurnalTemperatureRange/CRU4.02][ENSEMBLE-CMIP5]
+[INFO][11][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][11][confront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[DEBUG][11][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetLWRadiation/WRMC.BSRN][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -570,12 +1536,136 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
-[INFO][1][confront][Biomass/XuSaatchi2021][ENSEMBLE-CMIP5] Success
-[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 20 360 720] after: [ 20 273 710]
-[INFO][1][MakeComparable][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [180  96 144] after: [180  73 142]
-[DEBUG][13][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [tasmax] in the model results
-[DEBUG][13][WorkConfront][DiurnalTemperatureRange/CRU4.02][ENSEMBLE-CMIP6]
+[DEBUG][11][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][11][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][11][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][11][confront][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[DEBUG][11][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetRadiation/CERESed4.2][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][11][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][11][MakeComparable][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][11][MakeComparable][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][10][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][14][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][8][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][10][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][10][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[DEBUG][10][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/WRMC.BSRN][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][10][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][10][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][10][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][10][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[DEBUG][10][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceNetLWRadiation/CERESed4.2][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[DEBUG][10][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][10][WorkConfront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -596,7 +1686,9 @@ Traceback (most recent call last):
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
 [INFO][12][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][13][MakeComparable][Precipitation/CMAPv1904][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][10][MakeComparable][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][10][MakeComparable][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][11][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][12][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
 [INFO][12][confront][GroundHeatFlux/CLASS][CARDAMOM] Success
 [DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfdsl,FGR12] in the model results
@@ -629,10 +1721,11 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
-[INFO][1][confront][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Success
-[DEBUG][1][extractTimeSeries][CARDAMOM] Could not find [burntArea,burntFractionAll] in the model results
-[DEBUG][1][WorkConfront][BurnedArea/GFED4.1S][CARDAMOM]
+[INFO][11][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][8][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][11][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[DEBUG][11][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetRadiation/FLUXNET2015][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -642,13 +1735,18 @@ Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
     mod = m.extractTimeSeries(
           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][3][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
-[DEBUG][1][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [burntArea,burntFractionAll] in the model results
-[DEBUG][1][WorkConfront][BurnedArea/GFED4.1S][ENSEMBLE-CMIP5]
+[DEBUG][11][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetRadiation/FLUXNET2015][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -658,163 +1756,112 @@ Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
     mod = m.extractTimeSeries(
           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][12][extractTimeSeries][CARDAMOM] Could not find [tas] in the model results
-[DEBUG][12][WorkConfront][SurfaceAirTemperature/CRU4.02][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][1][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [burntArea,burntFractionAll] in the model results
-[DEBUG][1][WorkConfront][BurnedArea/GFED4.1S][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][1][extractTimeSeries][CARDAMOM] Could not find [nbp] in the model results
-[DEBUG][1][WorkConfront][CarbonDioxide/NOAA.Emulated][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 602, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 333, in stageData
-    mod = self.emulatedModelResult(m, obs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 213, in emulatedModelResult
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][3][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
-[INFO][3][confront][EcosystemRespiration/FLUXCOM][CARDAMOM] Success
-[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
-[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
-[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
-[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
-[INFO][4][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][4][confront][Evapotranspiration/GLEAMv3.3a][CARDAMOM] Success
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [et,evspsbl] in the model results
-[DEBUG][4][WorkConfront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP5]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][8][confront][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][11][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][11][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][confront][LeafAreaIndex/AVHRR][CARDAMOM] Success
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [et,evspsbl] in the model results
-[DEBUG][4][WorkConfront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][4][MakeComparable][Evapotranspiration/MODIS][CARDAMOM] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 273 710]
-[INFO][2][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
-[INFO][2][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
-[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/CMAPv1904][CARDAMOM] Success
-[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [324  96 144] after: [324  73 142]
-[INFO][3][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
-[INFO][3][confront][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP5] Success
-[INFO][4][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][4][confront][Evapotranspiration/MODIS][CARDAMOM] Success
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [et,evspsbl] in the model results
-[DEBUG][4][WorkConfront][Evapotranspiration/MODIS][ENSEMBLE-CMIP5]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
-[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [et,evspsbl] in the model results
-[DEBUG][4][WorkConfront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][4][MakeComparable][Evapotranspiration/MOD16A2][CARDAMOM] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 273 710]
-[INFO][12][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][12][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][12][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Success
-[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
-[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][11][confront][SurfaceNetRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
 [INFO][2][confront][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP5] Success
+[INFO][14][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][14][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Success
+[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
+[DEBUG][8][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][8][WorkConfront][SurfaceUpwardSWRadiation/CERESed4.2][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][8][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rsus] in the model results
+[DEBUG][8][WorkConfront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][11][extractTimeSeries][CARDAMOM] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][8][MakeComparable][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][8][MakeComparable][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
 [INFO][2][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 273 710]
 [INFO][2][MakeComparable][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [348  96 144] after: [348  73 142]
-[INFO][4][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][4][confront][Evapotranspiration/MOD16A2][CARDAMOM] Success
-[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [et,evspsbl] in the model results
-[DEBUG][4][WorkConfront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP5]
+[DEBUG][11][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlus] in the model results
+[DEBUG][11][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][14][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][14][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][10][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][10][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][10][confront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][13][AnalysisMeanStateSpace][tasmax] Bias scored using Collier2018
+[INFO][8][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][8][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][8][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[DEBUG][8][extractTimeSeries][CARDAMOM] Could not find [rsus] in the model results
+[DEBUG][8][WorkConfront][SurfaceUpwardSWRadiation/FLUXNET2015][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -828,159 +1875,44 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [et,evspsbl] in the model results
-[DEBUG][4][WorkConfront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Success
-[DEBUG][4][extractTimeSeries][CARDAMOM] Could not find [hfss,FSH] in the model results
-[DEBUG][4][WorkConfront][EvaporativeFraction/FLUXCOM][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfEvapFraction.py", line 168, in confront
-    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
-                                         ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfEvapFraction.py", line 73, in stageData
-    sh_mod = m.extractTimeSeries(
-             ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
-[DEBUG][4][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [hfss,FSH] in the model results
-[DEBUG][4][WorkConfront][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP5]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfEvapFraction.py", line 168, in confront
-    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
-                                         ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfEvapFraction.py", line 73, in stageData
-    sh_mod = m.extractTimeSeries(
-             ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][13][AnalysisMeanStateSpace][tasmax] RMSE scored using Collier2018
+[INFO][13][confront][DiurnalMaxTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][13][MakeComparable][DiurnalMinTemperature/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
+[INFO][12][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceAirTemperature/CRU4.02][CARDAMOM] Success
+[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
+[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[INFO][13][AnalysisMeanStateSpace][tasmin] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][tasmin] RMSE scored using Collier2018
+[INFO][13][confront][DiurnalMinTemperature/CRU4.02][CARDAMOM] Success
+[DEBUG][13][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tasmin] in the model results
+[DEBUG][13][WorkConfront][DiurnalMinTemperature/CRU4.02][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][13][MakeComparable][DiurnalMinTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
+[INFO][13][MakeComparable][DiurnalMinTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [660  96 144] after: [660  73 142]
 [INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
 [INFO][2][confront][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
 [INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][CARDAMOM] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
-[INFO][12][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][12][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][12][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[DEBUG][12][extractTimeSeries][CARDAMOM] Could not find [tas] in the model results
-[DEBUG][12][WorkConfront][SurfaceAirTemperature/FLUXNET2015][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][12][AnalysisMeanStateSites][tas] Bias scored using Collier2018
-[INFO][12][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
-[INFO][12][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP5] Success
-[INFO][12][AnalysisMeanStateSites][tas] Bias scored using Collier2018
-[INFO][12][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
-[INFO][12][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][12][MakeComparable][DiurnalMaxTemperature/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
-[DEBUG][12][WorkConfront][DiurnalMaxTemperature/CRU4.02][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2570, in MakeComparable
-    com = com.convert(ref.unit)
-          ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1022, in convert
-    src_unit = Unit(self.unit)
-               ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units/__init__.py", line 830, in __init__
-    raise value_error from None
-ValueError: [UT_UNKNOWN] Failed to parse unit "deg C"
-
-[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tasmax] in the model results
-[DEBUG][12][WorkConfront][DiurnalMaxTemperature/CRU4.02][ENSEMBLE-CMIP5]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [264  96 144] after: [264  73 142]
-[INFO][14][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][14][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][confront][LeafAreaIndex/AVH15C1][CARDAMOM] Success
-[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
-[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [300  96 144] after: [300  73 142]
-[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
-[INFO][13][AnalysisMeanStateSites][pr] Bias scored using Collier2018
-[INFO][13][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/FLUXNET2015][CARDAMOM] Success
-[INFO][13][AnalysisMeanStateSites][pr] Bias scored using Collier2018
-[INFO][13][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP5] Success
-[INFO][13][AnalysisMeanStateSites][pr] Bias scored using Collier2018
-[INFO][13][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][13][MakeComparable][Precipitation/GPCCv2018][CARDAMOM] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
-[INFO][15][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][15][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][15][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Success
-[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
-[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/GPCCv2018][CARDAMOM] Success
-[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
-[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Success
-[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
-[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
 [INFO][14][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
 [INFO][14][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][14][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][12][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP5] Success
 [INFO][14][MakeComparable][Precipitation/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
 [DEBUG][14][WorkConfront][Precipitation/CLASS][CARDAMOM]
 Traceback (most recent call last):
@@ -999,6 +1931,8 @@ Traceback (most recent call last):
            ~~~~~~~~~^^^^^^
 IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
 
+[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
+[INFO][12][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
 [INFO][14][MakeComparable][Precipitation/CLASS][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
 [INFO][14][MakeComparable][Precipitation/CLASS][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 36  96 144] after: [ 36  73 142]
 [DEBUG][14][WorkConfront][Precipitation/CLASS][ENSEMBLE-CMIP5]
@@ -1052,8 +1986,6 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][15][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [DEBUG][14][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rhums,hurs] in the model results
 [DEBUG][14][WorkConfront][SurfaceRelativeHumidity/ERA5][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
@@ -1069,36 +2001,9 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [DEBUG][14][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rhums,hurs] in the model results
 [DEBUG][14][WorkConfront][SurfaceRelativeHumidity/ERA5][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][15][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][15][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][15][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][15][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][15][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][15][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][15][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][15][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5] Success
-[INFO][15][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][15][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][15][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Success
-[DEBUG][15][extractTimeSeries][CARDAMOM] Could not find [rlds] in the model results
-[DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/CERESed4.2][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -1127,6 +2032,194 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
+[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][2][confront][LeafAreaIndex/AVH15C1][CARDAMOM] Success
+[DEBUG][14][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rhums,hurs] in the model results
+[DEBUG][14][WorkConfront][SurfaceRelativeHumidity/CRU4.02][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
+[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [300  96 144] after: [300  73 142]
+[DEBUG][14][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rhums,hurs] in the model results
+[DEBUG][14][WorkConfront][SurfaceRelativeHumidity/CRU4.02][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][14][confront][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Success
+[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 70  96 144] after: [ 70  73 142]
+[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][14][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP5] Success
+[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[DEBUG][1][WorkConfront][CarbonDioxide/NOAA.Emulated][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 602, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 333, in stageData
+    mod = self.emulatedModelResult(m, obs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfCO2.py", line 276, in emulatedModelResult
+    eflux = np.ma.masked_array(eflux, mask=obs.data.mask)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 2911, in __new__
+    raise MaskError(msg % (nd, nm))
+numpy.ma.core.MaskError: Mask and data not compatible: data size is 3192, mask size is 20520.
+
+[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][14][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][14][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][14][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][14][confront][SurfaceDownwardSWRadiation/FLUXNET2015][CARDAMOM] Success
+[INFO][14][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][14][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][14][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][14][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][14][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][14][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][12][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][tasmin] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][12][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceAirTemperature/FLUXNET2015][CARDAMOM] Success
+[INFO][12][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][12][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][12][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][12][MakeComparable][DiurnalMaxTemperature/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
+[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][tasmin] RMSE scored using Collier2018
+[INFO][13][confront][DiurnalMinTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][14][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][2][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP5] Success
+[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
+[INFO][2][MakeComparable][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
+[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [264  96 144] after: [264  73 142]
+[INFO][13][MakeComparable][DiurnalTemperatureRange/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
+[INFO][12][AnalysisMeanStateSpace][tasmax] Bias scored using Collier2018
+[INFO][12][AnalysisMeanStateSpace][tasmax] RMSE scored using Collier2018
+[INFO][12][confront][DiurnalMaxTemperature/CRU4.02][CARDAMOM] Success
+[DEBUG][12][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tasmax] in the model results
+[DEBUG][12][WorkConfront][DiurnalMaxTemperature/CRU4.02][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][13][AnalysisMeanStateSpace][dtr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][dtr] RMSE scored using Collier2018
+[INFO][13][confront][DiurnalTemperatureRange/CRU4.02][CARDAMOM] Success
+[DEBUG][13][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [tasmax] in the model results
+[DEBUG][13][WorkConfront][DiurnalTemperatureRange/CRU4.02][ENSEMBLE-CMIP5]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][13][MakeComparable][DiurnalTemperatureRange/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [696 360 720] after: [696 273 710]
+[INFO][13][MakeComparable][DiurnalTemperatureRange/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [660  96 144] after: [660  73 142]
+[INFO][15][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5] Success
+[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][15][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][2][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
+[INFO][2][MakeComparable][LeafAreaIndex/MODIS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][2][confront][LeafAreaIndex/MODIS][CARDAMOM] Success
+[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
+[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][15][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][15][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP5] Success
+[INFO][15][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[DEBUG][15][extractTimeSeries][CARDAMOM] Could not find [rlds] in the model results
+[DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/CERESed4.2][CARDAMOM]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
 [DEBUG][15][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlds] in the model results
 [DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
@@ -1142,21 +2235,18 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][15][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rlds] in the model results
-[DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][2][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Success
+[INFO][15][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][15][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
+[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][13][AnalysisMeanStateSpace][dtr] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][dtr] RMSE scored using Collier2018
+[INFO][13][confront][DiurnalTemperatureRange/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][15][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [DEBUG][15][extractTimeSeries][CARDAMOM] Could not find [rlds] in the model results
 [DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/FLUXNET2015][CARDAMOM]
 Traceback (most recent call last):
@@ -1187,36 +2277,10 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][15][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rlds] in the model results
-[DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/FLUXNET2015][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][14][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rhums,hurs] in the model results
-[DEBUG][14][WorkConfront][SurfaceRelativeHumidity/CRU4.02][ENSEMBLE-CMIP5]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][15][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardLWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][13][MakeComparable][Precipitation/CMAPv1904][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
 [DEBUG][15][extractTimeSeries][CARDAMOM] Could not find [rlds] in the model results
 [DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/GEWEX.SRB][CARDAMOM]
 Traceback (most recent call last):
@@ -1232,24 +2296,6 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][14][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rhums,hurs] in the model results
-[DEBUG][14][WorkConfront][SurfaceRelativeHumidity/CRU4.02][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
-[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
-[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
 [DEBUG][15][extractTimeSeries][ENSEMBLE-CMIP5] Could not find [rlds] in the model results
 [DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP5]
 Traceback (most recent call last):
@@ -1265,21 +2311,19 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][15][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rlds] in the model results
-[DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
+[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][15][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][15][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][2][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/CMAPv1904][CARDAMOM] Success
+[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [324  96 144] after: [324  73 142]
+[INFO][15][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [DEBUG][15][extractTimeSeries][CARDAMOM] Could not find [rlds] in the model results
 [DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/WRMC.BSRN][CARDAMOM]
 Traceback (most recent call last):
@@ -1310,127 +2354,56 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][15][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [rlds] in the model results
-[DEBUG][15][WorkConfront][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][14][confront][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
-[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 70  96 144] after: [ 70  73 142]
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][14][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP5] Success
-[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
-[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
-[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
-[INFO][2][MakeComparable][LeafAreaIndex/MODIS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
-[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][14][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][14][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][14][confront][SurfaceDownwardSWRadiation/FLUXNET2015][CARDAMOM] Success
-[INFO][14][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][14][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP5] Success
-[INFO][14][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][14][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][14][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][confront][LeafAreaIndex/MODIS][CARDAMOM] Success
-[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
-[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
+[INFO][15][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][15][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][15][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][14][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP5] Success
+[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][13][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][13][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/FLUXNET2015][CARDAMOM] Success
+[INFO][13][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP5] Success
+[INFO][13][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][13][MakeComparable][Precipitation/GPCCv2018][CARDAMOM] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
+[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/GPCCv2018][CARDAMOM] Success
+[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
+[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [312  96 144] after: [312  73 142]
+[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][13][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP5] Success
+[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
+[INFO][13][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
+[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][13][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
-[INFO][14][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][14][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
 [INFO][13][MakeComparable][Precipitation/GPCPv2.3][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP5] Success
-[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
-[INFO][2][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
 [INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][13][confront][Precipitation/GPCPv2.3][CARDAMOM] Success
-[INFO][13][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][13][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Spatial data was clipped from the comparison:  before: [324  96 144] after: [324  73 142]
-[INFO][2][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
-[DEBUG][2][extractTimeSeries][CARDAMOM] Could not find [nbp] in the model results
-[DEBUG][2][WorkConfront][GlobalNetEcosystemCarbonBalance/GCP][CARDAMOM]
+[DEBUG][1][WorkConfront][CarbonDioxide/HIPPOAToM][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 98, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 65, in stageData
-    mod = m.extractTimeSeries(self.variable, alt_vars=self.alternate_vars)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfGSNF.py", line 93, in confront
+    mod_season = _seasonality(mod)
+                 ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfGSNF.py", line 74, in _seasonality
+    assert len(season_endpoints) == 2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
 
-[DEBUG][2][extractTimeSeries][CARDAMOM] Could not find [nbp] in the model results
-[DEBUG][2][WorkConfront][GlobalNetEcosystemCarbonBalance/Hoffman][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 98, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfNBP.py", line 65, in stageData
-    mod = m.extractTimeSeries(self.variable, alt_vars=self.alternate_vars)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][2][extractTimeSeries][CARDAMOM] Could not find [ra] in the model results
-[DEBUG][2][WorkConfront][NetEcosystemExchange/FLUXNET2015][CARDAMOM]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][13][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][13][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][13][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP5] Success
 [INFO][1][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
 [INFO][1][confront][GrossPrimaryProductivity/FLUXNET2015][CARDAMOM] Success
@@ -1449,12 +2422,3 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP5] Success
-[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
-[INFO][1][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
-[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][1][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][GrossPrimaryProductivity/WECANN][CARDAMOM] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
-[INFO][1][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][1][confront][GrossPrimaryProductivity/WECANN][CARDAMOM] Success
