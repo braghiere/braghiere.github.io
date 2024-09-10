@@ -51,6 +51,7 @@
           document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
           document.getElementById('dtcycle').src =  MNAME + '_' + RNAME + '_dtcycle.png'
           document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
+          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
           document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
         }
 
@@ -279,14 +280,18 @@
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("CARDAMOM_legend").style.display = 'none';
+          document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("CARDAMOM_legend").style.display = 'inline';
+          document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CARDAMOM').src = 'CARDAMOM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CARDAMOM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -359,6 +364,7 @@
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='CARDAMOM' selected="selected">CARDAMOM</option>
+        <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
         <center>
@@ -422,6 +428,25 @@
                <td onclick="highlightRowMeanState(this)">0.767</td>
                <td onclick="highlightRowMeanState(this)">0.880</td>
                <td onclick="highlightRowMeanState(this)">0.655</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GLEAMv3.3a_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">1.85</td>
+               <td onclick="highlightRowMeanState(this)">1.72</td>
+               <td onclick="highlightRowMeanState(this)">1.49</td>
+               <td onclick="highlightRowMeanState(this)">2.89</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.230</td>
+               <td onclick="highlightRowMeanState(this)">0.585</td>
+               <td onclick="highlightRowMeanState(this)">1.14</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.641</td>
+               <td onclick="highlightRowMeanState(this)">0.609</td>
+               <td onclick="highlightRowMeanState(this)">0.794</td>
+               <td onclick="highlightRowMeanState(this)">0.973</td>
+               <td onclick="highlightRowMeanState(this)">0.725</td>
              </tr>
           </tbody>
         </table>
@@ -535,6 +560,12 @@
           <img src="" id="dtcycle" alt="Data not available" ></img>
           </div>
         </div>
+        <div class="container" id="compcycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
         </div>
     </div>
     <div data-role="page" id="Relationships">
@@ -555,6 +586,7 @@
       <div style="display:none">
       <select id="RelationshipsModel">
         <option value='CARDAMOM'>CARDAMOM</option>
+        <option value='ENSEMBLE-CMIP6' selected="selected">ENSEMBLE-CMIP6</option>
       </select>
       </div>
         <center>
@@ -575,12 +607,22 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CARDAMOM</td>
                <td onclick="highlightRowRelationships(this)"><a href="GLEAMv3.3a_CARDAMOM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.683</td>
-               <td onclick="highlightRowRelationships(this)">0.726</td>
+               <td onclick="highlightRowRelationships(this)">0.696</td>
+               <td onclick="highlightRowRelationships(this)">0.743</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
                <td onclick="highlightRowRelationships(this)">0.753</td>
                <td onclick="highlightRowRelationships(this)">0.765</td>
                <td onclick="highlightRowRelationships(this)">0.759</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowRelationships(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowRelationships(this)"><a href="GLEAMv3.3a_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.747</td>
+               <td onclick="highlightRowRelationships(this)">0.764</td>
+               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)">0.917</td>
+               <td onclick="highlightRowRelationships(this)">0.772</td>
+               <td onclick="highlightRowRelationships(this)">0.844</td>
              </tr>
           </tbody>
         </table>
@@ -664,6 +706,13 @@
           <center>CARDAMOM</center>
           <img src="" id="CARDAMOM" alt="Data not available" ></img>
           <center><img src="legend_CARDAMOM.png" id="CARDAMOM_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ENSEMBLE-CMIP6_div">
+          <div class="child">
+          <center>ENSEMBLE-CMIP6</center>
+          <img src="" id="ENSEMBLE-CMIP6" alt="Data not available" ></img>
+          <center><img src="legend_ENSEMBLE-CMIP6.png" id="ENSEMBLE-CMIP6_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
