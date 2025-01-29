@@ -162,17 +162,21 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("CliMA_legend").style.display = 'none';
+          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'none';
+          document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("CliMA_legend").style.display = 'inline';
+          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'inline';
+          document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA').src = 'CliMA_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_ERA5_LAI').src = 'CliMA_ERA5_LAI_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_ERA5_LAI_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_MODIS_LAI').src = 'CliMA_MODIS_LAI_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_MODIS_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
       }
@@ -245,7 +249,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='CliMA' selected="selected">CliMA</option>
+        <option value='CliMA_ERA5_LAI' selected="selected">CliMA_ERA5_LAI</option>
+        <option value='CliMA_MODIS_LAI'>CliMA_MODIS_LAI</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -283,8 +288,8 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CliMA.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_ERA5_LAI</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CliMA_ERA5_LAI.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">374.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">-2.13</td>
@@ -295,6 +300,20 @@
                <td onclick="highlightRowMeanState(this)">0.538</td>
                <td onclick="highlightRowMeanState(this)">0.879</td>
                <td onclick="highlightRowMeanState(this)">0.670</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_MODIS_LAI</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CliMA_MODIS_LAI.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">374.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-2.82</td>
+               <td onclick="highlightRowMeanState(this)">26.8</td>
+               <td onclick="highlightRowMeanState(this)">0.970</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.731</td>
+               <td onclick="highlightRowMeanState(this)">0.528</td>
+               <td onclick="highlightRowMeanState(this)">0.920</td>
+               <td onclick="highlightRowMeanState(this)">0.677</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
@@ -452,11 +471,18 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CliMA_div">
+        <div class="container" id="CliMA_ERA5_LAI_div">
           <div class="child">
-          <center>CliMA</center>
-          <img src="" id="CliMA" alt="Data not available" ></img>
-          <center><img src="legend_CliMA.png" id="CliMA_legend"  alt="Data not available" ></img></center>
+          <center>CliMA_ERA5_LAI</center>
+          <img src="" id="CliMA_ERA5_LAI" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_ERA5_LAI.png" id="CliMA_ERA5_LAI_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_MODIS_LAI_div">
+          <div class="child">
+          <center>CliMA_MODIS_LAI</center>
+          <img src="" id="CliMA_MODIS_LAI" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_MODIS_LAI.png" id="CliMA_MODIS_LAI_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP6_div">
