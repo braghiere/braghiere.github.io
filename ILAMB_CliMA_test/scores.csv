@@ -1,0 +1,36 @@
+Variables,CARDAMOM,CliMA_ERA5_LAI,CliMA_MODIS_LAI,ENSEMBLE-CMIP5,ENSEMBLE-CMIP6
+Biomass,~,~,~,~,~
+Burned Area,~,~,~,~,~
+Carbon Dioxide,~,~,~,~,~
+Gross Primary Productivity,0.6999808009087877,0.4218835964035558,0.46414645588409303,--,0.6795678263833985
+Leaf Area Index,0.6150638062204256,0.5069688386230845,0.5696745322177811,0.5816787872365007,0.6242529117472048
+Global Net Ecosystem Carbon Balance,~,~,~,~,~
+Net Ecosystem Exchange,~,~,~,~,~
+Ecosystem Respiration,~,~,~,~,~
+Soil Carbon,~,~,~,~,~
+Nitrogen Fixation,~,~,~,~,~
+Methane,~,~,~,~,~
+Evapotranspiration,0.6545265352717927,0.574154590870928,0.5971852937066664,--,0.6906345232231945
+Evaporative Fraction,~,~,~,~,~
+Latent Heat,--,--,--,--,0.1651366821474631
+Runoff,~,~,~,~,~
+Sensible Heat,~,~,~,~,~
+Terrestrial Water Storage Anomaly,~,~,~,~,~
+Snow Water Equivalent,~,~,~,~,~
+Permafrost,~,~,~,~,~
+Surface Soil Moisture,~,~,~,~,~
+Albedo,~,~,~,~,~
+Surface Upward SW Radiation,~,~,~,~,~
+Surface Net SW Radiation,~,~,~,~,~
+Surface Upward LW Radiation,--,--,--,--,0.8221555244914398
+Surface Net LW Radiation,~,~,~,~,~
+Surface Net Radiation,~,~,~,~,~
+Ground Heat Flux,~,~,~,~,~
+Surface Air Temperature,~,~,~,~,~
+Diurnal Max Temperature,~,~,~,~,~
+Diurnal Min Temperature,~,~,~,~,~
+Diurnal Temperature Range,~,~,~,~,~
+Precipitation,~,~,~,~,~
+Surface Relative Humidity,~,~,~,~,~
+Surface Downward SW Radiation,~,~,~,~,~
+Surface Downward LW Radiation,~,~,~,~,~
