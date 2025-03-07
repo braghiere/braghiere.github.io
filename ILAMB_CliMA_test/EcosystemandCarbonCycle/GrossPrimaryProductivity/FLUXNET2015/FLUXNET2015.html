@@ -162,29 +162,25 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("CARDAMOM_legend").style.display = 'none';
-          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_alpha_legend").style.display = 'none';
           document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("CARDAMOM_legend").style.display = 'inline';
-          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_alpha_legend").style.display = 'inline';
           document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CARDAMOM').src = 'CARDAMOM_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CARDAMOM_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_ERA5_LAI').src = 'CliMA_ERA5_LAI_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_ERA5_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns').src = 'CliMA_longruns_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_alpha').src = 'CliMA_longruns_alpha_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_alpha_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_MODIS_LAI').src = 'CliMA_MODIS_LAI_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_MODIS_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP5').src = 'ENSEMBLE-CMIP5_' + RNAME + '_' + PNAME + '.png';
@@ -261,9 +257,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='CARDAMOM' selected="selected">CARDAMOM</option>
-        <option value='CliMA_ERA5_LAI'>CliMA_ERA5_LAI</option>
-        <option value='CliMA_longruns'>CliMA_longruns</option>
+        <option value='CliMA_longruns' selected="selected">CliMA_longruns</option>
+        <option value='CliMA_longruns_alpha'>CliMA_longruns_alpha</option>
         <option value='CliMA_MODIS_LAI'>CliMA_MODIS_LAI</option>
         <option value='ENSEMBLE-CMIP5'>ENSEMBLE-CMIP5</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
@@ -303,34 +298,6 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CARDAMOM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CARDAMOM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.92</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.432</td>
-               <td onclick="highlightRowMeanState(this)">2.16</td>
-               <td onclick="highlightRowMeanState(this)">0.846</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.654</td>
-               <td onclick="highlightRowMeanState(this)">0.519</td>
-               <td onclick="highlightRowMeanState(this)">0.905</td>
-               <td onclick="highlightRowMeanState(this)">0.650</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_ERA5_LAI</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CliMA_ERA5_LAI.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">4.08</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.725</td>
-               <td onclick="highlightRowMeanState(this)">3.68</td>
-               <td onclick="highlightRowMeanState(this)">1.67</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.549</td>
-               <td onclick="highlightRowMeanState(this)">0.363</td>
-               <td onclick="highlightRowMeanState(this)">0.807</td>
-               <td onclick="highlightRowMeanState(this)">0.520</td>
-             </tr>
-             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns</td>
                <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CliMA_longruns.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">2.33</td>
@@ -343,6 +310,20 @@
                <td onclick="highlightRowMeanState(this)">0.453</td>
                <td onclick="highlightRowMeanState(this)">0.824</td>
                <td onclick="highlightRowMeanState(this)">0.568</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_alpha</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CliMA_longruns_alpha.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">2.90</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.583</td>
+               <td onclick="highlightRowMeanState(this)">2.73</td>
+               <td onclick="highlightRowMeanState(this)">1.32</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.580</td>
+               <td onclick="highlightRowMeanState(this)">0.458</td>
+               <td onclick="highlightRowMeanState(this)">0.828</td>
+               <td onclick="highlightRowMeanState(this)">0.581</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_MODIS_LAI</td>
@@ -528,25 +509,18 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CARDAMOM_div">
-          <div class="child">
-          <center>CARDAMOM</center>
-          <img src="" id="CARDAMOM" alt="Data not available" ></img>
-          <center><img src="legend_CARDAMOM.png" id="CARDAMOM_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="CliMA_ERA5_LAI_div">
-          <div class="child">
-          <center>CliMA_ERA5_LAI</center>
-          <img src="" id="CliMA_ERA5_LAI" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_ERA5_LAI.png" id="CliMA_ERA5_LAI_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
         <div class="container" id="CliMA_longruns_div">
           <div class="child">
           <center>CliMA_longruns</center>
           <img src="" id="CliMA_longruns" alt="Data not available" ></img>
           <center><img src="legend_CliMA_longruns.png" id="CliMA_longruns_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_alpha_div">
+          <div class="child">
+          <center>CliMA_longruns_alpha</center>
+          <img src="" id="CliMA_longruns_alpha" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_alpha.png" id="CliMA_longruns_alpha_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="CliMA_MODIS_LAI_div">

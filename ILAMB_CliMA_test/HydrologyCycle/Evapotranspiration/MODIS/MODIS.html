@@ -273,27 +273,23 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("CARDAMOM_legend").style.display = 'none';
-          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_alpha_legend").style.display = 'none';
           document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("CARDAMOM_legend").style.display = 'inline';
-          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_alpha_legend").style.display = 'inline';
           document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CARDAMOM').src = 'CARDAMOM_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CARDAMOM_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_ERA5_LAI').src = 'CliMA_ERA5_LAI_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_ERA5_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns').src = 'CliMA_longruns_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_alpha').src = 'CliMA_longruns_alpha_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_alpha_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_MODIS_LAI').src = 'CliMA_MODIS_LAI_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_MODIS_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
@@ -369,9 +365,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='CARDAMOM' selected="selected">CARDAMOM</option>
-        <option value='CliMA_ERA5_LAI'>CliMA_ERA5_LAI</option>
-        <option value='CliMA_longruns'>CliMA_longruns</option>
+        <option value='CliMA_longruns' selected="selected">CliMA_longruns</option>
+        <option value='CliMA_longruns_alpha'>CliMA_longruns_alpha</option>
         <option value='CliMA_MODIS_LAI'>CliMA_MODIS_LAI</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
@@ -420,69 +415,50 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CARDAMOM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="MODIS_CARDAMOM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.15</td>
-               <td onclick="highlightRowMeanState(this)">1.28</td>
-               <td onclick="highlightRowMeanState(this)">1.53</td>
-               <td onclick="highlightRowMeanState(this)">0.646</td>
-               <td onclick="highlightRowMeanState(this)">2.19</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.252</td>
-               <td onclick="highlightRowMeanState(this)">0.705</td>
-               <td onclick="highlightRowMeanState(this)">1.45</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.492</td>
-               <td onclick="highlightRowMeanState(this)">0.546</td>
-               <td onclick="highlightRowMeanState(this)">0.773</td>
-               <td onclick="highlightRowMeanState(this)">0.913</td>
-               <td onclick="highlightRowMeanState(this)">0.654</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_ERA5_LAI</td>
-               <td onclick="highlightRowMeanState(this)"><a href="MODIS_CliMA_ERA5_LAI.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.84</td>
-               <td onclick="highlightRowMeanState(this)">2.03</td>
-               <td onclick="highlightRowMeanState(this)">1.56</td>
-               <td onclick="highlightRowMeanState(this)">1.33</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.473</td>
-               <td onclick="highlightRowMeanState(this)">1.08</td>
-               <td onclick="highlightRowMeanState(this)">1.94</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.499</td>
-               <td onclick="highlightRowMeanState(this)">0.324</td>
-               <td onclick="highlightRowMeanState(this)">0.720</td>
-               <td onclick="highlightRowMeanState(this)">0.962</td>
-               <td onclick="highlightRowMeanState(this)">0.566</td>
-             </tr>
-             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_CliMA_longruns.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.51</td>
+               <td onclick="highlightRowMeanState(this)">1.37</td>
                <td onclick="highlightRowMeanState(this)">1.66</td>
                <td onclick="highlightRowMeanState(this)">1.56</td>
-               <td onclick="highlightRowMeanState(this)">1.10</td>
+               <td onclick="highlightRowMeanState(this)">0.811</td>
                <td onclick="highlightRowMeanState(this)">3.03</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.0945</td>
+               <td onclick="highlightRowMeanState(this)">0.0944</td>
                <td onclick="highlightRowMeanState(this)">0.671</td>
                <td onclick="highlightRowMeanState(this)">1.30</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.568</td>
-               <td onclick="highlightRowMeanState(this)">0.467</td>
+               <td onclick="highlightRowMeanState(this)">0.468</td>
                <td onclick="highlightRowMeanState(this)">0.805</td>
-               <td onclick="highlightRowMeanState(this)">0.969</td>
-               <td onclick="highlightRowMeanState(this)">0.655</td>
+               <td onclick="highlightRowMeanState(this)">0.970</td>
+               <td onclick="highlightRowMeanState(this)">0.656</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_alpha</td>
+               <td onclick="highlightRowMeanState(this)"><a href="MODIS_CliMA_longruns_alpha.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">1.50</td>
+               <td onclick="highlightRowMeanState(this)">1.83</td>
+               <td onclick="highlightRowMeanState(this)">1.56</td>
+               <td onclick="highlightRowMeanState(this)">0.824</td>
+               <td onclick="highlightRowMeanState(this)">3.12</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.269</td>
+               <td onclick="highlightRowMeanState(this)">0.727</td>
+               <td onclick="highlightRowMeanState(this)">1.25</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.556</td>
+               <td onclick="highlightRowMeanState(this)">0.445</td>
+               <td onclick="highlightRowMeanState(this)">0.816</td>
+               <td onclick="highlightRowMeanState(this)">0.968</td>
+               <td onclick="highlightRowMeanState(this)">0.646</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_MODIS_LAI</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_CliMA_MODIS_LAI.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.61</td>
+               <td onclick="highlightRowMeanState(this)">1.47</td>
                <td onclick="highlightRowMeanState(this)">1.75</td>
                <td onclick="highlightRowMeanState(this)">1.56</td>
-               <td onclick="highlightRowMeanState(this)">1.20</td>
+               <td onclick="highlightRowMeanState(this)">0.902</td>
                <td onclick="highlightRowMeanState(this)">2.27</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.198</td>
@@ -492,27 +468,27 @@
                <td onclick="highlightRowMeanState(this)">0.567</td>
                <td onclick="highlightRowMeanState(this)">0.339</td>
                <td onclick="highlightRowMeanState(this)">0.718</td>
-               <td onclick="highlightRowMeanState(this)">0.970</td>
+               <td onclick="highlightRowMeanState(this)">0.971</td>
                <td onclick="highlightRowMeanState(this)">0.587</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.86</td>
+               <td onclick="highlightRowMeanState(this)">1.71</td>
                <td onclick="highlightRowMeanState(this)">1.93</td>
                <td onclick="highlightRowMeanState(this)">1.56</td>
-               <td onclick="highlightRowMeanState(this)">1.69</td>
+               <td onclick="highlightRowMeanState(this)">1.28</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.372</td>
+               <td onclick="highlightRowMeanState(this)">0.371</td>
                <td onclick="highlightRowMeanState(this)">0.718</td>
                <td onclick="highlightRowMeanState(this)">1.35</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.566</td>
                <td onclick="highlightRowMeanState(this)">0.532</td>
                <td onclick="highlightRowMeanState(this)">0.770</td>
-               <td onclick="highlightRowMeanState(this)">0.968</td>
-               <td onclick="highlightRowMeanState(this)">0.673</td>
+               <td onclick="highlightRowMeanState(this)">0.969</td>
+               <td onclick="highlightRowMeanState(this)">0.674</td>
              </tr>
           </tbody>
         </table>
@@ -651,9 +627,8 @@
       </select>
       <div style="display:none">
       <select id="RelationshipsModel">
-        <option value='CARDAMOM'>CARDAMOM</option>
-        <option value='CliMA_ERA5_LAI' selected="selected">CliMA_ERA5_LAI</option>
         <option value='CliMA_longruns'>CliMA_longruns</option>
+        <option value='CliMA_longruns_alpha' selected="selected">CliMA_longruns_alpha</option>
         <option value='CliMA_MODIS_LAI'>CliMA_MODIS_LAI</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
@@ -670,20 +645,14 @@
            </thead>
            <tbody>
              <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">CARDAMOM</td>
-               <td onclick="highlightRowRelationships(this)"><a href="MODIS_CARDAMOM.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_ERA5_LAI</td>
-               <td onclick="highlightRowRelationships(this)"><a href="MODIS_CliMA_ERA5_LAI.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-             </tr>
-             <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_longruns</td>
                <td onclick="highlightRowRelationships(this)"><a href="MODIS_CliMA_longruns.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)"></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_longruns_alpha</td>
+               <td onclick="highlightRowRelationships(this)"><a href="MODIS_CliMA_longruns_alpha.nc" download>[-]</a></td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
                <td onclick="highlightRowRelationships(this)"></td>
              </tr>
@@ -738,25 +707,18 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CARDAMOM_div">
-          <div class="child">
-          <center>CARDAMOM</center>
-          <img src="" id="CARDAMOM" alt="Data not available" ></img>
-          <center><img src="legend_CARDAMOM.png" id="CARDAMOM_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="CliMA_ERA5_LAI_div">
-          <div class="child">
-          <center>CliMA_ERA5_LAI</center>
-          <img src="" id="CliMA_ERA5_LAI" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_ERA5_LAI.png" id="CliMA_ERA5_LAI_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
         <div class="container" id="CliMA_longruns_div">
           <div class="child">
           <center>CliMA_longruns</center>
           <img src="" id="CliMA_longruns" alt="Data not available" ></img>
           <center><img src="legend_CliMA_longruns.png" id="CliMA_longruns_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_alpha_div">
+          <div class="child">
+          <center>CliMA_longruns_alpha</center>
+          <img src="" id="CliMA_longruns_alpha" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_alpha.png" id="CliMA_longruns_alpha_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="CliMA_MODIS_LAI_div">

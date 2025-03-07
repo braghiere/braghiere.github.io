@@ -162,19 +162,15 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'none';
           document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("CliMA_ERA5_LAI_legend").style.display = 'inline';
           document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_ERA5_LAI').src = 'CliMA_ERA5_LAI_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_ERA5_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_MODIS_LAI').src = 'CliMA_MODIS_LAI_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_MODIS_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
@@ -249,8 +245,7 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='CliMA_ERA5_LAI' selected="selected">CliMA_ERA5_LAI</option>
-        <option value='CliMA_MODIS_LAI'>CliMA_MODIS_LAI</option>
+        <option value='CliMA_MODIS_LAI' selected="selected">CliMA_MODIS_LAI</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -286,20 +281,6 @@
                <td></td>
                <td></td>
                <td></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_ERA5_LAI</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_CliMA_ERA5_LAI.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">374.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-2.13</td>
-               <td onclick="highlightRowMeanState(this)">26.6</td>
-               <td onclick="highlightRowMeanState(this)">1.16</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.726</td>
-               <td onclick="highlightRowMeanState(this)">0.538</td>
-               <td onclick="highlightRowMeanState(this)">0.879</td>
-               <td onclick="highlightRowMeanState(this)">0.670</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_MODIS_LAI</td>
@@ -469,13 +450,6 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="CliMA_ERA5_LAI_div">
-          <div class="child">
-          <center>CliMA_ERA5_LAI</center>
-          <img src="" id="CliMA_ERA5_LAI" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_ERA5_LAI.png" id="CliMA_ERA5_LAI_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="CliMA_MODIS_LAI_div">
