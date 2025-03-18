@@ -1,36 +1,33 @@
-Variables,CliMA_longruns,CliMA_longruns_alpha,CliMA_MODIS_LAI,ENSEMBLE-CMIP5,ENSEMBLE-CMIP6
-Biomass,~,~,~,~,~
-Burned Area,~,~,~,~,~
-Carbon Dioxide,~,~,~,~,~
-Gross Primary Productivity,0.5227849065278138,0.5400409135851679,0.46450129883243474,--,0.6797723984228019
-Leaf Area Index,--,--,0.5699595645255197,0.5822774906254387,0.6246430128685054
-Global Net Ecosystem Carbon Balance,~,~,~,~,~
-Net Ecosystem Exchange,~,~,~,~,~
-Ecosystem Respiration,~,~,~,~,~
-Soil Carbon,~,~,~,~,~
-Nitrogen Fixation,~,~,~,~,~
-Methane,~,~,~,~,~
-Evapotranspiration,0.6705639162339017,0.6606510617328591,0.5974978563625511,--,0.6907028094396505
-Evaporative Fraction,~,~,~,~,~
-Latent Heat,--,--,--,--,0.16401034819426336
-Runoff,~,~,~,~,~
-Sensible Heat,~,~,~,~,~
-Terrestrial Water Storage Anomaly,~,~,~,~,~
-Snow Water Equivalent,~,~,~,~,~
-Permafrost,~,~,~,~,~
-Surface Soil Moisture,~,~,~,~,~
-Albedo,~,~,~,~,~
-Surface Upward SW Radiation,~,~,~,~,~
-Surface Net SW Radiation,~,~,~,~,~
-Surface Upward LW Radiation,--,--,--,--,0.8235015211482625
-Surface Net LW Radiation,~,~,~,~,~
-Surface Net Radiation,~,~,~,~,~
-Ground Heat Flux,~,~,~,~,~
-Surface Air Temperature,~,~,~,~,~
-Diurnal Max Temperature,~,~,~,~,~
-Diurnal Min Temperature,~,~,~,~,~
-Diurnal Temperature Range,~,~,~,~,~
-Precipitation,~,~,~,~,~
-Surface Relative Humidity,~,~,~,~,~
-Surface Downward SW Radiation,~,~,~,~,~
-Surface Downward LW Radiation,~,~,~,~,~
+Variables,CliMA_longruns,CliMA_longruns_alpha,ENSEMBLE-CMIP5,ENSEMBLE-CMIP6
+Biomass,~,~,~,~
+Carbon Dioxide,~,~,~,~
+Gross Primary Productivity,0.5227849065278138,0.5400409135851679,--,0.6797723984228019
+Leaf Area Index,--,--,0.5822774906254387,0.6246430128685054
+Global Net Ecosystem Carbon Balance,~,~,~,~
+Net Ecosystem Exchange,~,~,~,~
+Ecosystem Respiration,~,~,~,~
+Soil Carbon,~,~,~,~
+Evapotranspiration,0.5029229371754262,0.49548829629964436,--,0.5180271070797378
+Evaporative Fraction,0.18209545179140396,0.18393767207549902,--,0.19566718711555922
+Latent Heat,0.27230448739124913,0.2636612172475373,--,0.28693045458475597
+Runoff,0.06875556349592703,0.0654192017645856,--,--
+Sensible Heat,0.26745735173726,0.2720159447065625,--,0.3081277384132987
+Terrestrial Water Storage Anomaly,~,~,~,~
+Snow Water Equivalent,~,~,~,~
+Permafrost,~,~,~,~
+Surface Soil Moisture,0.19486261844491798,0.19767856355674257,--,--
+Albedo,~,~,~,~
+Surface Upward SW Radiation,--,--,--,0.5410077501530736
+Surface Net SW Radiation,~,~,~,~
+Surface Upward LW Radiation,--,--,--,0.6444794513334228
+Surface Net LW Radiation,~,~,~,~
+Surface Net Radiation,~,~,~,~
+Ground Heat Flux,~,~,~,~
+Surface Air Temperature,~,~,~,~
+Diurnal Max Temperature,~,~,~,~
+Diurnal Min Temperature,~,~,~,~
+Diurnal Temperature Range,~,~,~,~
+Precipitation,~,~,~,~
+Surface Relative Humidity,~,~,~,~
+Surface Downward SW Radiation,~,~,~,~
+Surface Downward LW Radiation,~,~,~,~

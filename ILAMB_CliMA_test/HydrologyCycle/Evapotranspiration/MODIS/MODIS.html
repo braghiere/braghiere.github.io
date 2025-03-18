@@ -275,13 +275,11 @@
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_alpha_legend").style.display = 'none';
-          document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_alpha_legend").style.display = 'inline';
-          document.getElementById("CliMA_MODIS_LAI_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
@@ -290,8 +288,6 @@
         document.getElementById('CliMA_longruns_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_alpha').src = 'CliMA_longruns_alpha_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_alpha_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_MODIS_LAI').src = 'CliMA_MODIS_LAI_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_MODIS_LAI_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
       }
@@ -367,7 +363,6 @@
         <option value='Benchmark'>Benchmark</option>
         <option value='CliMA_longruns' selected="selected">CliMA_longruns</option>
         <option value='CliMA_longruns_alpha'>CliMA_longruns_alpha</option>
-        <option value='CliMA_MODIS_LAI'>CliMA_MODIS_LAI</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -451,25 +446,6 @@
                <td onclick="highlightRowMeanState(this)">0.816</td>
                <td onclick="highlightRowMeanState(this)">0.968</td>
                <td onclick="highlightRowMeanState(this)">0.646</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_MODIS_LAI</td>
-               <td onclick="highlightRowMeanState(this)"><a href="MODIS_CliMA_MODIS_LAI.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.47</td>
-               <td onclick="highlightRowMeanState(this)">1.75</td>
-               <td onclick="highlightRowMeanState(this)">1.56</td>
-               <td onclick="highlightRowMeanState(this)">0.902</td>
-               <td onclick="highlightRowMeanState(this)">2.27</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.198</td>
-               <td onclick="highlightRowMeanState(this)">0.947</td>
-               <td onclick="highlightRowMeanState(this)">1.92</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.567</td>
-               <td onclick="highlightRowMeanState(this)">0.339</td>
-               <td onclick="highlightRowMeanState(this)">0.718</td>
-               <td onclick="highlightRowMeanState(this)">0.971</td>
-               <td onclick="highlightRowMeanState(this)">0.587</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
@@ -629,7 +605,6 @@
       <select id="RelationshipsModel">
         <option value='CliMA_longruns'>CliMA_longruns</option>
         <option value='CliMA_longruns_alpha' selected="selected">CliMA_longruns_alpha</option>
-        <option value='CliMA_MODIS_LAI'>CliMA_MODIS_LAI</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -653,12 +628,6 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_longruns_alpha</td>
                <td onclick="highlightRowRelationships(this)"><a href="MODIS_CliMA_longruns_alpha.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_MODIS_LAI</td>
-               <td onclick="highlightRowRelationships(this)"><a href="MODIS_CliMA_MODIS_LAI.nc" download>[-]</a></td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
                <td onclick="highlightRowRelationships(this)"></td>
              </tr>
@@ -719,13 +688,6 @@
           <center>CliMA_longruns_alpha</center>
           <img src="" id="CliMA_longruns_alpha" alt="Data not available" ></img>
           <center><img src="legend_CliMA_longruns_alpha.png" id="CliMA_longruns_alpha_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="CliMA_MODIS_LAI_div">
-          <div class="child">
-          <center>CliMA_MODIS_LAI</center>
-          <img src="" id="CliMA_MODIS_LAI" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_MODIS_LAI.png" id="CliMA_MODIS_LAI_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP6_div">
