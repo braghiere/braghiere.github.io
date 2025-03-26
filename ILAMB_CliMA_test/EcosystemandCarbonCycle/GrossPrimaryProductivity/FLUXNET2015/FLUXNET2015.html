@@ -164,13 +164,11 @@
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_alpha_legend").style.display = 'none';
-          document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_alpha_legend").style.display = 'inline';
-          document.getElementById("ENSEMBLE-CMIP5_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
@@ -179,8 +177,6 @@
         document.getElementById('CliMA_longruns_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_alpha').src = 'CliMA_longruns_alpha_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_alpha_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ENSEMBLE-CMIP5').src = 'ENSEMBLE-CMIP5_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ENSEMBLE-CMIP5_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
       }
@@ -255,7 +251,6 @@
         <option value='Benchmark'>Benchmark</option>
         <option value='CliMA_longruns' selected="selected">CliMA_longruns</option>
         <option value='CliMA_longruns_alpha'>CliMA_longruns_alpha</option>
-        <option value='ENSEMBLE-CMIP5'>ENSEMBLE-CMIP5</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -319,20 +314,6 @@
                <td onclick="highlightRowMeanState(this)">0.458</td>
                <td onclick="highlightRowMeanState(this)">0.828</td>
                <td onclick="highlightRowMeanState(this)">0.581</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP5</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ENSEMBLE-CMIP5.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">2.95</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.590</td>
-               <td onclick="highlightRowMeanState(this)">2.43</td>
-               <td onclick="highlightRowMeanState(this)">0.905</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.606</td>
-               <td onclick="highlightRowMeanState(this)">0.483</td>
-               <td onclick="highlightRowMeanState(this)">0.842</td>
-               <td onclick="highlightRowMeanState(this)">0.603</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
@@ -502,13 +483,6 @@
           <center>CliMA_longruns_alpha</center>
           <img src="" id="CliMA_longruns_alpha" alt="Data not available" ></img>
           <center><img src="legend_CliMA_longruns_alpha.png" id="CliMA_longruns_alpha_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="ENSEMBLE-CMIP5_div">
-          <div class="child">
-          <center>ENSEMBLE-CMIP5</center>
-          <img src="" id="ENSEMBLE-CMIP5" alt="Data not available" ></img>
-          <center><img src="legend_ENSEMBLE-CMIP5.png" id="ENSEMBLE-CMIP5_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP6_div">
