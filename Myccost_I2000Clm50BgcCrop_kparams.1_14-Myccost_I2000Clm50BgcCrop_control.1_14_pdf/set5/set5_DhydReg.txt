@@ -1,0 +1,63 @@
+DIAG SET 5: REGIONAL HYDROLOGIC CYCLE OVER LAND - DIFFERENCE (case1 - case2)
+ 
+TEST CASE (case1):      Myccost_I2000Clm50BgcCrop_kparams  (yrs 1-14)
+ 
+REFERENCE CASE (case2): Myccost_I2000Clm50BgcCrop_control  (yrs 1-14)
+ 
+DIFFERENCE:            (Myccost_I2000Clm50BgcCrop_kparams) - (Myccost_I2000Clm50BgcCrop_control)
+ 
+Variables:      PREC = ppt: rain+snow ((mm/y))
+		QVEGE = canopy evaporation ((mm/y))
+		QVEGEP = canopy evap:QVEGE/(RAIN+SNOW)*100 ((%))
+		QVEGT = canopy transpiration ((mm/y))
+		QSOIL = ground evaporation ((mm/y))
+		TOTRUNOFF = Total Liquid Runoff ((mm/y))
+ 
+Region                   PREC               QVEGE              QVEGEP              QVEGT              QSOIL            TOTRUNOFF
+ 
+missing
+Alaskan Arctic           0.000              -0.341              -0.122               0.522               0.038              -0.116
+Canadian Arctic          0.000              -0.095              -0.050              -0.034               0.119               0.015
+Greenland                0.000              -0.169              -0.020              -0.023               0.082               0.120
+Russian Arctic           0.000              -0.467              -0.174              -0.083               0.552               0.012
+Antarctica               0.000               0.000               0.000               0.000               0.000               0.000
+Alaska                   0.000              -1.424              -0.299               1.077               0.599              -0.101
+Northwest Canada         0.000              -0.032              -0.019               0.485               0.182              -0.629
+Central Canada           0.000               0.143               0.037               0.342               0.250              -0.754
+Eastern Canada           0.000              -1.933              -0.209              -0.340               1.970               0.201
+Northern Europe          0.000              -2.998              -0.438              -0.053               2.144               0.874
+Western Siberia          0.000               0.458               0.096              -2.364               1.649              -0.229
+Eastern Siberia          0.000              -0.464              -0.125              -0.695               0.985               0.051
+Western U.S.             0.000               0.254               0.035             -15.835               3.115              12.683
+Central U.S.             0.000              18.723               1.979              16.313             -14.893             -19.691
+Eastern U.S.             0.000               7.214               0.622               3.165              -2.996              -7.310
+Europe                   0.000              -2.099              -0.166               0.339               0.897               0.561
+Mediterranean            0.000               2.221               0.430              -0.941              -3.946               3.214
+Central America          0.000              33.916               1.492              41.885             -33.552             -41.376
+Amazonia                 0.000               2.189               0.108               6.960              -5.558              -3.588
+Central Africa           0.000               6.703               0.443              14.362             -12.248              -8.889
+Indonesia                0.000              35.213               1.365              53.082             -50.903             -36.691
+Brazil                   0.000              27.802               1.894              51.888             -47.139             -31.886
+Sahel                    0.000              15.805               1.752              44.808             -27.821             -32.176
+Southern Africa          0.000               4.094               0.392              17.644              -6.622             -13.361
+India                    0.000              11.618               1.082              23.943             -51.438              16.343
+Indochina                0.000              25.889               1.702              72.754             -44.056             -54.224
+Sahara Desert            0.000               0.001              -0.001              -0.091              -0.044               0.136
+Arabian Peninsula        0.000               0.002              -0.012              -2.236              -0.885               3.162
+Australia                0.000               0.111               0.032               0.361              -0.225              -0.233
+Central Asia             0.000               0.102               0.032              -9.620              -1.805              11.323
+Mongolia                 0.000               0.119               0.023              -1.834               0.016               1.711
+Tibetan Plateau          0.000              -0.883               0.095               0.804               0.967              -0.485
+Central Asia             0.000               0.039               0.000              -9.625               3.706               5.874
+NE China                 0.000               1.615               0.271               0.098              -2.302               0.401
+Eastern China            0.000               2.424               0.180              -8.153              -5.318              11.393
+Tibetan Plateau          0.000              -0.883               0.095               0.804               0.967              -0.485
+Southern Asia            0.000               7.922               0.600               6.773             -25.745              11.191
+Sahara and Arabia        0.000               0.027               0.001              -0.893              -0.523               1.406
+MedSea and MidEast       0.000               1.073               0.213              -6.777              -2.780               8.685
+Tigris Euphrates         0.000               0.771               0.162             -14.604              -4.894              18.872
+Polar                    0.000              -0.752              -0.165              -0.010               0.699               0.075
+Lost Boreal Forest       0.000              -0.813              -0.226              -0.222               1.111              -0.100
+N. Hemisphere Land       0.000               4.137               0.321               4.349              -6.468              -1.902
+S. Hemisphere Land       0.000               6.592               0.463              13.520             -10.248              -9.470
+Global                   0.000               4.934               0.367               7.330              -7.695              -4.362

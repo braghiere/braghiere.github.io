@@ -1,0 +1,118 @@
+DIAG SET 5: CN ANNUAL MEANS OVER LAND
+ 
+TEST CASE (case1):      Myccost_I2000Clm50BgcCrop_kparams  (yrs 1-14)
+ 
+REFERENCE CASE (case2): Myccost_I2000Clm50BgcCrop_control  (yrs 1-14)
+ 
+Variable                                                                 case1               case2
+ 
+NEE(PgC/y) net ecosys exchange of C;incl fire flx;pos for source          -1.960              -3.049
+NEP(PgC/y) net ecosystem production;excl fire flx;pos for sink             4.924               5.882
+NBP(PgC/y) net biome production, includes fire, landuse and harvest flux   0.979               0.434
+GPP(PgC/y) gross primary production                                      123.509             121.281
+CUE(NPP/GPP) carbon use efficiency                                         0.413               0.434
+PSNSUN_TO_CPOOL(PgC/y) GPP from Sunlit Canopy                             63.485              64.222
+PSNSHADE_TO_CPOOL(PgC/y) GPP from Shaded Canopy                           60.024              57.060
+NPP(PgC/y) net primary production                                         49.413              50.449
+AGNPP(PgC/y) above ground net primary production                          25.200              27.302
+BGNPP(PgC/y) below ground net primary production                          22.472              21.387
+MR(PgC/y) maintenance respiration                                         48.475              45.781
+GR(PgC/y) total growth respiration                                         5.433               5.547
+AR(PgC/y) autotrophic respiration (MR + GR)                               74.096              70.833
+LITHR(PgC/y) litter hetereotrophic respiration                          -999.000            -999.000
+SOMHR(PgC/y) SOM hetereotrophic respiration                             -999.000            -999.000
+HR(PgC/y) total hetereotrophic respiration                                44.489              44.567
+RR(PgC/y) root respiration (fine root MR + total root GR)                 12.042              10.762
+SR(PgC/y) total soil respiration (HR + root resp)                         56.531              55.329
+ER(PgC/y) total ecosystem respiration (AR + HR)                          118.585             115.399
+FINUNDATED(unitless) Fractional inundated of veg col                       0.036               0.037
+FCH4(PgC/y) Gridcell surface CH4 flux                                      0.309               0.319
+FCH4TOCO2(PgC/y) Gridcell oxidation of CH4 to CO2                          0.399               0.408
+FCH4_DFSAT(PgC/y) CH4 additional flux                                      0.002               0.002
+CH4PROD(PgC/y) Gridcell total CH4 production                               0.708               0.726
+CH4_SURF_AERE_SAT(Tmol/y) aerenchyma sfc CH4 flx-inundated area          224.750             237.346
+CH4_SURF_AERE_UNSAT(Tmol/y) aerenchyma sfc CH4 flx-non-inundated area     17.714              17.633
+CH4_SURF_DIFF_SAT(Tmol/y) diffusive sfc CH4 flx-inundated/lake area        1.365               1.457
+CH4_SURF_DIFF_UNSAT(Tmol/y) diffusive sfc CH4 flx-non-inundated area      -0.618              -0.594
+CH4_SURF_EBUL_SAT(Tmol/y) ebullition sfc CH4 flx-inundated/lake area       5.856               6.179
+CH4_SURF_EBUL_UNSAT(Tmol/y) ebullition sfc CH4 flx-non-inundated area      0.232               0.237
+LEAFC(PgC) leaf carbon                                                    10.263               9.467
+XSMRPOOL(PgC) Temporary Photosynthate C Pool                              -5.673              -5.119
+SOIL3C(PgC) Soil organic matter C (slow pool)                           1393.379            1391.004
+SOIL4C(PgC) Soil organic matter C (slowest pool)                        -999.000            -999.000
+FROOTC(PgC) fine root carbon                                              15.468              14.000
+LIVESTEMC(PgC) live stem C                                                 1.642               1.688
+DEADSTEMC(PgC) dead stem carbon                                          405.674             346.537
+LIVECROOTC(PgC) live coarse root carbon                                    0.461               0.389
+DEADCROOTC(PgC) dead coarse root carbon                                  130.467             110.914
+CPOOL(PgC) temporary photosynthate C pool                                 -0.000              -0.000
+TOTVEGC(PgC) total vegetation C, excluding cpool                         603.304             520.712
+CWDC(PgC) coarse woody debris carbon                                     129.512             118.669
+TOTLITC(PgC) total litter carbon                                          43.763              43.773
+TOTLITC_1m(PgC) total litter carbon to 1m depth                           43.316              43.354
+TOTSOMC(PgC) total SOM carbon                                           2100.107            2093.196
+TOTSOMC_1m(PgC) total SOM carbon to 1 meter depth                       1324.971            1318.231
+TOTLITN(TgN) total litter N                                              850.618             863.373
+TOTLITN_1m(TgN) total litter N to 1m depth                               841.039             854.406
+TOTSOMN(TgN) total soil organic matter N                              191537.438          190911.547
+TOTSOMN_1m(TgN) total soil organic matter N to 1m depth               121036.281          120426.086
+TOTECOSYSC(PgC) total ecosystem C, incl veg but excl cpool              2876.677            2776.350
+TOTCOLC(PgC) total ecosystem C, incl veg and cpool                      2870.917            2771.073
+FPG(proportion) fraction of potential GPP                               -999.000            -999.000
+FPI(proportion) fraction of potential immobilization                       0.965               0.969
+NDEP_TO_SMINN(TgN/y) nitrogen deposition                                  74.713              74.713
+FERT(TgN/y) fertilizer added                                            -999.000            -999.000
+FERT_TO_SMINN(TgN/y) fertilizer to soil mineral N                       -999.000            -999.000
+NFERTILIZATION(TgN/y) fertilizer added                                    10.790             101.001
+POTENTIAL_IMMOB(TgN/y) Potential Immobilization                         1818.702            1807.785
+ACTUAL_IMMOB(TgN/y) Actual Immobilization                               1659.925            1653.056
+GROSS_NMIN(TgN/y) Gross N Mineralization                                2560.313            2553.315
+NET_NMIN(TgN/y) Net N Mineralization                                     900.385             900.264
+NDEPLOY(TgN/y) Total N Deployed in New Growth                           1003.519            1045.768
+RETRANSN_TO_NPOOL(TgN/y) Retranslocated N to NPool                         5.449               5.501
+SMINN_TO_NPOOL(TgN/y) Mineral N to NPool                                 899.387             956.792
+DENIT(TgN/y) Total Denitrification                                       127.130             143.986
+SOIL3N(TgN) soil organic matter N (slow pool)                         126670.578          126454.875
+SOIL4N(TgN) Soil organic matter N (slowest pool)                        -999.000            -999.000
+NFIX_TO_SMINN(TgN/y) nitrogen fixation                                  -999.000            -999.000
+NAM(TgN/y) AM-associated N uptake flux                                   151.887              99.009
+NECM(TgN/y) ECM-associated N uptake flux                                 221.685              20.584
+NFIX(TgN/y) Symbiotic BNF uptake flux                                     33.587              45.234
+NRETRANS(TgN/y) Retranslocated N uptake flux                             104.129              88.974
+NPP_NUPTAKE(PgC/y) total carbon used by N uptake in FUN                   20.436              20.315
+NUPTAKE_FRACTION(NA) NPP_NUPTAKE/(NPP_NUPTAKE+NPP)                         0.276               0.264
+FFIX_TO_SMINN(TgN/y) free living N fixation to soil mineral N             39.000              38.594
+NPP_NFIX(PgC/y) Symbiotic BNF uptake used C                                0.272               0.433
+NPP_NACTIVE(PgC/y) Mycorrhizal N uptake used C                            12.169              14.849
+NPP_NRETRANS(PgC/y) retranslocated N uptake flux                           0.036               0.037
+SUPPLEMENT_TO_SMINN(TgN/y) supplement to mineral nitrogen                  0.000               0.000
+SMINN_LEACHED(TgN/y) Nitrogen Leached                                   -999.000            -999.000
+SMIN_NO3_LEACHED(TgN/y) Soil NO3 pool loss to leaching                     8.891              12.213
+SMIN_NO3_RUNOFF(TgN/y) Soil NO3 pool loss to runoff                       14.100              32.081
+SMINN(TgN) soil mineral N                                               1820.011            1923.470
+RETRANSN(TgN) plant pool of retranslocated N                             751.152            1209.030
+COL_CTRUNC(PgC) column-level sink for C truncation                      -999.000            -999.000
+PFT_CTRUNC(PgC) pft-level sink for C truncation                         -999.000            -999.000
+COL_NTRUNC(TgN) column-level sink for N truncation                      -999.000            -999.000
+PFT_NTRUNC(TgN) pft-level sink for N truncation                         -999.000            -999.000
+COL_FIRE_CLOSS(PgC/y) total column-level fire C loss                       2.964               2.833
+PFT_FIRE_CLOSS(PgC/y) total pft-level fire C loss                          1.927               1.836
+COL_FIRE_NLOSS(TgN/y) total column-level fire N loss                      44.023              46.016
+PFT_FIRE_NLOSS(TgN/y) total pft-level fire N loss                         29.948              31.936
+FAREA_BURNED(proportion/y) fractional area burned                          0.048               0.046
+BAF_CROP(proportion/y) fractional area burned - crop                       0.000               0.001
+CWDC_HR(PgC/y) Coarse Woody Debris C Hetereotrophic respiration         -999.000            -999.000
+CWDC_LOSS(PgC/y) Coarse Woody Debris C Loss                               10.772               9.668
+FROOTC_ALLOC(PgC/m2y) Fine root C allocation                              19.239              18.661
+FROOTC_LOSS(PgC/m2y) Fine root C Loss                                     19.327              18.734
+LEAFC_ALLOC(PgC/m2y) Leaf C Allocation                                    13.213              13.650
+LEAFC_LOSS(PgC/m2y) Leaf C Loss                                           13.266              13.692
+LITTERC(PgC) Total Litter C                                             -999.000            -999.000
+LITTERC_HR(PgC/m2y) Litter Hetereotrophic Respiration                     22.406              22.589
+LITTERC_LOSS(PgC/m2y) Litter C Loss                                       44.451              44.795
+SOILC(PgC) soil organic matter C (fast pool)                            -999.000            -999.000
+SOILC_HR(PgC/y) Soil C hetereotrophic respiration                         22.083              21.978
+SOILC_LOSS(PgC/y) Soil C Loss                                           -999.000            -999.000
+WOODC(PgC) Wood C                                                        538.243             459.525
+WOODC_ALLOC(PgC/y) Wood C Allocation                                      14.692              14.145
+WOODC_LOSS(PgC/y) Wood C Loss                                             11.612               9.906
