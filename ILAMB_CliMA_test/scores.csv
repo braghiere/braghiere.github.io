@@ -7,27 +7,27 @@ Global Net Ecosystem Carbon Balance,~,~,~
 Net Ecosystem Exchange,~,~,~
 Ecosystem Respiration,~,~,~
 Soil Carbon,~,~,~
-Evapotranspiration,0.5029229371754262,0.49548829629964436,0.5180271070797378
-Evaporative Fraction,0.18209545179140396,0.18393767207549902,0.19566718711555922
-Latent Heat,0.27230448739124913,0.2636612172475373,0.28693045458475597
-Runoff,0.06875556349592703,0.0654192017645856,--
-Sensible Heat,0.26745735173726,0.2720159447065625,0.3081277384132987
+Evapotranspiration,0.6356547642326729,0.6280228156235448,0.6718691933919931
+Evaporative Fraction,0.4184333417132988,0.4258041643408993,0.45758981171620317
+Latent Heat,0.42615760389952156,0.4169424728043239,0.4649131913534442
+Runoff,0.15125993496049972,0.15161916928398853,--
+Sensible Heat,0.4174927631389574,0.4235738877025076,0.48150967253343774
 Terrestrial Water Storage Anomaly,~,~,~
 Snow Water Equivalent,~,~,~
 Permafrost,~,~,~
 Surface Soil Moisture,0.19486261844491798,0.19767856355674257,--
 Albedo,~,~,~
-Surface Upward SW Radiation,--,--,0.5410077501530736
+Surface Upward SW Radiation,--,--,0.6705792745849938
 Surface Net SW Radiation,~,~,~
-Surface Upward LW Radiation,--,--,0.6444794513334228
+Surface Upward LW Radiation,--,--,0.7813995427250922
 Surface Net LW Radiation,~,~,~
 Surface Net Radiation,~,~,~
 Ground Heat Flux,~,~,~
-Surface Air Temperature,0.6126737471227383,0.6104445527903445,0.6225654278907163
+Surface Air Temperature,0.8031224640798456,0.7991164376646461,0.8195812076193324
 Diurnal Max Temperature,~,~,~
 Diurnal Min Temperature,~,~,~
 Diurnal Temperature Range,~,~,~
-Precipitation,--,--,0.5196314379384522
+Precipitation,--,--,0.5443134924882
 Surface Relative Humidity,~,~,~
-Surface Downward SW Radiation,--,--,0.6804910099616114
+Surface Downward SW Radiation,--,--,0.8216982797847926
 Surface Downward LW Radiation,~,~,~
