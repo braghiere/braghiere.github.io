@@ -7,7 +7,7 @@ Global Net Ecosystem Carbon Balance,~,~,~
 Net Ecosystem Exchange,~,~,~
 Ecosystem Respiration,~,~,~
 Soil Carbon,~,~,~
-Evapotranspiration,0.6356547642326729,0.6280228156235448,0.6718691933919931
+Evapotranspiration,--,--,--
 Evaporative Fraction,0.4184333417132988,0.4258041643408993,0.45758981171620317
 Latent Heat,0.42615760389952156,0.4169424728043239,0.4649131913534442
 Runoff,0.15125993496049972,0.15161916928398853,--
@@ -30,4 +30,4 @@ Diurnal Temperature Range,~,~,~
 Precipitation,--,--,0.5443134924882
 Surface Relative Humidity,~,~,~
 Surface Downward SW Radiation,--,--,0.8216982797847926
-Surface Downward LW Radiation,~,~,~
+Surface Downward LW Radiation,--,0.14228241036333977,0.13760772658167963

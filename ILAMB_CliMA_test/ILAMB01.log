@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux hpc-25-03.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
+[INFO][0][<module>] Linux hpc-89-39.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.2)
@@ -6,44 +6,12 @@
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2025-06-05 13:18:52.295918
-[DEBUG][3][__init__][Biomass/ESACCI] 
-
-I am looking for data for the ESACCI confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/ESACCI/biomass.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][Biomass/ESACCI] 
-
-I am looking for data for the ESACCI confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/ESACCI/biomass.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
+[INFO][0][<module>] 2025-06-05 23:07:49.818629
 [DEBUG][1][__init__][Biomass/ESACCI] 
 
 I am looking for data for the ESACCI confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/biomass/ESACCI/biomass.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][Biomass/GEOCARBON] 
-
-I am looking for data for the GEOCARBON confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/GEOCARBON/biomass.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][Biomass/GEOCARBON] 
-
-I am looking for data for the GEOCARBON confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/GEOCARBON/biomass.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -55,43 +23,11 @@ I am looking for data for the GEOCARBON confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][Biomass/NBCD2000] 
-
-I am looking for data for the NBCD2000 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/NBCD2000/biomass_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][Biomass/NBCD2000] 
-
-I am looking for data for the NBCD2000 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/NBCD2000/biomass_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][Biomass/NBCD2000] 
 
 I am looking for data for the NBCD2000 confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/biomass/NBCD2000/biomass_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][Biomass/Saatchi2011] 
-
-I am looking for data for the Saatchi2011 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/Saatchi2011/biomass_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][Biomass/Saatchi2011] 
-
-I am looking for data for the Saatchi2011 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/Saatchi2011/biomass_0.5x0.5.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -103,7 +39,7 @@ I am looking for data for the Saatchi2011 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][Biomass/Thurner] 
+[DEBUG][1][__init__][Biomass/Thurner] 
 
 I am looking for data for the Thurner confrontation here
 
@@ -111,15 +47,7 @@ I am looking for data for the Thurner confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][Biomass/Thurner] 
-
-I am looking for data for the Thurner confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/Thurner/biomass_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][Biomass/USForest] 
+[DEBUG][1][__init__][Biomass/USForest] 
 
 I am looking for data for the USForest confrontation here
 
@@ -127,7 +55,63 @@ I am looking for data for the USForest confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][Biomass/Thurner] 
+[DEBUG][1][__init__][Biomass/XuSaatchi2021] 
+
+I am looking for data for the XuSaatchi2021 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/biomass/XuSaatchi2021/XuSaatchi.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][CarbonDioxide/NOAA.Emulated] 
+
+I am looking for data for the NOAA.Emulated confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/co2/NOAA.GMD/co2.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][CarbonDioxide/HIPPOAToM] 
+
+I am looking for data for the HIPPOAToM confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_ATom.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][Biomass/ESACCI] 
+
+I am looking for data for the ESACCI confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/biomass/ESACCI/biomass.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][Biomass/GEOCARBON] 
+
+I am looking for data for the GEOCARBON confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/biomass/GEOCARBON/biomass.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][Biomass/NBCD2000] 
+
+I am looking for data for the NBCD2000 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/biomass/NBCD2000/biomass_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][Biomass/Saatchi2011] 
+
+I am looking for data for the Saatchi2011 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/biomass/Saatchi2011/biomass_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][Biomass/Thurner] 
 
 I am looking for data for the Thurner confrontation here
 
@@ -143,22 +127,6 @@ I am looking for data for the USForest confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][Biomass/XuSaatchi2021] 
-
-I am looking for data for the XuSaatchi2021 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/XuSaatchi2021/XuSaatchi.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][Biomass/USForest] 
-
-I am looking for data for the USForest confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/USForest/biomass_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][2][__init__][Biomass/XuSaatchi2021] 
 
 I am looking for data for the XuSaatchi2021 confrontation here
@@ -167,51 +135,11 @@ I am looking for data for the XuSaatchi2021 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][Biomass/XuSaatchi2021] 
-
-I am looking for data for the XuSaatchi2021 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/biomass/XuSaatchi2021/XuSaatchi.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][CarbonDioxide/NOAA.Emulated] 
-
-I am looking for data for the NOAA.Emulated confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/co2/NOAA.GMD/co2.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][2][__init__][CarbonDioxide/NOAA.Emulated] 
 
 I am looking for data for the NOAA.Emulated confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/co2/NOAA.GMD/co2.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][CarbonDioxide/NOAA.Emulated] 
-
-I am looking for data for the NOAA.Emulated confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/co2/NOAA.GMD/co2.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_ATom.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][CarbonDioxide/HIPPOAToM] 
-
-I am looking for data for the HIPPOAToM confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/co2/HIPPOATom/HIPPO_ATom.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -295,14 +223,6 @@ I am looking for data for the HIPPOAToM confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][GlobalNetEcosystemCarbonBalance/GCP] 
-
-I am looking for data for the GCP confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/nbp/GCP/nbp_1959-2016.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][GlobalNetEcosystemCarbonBalance/GCP] 
 
 I am looking for data for the GCP confrontation here
@@ -311,47 +231,7 @@ I am looking for data for the GCP confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][GlobalNetEcosystemCarbonBalance/GCP] 
-
-I am looking for data for the GCP confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/nbp/GCP/nbp_1959-2016.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][GlobalNetEcosystemCarbonBalance/GCP] 
-
-I am looking for data for the GCP confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/nbp/GCP/nbp_1959-2016.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][GlobalNetEcosystemCarbonBalance/Hoffman] 
-
-I am looking for data for the Hoffman confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/nbp/HOFFMAN/nbp_1850-2010.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][GlobalNetEcosystemCarbonBalance/Hoffman] 
-
-I am looking for data for the Hoffman confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/nbp/HOFFMAN/nbp_1850-2010.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][GlobalNetEcosystemCarbonBalance/Hoffman] 
-
-I am looking for data for the Hoffman confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/nbp/HOFFMAN/nbp_1850-2010.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][GlobalNetEcosystemCarbonBalance/Hoffman] 
 
 I am looking for data for the Hoffman confrontation here
 
@@ -367,7 +247,79 @@ I am looking for data for the FLUXNET2015 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][NetEcosystemExchange/FLUXNET2015] 
+[DEBUG][1][__init__][EcosystemRespiration/FLUXNET2015] 
+
+I am looking for data for the FLUXNET2015 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/reco/FLUXNET2015/reco.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][EcosystemRespiration/FLUXCOM] 
+
+I am looking for data for the FLUXCOM confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/reco/FLUXCOM/reco.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SoilCarbon/HWSD] 
+
+I am looking for data for the HWSD confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/cSoil/HWSD/soilc_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SoilCarbon/NCSCDV22] 
+
+I am looking for data for the NCSCDV22 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/cSoil/NCSCDV22/soilc_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SoilCarbon/Koven] 
+
+I am looking for data for the Koven confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/cSoil/NCSCDV22/soilc_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][GlobalNetEcosystemCarbonBalance/GCP] 
+
+I am looking for data for the GCP confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/nbp/GCP/nbp_1959-2016.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][GlobalNetEcosystemCarbonBalance/GCP] 
+
+I am looking for data for the GCP confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/nbp/GCP/nbp_1959-2016.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][GlobalNetEcosystemCarbonBalance/Hoffman] 
+
+I am looking for data for the Hoffman confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/nbp/HOFFMAN/nbp_1850-2010.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][GlobalNetEcosystemCarbonBalance/Hoffman] 
+
+I am looking for data for the Hoffman confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/nbp/HOFFMAN/nbp_1850-2010.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][NetEcosystemExchange/FLUXNET2015] 
 
 I am looking for data for the FLUXNET2015 confrontation here
 
@@ -383,23 +335,7 @@ I am looking for data for the FLUXNET2015 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][NetEcosystemExchange/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/nee/FLUXNET2015/nee.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][EcosystemRespiration/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/reco/FLUXNET2015/reco.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][EcosystemRespiration/FLUXNET2015] 
+[DEBUG][2][__init__][EcosystemRespiration/FLUXNET2015] 
 
 I am looking for data for the FLUXNET2015 confrontation here
 
@@ -415,23 +351,7 @@ I am looking for data for the FLUXNET2015 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][EcosystemRespiration/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/reco/FLUXNET2015/reco.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][EcosystemRespiration/FLUXCOM] 
-
-I am looking for data for the FLUXCOM confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/reco/FLUXCOM/reco.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][EcosystemRespiration/FLUXCOM] 
+[DEBUG][2][__init__][EcosystemRespiration/FLUXCOM] 
 
 I am looking for data for the FLUXCOM confrontation here
 
@@ -447,23 +367,7 @@ I am looking for data for the FLUXCOM confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][EcosystemRespiration/FLUXCOM] 
-
-I am looking for data for the FLUXCOM confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/reco/FLUXCOM/reco.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SoilCarbon/HWSD] 
-
-I am looking for data for the HWSD confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/cSoil/HWSD/soilc_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SoilCarbon/HWSD] 
+[DEBUG][2][__init__][SoilCarbon/HWSD] 
 
 I am looking for data for the HWSD confrontation here
 
@@ -479,23 +383,7 @@ I am looking for data for the HWSD confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][SoilCarbon/HWSD] 
-
-I am looking for data for the HWSD confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/cSoil/HWSD/soilc_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SoilCarbon/NCSCDV22] 
-
-I am looking for data for the NCSCDV22 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/cSoil/NCSCDV22/soilc_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SoilCarbon/NCSCDV22] 
+[DEBUG][2][__init__][SoilCarbon/NCSCDV22] 
 
 I am looking for data for the NCSCDV22 confrontation here
 
@@ -511,23 +399,7 @@ I am looking for data for the NCSCDV22 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][SoilCarbon/NCSCDV22] 
-
-I am looking for data for the NCSCDV22 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/cSoil/NCSCDV22/soilc_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SoilCarbon/Koven] 
-
-I am looking for data for the Koven confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/cSoil/NCSCDV22/soilc_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SoilCarbon/Koven] 
+[DEBUG][2][__init__][SoilCarbon/Koven] 
 
 I am looking for data for the Koven confrontation here
 
@@ -543,67 +415,11 @@ I am looking for data for the Koven confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][SoilCarbon/Koven] 
-
-I am looking for data for the Koven confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/cSoil/NCSCDV22/soilc_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][TerrestrialWaterStorageAnomaly/GRACE] 
-
-I am looking for data for the GRACE confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/twsa/GRACE/twsa_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][TerrestrialWaterStorageAnomaly/GRACE] 
-
-I am looking for data for the GRACE confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/twsa/GRACE/twsa_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][TerrestrialWaterStorageAnomaly/GRACE] 
-
-I am looking for data for the GRACE confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/twsa/GRACE/twsa_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][TerrestrialWaterStorageAnomaly/GRACE] 
 
 I am looking for data for the GRACE confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/twsa/GRACE/twsa_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SnowWaterEquivalent/CanSISE] 
-
-I am looking for data for the CanSISE confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/swe/CanSISE/swe.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SnowWaterEquivalent/CanSISE] 
-
-I am looking for data for the CanSISE confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/swe/CanSISE/swe.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][SnowWaterEquivalent/CanSISE] 
-
-I am looking for data for the CanSISE confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/swe/CanSISE/swe.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -615,59 +431,11 @@ I am looking for data for the CanSISE confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][Permafrost/Brown2002] 
-
-I am looking for data for the Brown2002 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Brown2002/Brown2002.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][Permafrost/Brown2002] 
-
-I am looking for data for the Brown2002 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Brown2002/Brown2002.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][Permafrost/Brown2002] 
-
-I am looking for data for the Brown2002 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Brown2002/Brown2002.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][Permafrost/Brown2002] 
 
 I am looking for data for the Brown2002 confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/permafrost/Brown2002/Brown2002.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][Permafrost/Obu2018] 
-
-I am looking for data for the Obu2018 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Obu2018/Obu2018.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][Permafrost/Obu2018] 
-
-I am looking for data for the Obu2018 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Obu2018/Obu2018.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][Permafrost/Obu2018] 
-
-I am looking for data for the Obu2018 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Obu2018/Obu2018.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -687,19 +455,75 @@ I am looking for data for the CERESed4.2 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][Albedo/CERESed4.2] 
+[DEBUG][1][__init__][Albedo/GEWEX.SRB] 
 
-I am looking for data for the CERESed4.2 confrontation here
+I am looking for data for the GEWEX.SRB confrontation here
 
-/groups/esm/renatob/ILAMB_sample/DATA/albedo/CERESed4.2/albedo.nc
+/groups/esm/renatob/ILAMB_sample/DATA/albedo/GEWEX.SRB/albedo_0.5x0.5.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][Albedo/CERESed4.2] 
+[DEBUG][2][__init__][TerrestrialWaterStorageAnomaly/GRACE] 
 
-I am looking for data for the CERESed4.2 confrontation here
+I am looking for data for the GRACE confrontation here
 
-/groups/esm/renatob/ILAMB_sample/DATA/albedo/CERESed4.2/albedo.nc
+/groups/esm/renatob/ILAMB_sample/DATA/twsa/GRACE/twsa_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][TerrestrialWaterStorageAnomaly/GRACE] 
+
+I am looking for data for the GRACE confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/twsa/GRACE/twsa_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SnowWaterEquivalent/CanSISE] 
+
+I am looking for data for the CanSISE confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/swe/CanSISE/swe.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][SnowWaterEquivalent/CanSISE] 
+
+I am looking for data for the CanSISE confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/swe/CanSISE/swe.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][Permafrost/Brown2002] 
+
+I am looking for data for the Brown2002 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Brown2002/Brown2002.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][Permafrost/Brown2002] 
+
+I am looking for data for the Brown2002 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Brown2002/Brown2002.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][Permafrost/Obu2018] 
+
+I am looking for data for the Obu2018 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Obu2018/Obu2018.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][Permafrost/Obu2018] 
+
+I am looking for data for the Obu2018 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/permafrost/Obu2018/Obu2018.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -711,7 +535,7 @@ I am looking for data for the CERESed4.2 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][Albedo/GEWEX.SRB] 
+[DEBUG][2][__init__][Albedo/GEWEX.SRB] 
 
 I am looking for data for the GEWEX.SRB confrontation here
 
@@ -719,23 +543,15 @@ I am looking for data for the GEWEX.SRB confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][Albedo/GEWEX.SRB] 
+[DEBUG][0][__init__][Albedo/CERESed4.2] 
 
-I am looking for data for the GEWEX.SRB confrontation here
+I am looking for data for the CERESed4.2 confrontation here
 
-/groups/esm/renatob/ILAMB_sample/DATA/albedo/GEWEX.SRB/albedo_0.5x0.5.nc
+/groups/esm/renatob/ILAMB_sample/DATA/albedo/CERESed4.2/albedo.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
 [DEBUG][0][__init__][Albedo/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/albedo/GEWEX.SRB/albedo_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][Albedo/GEWEX.SRB] 
 
 I am looking for data for the GEWEX.SRB confrontation here
 
@@ -751,55 +567,7 @@ I am looking for data for the CERESed4.2 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][SurfaceNetSWRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/CERESed4.2/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetSWRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/CERESed4.2/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][SurfaceNetSWRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/CERESed4.2/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][SurfaceNetSWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/FLUXNET2015/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetSWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/FLUXNET2015/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetSWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/FLUXNET2015/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][SurfaceNetSWRadiation/FLUXNET2015] 
 
 I am looking for data for the FLUXNET2015 confrontation here
 
@@ -815,7 +583,47 @@ I am looking for data for the GEWEX.SRB confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][SurfaceNetSWRadiation/GEWEX.SRB] 
+[DEBUG][1][__init__][SurfaceNetSWRadiation/WRMC.BSRN] 
+
+I am looking for data for the WRMC.BSRN confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rsns/WRMC.BSRN/rsns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][SurfaceNetSWRadiation/CERESed4.2] 
+
+I am looking for data for the CERESed4.2 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rsns/CERESed4.2/rsns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetSWRadiation/CERESed4.2] 
+
+I am looking for data for the CERESed4.2 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rsns/CERESed4.2/rsns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][SurfaceNetSWRadiation/FLUXNET2015] 
+
+I am looking for data for the FLUXNET2015 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rsns/FLUXNET2015/rsns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetSWRadiation/FLUXNET2015] 
+
+I am looking for data for the FLUXNET2015 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rsns/FLUXNET2015/rsns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][SurfaceNetSWRadiation/GEWEX.SRB] 
 
 I am looking for data for the GEWEX.SRB confrontation here
 
@@ -831,15 +639,7 @@ I am looking for data for the GEWEX.SRB confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][SurfaceNetSWRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/GEWEX.SRB/rsns_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SurfaceNetSWRadiation/WRMC.BSRN] 
+[DEBUG][0][__init__][SurfaceNetSWRadiation/WRMC.BSRN] 
 
 I am looking for data for the WRMC.BSRN confrontation here
 
@@ -855,91 +655,11 @@ I am looking for data for the WRMC.BSRN confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][SurfaceNetSWRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/WRMC.BSRN/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][SurfaceNetSWRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rsns/WRMC.BSRN/rsns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetLWRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/CERESed4.2/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetLWRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/CERESed4.2/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][SurfaceNetLWRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/CERESed4.2/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][SurfaceNetLWRadiation/CERESed4.2] 
 
 I am looking for data for the CERESed4.2 confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/rlns/CERESed4.2/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetLWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/FLUXNET2015/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetLWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/FLUXNET2015/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][SurfaceNetLWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/FLUXNET2015/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetLWRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/GEWEX.SRB/rlns_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetLWRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/GEWEX.SRB/rlns_0.5x0.5.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -951,30 +671,6 @@ I am looking for data for the FLUXNET2015 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][SurfaceNetLWRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/GEWEX.SRB/rlns_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetLWRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/WRMC.BSRN/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetLWRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/WRMC.BSRN/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][SurfaceNetLWRadiation/GEWEX.SRB] 
 
 I am looking for data for the GEWEX.SRB confrontation here
@@ -983,27 +679,11 @@ I am looking for data for the GEWEX.SRB confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][SurfaceNetLWRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlns/WRMC.BSRN/rlns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetRadiation/CERESed4.2] 
+[DEBUG][0][__init__][SurfaceNetLWRadiation/CERESed4.2] 
 
 I am looking for data for the CERESed4.2 confrontation here
 
-/groups/esm/renatob/ILAMB_sample/DATA/rns/CERESed4.2/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/CERESed4.2/rns.nc
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/CERESed4.2/rlns.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1015,30 +695,6 @@ I am looking for data for the WRMC.BSRN confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][SurfaceNetRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/CERESed4.2/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/FLUXNET2015/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/FLUXNET2015/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][1][__init__][SurfaceNetRadiation/CERESed4.2] 
 
 I am looking for data for the CERESed4.2 confrontation here
@@ -1047,27 +703,11 @@ I am looking for data for the CERESed4.2 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][SurfaceNetRadiation/FLUXNET2015] 
+[DEBUG][0][__init__][SurfaceNetLWRadiation/FLUXNET2015] 
 
 I am looking for data for the FLUXNET2015 confrontation here
 
-/groups/esm/renatob/ILAMB_sample/DATA/rns/FLUXNET2015/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceNetRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/GEWEX.SRB/rns_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/GEWEX.SRB/rns_0.5x0.5.nc
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/FLUXNET2015/rlns.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1079,7 +719,15 @@ I am looking for data for the FLUXNET2015 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][0][__init__][SurfaceNetRadiation/GEWEX.SRB] 
+[DEBUG][0][__init__][SurfaceNetLWRadiation/GEWEX.SRB] 
+
+I am looking for data for the GEWEX.SRB confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/GEWEX.SRB/rlns_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SurfaceNetRadiation/GEWEX.SRB] 
 
 I am looking for data for the GEWEX.SRB confrontation here
 
@@ -1087,7 +735,15 @@ I am looking for data for the GEWEX.SRB confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][SurfaceNetRadiation/WRMC.BSRN] 
+[DEBUG][0][__init__][SurfaceNetLWRadiation/WRMC.BSRN] 
+
+I am looking for data for the WRMC.BSRN confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/WRMC.BSRN/rlns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SurfaceNetRadiation/WRMC.BSRN] 
 
 I am looking for data for the WRMC.BSRN confrontation here
 
@@ -1095,15 +751,39 @@ I am looking for data for the WRMC.BSRN confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][SurfaceNetRadiation/WRMC.BSRN] 
+[DEBUG][0][__init__][SurfaceNetRadiation/CERESed4.2] 
 
-I am looking for data for the WRMC.BSRN confrontation here
+I am looking for data for the CERESed4.2 confrontation here
 
-/groups/esm/renatob/ILAMB_sample/DATA/rns/WRMC.BSRN/rns.nc
+/groups/esm/renatob/ILAMB_sample/DATA/rns/CERESed4.2/rns.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][SurfaceNetRadiation/GEWEX.SRB] 
+[DEBUG][1][__init__][SurfaceNetRadiation/CLASS] 
+
+I am looking for data for the CLASS confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rns/CLASS/rns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][SurfaceNetRadiation/FLUXNET2015] 
+
+I am looking for data for the FLUXNET2015 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rns/FLUXNET2015/rns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][GroundHeatFlux/CLASS] 
+
+I am looking for data for the CLASS confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/hfdsl/CLASS/hfdsl.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][0][__init__][SurfaceNetRadiation/GEWEX.SRB] 
 
 I am looking for data for the GEWEX.SRB confrontation here
 
@@ -1119,55 +799,7 @@ I am looking for data for the WRMC.BSRN confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][SurfaceNetRadiation/CLASS] 
-
-I am looking for data for the CLASS confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/CLASS/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceNetRadiation/CLASS] 
-
-I am looking for data for the CLASS confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/CLASS/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SurfaceNetRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/WRMC.BSRN/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][0][__init__][SurfaceNetRadiation/CLASS] 
-
-I am looking for data for the CLASS confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rns/CLASS/rns.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][GroundHeatFlux/CLASS] 
-
-I am looking for data for the CLASS confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/hfdsl/CLASS/hfdsl.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][GroundHeatFlux/CLASS] 
-
-I am looking for data for the CLASS confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/hfdsl/CLASS/hfdsl.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SurfaceNetRadiation/CLASS] 
 
 I am looking for data for the CLASS confrontation here
 
@@ -1183,7 +815,79 @@ I am looking for data for the CLASS confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][GroundHeatFlux/CLASS] 
+[DEBUG][2][__init__][SurfaceNetLWRadiation/CERESed4.2] 
+
+I am looking for data for the CERESed4.2 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/CERESed4.2/rlns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetLWRadiation/FLUXNET2015] 
+
+I am looking for data for the FLUXNET2015 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/FLUXNET2015/rlns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetLWRadiation/GEWEX.SRB] 
+
+I am looking for data for the GEWEX.SRB confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/GEWEX.SRB/rlns_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetLWRadiation/WRMC.BSRN] 
+
+I am looking for data for the WRMC.BSRN confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlns/WRMC.BSRN/rlns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetRadiation/CERESed4.2] 
+
+I am looking for data for the CERESed4.2 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rns/CERESed4.2/rns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetRadiation/FLUXNET2015] 
+
+I am looking for data for the FLUXNET2015 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rns/FLUXNET2015/rns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetRadiation/GEWEX.SRB] 
+
+I am looking for data for the GEWEX.SRB confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rns/GEWEX.SRB/rns_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetRadiation/WRMC.BSRN] 
+
+I am looking for data for the WRMC.BSRN confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rns/WRMC.BSRN/rns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][SurfaceNetRadiation/CLASS] 
+
+I am looking for data for the CLASS confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rns/CLASS/rns.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][GroundHeatFlux/CLASS] 
 
 I am looking for data for the CLASS confrontation here
 
@@ -1191,7 +895,7 @@ I am looking for data for the CLASS confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][DiurnalMaxTemperature/CRU4.02] 
+[DEBUG][1][__init__][DiurnalMaxTemperature/CRU4.02] 
 
 I am looking for data for the CRU4.02 confrontation here
 
@@ -1199,7 +903,23 @@ I am looking for data for the CRU4.02 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][DiurnalMaxTemperature/CRU4.02] 
+[DEBUG][1][__init__][DiurnalMinTemperature/CRU4.02] 
+
+I am looking for data for the CRU4.02 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/tasmin/CRU4.02/tasmin.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][DiurnalTemperatureRange/CRU4.02] 
+
+I am looking for data for the CRU4.02 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/dtr/CRU4.02/dtr.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][2][__init__][DiurnalMaxTemperature/CRU4.02] 
 
 I am looking for data for the CRU4.02 confrontation here
 
@@ -1215,23 +935,7 @@ I am looking for data for the CRU4.02 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][DiurnalMaxTemperature/CRU4.02] 
-
-I am looking for data for the CRU4.02 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/tasmax/CRU4.02/tasmax.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][2][__init__][DiurnalMinTemperature/CRU4.02] 
-
-I am looking for data for the CRU4.02 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/tasmin/CRU4.02/tasmin.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][DiurnalMinTemperature/CRU4.02] 
 
 I am looking for data for the CRU4.02 confrontation here
 
@@ -1244,22 +948,6 @@ but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT env
 I am looking for data for the CRU4.02 confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/tasmin/CRU4.02/tasmin.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][DiurnalMinTemperature/CRU4.02] 
-
-I am looking for data for the CRU4.02 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/tasmin/CRU4.02/tasmin.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][DiurnalTemperatureRange/CRU4.02] 
-
-I am looking for data for the CRU4.02 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/dtr/CRU4.02/dtr.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1279,23 +967,7 @@ I am looking for data for the CRU4.02 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][DiurnalTemperatureRange/CRU4.02] 
-
-I am looking for data for the CRU4.02 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/dtr/CRU4.02/dtr.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceRelativeHumidity/ERA5] 
-
-I am looking for data for the ERA5 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rhums/ERA5/rhums.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceRelativeHumidity/ERA5] 
+[DEBUG][1][__init__][SurfaceRelativeHumidity/ERA5] 
 
 I am looking for data for the ERA5 confrontation here
 
@@ -1311,7 +983,7 @@ I am looking for data for the ERA5 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][SurfaceRelativeHumidity/ERA5] 
+[DEBUG][2][__init__][SurfaceRelativeHumidity/ERA5] 
 
 I am looking for data for the ERA5 confrontation here
 
@@ -1319,15 +991,7 @@ I am looking for data for the ERA5 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][SurfaceRelativeHumidity/CRU4.02] 
-
-I am looking for data for the CRU4.02 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rhums/CRU4.02/rhums.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][2][__init__][SurfaceRelativeHumidity/CRU4.02] 
+[DEBUG][1][__init__][SurfaceRelativeHumidity/CRU4.02] 
 
 I am looking for data for the CRU4.02 confrontation here
 
@@ -1343,19 +1007,11 @@ I am looking for data for the CRU4.02 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][SurfaceRelativeHumidity/CRU4.02] 
+[DEBUG][2][__init__][SurfaceRelativeHumidity/CRU4.02] 
 
 I am looking for data for the CRU4.02 confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/rhums/CRU4.02/rhums.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceDownwardLWRadiation/CERESed4.2] 
-
-I am looking for data for the CERESed4.2 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/CERESed4.2/rlds.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1364,6 +1020,30 @@ but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT env
 I am looking for data for the CERESed4.2 confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/rlds/CERESed4.2/rlds.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SurfaceDownwardLWRadiation/FLUXNET2015] 
+
+I am looking for data for the FLUXNET2015 confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlds/FLUXNET2015/rlds.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SurfaceDownwardLWRadiation/GEWEX.SRB] 
+
+I am looking for data for the GEWEX.SRB confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlds/GEWEX.SRB/rlds_0.5x0.5.nc
+
+but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
+
+[DEBUG][1][__init__][SurfaceDownwardLWRadiation/WRMC.BSRN] 
+
+I am looking for data for the WRMC.BSRN confrontation here
+
+/groups/esm/renatob/ILAMB_sample/DATA/rlds/WRMC.BSRN/rlds.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1383,35 +1063,11 @@ I am looking for data for the CERESed4.2 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][3][__init__][SurfaceDownwardLWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/FLUXNET2015/rlds.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SurfaceDownwardLWRadiation/FLUXNET2015] 
-
-I am looking for data for the FLUXNET2015 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/FLUXNET2015/rlds.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][2][__init__][SurfaceDownwardLWRadiation/FLUXNET2015] 
 
 I am looking for data for the FLUXNET2015 confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/rlds/FLUXNET2015/rlds.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceDownwardLWRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/GEWEX.SRB/rlds_0.5x0.5.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1423,27 +1079,11 @@ I am looking for data for the FLUXNET2015 confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][SurfaceDownwardLWRadiation/GEWEX.SRB] 
-
-I am looking for data for the GEWEX.SRB confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/GEWEX.SRB/rlds_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][2][__init__][SurfaceDownwardLWRadiation/GEWEX.SRB] 
 
 I am looking for data for the GEWEX.SRB confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/rlds/GEWEX.SRB/rlds_0.5x0.5.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceDownwardLWRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/WRMC.BSRN/rlds.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1455,27 +1095,11 @@ I am looking for data for the GEWEX.SRB confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][1][__init__][SurfaceDownwardLWRadiation/WRMC.BSRN] 
-
-I am looking for data for the WRMC.BSRN confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/WRMC.BSRN/rlds.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
 [DEBUG][2][__init__][SurfaceDownwardLWRadiation/WRMC.BSRN] 
 
 I am looking for data for the WRMC.BSRN confrontation here
 
 /groups/esm/renatob/ILAMB_sample/DATA/rlds/WRMC.BSRN/rlds.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][3][__init__][SurfaceDownwardLWRadiation/ERA5] 
-
-I am looking for data for the ERA5 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/ERA5/era5_rlds_mon_1979-2024.nc
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
@@ -1487,30 +1111,9 @@ I am looking for data for the WRMC.BSRN confrontation here
 
 but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
 
-[DEBUG][2][__init__][SurfaceDownwardLWRadiation/ERA5] 
-
-I am looking for data for the ERA5 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/ERA5/era5_rlds_mon_1979-2024.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][1][__init__][SurfaceDownwardLWRadiation/ERA5] 
-
-I am looking for data for the ERA5 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/ERA5/era5_rlds_mon_1979-2024.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
-[DEBUG][0][__init__][SurfaceDownwardLWRadiation/ERA5] 
-
-I am looking for data for the ERA5 confrontation here
-
-/groups/esm/renatob/ILAMB_sample/DATA/rlds/ERA5/era5_rlds_mon_1979-2024.nc
-
-but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT envronment variable?
-
+[INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceUpwardLWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][CliMA_longruns] Success
@@ -1520,748 +1123,6 @@ but I cannot find it. Did you download the data? Have you set the ILAMB_ROOT env
 [INFO][0][AnalysisMeanStateSites][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSites][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][1][confront][EvaporativeFraction/ERA5][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/WECANN][CliMA_longruns] Success
-[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][1][confront][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSites][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXNET2015][CliMA_longruns] Success
-[INFO][1][AnalysisMeanStateSites][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][1][AnalysisMeanStateSites][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSites][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns] Success
-[INFO][3][AnalysisMeanStateSites][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSites][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/WECANN][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/ERA5][CliMA_longruns] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/ERA5][CliMA_longruns] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][CliMA_longruns] Success
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/CMAPv1904][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][3][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/CMAPv1904][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/ERA5][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][CliMA_longruns_alpha] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/FLUXNET2015][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][3][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/FLUXNET2015][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][3][AnalysisMeanStateSites][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/GPCCv2018][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][2][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
-[DEBUG][3][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/GPCCv2018][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][2][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_alpha] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
-[DEBUG][0][extractTimeSeries][CliMA_longruns] Could not find [lai] in the model results
-[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][0][extractTimeSeries][CliMA_longruns_alpha] Could not find [lai] in the model results
-[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/GPCPv2.3][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][3][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/GPCPv2.3][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][CliMA_longruns] Success
-[INFO][2][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_alpha] Success
-[DEBUG][2][WorkConfront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
-    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
-                                   ^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
-    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
-  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
-ValueError: 'months since' units only allowed for '360_day' calendar
-
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
-[DEBUG][0][extractTimeSeries][CliMA_longruns] Could not find [lai] in the model results
-[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][0][extractTimeSeries][CliMA_longruns_alpha] Could not find [lai] in the model results
-[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/CLASS][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][2][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/CLASS][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][3][WorkConfront][Precipitation/CLASS][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
-    il.AnalysisMeanStateSpace(
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
-    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
-    data_bnds = self.data_bnds[ind]
-                ~~~~~~~~~~~~~~^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
-    dout = self.data[indx]
-           ~~~~~~~~~^^^^^^
-IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
-
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/ERA5][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][3][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
-[DEBUG][3][WorkConfront][Precipitation/ERA5][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[DEBUG][1][WorkConfront][LatentHeat/CLASS][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
-    il.AnalysisMeanStateSpace(
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
-    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
-    data_bnds = self.data_bnds[ind]
-                ~~~~~~~~~~~~~~^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
-    dout = self.data[indx]
-           ~~~~~~~~~^^^^^^
-IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
-
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns] Success
-[DEBUG][1][WorkConfront][LatentHeat/CLASS][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
-    il.AnalysisMeanStateSpace(
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
-    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
-    data_bnds = self.data_bnds[ind]
-                ~~~~~~~~~~~~~~^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
-    dout = self.data[indx]
-           ~~~~~~~~~^^^^^^
-IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
-
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[DEBUG][1][WorkConfront][LatentHeat/CLASS][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
-    il.AnalysisMeanStateSpace(
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
-    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
-    data_bnds = self.data_bnds[ind]
-                ~~~~~~~~~~~~~~^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
-    dout = self.data[indx]
-           ~~~~~~~~~^^^^^^
-IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
-
-[DEBUG][2][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns] Datasets are defined at different times
-[DEBUG][2][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2545, in MakeComparable
-    raise VarsNotComparable()
-ILAMB.ilamblib.VarsNotComparable: VarNotComparable
-
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
-[DEBUG][0][extractTimeSeries][CliMA_longruns] Could not find [lai] in the model results
-[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][2][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha] Datasets are defined at different times
-[DEBUG][2][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2545, in MakeComparable
-    raise VarsNotComparable()
-ILAMB.ilamblib.VarsNotComparable: VarNotComparable
-
-[DEBUG][0][extractTimeSeries][CliMA_longruns_alpha] Could not find [lai] in the model results
-[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/FLUXNET2015][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[DEBUG][3][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha] Datasets are defined at different times
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2545, in MakeComparable
-    raise VarsNotComparable()
-ILAMB.ilamblib.VarsNotComparable: VarNotComparable
-
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns] Success
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[DEBUG][3][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
-
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns] Success
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[DEBUG][1][WorkConfront][Runoff/Dai][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 144, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 56, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
-    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
-                                   ^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
-    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
-  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
-ValueError: 'months since' units only allowed for '360_day' calendar
-
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns] Success
-[INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
 [DEBUG][2][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns] Datasets are defined at different times
 [DEBUG][2][WorkConfront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns]
 Traceback (most recent call last):
@@ -2292,11 +1153,13 @@ Traceback (most recent call last):
     raise VarsNotComparable()
 ILAMB.ilamblib.VarsNotComparable: VarNotComparable
 
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][2][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
@@ -2308,20 +1171,74 @@ ILAMB.ilamblib.VarsNotComparable: VarNotComparable
 [INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
 [INFO][2][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns] Success
 [INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][2][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][CliMA_longruns_alpha] Success
 [INFO][2][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[DEBUG][1][WorkConfront][Runoff/Dai][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 144, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 56, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][CliMA_longruns] Success
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][CliMA_longruns_alpha] Success
 [DEBUG][1][WorkConfront][Runoff/LORA][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -2351,6 +1268,7 @@ Traceback (most recent call last):
   File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
 ValueError: 'months since' units only allowed for '360_day' calendar
 
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [DEBUG][1][WorkConfront][Runoff/CLASS][CliMA_longruns]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -2414,15 +1332,47 @@ Traceback (most recent call last):
   File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
 ValueError: 'months since' units only allowed for '360_day' calendar
 
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[DEBUG][0][extractTimeSeries][CliMA_longruns] Could not find [lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][CliMA_longruns_alpha] Could not find [lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
 [INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][1][confront][Runoff/ERA5][CliMA_longruns] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_alpha] Success
 [INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][1][confront][Runoff/ERA5][CliMA_longruns_alpha] Success
@@ -2464,29 +1414,133 @@ ValueError: 'months since' units only allowed for '360_day' calendar
 [INFO][1][AnalysisMeanStateSites][hfss] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSites][hfss] RMSE scored using Collier2018
 [INFO][1][confront][SensibleHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
+[DEBUG][0][extractTimeSeries][CliMA_longruns] Could not find [lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][CliMA_longruns_alpha] Could not find [lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
 [INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][2][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns] Success
+[INFO][2][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSites][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][1][confront][SensibleHeat/FLUXCOM][CliMA_longruns] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns] Success
 [INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_alpha] Success
+[INFO][2][confront][SurfaceAirTemperature/ERA5][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
+[DEBUG][0][extractTimeSeries][CliMA_longruns] Could not find [lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][CliMA_longruns_alpha] Could not find [lai] in the model results
+[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
 [INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][1][confront][SensibleHeat/FLUXCOM][CliMA_longruns_alpha] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/CMAPv1904][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][2][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/CMAPv1904][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
 [INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][1][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
 [DEBUG][1][WorkConfront][SensibleHeat/CLASS][CliMA_longruns]
@@ -2523,8 +1577,6 @@ Traceback (most recent call last):
            ~~~~~~~~~^^^^^^
 IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
 
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
 [DEBUG][1][WorkConfront][SensibleHeat/CLASS][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -2542,6 +1594,490 @@ Traceback (most recent call last):
            ~~~~~~~~~^^^^^^
 IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
 
+[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][1][confront][SensibleHeat/WECANN][CliMA_longruns] Success
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/FLUXNET2015][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][2][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/FLUXNET2015][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSites][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/GPCCv2018][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/GPCCv2018][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][1][confront][SensibleHeat/WECANN][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][1][confront][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][1][confront][SensibleHeat/ERA5][CliMA_longruns] Success
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/GPCPv2.3][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][2][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/GPCPv2.3][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][1][confront][SensibleHeat/ERA5][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][1][confront][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/CLASS][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][2][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/CLASS][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][2][WorkConfront][Precipitation/CLASS][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
+
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/ERA5][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][2][extractTimeSeries][CliMA_longruns_alpha] Could not find [pr] in the model results
+[DEBUG][2][WorkConfront][Precipitation/ERA5][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/FLUXNET2015][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[DEBUG][2][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha] Datasets are defined at different times
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2545, in MakeComparable
+    raise VarsNotComparable()
+ILAMB.ilamblib.VarsNotComparable: VarNotComparable
+
+[INFO][1][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_alpha] Success
+[DEBUG][1][WorkConfront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 940, in FromNetCDF4
+    t, t_bnd, cbounds, begin, end, calendar = GetTime(
+                                              ^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 309, in GetTime
+    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
+                                   ^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 189, in GuessAlpha
+    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
+  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
+ValueError: 'months since' units only allowed for '360_day' calendar
+
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [rsds] in the model results
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
+[DEBUG][1][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns] Datasets are defined at different times
+[DEBUG][1][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2545, in MakeComparable
+    raise VarsNotComparable()
+ILAMB.ilamblib.VarsNotComparable: VarNotComparable
+
+[DEBUG][1][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha] Datasets are defined at different times
+[DEBUG][1][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
+    obs, mod = il.MakeComparable(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2545, in MakeComparable
+    raise VarsNotComparable()
+ILAMB.ilamblib.VarsNotComparable: VarNotComparable
+
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[DEBUG][2][extractTimeSeries][CliMA_longruns] Could not find [rlds] in the model results
+[DEBUG][2][WorkConfront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns] Success
+[INFO][1][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns] Success
@@ -2628,127 +2164,252 @@ ValueError: operands could not be broadcast together with shapes (84,360) (360,7
 [INFO][0][confront][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/ERA5][CliMA_longruns] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][CliMA_longruns] Success
-[INFO][1][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SensibleHeat/WECANN][CliMA_longruns] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns] Success
-[INFO][1][modelPlots][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][1][modelPlots][LatentHeat/FLUXNET2015][CliMA_longruns] Success
-[INFO][2][modelPlots][SensibleHeat/WECANN][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][LatentHeat/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][LatentHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns] Success
-[INFO][2][modelPlots][SensibleHeat/ERA5][CliMA_longruns] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns_alpha] Success
-[INFO][1][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns] Success
-[INFO][2][modelPlots][SensibleHeat/ERA5][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns] Success
-[INFO][3][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns] Success
-[INFO][1][modelPlots][LatentHeat/DOLCE][CliMA_longruns] Success
-[INFO][3][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns] Success
-[INFO][1][modelPlots][LatentHeat/DOLCE][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][LatentHeat/WECANN][CliMA_longruns] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/ERA5][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXNET2015][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSites][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSites][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXCOM][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXCOM][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/DOLCE][CliMA_longruns] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/DOLCE][CliMA_longruns_alpha] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[DEBUG][0][WorkConfront][LatentHeat/CLASS][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
+
+[DEBUG][0][WorkConfront][LatentHeat/CLASS][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
+
+[DEBUG][0][WorkConfront][LatentHeat/CLASS][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 464, in confront
+    il.AnalysisMeanStateSpace(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1751, in AnalysisMeanStateSpace
+    REF = ref.interpolate(lat=lat, lon=lon, lat_bnds=lat_bnds, lon_bnds=lon_bnds)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 1544, in interpolate
+    data_bnds = self.data_bnds[ind]
+                ~~~~~~~~~~~~~~^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 3228, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: too many indices for array: array is 3-dimensional, but 4 were indexed
+
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/WECANN][CliMA_longruns] Success
 [INFO][1][modelPlots][LatentHeat/WECANN][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
 [INFO][1][modelPlots][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns] Success
-[INFO][1][modelPlots][LatentHeat/ERA5][CliMA_longruns] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][LatentHeat/ERA5][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns] Success
-[INFO][1][modelPlots][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Runoff/Dai][CliMA_longruns] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Runoff/Dai][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
-[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_alpha] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Runoff/ERA5][CliMA_longruns] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][CliMA_longruns] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][CliMA_longruns] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][CliMA_longruns_alpha] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][CliMA_longruns_alpha] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns] Success
-[INFO][1][modelPlots][Runoff/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXNET2015][CliMA_longruns] Success
+[INFO][1][modelPlots][Runoff/Dai][CliMA_longruns] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXNET2015][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_alpha] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns] Success
+[INFO][1][modelPlots][Runoff/Dai][CliMA_longruns_alpha] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_alpha] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns] Success
 [INFO][2][modelPlots][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_alpha] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
 [INFO][2][modelPlots][SurfaceAirTemperature/CRU4.02][CliMA_longruns] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Runoff/ERA5][CliMA_longruns] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns] Success
+[INFO][1][modelPlots][Runoff/ERA5][CliMA_longruns_alpha] Success
 [INFO][2][modelPlots][SurfaceAirTemperature/CRU4.02][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SensibleHeat/FLUXNET2015][CliMA_longruns] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SensibleHeat/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SensibleHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns] Success
+[INFO][1][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SensibleHeat/WECANN][CliMA_longruns] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SensibleHeat/WECANN][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns] Success
+[INFO][2][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][Precipitation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SensibleHeat/ERA5][CliMA_longruns] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SensibleHeat/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns] Success
+[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_alpha] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[DEBUG][0][WorkPost][Evapotranspiration/ERA5][CliMA_longruns]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 909, in modelPlots
+    self._relationship(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 1339, in _relationship
+    score = ref.scoreRMSE(com, region=region)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Relationship.py", line 494, in scoreRMSE
+    S = np.exp(-np.linalg.norm(ref - com) / np.linalg.norm(ref))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FloatingPointError: underflow encountered in exp
+
+[DEBUG][0][WorkPost][Evapotranspiration/ERA5][CliMA_longruns_alpha]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 909, in modelPlots
+    self._relationship(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 1339, in _relationship
+    score = ref.scoreRMSE(com, region=region)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Relationship.py", line 494, in scoreRMSE
+    S = np.exp(-np.linalg.norm(ref - com) / np.linalg.norm(ref))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FloatingPointError: underflow encountered in exp
+
+[DEBUG][0][WorkPost][Evapotranspiration/ERA5][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 909, in modelPlots
+    self._relationship(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 1339, in _relationship
+    score = ref.scoreRMSE(com, region=region)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Relationship.py", line 494, in scoreRMSE
+    S = np.exp(-np.linalg.norm(ref - com) / np.linalg.norm(ref))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FloatingPointError: underflow encountered in exp
+
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns] Success
 [INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_alpha] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][CliMA_longruns_alpha] Success
 [INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns] Success
 [INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns_alpha] Success
 [INFO][0][modelPlots][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns] Success
-[INFO][2][<module>][process time] 1467.9 s
-[INFO][3][<module>][process time] 807.1 s
-[INFO][1][<module>][process time] 1607.5 s
-[INFO][0][<module>][process time] 2169.9 s
-[INFO][0][<module>][total time] 2272.4 s
-[INFO][0][<module>][process balance] 2.69
-[INFO][0][<module>][parallel efficiency] 67%
+[INFO][0][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/FLUXNET2015][CliMA_longruns] Success
+[INFO][0][modelPlots][LatentHeat/FLUXNET2015][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][LatentHeat/FLUXNET2015][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][CliMA_longruns] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][CliMA_longruns_alpha] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/WECANN][CliMA_longruns] Success
+[INFO][2][<module>][process time] 1230.5 s
+[INFO][1][<module>][process time] 1409.5 s
+[INFO][0][<module>][process time] 2672.2 s
+[INFO][0][<module>][total time] 2765.5 s
+[INFO][0][<module>][process balance] 2.17
+[INFO][0][<module>][parallel efficiency] 64%
