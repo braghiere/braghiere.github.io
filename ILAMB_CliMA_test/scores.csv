@@ -1,10 +1,29 @@
 Variables,CliMA_longruns,CliMA_longruns_alpha,CliMA_longruns_beta,CliMA_longruns_omega,ENSEMBLE-CMIP6
-Evapotranspiration,--,--,--,--,0.08493268805640417
-Surface Upward SW Radiation,--,--,--,--,--
-Surface Air Temperature,--,--,--,--,0.1840563420840261
-Diurnal Max Temperature,--,--,--,--,0.30577472349274115
-Diurnal Min Temperature,--,--,--,--,0.33576834157485935
-Diurnal Temperature Range,--,--,--,--,0.3288709210790712
-Precipitation,--,--,--,--,0.4788203747646
-Surface Downward SW Radiation,--,--,--,--,--
-Surface Downward LW Radiation,--,--,--,--,--
+Gross Primary Productivity,0.39168441786061453,0.40598425588366654,0.40164842376752946,0.3417996336555226,0.5337887019311529
+Leaf Area Index,--,--,--,--,0.6246430128685054
+Net Ecosystem Exchange,~,~,~,~,~
+Ecosystem Respiration,--,--,--,--,0.27645685746444426
+Evapotranspiration,--,--,--,--,0.6059007369173346
+Evaporative Fraction,--,--,--,--,0.7008432217126658
+Latent Heat,--,--,--,--,0.5769284936725116
+Runoff,0.14969615342864376,0.14536480813246325,0.14607313147149464,0.14663903218872576,--
+Sensible Heat,--,--,--,--,0.5608629572923741
+Terrestrial Water Storage Anomaly,~,~,~,~,~
+Snow Water Equivalent,0.4722004942446281,0.47765747676722353,0.4726705453072427,0.4726466578629628,--
+Permafrost,~,~,~,~,~
+Surface Soil Moisture,0.19486261844491798,0.19767856355674257,0.14940312299114597,0.11091075503111683,--
+Albedo,--,--,--,0.5243632855774163,0.6509673623169493
+Surface Upward SW Radiation,--,--,--,--,0.5151539567568247
+Surface Net SW Radiation,--,--,--,0.456754229652169,0.6431735515153542
+Surface Upward LW Radiation,--,--,--,--,0.5886668449566943
+Surface Net LW Radiation,--,--,--,0.4370230268529006,0.5444366359284557
+Surface Net Radiation,--,--,--,0.48118364773555977,0.6725175666358906
+Ground Heat Flux,~,~,~,~,~
+Surface Air Temperature,--,--,--,--,0.5634186570857278
+Diurnal Max Temperature,--,--,--,--,0.8327573585933365
+Diurnal Min Temperature,--,--,--,--,0.8456316581051035
+Diurnal Temperature Range,--,--,--,--,0.6698968795040294
+Precipitation,--,--,--,--,0.6975664925660274
+Surface Relative Humidity,~,~,~,~,~
+Surface Downward SW Radiation,--,--,--,--,0.5857215583652595
+Surface Downward LW Radiation,--,--,--,--,0.5914330859690959

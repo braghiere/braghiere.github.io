@@ -30,11 +30,25 @@
             var mid   = msel.selectedIndex;
             var RNAME = rsel.options[rid].value;
             var MNAME = msel.options[mid].value;
-            var CNAME = "SurfaceDownwardSWRadiation / WRMC.BSRN / 1997-1998";
+            var CNAME = "SurfaceDownwardSWRadiation / WRMC.BSRN / 1992-2013";
             var head  = "CNAME / RNAME / MNAME";
             head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
             $("#MeanStateHead").text(head);
             
+          document.getElementById('timeint').src =  MNAME + '_' + RNAME + '_timeint.png'
+          document.getElementById('benchmark_timeint').src =  'Benchmark_' + RNAME + '_timeint.png'
+          document.getElementById('bias').src =  MNAME + '_' + RNAME + '_bias.png'
+          document.getElementById('biasscore').src =  MNAME + '_' + RNAME + '_biasscore.png'
+          document.getElementById('phase').src =  MNAME + '_' + RNAME + '_phase.png'
+          document.getElementById('benchmark_phase').src =  'Benchmark_' + RNAME + '_phase.png'
+          document.getElementById('shift').src =  MNAME + '_' + RNAME + '_shift.png'
+          document.getElementById('shiftscore').src =  MNAME + '_' + RNAME + '_shiftscore.png'
+          document.getElementById('rmse').src =  MNAME + '_' + RNAME + '_rmse.png'
+          document.getElementById('rmsescore').src =  MNAME + '_' + RNAME + '_rmsescore.png'
+          document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
+          document.getElementById('dtcycle').src =  MNAME + '_' + RNAME + '_dtcycle.png'
+          document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
+          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
           document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
         }
 
@@ -43,7 +57,7 @@
             for (var i = 0; i < select.length; i++){
                 var table = document.getElementById("MeanState_table_" + select.options[i].value);
                 var rows  = table.getElementsByTagName("tr");
-                for (var r = 1; r < rows.length; r++) {
+                for (var r = 2; r < rows.length; r++) {
                     for (var c = 0; c < rows[r].cells.length-5; c++) {
                         rows[r].cells[c].style.backgroundColor = "#ffffff";
                     }
@@ -67,21 +81,21 @@
             var rows   = table.getElementsByTagName("tr");
             for (var c = rows[0].cells.length-4; c < rows[0].cells.length; c++) {
                 var scores = [];
-                for (var r = 1; r < rows.length; r++) {
+                for (var r = 2; r < rows.length; r++) {
                     val = rows[r].cells[c].innerHTML;
                     if (val=="") {
-                      scores[r-1] = 0;
+                      scores[r-2] = 0;
                     }else{
-                      scores[r-1] = parseFloat(val);
+                      scores[r-2] = parseFloat(val);
                     }
                 }
                 var mean = math.mean(scores);
                 var std  = math.max(0.02,math.std(scores));
-                for (var r = 1; r < rows.length; r++) {
-                    scores[r-1] = Math.min(+2,Math.max(-2,(scores[r-1]-mean)/std));
+                for (var r = 2; r < rows.length; r++) {
+                    scores[r-2] = Math.min(+2,Math.max(-2,(scores[r-2]-mean)/std));
                 }
-                for (var r = 1; r < rows.length; r++) {
-		    var e  = scores[r-1];
+                for (var r = 2; r < rows.length; r++) {
+		    var e  = scores[r-2];
                     var ae = Math.abs(e);
                     var clr;
                     if(ae >= 0.25){
@@ -111,7 +125,7 @@
                     if(rows[r].cells[0].innerHTML==model) highlightRowMeanState(rows[r].cells[0]);
                 }
             }else{
-                highlightRowMeanState(rows[1]);
+                highlightRowMeanState(rows[2]);
             }
             for (var i = 0; i < select.length; i++){
                 paintScoreCellsMeanState(select.options[i].value);
@@ -133,7 +147,7 @@
         }
       function AllSelect() {
         var header = "CNAME / RNAME / MNAME";
-        var CNAME  = "SurfaceDownwardSWRadiation / WRMC.BSRN / 1997-1998";
+        var CNAME  = "SurfaceDownwardSWRadiation / WRMC.BSRN / 1992-2013";
         header     = header.replace("CNAME",CNAME);
         var rid    = document.getElementById("AllModelsRegion").selectedIndex;
         var RNAME  = document.getElementById("AllModelsRegion").options[rid].value;
@@ -141,16 +155,32 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(0){
+        if(PNAME == "bias" || PNAME == "biasscore" || PNAME == "shift" || PNAME == "shiftscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(0){
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
+          document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_alpha_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_beta_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_omega_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
+          document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_alpha_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_beta_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_omega_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
+        document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_alpha').src = 'CliMA_longruns_alpha_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_alpha_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_beta').src = 'CliMA_longruns_beta_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_beta_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_omega').src = 'CliMA_longruns_omega_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_omega_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
       }
@@ -222,6 +252,10 @@
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
+        <option value='Benchmark'>Benchmark</option>
+        <option value='CliMA_longruns_alpha' selected="selected">CliMA_longruns_alpha</option>
+        <option value='CliMA_longruns_beta'>CliMA_longruns_beta</option>
+        <option value='CliMA_longruns_omega'>CliMA_longruns_omega</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -245,27 +279,179 @@
            </thead>
            <tbody>
              <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>177.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_alpha</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_alpha.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">179.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">1.49</td>
+               <td onclick="highlightRowMeanState(this)">18.2</td>
+               <td onclick="highlightRowMeanState(this)">0.577</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.875</td>
+               <td onclick="highlightRowMeanState(this)">0.809</td>
+               <td onclick="highlightRowMeanState(this)">0.922</td>
+               <td onclick="highlightRowMeanState(this)">0.853</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_beta</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_beta.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">154.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-25.1</td>
+               <td onclick="highlightRowMeanState(this)">51.1</td>
+               <td onclick="highlightRowMeanState(this)">1.05</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.751</td>
+               <td onclick="highlightRowMeanState(this)">0.682</td>
+               <td onclick="highlightRowMeanState(this)">0.841</td>
+               <td onclick="highlightRowMeanState(this)">0.739</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">153.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-20.3</td>
+               <td onclick="highlightRowMeanState(this)">94.1</td>
+               <td onclick="highlightRowMeanState(this)">2.63</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.741</td>
+               <td onclick="highlightRowMeanState(this)">0.341</td>
+               <td onclick="highlightRowMeanState(this)">0.615</td>
+               <td onclick="highlightRowMeanState(this)">0.509</td>
+             </tr>
+             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">180.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">5.89</td>
-               <td onclick="highlightRowMeanState(this)">73.9</td>
-               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">4.19</td>
+               <td onclick="highlightRowMeanState(this)">30.5</td>
+               <td onclick="highlightRowMeanState(this)">0.546</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.231</td>
-               <td onclick="highlightRowMeanState(this)">0.00868</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">0.793</td>
+               <td onclick="highlightRowMeanState(this)">0.685</td>
+               <td onclick="highlightRowMeanState(this)">0.934</td>
+               <td onclick="highlightRowMeanState(this)">0.774</td>
              </tr>
           </tbody>
         </table>
         </center>
+        <div data-role="collapsible" data-collapsed="false"><h1>Temporally integrated period mean</h1>
+        <div class="container" id="benchmark_timeint_div">
+          <div class="child">
+          <center>BENCHMARK&nbsp;MEAN</center>
+          <img src="" id="benchmark_timeint" alt="Data not available" ></img>
+          <center><img src="legend_timeint.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="timeint_div">
+          <div class="child">
+          <center>MODEL&nbsp;MEAN</center>
+          <img src="" id="timeint" alt="Data not available" ></img>
+          <center><img src="legend_timeint.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="bias_div">
+          <div class="child">
+          <center>BIAS</center>
+          <img src="" id="bias" alt="Data not available" ></img>
+          <center><img src="legend_bias.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="biasscore_div">
+          <div class="child">
+          <center>BIAS&nbsp;SCORE</center>
+          <img src="" id="biasscore" alt="Data not available" ></img>
+          <center><img src="legend_biasscore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="rmse_div">
+          <div class="child">
+          <center>RMSE</center>
+          <img src="" id="rmse" alt="Data not available" ></img>
+          <center><img src="legend_rmse.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="rmsescore_div">
+          <div class="child">
+          <center>RMSE&nbsp;SCORE</center>
+          <img src="" id="rmsescore" alt="Data not available" ></img>
+          <center><img src="legend_rmsescore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="benchmark_phase_div">
+          <div class="child">
+          <center>BENCHMARK&nbsp;MAX&nbsp;MONTH</center>
+          <img src="" id="benchmark_phase" alt="Data not available" ></img>
+          <center><img src="legend_phase.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="phase_div">
+          <div class="child">
+          <center>MODEL&nbsp;MAX&nbsp;MONTH</center>
+          <img src="" id="phase" alt="Data not available" ></img>
+          <center><img src="legend_phase.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="shift_div">
+          <div class="child">
+          <center>DIFFERENCE&nbsp;IN&nbsp;MAX&nbsp;MONTH</center>
+          <img src="" id="shift" alt="Data not available" ></img>
+          <center><img src="legend_shift.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="shiftscore_div">
+          <div class="child">
+          <center>SEASONAL&nbsp;CYCLE&nbsp;SCORE</center>
+          <img src="" id="shiftscore" alt="Data not available" ></img>
+          <center><img src="legend_shiftscore.png" id="leg"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        </div>
         <div data-role="collapsible" data-collapsed="false"><h1>Spatially integrated regional mean</h1>
         <div class="container" id="legend_compcycle_div">
           <div class="child">
           <center>MODEL&nbsp;COLORS</center>
           <img src="" id="legend_compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="spaceint_div">
+          <div class="child">
+          <center>REGIONAL&nbsp;MEAN</center>
+          <img src="" id="spaceint" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="cycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="cycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="dtcycle_div">
+          <div class="child">
+          <center>MONTHLY&nbsp;ANOMALY</center>
+          <img src="" id="dtcycle" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="compcycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="compcycle" alt="Data not available" ></img>
           </div>
         </div>
         </div>
@@ -284,6 +470,54 @@
       <select id="AllModelsRegion" onchange="AllSelect()">
         <option value='global' selected="selected">Global - Land</option>
       </select>
+      <select id="AllModelsPlot" onchange="AllSelect()">
+        <option value='timeint' selected="selected">Temporally integrated period mean</option>
+        <option value='bias'>Temporally integrated period mean bias</option>
+        <option value='biasscore'>Temporally integrated period mean bias score</option>
+        <option value='phase'>Temporally integrated period mean max month</option>
+        <option value='shift'>Temporally integrated mean phase shift</option>
+        <option value='shiftscore'>Temporally integrated mean phase shift score</option>
+        <option value='rmse'>Temporally integrated period mean rmse</option>
+        <option value='rmsescore'>Temporally integrated period mean rmse score</option>
+        <option value='cycle'>Spatially integrated regional mean cycle</option>
+        <option value='dtcycle'>Spatially integrated regional mean detrended cycle</option>
+        <option value='spaceint'>Spatially integrated regional mean</option>
+      </select>
+        <div class="container" id="Benchmark_div">
+          <div class="child">
+          <center>Benchmark</center>
+          <img src="" id="Benchmark" alt="Data not available" ></img>
+          <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_alpha_div">
+          <div class="child">
+          <center>CliMA_longruns_alpha</center>
+          <img src="" id="CliMA_longruns_alpha" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_alpha.png" id="CliMA_longruns_alpha_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_beta_div">
+          <div class="child">
+          <center>CliMA_longruns_beta</center>
+          <img src="" id="CliMA_longruns_beta" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_beta.png" id="CliMA_longruns_beta_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_omega_div">
+          <div class="child">
+          <center>CliMA_longruns_omega</center>
+          <img src="" id="CliMA_longruns_omega" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_omega.png" id="CliMA_longruns_omega_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ENSEMBLE-CMIP6_div">
+          <div class="child">
+          <center>ENSEMBLE-CMIP6</center>
+          <img src="" id="ENSEMBLE-CMIP6" alt="Data not available" ></img>
+          <center><img src="legend_ENSEMBLE-CMIP6.png" id="ENSEMBLE-CMIP6_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
     </div>
     <div data-role="page" id="DataInformation">
       <div data-role="header" data-position="fixed" data-tap-toggle="false">
