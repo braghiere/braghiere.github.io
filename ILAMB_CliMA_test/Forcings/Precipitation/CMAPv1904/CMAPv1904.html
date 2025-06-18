@@ -30,7 +30,7 @@
             var mid   = msel.selectedIndex;
             var RNAME = rsel.options[rid].value;
             var MNAME = msel.options[mid].value;
-            var CNAME = "Precipitation / CMAPv1904 / 1979-2019";
+            var CNAME = "Precipitation / CMAPv1904 / 1984-1986";
             var head  = "CNAME / RNAME / MNAME";
             head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
             $("#MeanStateHead").text(head);
@@ -148,7 +148,7 @@
         }
       function AllSelect() {
         var header = "CNAME / RNAME / MNAME";
-        var CNAME  = "Precipitation / CMAPv1904 / 1979-2019";
+        var CNAME  = "Precipitation / CMAPv1904 / 1984-1986";
         header     = header.replace("CNAME",CNAME);
         var rid    = document.getElementById("AllModelsRegion").selectedIndex;
         var RNAME  = document.getElementById("AllModelsRegion").options[rid].value;
@@ -272,7 +272,7 @@
              <tr>
                <td class="row-header">Benchmark</td>
                <td><a href="CMAPv1904_Benchmark.nc" download>[-]</a></td>
-               <td>2.04</td>
+               <td>2.05</td>
                <td></td>
                <td></td>
                <td></td>
@@ -293,19 +293,19 @@
                <td onclick="highlightRowMeanState(this)"><a href="CMAPv1904_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">2.42</td>
                <td onclick="highlightRowMeanState(this)">2.41</td>
-               <td onclick="highlightRowMeanState(this)">2.04</td>
-               <td onclick="highlightRowMeanState(this)">1.12</td>
+               <td onclick="highlightRowMeanState(this)">2.05</td>
+               <td onclick="highlightRowMeanState(this)">1.60</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.367</td>
-               <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">1.31</td>
+               <td onclick="highlightRowMeanState(this)">0.368</td>
+               <td onclick="highlightRowMeanState(this)">1.65</td>
+               <td onclick="highlightRowMeanState(this)">3.18</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.702</td>
-               <td onclick="highlightRowMeanState(this)">0.674</td>
-               <td onclick="highlightRowMeanState(this)">0.849</td>
-               <td onclick="highlightRowMeanState(this)">0.943</td>
-               <td onclick="highlightRowMeanState(this)">0.768</td>
+               <td onclick="highlightRowMeanState(this)">0.284</td>
+               <td onclick="highlightRowMeanState(this)">0.0542</td>
+               <td onclick="highlightRowMeanState(this)">0.463</td>
+               <td onclick="highlightRowMeanState(this)">0.939</td>
+               <td onclick="highlightRowMeanState(this)">0.359</td>
              </tr>
           </tbody>
         </table>

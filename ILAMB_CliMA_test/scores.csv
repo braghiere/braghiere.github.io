@@ -1,33 +1,10 @@
-Variables,CliMA_longruns,CliMA_longruns_alpha,ENSEMBLE-CMIP6
-Biomass,~,~,~
-Carbon Dioxide,~,~,~
-Gross Primary Productivity,0.5227849065278138,0.5400409135851679,0.6797723984228019
-Leaf Area Index,--,--,0.6246430128685054
-Global Net Ecosystem Carbon Balance,~,~,~
-Net Ecosystem Exchange,~,~,~
-Ecosystem Respiration,~,~,~
-Soil Carbon,~,~,~
-Evapotranspiration,--,--,--
-Evaporative Fraction,0.4184333417132988,0.4258041643408993,0.45758981171620317
-Latent Heat,0.42615760389952156,0.4169424728043239,0.4649131913534442
-Runoff,0.15125993496049972,0.15161916928398853,--
-Sensible Heat,0.4174927631389574,0.4235738877025076,0.48150967253343774
-Terrestrial Water Storage Anomaly,~,~,~
-Snow Water Equivalent,~,~,~
-Permafrost,~,~,~
-Surface Soil Moisture,0.19486261844491798,0.19767856355674257,--
-Albedo,~,~,~
-Surface Upward SW Radiation,--,--,0.6705792745849938
-Surface Net SW Radiation,~,~,~
-Surface Upward LW Radiation,--,--,0.7813995427250922
-Surface Net LW Radiation,~,~,~
-Surface Net Radiation,~,~,~
-Ground Heat Flux,~,~,~
-Surface Air Temperature,0.8031224640798456,0.7991164376646461,0.8195812076193324
-Diurnal Max Temperature,~,~,~
-Diurnal Min Temperature,~,~,~
-Diurnal Temperature Range,~,~,~
-Precipitation,--,--,0.5443134924882
-Surface Relative Humidity,~,~,~
-Surface Downward SW Radiation,--,--,0.8216982797847926
-Surface Downward LW Radiation,--,0.14228241036333977,0.13760772658167963
+Variables,CliMA_longruns,CliMA_longruns_alpha,CliMA_longruns_beta,CliMA_longruns_omega,ENSEMBLE-CMIP6
+Evapotranspiration,--,--,--,--,0.08493268805640417
+Surface Upward SW Radiation,--,--,--,--,--
+Surface Air Temperature,--,--,--,--,0.1840563420840261
+Diurnal Max Temperature,--,--,--,--,0.30577472349274115
+Diurnal Min Temperature,--,--,--,--,0.33576834157485935
+Diurnal Temperature Range,--,--,--,--,0.3288709210790712
+Precipitation,--,--,--,--,0.4788203747646
+Surface Downward SW Radiation,--,--,--,--,--
+Surface Downward LW Radiation,--,--,--,--,--
