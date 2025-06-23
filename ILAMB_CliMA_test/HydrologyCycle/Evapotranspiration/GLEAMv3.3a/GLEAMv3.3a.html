@@ -161,9 +161,6 @@
             head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
             $("#RelationshipsHead").text(head);
             
-          document.getElementById('benchmark_rel_Precipitation').src =  'Benchmark_' + RNAME + '_rel_Precipitation.png'
-          document.getElementById('rel_Precipitation').src =  MNAME + '_' + RNAME + '_rel_Precipitation.png'
-          document.getElementById('rel_func_Precipitation').src =  MNAME + '_' + RNAME + '_rel_func_Precipitation.png'
           document.getElementById('benchmark_rel_SurfaceAirTemperature').src =  'Benchmark_' + RNAME + '_rel_SurfaceAirTemperature.png'
           document.getElementById('rel_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_SurfaceAirTemperature.png'
           document.getElementById('rel_func_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceAirTemperature.png'
@@ -175,13 +172,13 @@
                 var table = document.getElementById("Relationships_table_" + select.options[i].value);
                 var rows  = table.getElementsByTagName("tr");
                 for (var r = 1; r < rows.length; r++) {
-                    for (var c = 0; c < rows[r].cells.length-4; c++) {
+                    for (var c = 0; c < rows[r].cells.length-3; c++) {
                         rows[r].cells[c].style.backgroundColor = "#ffffff";
                     }
                 }
                 var r = cell.closest("tr").rowIndex;
                 document.getElementById("RelationshipsModel").selectedIndex = r-1;
-                for (var c = 0; c < rows[r].cells.length-4; c++) {
+                for (var c = 0; c < rows[r].cells.length-3; c++) {
                     rows[r].cells[c].style.backgroundColor = "#c1c1c1";
                 }
             }
@@ -196,7 +193,7 @@
             var nc = colors.length;
             var table  = document.getElementById("Relationships_table_" + RNAME);
             var rows   = table.getElementsByTagName("tr");
-            for (var c = rows[0].cells.length-3; c < rows[0].cells.length; c++) {
+            for (var c = rows[0].cells.length-2; c < rows[0].cells.length; c++) {
                 var scores = [];
                 for (var r = 1; r < rows.length; r++) {
                     val = rows[r].cells[c].innerHTML;
@@ -272,12 +269,12 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_func_Precipitation" || PNAME == "rel_func_SurfaceAirTemperature"){
+        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_alpha_legend").style.display = 'none';
@@ -487,19 +484,19 @@
                <td onclick="highlightRowMeanState(this)"><a href="GLEAMv3.3a_CliMA_longruns_omega.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">1.19</td>
                <td onclick="highlightRowMeanState(this)">1.29</td>
-               <td onclick="highlightRowMeanState(this)">1.37</td>
-               <td onclick="highlightRowMeanState(this)">0.394</td>
+               <td onclick="highlightRowMeanState(this)">1.38</td>
+               <td onclick="highlightRowMeanState(this)">0.395</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.0936</td>
-               <td onclick="highlightRowMeanState(this)">0.992</td>
-               <td onclick="highlightRowMeanState(this)">2.46</td>
+               <td onclick="highlightRowMeanState(this)">-0.0903</td>
+               <td onclick="highlightRowMeanState(this)">0.731</td>
+               <td onclick="highlightRowMeanState(this)">1.45</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.636</td>
-               <td onclick="highlightRowMeanState(this)">0.311</td>
-               <td onclick="highlightRowMeanState(this)">0.567</td>
-               <td onclick="highlightRowMeanState(this)">0.944</td>
-               <td onclick="highlightRowMeanState(this)">0.554</td>
+               <td onclick="highlightRowMeanState(this)">0.634</td>
+               <td onclick="highlightRowMeanState(this)">0.444</td>
+               <td onclick="highlightRowMeanState(this)">0.750</td>
+               <td onclick="highlightRowMeanState(this)">0.945</td>
+               <td onclick="highlightRowMeanState(this)">0.643</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
@@ -670,10 +667,8 @@
              <tr>
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Precipitation|GPCPv2.3 Hellinger Distance [1]</span></div></th>
                <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Hellinger Distance [1]</span></div></th>
                <th></th>
-               <th class="rotate"><div><span>Precipitation|GPCPv2.3 Score [1]</span></div></th>
                <th class="rotate"><div><span>SurfaceAirTemperature|CRU4.02 Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
@@ -682,20 +677,16 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_longruns</td>
                <td onclick="highlightRowRelationships(this)"><a href="GLEAMv3.3a_CliMA_longruns.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)">0.678</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)">0.747</td>
                <td onclick="highlightRowRelationships(this)">0.747</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_longruns_alpha</td>
                <td onclick="highlightRowRelationships(this)"><a href="GLEAMv3.3a_CliMA_longruns_alpha.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)">0.701</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)">0.697</td>
                <td onclick="highlightRowRelationships(this)">0.697</td>
              </tr>
@@ -703,9 +694,7 @@
                <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_longruns_beta</td>
                <td onclick="highlightRowRelationships(this)"><a href="GLEAMv3.3a_CliMA_longruns_beta.nc" download>[-]</a></td>
                <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)"></td>
              </tr>
@@ -713,42 +702,21 @@
                <td onclick="highlightRowRelationships(this)" class="row-header">CliMA_longruns_omega</td>
                <td onclick="highlightRowRelationships(this)"><a href="GLEAMv3.3a_CliMA_longruns_omega.nc" download>[-]</a></td>
                <td onclick="highlightRowRelationships(this)"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)"></td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowRelationships(this)"><a href="GLEAMv3.3a_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)">0.754</td>
                <td onclick="highlightRowRelationships(this)">0.741</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)">0.910</td>
                <td onclick="highlightRowRelationships(this)">0.748</td>
-               <td onclick="highlightRowRelationships(this)">0.829</td>
+               <td onclick="highlightRowRelationships(this)">0.748</td>
              </tr>
           </tbody>
         </table>
         </center>
-        <div data-role="collapsible" data-collapsed="false"><h1>Precipitation/GPCPv2.3</h1>
-        <div class="container" id="benchmark_rel_Precipitation_div">
-          <div class="child">
-          <img src="" id="benchmark_rel_Precipitation" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_Precipitation_div">
-          <div class="child">
-          <img src="" id="rel_Precipitation" alt="Data not available" ></img>
-          </div>
-        </div>
-        <div class="container" id="rel_func_Precipitation_div">
-          <div class="child">
-          <img src="" id="rel_func_Precipitation" alt="Data not available" ></img>
-          </div>
-        </div>
-        </div>
         <div data-role="collapsible" data-collapsed="false"><h1>SurfaceAirTemperature/CRU4.02</h1>
         <div class="container" id="benchmark_rel_SurfaceAirTemperature_div">
           <div class="child">
@@ -794,8 +762,6 @@
         <option value='cycle'>Spatially integrated regional mean cycle</option>
         <option value='dtcycle'>Spatially integrated regional mean detrended cycle</option>
         <option value='spaceint'>Spatially integrated regional mean</option>
-        <option value='rel_Precipitation'>Relationship with Precipitation</option>
-        <option value='rel_func_Precipitation'>Relationship with func_Precipitation</option>
         <option value='rel_SurfaceAirTemperature'>Relationship with SurfaceAirTemperature</option>
         <option value='rel_func_SurfaceAirTemperature'>Relationship with func_SurfaceAirTemperature</option>
       </select>
