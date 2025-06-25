@@ -207,12 +207,14 @@
           document.getElementById("CliMA_longruns_alpha_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_beta_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_omega_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_omega_masked_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_alpha_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_beta_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_omega_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_omega_masked_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
@@ -224,6 +226,8 @@
         document.getElementById('CliMA_longruns_beta_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_omega').src = 'CliMA_longruns_omega_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_omega_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_omega_masked').src = 'CliMA_longruns_omega_masked_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_omega_masked_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -298,6 +302,7 @@
         <option value='CliMA_longruns_alpha'>CliMA_longruns_alpha</option>
         <option value='CliMA_longruns_beta'>CliMA_longruns_beta</option>
         <option value='CliMA_longruns_omega'>CliMA_longruns_omega</option>
+        <option value='CliMA_longruns_omega_masked'>CliMA_longruns_omega_masked</option>
       </select>
       </div>
         <center>
@@ -376,6 +381,18 @@
                <td onclick="highlightRowMeanState(this)">0.00213</td>
                <td onclick="highlightRowMeanState(this)">0.134</td>
                <td onclick="highlightRowMeanState(this)">0.105</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Dai_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.300</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.494</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.537</td>
+               <td onclick="highlightRowMeanState(this)">0.211</td>
+               <td onclick="highlightRowMeanState(this)">0.549</td>
+               <td onclick="highlightRowMeanState(this)">0.432</td>
              </tr>
           </tbody>
         </table>
@@ -825,6 +842,13 @@
           <center>CliMA_longruns_omega</center>
           <img src="" id="CliMA_longruns_omega" alt="Data not available" ></img>
           <center><img src="legend_CliMA_longruns_omega.png" id="CliMA_longruns_omega_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_omega_masked_div">
+          <div class="child">
+          <center>CliMA_longruns_omega_masked</center>
+          <img src="" id="CliMA_longruns_omega_masked" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_omega_masked.png" id="CliMA_longruns_omega_masked_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
