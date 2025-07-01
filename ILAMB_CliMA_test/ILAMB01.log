@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux hpc-20-23.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
+[INFO][0][<module>] Linux hpc-80-19.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.2)
@@ -6,745 +6,26 @@
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2025-06-30 13:37:58.584654
-[INFO][3][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
-[DEBUG][3][WorkConfront][GroundHeatFlux/CLASS][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 514, in derivedVariable
-    mask += var.data.mask
-ValueError: operands could not be broadcast together with shapes (24,202,404) (24,181,360) (24,202,404) 
-
-[DEBUG][3][WorkConfront][GroundHeatFlux/CLASS][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][2][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
-[INFO][3][confront][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_beta] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][CliMA_longruns_omega_masked] Success
-[DEBUG][1][WorkConfront][Runoff/LORA][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 392, in GetTime
-    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
-                                   ^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 274, in GuessAlpha
-    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
-  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
-ValueError: 'months since' units only allowed for '360_day' calendar
-
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/CLASS][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[DEBUG][2][WorkConfront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 514, in derivedVariable
-    mask += var.data.mask
-ValueError: operands could not be broadcast together with shapes (120,202,404) (120,181,360) (120,202,404) 
-
-[DEBUG][2][WorkConfront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][2][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[DEBUG][2][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 514, in derivedVariable
-    mask += var.data.mask
-ValueError: operands could not be broadcast together with shapes (1,202,404) (1,181,360) (1,202,404) 
-
-[DEBUG][2][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/CLASS][CliMA_longruns_omega_masked] Success
-[DEBUG][1][WorkConfront][Runoff/CLASS][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 392, in GetTime
-    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
-                                   ^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 274, in GuessAlpha
-    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
-  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
-ValueError: 'months since' units only allowed for '360_day' calendar
-
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[DEBUG][2][WorkConfront][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][2][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_beta] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/ERA5][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][SurfaceAirTemperature/ERA5][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/ERA5][CliMA_longruns_omega_masked] Success
-[DEBUG][1][WorkConfront][Runoff/ERA5][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 392, in GetTime
-    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
-                                   ^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 274, in GuessAlpha
-    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
-  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
-ValueError: 'months since' units only allowed for '360_day' calendar
-
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[DEBUG][2][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_beta] Datasets are defined at different times
-[DEBUG][2][WorkConfront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2652, in MakeComparable
-    raise VarsNotComparable()
-ILAMB.ilamblib.VarsNotComparable: VarNotComparable
-
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/CMAPv1904][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][Precipitation/CMAPv1904][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
+[INFO][0][<module>] 2025-07-01 14:35:50.602629
 [INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/FLUXCOM][CliMA_longruns_beta] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][2][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/FLUXCOM][CliMA_longruns_omega_masked] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_omega_masked] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/GPCCv2018][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][Precipitation/GPCCv2018][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/CLASS][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/GPCPv2.3][CliMA_longruns_beta] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][Precipitation/GPCPv2.3][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][2][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[DEBUG][2][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_beta] Datasets are defined at different times
-[DEBUG][2][WorkConfront][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2652, in MakeComparable
-    raise VarsNotComparable()
-ILAMB.ilamblib.VarsNotComparable: VarNotComparable
-
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/CLASS][CliMA_longruns_omega_masked] Success
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/WECANN][CliMA_longruns_beta] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/CLASS][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][Precipitation/CLASS][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/WECANN][CliMA_longruns_omega_masked] Success
-[INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][1][confront][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][2][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[DEBUG][2][WorkConfront][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 514, in derivedVariable
-    mask += var.data.mask
-ValueError: operands could not be broadcast together with shapes (120,202,404) (120,181,360) (120,202,404) 
-
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[DEBUG][2][WorkConfront][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][1][confront][SensibleHeat/ERA5][CliMA_longruns_beta] Success
-[DEBUG][2][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 514, in derivedVariable
-    mask += var.data.mask
-ValueError: operands could not be broadcast together with shapes (1,202,404) (1,181,360) (1,202,404) 
-
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/ERA5][CliMA_longruns_beta] Success
-[DEBUG][2][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[DEBUG][3][WorkConfront][Precipitation/ERA5][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][3][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][3][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][confront][SensibleHeat/ERA5][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_gamma] Success
 [INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][1][confront][SensibleHeat/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_beta] Success
-[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][1][confront][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSites][rns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[DEBUG][2][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][2][AnalysisMeanStateSites][rns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
-[INFO][2][confront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[DEBUG][1][WorkConfront][TerrestrialWaterStorageAnomaly/GRACE][CliMA_longruns_beta]
+[DEBUG][1][WorkConfront][TerrestrialWaterStorageAnomaly/GRACE][CliMA_longruns_gamma]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -752,40 +33,6 @@ Traceback (most recent call last):
     obs, mod = self.stageData(m)
                ^^^^^^^^^^^^^^^^^
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfTWSA.py", line 85, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 514, in derivedVariable
-    mask += var.data.mask
-ValueError: operands could not be broadcast together with shapes (84,202,404) (84,181,360) (84,202,404) 
-
-[DEBUG][2][WorkConfront][SurfaceNetRadiation/CLASS][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
-    v = self.derivedVariable(
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 514, in derivedVariable
-    mask += var.data.mask
-ValueError: operands could not be broadcast together with shapes (24,202,404) (24,181,360) (24,202,404) 
-
-[DEBUG][2][WorkConfront][SurfaceNetRadiation/CLASS][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
     mod = m.extractTimeSeries(
           ^^^^^^^^^^^^^^^^^^^^
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
@@ -826,8 +73,7 @@ Traceback (most recent call last):
            ^^^^^^^
 AssertionError
 
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_beta] Success
+[INFO][2][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [DEBUG][1][WorkConfront][TerrestrialWaterStorageAnomaly/GRACE][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -841,54 +87,30 @@ Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
     v = self.derivedVariable(
         ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
-    Vs[arg] = self.extractTimeSeries(
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 392, in GetTime
-    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
-                                   ^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 274, in GuessAlpha
-    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
-  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
-ValueError: 'months since' units only allowed for '360_day' calendar
-
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 522, in derivedVariable
+    assert np.allclose(tbnd, var.time_bnds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError
 
-[INFO][1][MakeComparable][SnowWaterEquivalent/CanSISE][CliMA_longruns_beta] Spatial data was clipped from the comparison:  before: [ 36 202 404] after: [ 36 102 404]
+[INFO][1][MakeComparable][SnowWaterEquivalent/CanSISE][CliMA_longruns_gamma] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
+[INFO][2][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
-[INFO][1][confront][SnowWaterEquivalent/CanSISE][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][confront][SnowWaterEquivalent/CanSISE][CliMA_longruns_gamma] Success
 [INFO][1][MakeComparable][SnowWaterEquivalent/CanSISE][CliMA_longruns_omega_masked] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_omega_masked] Success
 [INFO][1][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
 [INFO][1][confront][SnowWaterEquivalent/CanSISE][CliMA_longruns_omega_masked] Success
@@ -910,20 +132,22 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][1][extractTimeSeries][CliMA_longruns_beta] Could not find [tsl,TSOI] in the model results
-[DEBUG][1][WorkConfront][Permafrost/Brown2002][CliMA_longruns_beta]
+[DEBUG][1][WorkConfront][Permafrost/Brown2002][CliMA_longruns_gamma]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
     obs, mod = self.stageData(m)
                ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 193, in stageData
-    tsl = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 199, in stageData
+    mod = permafrost_extent_slater2013(tsl, dmax=dmax, Teps=Teps)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 36, in permafrost_extent_slater2013
+    tsl = tsl.trim(d=[0, dmax])
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 2186, in trim
+    raise ValueError
+ValueError
 
 [DEBUG][1][extractTimeSeries][CliMA_longruns_omega_masked] Could not find [tsl,TSOI] in the model results
 [DEBUG][1][WorkConfront][Permafrost/Brown2002][CliMA_longruns_omega_masked]
@@ -958,20 +182,49 @@ Traceback (most recent call last):
            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
 FloatingPointError: underflow encountered in scalar multiply
 
-[DEBUG][1][extractTimeSeries][CliMA_longruns_beta] Could not find [tsl,TSOI] in the model results
-[DEBUG][1][WorkConfront][Permafrost/Obu2018][CliMA_longruns_beta]
+[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[DEBUG][1][WorkConfront][Permafrost/Obu2018][CliMA_longruns_gamma]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 231, in confront
     obs, mod = self.stageData(m)
                ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 193, in stageData
-    tsl = m.extractTimeSeries(
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 199, in stageData
+    mod = permafrost_extent_slater2013(tsl, dmax=dmax, Teps=Teps)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 36, in permafrost_extent_slater2013
+    tsl = tsl.trim(d=[0, dmax])
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 2186, in trim
+    raise ValueError
+ValueError
+
+[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
 
 [DEBUG][1][extractTimeSeries][CliMA_longruns_omega_masked] Could not find [tsl,TSOI] in the model results
 [DEBUG][1][WorkConfront][Permafrost/Obu2018][CliMA_longruns_omega_masked]
@@ -988,7 +241,6 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [DEBUG][1][WorkConfront][Permafrost/Obu2018][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1007,66 +259,58 @@ Traceback (most recent call last):
            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
 FloatingPointError: underflow encountered in scalar multiply
 
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
-    assert np.all(
-           ^^^^^^^
-AssertionError
-
-[INFO][3][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
 [INFO][1][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[DEBUG][2][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
 [INFO][1][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_beta] Success
-[DEBUG][3][WorkConfront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_omega_masked]
+[INFO][1][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -1076,6 +320,12 @@ Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
     mod = m.extractTimeSeries(
           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
     var = Variable(
           ^^^^^^^^^
@@ -1084,52 +334,49 @@ Traceback (most recent call last):
            ^^^^^^^
 AssertionError
 
-[INFO][3][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns_omega_masked] Success
 [INFO][1][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[DEBUG][3][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_beta] Datasets are defined at different times
-[DEBUG][3][WorkConfront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_beta]
+[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/CLASS][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][SurfaceNetRadiation/CLASS][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
     obs, mod = self.stageData(m)
                ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2652, in MakeComparable
-    raise VarsNotComparable()
-ILAMB.ilamblib.VarsNotComparable: VarNotComparable
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
 
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][0][confront][EvaporativeFraction/FLUXCOM][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
-[DEBUG][1][WorkConfront][SnowCoverFraction/MODIS][CliMA_longruns_beta]
+[DEBUG][1][WorkConfront][SnowCoverFraction/MODIS][CliMA_longruns_gamma]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -1139,15 +386,10 @@ Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
     obs = Variable(
           ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 441, in GetTime
-    raise ValueError(msg)
-ValueError: Time intervals defined in /groups/esm/renatob/ILAMB_sample/DATA/scf/MODIS/MODIS_SnowCover_0.5deg.nc:time_bounds are not continuous
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
 
 [DEBUG][1][WorkConfront][SnowCoverFraction/MODIS][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
@@ -1159,15 +401,10 @@ Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
     obs = Variable(
           ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 441, in GetTime
-    raise ValueError(msg)
-ValueError: Time intervals defined in /groups/esm/renatob/ILAMB_sample/DATA/scf/MODIS/MODIS_SnowCover_0.5deg.nc:time_bounds are not continuous
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
 
 [DEBUG][1][WorkConfront][SnowCoverFraction/MODIS][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
@@ -1179,33 +416,15 @@ Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 341, in stageData
     obs = Variable(
           ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 441, in GetTime
-    raise ValueError(msg)
-ValueError: Time intervals defined in /groups/esm/renatob/ILAMB_sample/DATA/scf/MODIS/MODIS_SnowCover_0.5deg.nc:time_bounds are not continuous
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
 
-[DEBUG][1][WorkConfront][Albedo/CERESed4.2][CliMA_longruns_beta]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
-    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
-                                         ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 80, in stageData
-    dn_mod, up_mod, mod = _albedo(dn_mod, up_mod, self.variable, energy_threshold)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 17, in _albedo
-    up.data = np.ma.masked_array(up.data, mask=mask)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 2911, in __new__
-    raise MaskError(msg % (nd, nm))
-numpy.ma.core.MaskError: Mask and data not compatible: data size is 9792960, mask size is 18244800.
-
+[INFO][1][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][1][confront][Albedo/CERESed4.2][CliMA_longruns_gamma] Success
 [DEBUG][1][WorkConfront][Albedo/CERESed4.2][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1224,28 +443,80 @@ Traceback (most recent call last):
            ^^^^^^^
 AssertionError
 
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
-[INFO][1][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][1][confront][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
-[DEBUG][1][WorkConfront][Albedo/GEWEX.SRB][CliMA_longruns_beta]
+[INFO][2][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][2][confront][GroundHeatFlux/CLASS][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][GroundHeatFlux/CLASS][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
-    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
-                                         ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 80, in stageData
-    dn_mod, up_mod, mod = _albedo(dn_mod, up_mod, self.variable, energy_threshold)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfAlbedo.py", line 17, in _albedo
-    up.data = np.ma.masked_array(up.data, mask=mask)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy/ma/core.py", line 2911, in __new__
-    raise MaskError(msg % (nd, nm))
-numpy.ma.core.MaskError: Mask and data not compatible: data size is 81608, mask size is 18766080.
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
 
+[INFO][1][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][1][confront][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][2][confront][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkConfront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_gamma]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[DEBUG][2][WorkConfront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][1][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][1][confront][Albedo/GEWEX.SRB][CliMA_longruns_gamma] Success
 [DEBUG][1][WorkConfront][Albedo/GEWEX.SRB][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1264,82 +535,609 @@ Traceback (most recent call last):
            ^^^^^^^
 AssertionError
 
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][0][confront][EvaporativeFraction/FLUXCOM][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][1][confront][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_beta] Success
-[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
-[INFO][3][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][confront][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[DEBUG][1][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_beta] Datasets are defined at different times
-[DEBUG][1][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_beta]
+[INFO][2][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkConfront][SurfaceAirTemperature/ERA5][CliMA_longruns_gamma]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
   File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
     obs, mod = self.stageData(m)
                ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 380, in stageData
-    obs, mod = il.MakeComparable(
-               ^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 2652, in MakeComparable
-    raise VarsNotComparable()
-ILAMB.ilamblib.VarsNotComparable: VarNotComparable
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
 
-[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][0][confront][EvaporativeFraction/CLASS][CliMA_longruns_beta] Success
+[DEBUG][2][WorkConfront][SurfaceAirTemperature/ERA5][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][2][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[DEBUG][2][WorkConfront][Precipitation/CMAPv1904][CliMA_longruns_gamma]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[DEBUG][2][WorkConfront][Precipitation/CMAPv1904][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkConfront][Precipitation/GPCCv2018][CliMA_longruns_gamma]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[DEBUG][2][WorkConfront][Precipitation/GPCCv2018][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkConfront][Precipitation/GPCPv2.3][CliMA_longruns_gamma]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[DEBUG][2][WorkConfront][Precipitation/GPCPv2.3][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
 [INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
+[INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkConfront][Precipitation/CLASS][CliMA_longruns_gamma]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[DEBUG][2][WorkConfront][Precipitation/CLASS][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_gamma] Success
+[INFO][2][confront][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
+[DEBUG][2][WorkConfront][Precipitation/ERA5][CliMA_longruns_gamma]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[DEBUG][2][WorkConfront][Precipitation/ERA5][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][2][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_omega_masked] Success
+[INFO][1][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[DEBUG][1][WorkConfront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][1][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[DEBUG][1][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][2][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][1][confront][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[DEBUG][1][WorkConfront][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 409, in extractTimeSeries
+    v = self.derivedVariable(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 495, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][1][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_gamma] Success
+[DEBUG][2][WorkConfront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_omega_masked]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
+    var = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 257, in __init__
+    assert np.all(
+           ^^^^^^^
+AssertionError
+
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][2][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][CliMA_longruns_omega_masked] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
+[INFO][1][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][2][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
 [INFO][0][confront][EvaporativeFraction/CLASS][CliMA_longruns_omega_masked] Success
+[INFO][2][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][2][confront][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][0][confront][EvaporativeFraction/WECANN][CliMA_longruns_beta] Success
+[INFO][0][confront][EvaporativeFraction/WECANN][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/WECANN][CliMA_longruns_omega_masked] Success
+[INFO][1][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][0][confront][EvaporativeFraction/ERA5][CliMA_longruns_beta] Success
+[INFO][0][confront][EvaporativeFraction/ERA5][CliMA_longruns_gamma] Success
+[INFO][1][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/ERA5][CliMA_longruns_omega_masked] Success
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][0][confront][LatentHeat/FLUXCOM][CliMA_longruns_beta] Success
+[INFO][0][confront][LatentHeat/FLUXCOM][CliMA_longruns_gamma] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/FLUXCOM][CliMA_longruns_omega_masked] Success
@@ -1348,7 +1146,7 @@ ILAMB.ilamblib.VarsNotComparable: VarNotComparable
 [INFO][0][confront][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][0][confront][LatentHeat/DOLCE][CliMA_longruns_beta] Success
+[INFO][0][confront][LatentHeat/DOLCE][CliMA_longruns_gamma] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/DOLCE][CliMA_longruns_omega_masked] Success
@@ -1357,7 +1155,7 @@ ILAMB.ilamblib.VarsNotComparable: VarNotComparable
 [INFO][0][confront][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][0][confront][LatentHeat/CLASS][CliMA_longruns_beta] Success
+[INFO][0][confront][LatentHeat/CLASS][CliMA_longruns_gamma] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/CLASS][CliMA_longruns_omega_masked] Success
@@ -1366,7 +1164,7 @@ ILAMB.ilamblib.VarsNotComparable: VarNotComparable
 [INFO][0][confront][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][0][confront][LatentHeat/WECANN][CliMA_longruns_beta] Success
+[INFO][0][confront][LatentHeat/WECANN][CliMA_longruns_gamma] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/WECANN][CliMA_longruns_omega_masked] Success
@@ -1375,125 +1173,77 @@ ILAMB.ilamblib.VarsNotComparable: VarNotComparable
 [INFO][0][confront][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][0][confront][LatentHeat/ERA5][CliMA_longruns_beta] Success
+[INFO][0][confront][LatentHeat/ERA5][CliMA_longruns_gamma] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/ERA5][CliMA_longruns_omega_masked] Success
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
-[DEBUG][0][WorkConfront][Runoff/Dai][ENSEMBLE-CMIP6]
-Traceback (most recent call last):
-  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
-    c.confront(m)
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 144, in confront
-    obs, mod = self.stageData(m)
-               ^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfRunoff.py", line 56, in stageData
-    mod = m.extractTimeSeries(
-          ^^^^^^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ModelResult.py", line 359, in extractTimeSeries
-    var = Variable(
-          ^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
-    out = il.FromNetCDF4(
-          ^^^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 1047, in FromNetCDF4
-    t, t_bnd, cbounds, begin, end, calendar = GetTime(
-                                              ^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 392, in GetTime
-    tb = CreateTimeBounds(t, alpha=GuessAlpha(t))
-                                   ^^^^^^^^^^^^^
-  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 274, in GuessAlpha
-    t0 = cf.num2date(t[0], t.units, calendar=t.calendar)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/cftime/_cftime.pyx", line 587, in cftime._cftime.num2date
-  File "src/cftime/_cftime.pyx", line 101, in cftime._cftime._dateparse
-ValueError: 'months since' units only allowed for '360_day' calendar
-
 [INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][0][confront][Runoff/LORA][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns_omega_masked] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/CRU4.02][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Runoff/CLASS][CliMA_longruns_beta] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns_beta] Success
-[INFO][1][modelPlots][Runoff/CLASS][CliMA_longruns_omega_masked] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Runoff/ERA5][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][Precipitation/CMAPv1904][CliMA_longruns_beta] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Runoff/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_omega_masked] Success
-[INFO][2][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][Precipitation/GPCCv2018][CliMA_longruns_beta] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_omega_masked] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][Precipitation/GPCPv2.3][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
-[INFO][1][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_omega_masked] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SensibleHeat/CLASS][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][Precipitation/CLASS][CliMA_longruns_beta] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SensibleHeat/CLASS][CliMA_longruns_omega_masked] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][Precipitation/ERA5][CliMA_longruns_beta] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][1][modelPlots][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_omega_masked] Success
-[INFO][1][modelPlots][SensibleHeat/WECANN][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SensibleHeat/WECANN][CliMA_longruns_omega_masked] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][0][confront][Runoff/LORA][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/LORA][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/LORA][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/ERA5][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/FLUXCOM][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/FLUXCOM][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/CLASS][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/CLASS][CliMA_longruns_omega_masked] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/WECANN][CliMA_longruns_gamma] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/WECANN][CliMA_longruns_omega_masked] Success
 [INFO][1][modelPlots][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SensibleHeat/ERA5][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
+[INFO][2][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SensibleHeat/ERA5][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_gamma] Success
 [INFO][1][modelPlots][SensibleHeat/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
 [INFO][1][modelPlots][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_beta] Success
-[INFO][1][modelPlots][SnowWaterEquivalent/CanSISE][CliMA_longruns_beta] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SnowWaterEquivalent/CanSISE][CliMA_longruns_gamma] Success
 [INFO][1][modelPlots][SnowWaterEquivalent/CanSISE][CliMA_longruns_omega_masked] Success
-[DEBUG][1][WorkPost][Permafrost/Brown2002][CliMA_longruns_beta]
+[DEBUG][1][WorkPost][Permafrost/Brown2002][CliMA_longruns_gamma]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
     c.modelPlots(m)
@@ -1508,7 +1258,7 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
   File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
-FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_CliMA_longruns_beta.nc'
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_CliMA_longruns_gamma.nc'
 
 [DEBUG][1][WorkPost][Permafrost/Brown2002][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
@@ -1544,7 +1294,7 @@ Traceback (most recent call last):
   File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
 FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_ENSEMBLE-CMIP6.nc'
 
-[DEBUG][1][WorkPost][Permafrost/Obu2018][CliMA_longruns_beta]
+[DEBUG][1][WorkPost][Permafrost/Obu2018][CliMA_longruns_gamma]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
     c.modelPlots(m)
@@ -1559,7 +1309,7 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
   File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
-FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_CliMA_longruns_beta.nc'
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_CliMA_longruns_gamma.nc'
 
 [DEBUG][1][WorkPost][Permafrost/Obu2018][CliMA_longruns_omega_masked]
 Traceback (most recent call last):
@@ -1595,75 +1345,151 @@ Traceback (most recent call last):
   File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
 FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_ENSEMBLE-CMIP6.nc'
 
-[INFO][2][modelPlots][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_beta] Success
-[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
-[INFO][2][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][2][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][2][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
 [INFO][2][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
-[INFO][1][modelPlots][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_gamma] Success
 [INFO][2][modelPlots][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][2][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][2][modelPlots][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_beta] Success
-[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
-[INFO][1][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_beta] Success
+[INFO][2][modelPlots][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][Albedo/CERESed4.2][CliMA_longruns_gamma] Success
 [INFO][2][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceNetRadiation/CLASS][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][Albedo/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][GroundHeatFlux/CLASS][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_gamma] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_beta] Success
+[INFO][2][modelPlots][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/CLASS][CliMA_longruns_beta] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
-[INFO][0][modelPlots][EvaporativeFraction/CLASS][CliMA_longruns_omega_masked] Success
-[INFO][3][modelPlots][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns_beta] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
 [INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
 [INFO][0][modelPlots][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_beta] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
 [INFO][0][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
 [INFO][0][modelPlots][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_beta] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_gamma] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_omega_masked] Success
 [INFO][0][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LatentHeat/DOLCE][CliMA_longruns_beta] Success
+[INFO][1][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][CliMA_longruns_gamma] Success
+[INFO][1][modelPlots][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][LatentHeat/DOLCE][CliMA_longruns_omega_masked] Success
+[INFO][1][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_gamma] Success
 [INFO][0][modelPlots][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LatentHeat/CLASS][CliMA_longruns_beta] Success
+[INFO][0][modelPlots][LatentHeat/CLASS][CliMA_longruns_gamma] Success
 [INFO][0][modelPlots][LatentHeat/CLASS][CliMA_longruns_omega_masked] Success
 [INFO][0][modelPlots][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LatentHeat/WECANN][CliMA_longruns_beta] Success
+[INFO][0][modelPlots][LatentHeat/WECANN][CliMA_longruns_gamma] Success
 [INFO][0][modelPlots][LatentHeat/WECANN][CliMA_longruns_omega_masked] Success
 [INFO][0][modelPlots][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LatentHeat/ERA5][CliMA_longruns_beta] Success
+[INFO][0][modelPlots][LatentHeat/ERA5][CliMA_longruns_gamma] Success
 [INFO][0][modelPlots][LatentHeat/ERA5][CliMA_longruns_omega_masked] Success
 [INFO][0][modelPlots][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Runoff/Dai][CliMA_longruns_beta] Success
+[INFO][0][modelPlots][Runoff/Dai][CliMA_longruns_gamma] Success
 [INFO][0][modelPlots][Runoff/Dai][CliMA_longruns_omega_masked] Success
-[INFO][0][modelPlots][Runoff/LORA][CliMA_longruns_beta] Success
-[INFO][2][<module>][process time] 943.2 s
-[INFO][0][<module>][process time] 2386.8 s
-[INFO][3][<module>][process time] 1324.6 s
-[INFO][1][<module>][process time] 1383.9 s
-[INFO][0][<module>][total time] 2459.4 s
-[INFO][0][<module>][process balance] 2.53
-[INFO][0][<module>][parallel efficiency] 61%
+[INFO][0][modelPlots][Runoff/Dai][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/LORA][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][Runoff/LORA][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][Runoff/LORA][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/CLASS][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][Runoff/CLASS][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][Runoff/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/ERA5][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][Runoff/ERA5][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][Runoff/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/CLASS][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][SensibleHeat/CLASS][CliMA_longruns_omega_masked] Success
+[INFO][0][modelPlots][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/WECANN][CliMA_longruns_gamma] Success
+[INFO][0][modelPlots][SensibleHeat/WECANN][CliMA_longruns_omega_masked] Success
+[INFO][2][<module>][process time] 1617.6 s
+[INFO][1][<module>][process time] 1760.0 s
+[INFO][0][<module>][process time] 3723.3 s
+[INFO][0][<module>][total time] 3805.3 s
+[INFO][0][<module>][process balance] 2.30
+[INFO][0][<module>][parallel efficiency] 62%
