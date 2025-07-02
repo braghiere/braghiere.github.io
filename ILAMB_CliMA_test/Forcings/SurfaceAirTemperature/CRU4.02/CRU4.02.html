@@ -237,7 +237,21 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='aust'>Australia</option>
+        <option value='boas'>Boreal Asia</option>
+        <option value='bona'>Boreal North America</option>
+        <option value='ceam'>Central America</option>
+        <option value='ceas'>Central Asia</option>
+        <option value='eqas'>Equatorial Asia</option>
+        <option value='euro'>Europe</option>
         <option value='global' selected="selected">Global - Land</option>
+        <option value='mide'>Middle East</option>
+        <option value='nhaf'>Northern Hemisphere Africa</option>
+        <option value='nhsa'>Northern Hemisphere South America</option>
+        <option value='seas'>Southeast Asia</option>
+        <option value='shaf'>Southern Hemisphere Africa</option>
+        <option value='shsa'>Southern Hemisphere South America</option>
+        <option value='tena'>Temperate North America</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
@@ -245,6 +259,461 @@
         <option value='ENSEMBLE-CMIP6' selected="selected">ENSEMBLE-CMIP6</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_aust">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>295.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">296.</td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">294.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.462</td>
+               <td onclick="highlightRowMeanState(this)">0.988</td>
+               <td onclick="highlightRowMeanState(this)">0.276</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.865</td>
+               <td onclick="highlightRowMeanState(this)">0.872</td>
+               <td onclick="highlightRowMeanState(this)">0.981</td>
+               <td onclick="highlightRowMeanState(this)">0.998</td>
+               <td onclick="highlightRowMeanState(this)">0.917</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_boas">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>268.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">269.</td>
+               <td onclick="highlightRowMeanState(this)">268.</td>
+               <td onclick="highlightRowMeanState(this)">268.</td>
+               <td onclick="highlightRowMeanState(this)">273.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.754</td>
+               <td onclick="highlightRowMeanState(this)">2.45</td>
+               <td onclick="highlightRowMeanState(this)">0.0289</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.914</td>
+               <td onclick="highlightRowMeanState(this)">0.891</td>
+               <td onclick="highlightRowMeanState(this)">0.998</td>
+               <td onclick="highlightRowMeanState(this)">0.936</td>
+               <td onclick="highlightRowMeanState(this)">0.926</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>268.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">268.</td>
+               <td onclick="highlightRowMeanState(this)">268.</td>
+               <td onclick="highlightRowMeanState(this)">268.</td>
+               <td onclick="highlightRowMeanState(this)">269.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.645</td>
+               <td onclick="highlightRowMeanState(this)">2.05</td>
+               <td onclick="highlightRowMeanState(this)">0.0895</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.906</td>
+               <td onclick="highlightRowMeanState(this)">0.883</td>
+               <td onclick="highlightRowMeanState(this)">0.994</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.933</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_ceam">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>295.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">298.</td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">299.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.221</td>
+               <td onclick="highlightRowMeanState(this)">1.93</td>
+               <td onclick="highlightRowMeanState(this)">0.684</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.615</td>
+               <td onclick="highlightRowMeanState(this)">0.783</td>
+               <td onclick="highlightRowMeanState(this)">0.922</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.821</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_ceas">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>280.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">281.</td>
+               <td onclick="highlightRowMeanState(this)">280.</td>
+               <td onclick="highlightRowMeanState(this)">280.</td>
+               <td onclick="highlightRowMeanState(this)">287.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.223</td>
+               <td onclick="highlightRowMeanState(this)">2.45</td>
+               <td onclick="highlightRowMeanState(this)">0.0798</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.839</td>
+               <td onclick="highlightRowMeanState(this)">0.892</td>
+               <td onclick="highlightRowMeanState(this)">0.995</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.924</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_eqas">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>299.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">300.</td>
+               <td onclick="highlightRowMeanState(this)">299.</td>
+               <td onclick="highlightRowMeanState(this)">299.</td>
+               <td onclick="highlightRowMeanState(this)">301.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.319</td>
+               <td onclick="highlightRowMeanState(this)">1.34</td>
+               <td onclick="highlightRowMeanState(this)">1.32</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.252</td>
+               <td onclick="highlightRowMeanState(this)">0.610</td>
+               <td onclick="highlightRowMeanState(this)">0.811</td>
+               <td onclick="highlightRowMeanState(this)">0.986</td>
+               <td onclick="highlightRowMeanState(this)">0.654</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_euro">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>283.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">284.</td>
+               <td onclick="highlightRowMeanState(this)">283.</td>
+               <td onclick="highlightRowMeanState(this)">283.</td>
+               <td onclick="highlightRowMeanState(this)">285.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.424</td>
+               <td onclick="highlightRowMeanState(this)">1.44</td>
+               <td onclick="highlightRowMeanState(this)">0.167</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.858</td>
+               <td onclick="highlightRowMeanState(this)">0.893</td>
+               <td onclick="highlightRowMeanState(this)">0.989</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.927</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -306,6 +775,461 @@
                <td onclick="highlightRowMeanState(this)">0.957</td>
                <td onclick="highlightRowMeanState(this)">1.00</td>
                <td onclick="highlightRowMeanState(this)">0.857</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_mide">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>294.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">294.</td>
+               <td onclick="highlightRowMeanState(this)">294.</td>
+               <td onclick="highlightRowMeanState(this)">294.</td>
+               <td onclick="highlightRowMeanState(this)">293.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.677</td>
+               <td onclick="highlightRowMeanState(this)">1.96</td>
+               <td onclick="highlightRowMeanState(this)">0.345</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.812</td>
+               <td onclick="highlightRowMeanState(this)">0.866</td>
+               <td onclick="highlightRowMeanState(this)">0.977</td>
+               <td onclick="highlightRowMeanState(this)">0.983</td>
+               <td onclick="highlightRowMeanState(this)">0.901</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_nhaf">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>300.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">300.</td>
+               <td onclick="highlightRowMeanState(this)">300.</td>
+               <td onclick="highlightRowMeanState(this)">300.</td>
+               <td onclick="highlightRowMeanState(this)">300.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.254</td>
+               <td onclick="highlightRowMeanState(this)">1.59</td>
+               <td onclick="highlightRowMeanState(this)">0.430</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.668</td>
+               <td onclick="highlightRowMeanState(this)">0.684</td>
+               <td onclick="highlightRowMeanState(this)">0.968</td>
+               <td onclick="highlightRowMeanState(this)">0.949</td>
+               <td onclick="highlightRowMeanState(this)">0.791</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_nhsa">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>299.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">299.</td>
+               <td onclick="highlightRowMeanState(this)">299.</td>
+               <td onclick="highlightRowMeanState(this)">299.</td>
+               <td onclick="highlightRowMeanState(this)">300.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.00600</td>
+               <td onclick="highlightRowMeanState(this)">1.59</td>
+               <td onclick="highlightRowMeanState(this)">1.19</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.395</td>
+               <td onclick="highlightRowMeanState(this)">0.511</td>
+               <td onclick="highlightRowMeanState(this)">0.819</td>
+               <td onclick="highlightRowMeanState(this)">0.820</td>
+               <td onclick="highlightRowMeanState(this)">0.611</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_seas">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>295.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">297.</td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">300.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.680</td>
+               <td onclick="highlightRowMeanState(this)">2.07</td>
+               <td onclick="highlightRowMeanState(this)">0.493</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.702</td>
+               <td onclick="highlightRowMeanState(this)">0.743</td>
+               <td onclick="highlightRowMeanState(this)">0.957</td>
+               <td onclick="highlightRowMeanState(this)">0.998</td>
+               <td onclick="highlightRowMeanState(this)">0.829</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_shaf">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>295.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">296.</td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">295.</td>
+               <td onclick="highlightRowMeanState(this)">296.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0973</td>
+               <td onclick="highlightRowMeanState(this)">1.29</td>
+               <td onclick="highlightRowMeanState(this)">0.894</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.636</td>
+               <td onclick="highlightRowMeanState(this)">0.697</td>
+               <td onclick="highlightRowMeanState(this)">0.884</td>
+               <td onclick="highlightRowMeanState(this)">0.989</td>
+               <td onclick="highlightRowMeanState(this)">0.781</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_shsa">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>294.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">291.</td>
+               <td onclick="highlightRowMeanState(this)">294.</td>
+               <td onclick="highlightRowMeanState(this)">294.</td>
+               <td onclick="highlightRowMeanState(this)">287.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.0107</td>
+               <td onclick="highlightRowMeanState(this)">1.76</td>
+               <td onclick="highlightRowMeanState(this)">0.844</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.584</td>
+               <td onclick="highlightRowMeanState(this)">0.593</td>
+               <td onclick="highlightRowMeanState(this)">0.898</td>
+               <td onclick="highlightRowMeanState(this)">0.994</td>
+               <td onclick="highlightRowMeanState(this)">0.733</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_tena">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [K]</span></div></th>
+               <th class="rotate"><div><span>Model Period Mean (complement) [K]</span></div></th>
+               <th class="rotate"><div><span>Benchmark Period Mean (complement) [K]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [K]</span></div></th>
+               <th class="rotate"><div><span>RMSE [K]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="CRU4.02_Benchmark.nc" download>[-]</a></td>
+               <td>283.</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CRU4.02_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">285.</td>
+               <td onclick="highlightRowMeanState(this)">284.</td>
+               <td onclick="highlightRowMeanState(this)">283.</td>
+               <td onclick="highlightRowMeanState(this)">292.</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.317</td>
+               <td onclick="highlightRowMeanState(this)">1.72</td>
+               <td onclick="highlightRowMeanState(this)">0.181</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.874</td>
+               <td onclick="highlightRowMeanState(this)">0.879</td>
+               <td onclick="highlightRowMeanState(this)">0.988</td>
+               <td onclick="highlightRowMeanState(this)">0.998</td>
+               <td onclick="highlightRowMeanState(this)">0.924</td>
              </tr>
           </tbody>
         </table>
@@ -433,7 +1357,21 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='aust'>Australia</option>
+        <option value='boas'>Boreal Asia</option>
+        <option value='bona'>Boreal North America</option>
+        <option value='ceam'>Central America</option>
+        <option value='ceas'>Central Asia</option>
+        <option value='eqas'>Equatorial Asia</option>
+        <option value='euro'>Europe</option>
         <option value='global' selected="selected">Global - Land</option>
+        <option value='mide'>Middle East</option>
+        <option value='nhaf'>Northern Hemisphere Africa</option>
+        <option value='nhsa'>Northern Hemisphere South America</option>
+        <option value='seas'>Southeast Asia</option>
+        <option value='shaf'>Southern Hemisphere Africa</option>
+        <option value='shsa'>Southern Hemisphere South America</option>
+        <option value='tena'>Temperate North America</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
         <option value='timeint' selected="selected">Temporally integrated period mean</option>

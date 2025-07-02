@@ -244,7 +244,17 @@
         </div>
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
+        <option value='aust'>Australia</option>
+        <option value='bona'>Boreal North America</option>
+        <option value='ceas'>Central Asia</option>
+        <option value='eqas'>Equatorial Asia</option>
+        <option value='euro'>Europe</option>
         <option value='global' selected="selected">Global - Land</option>
+        <option value='mide'>Middle East</option>
+        <option value='nhaf'>Northern Hemisphere Africa</option>
+        <option value='shaf'>Southern Hemisphere Africa</option>
+        <option value='shsa'>Southern Hemisphere South America</option>
+        <option value='tena'>Temperate North America</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
@@ -254,6 +264,396 @@
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_aust">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>385.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">334.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-8.76</td>
+               <td onclick="highlightRowMeanState(this)">11.8</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.795</td>
+               <td onclick="highlightRowMeanState(this)">0.807</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.852</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">334.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-8.76</td>
+               <td onclick="highlightRowMeanState(this)">11.8</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.795</td>
+               <td onclick="highlightRowMeanState(this)">0.807</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.852</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">389.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">3.90</td>
+               <td onclick="highlightRowMeanState(this)">14.7</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.874</td>
+               <td onclick="highlightRowMeanState(this)">0.616</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.777</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_bona">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>260.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">261.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">1.26</td>
+               <td onclick="highlightRowMeanState(this)">8.92</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.944</td>
+               <td onclick="highlightRowMeanState(this)">0.837</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.904</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">261.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">1.26</td>
+               <td onclick="highlightRowMeanState(this)">8.92</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.944</td>
+               <td onclick="highlightRowMeanState(this)">0.837</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.904</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">261.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">1.20</td>
+               <td onclick="highlightRowMeanState(this)">13.6</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.939</td>
+               <td onclick="highlightRowMeanState(this)">0.761</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.865</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_ceas">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>323.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">315.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-4.28</td>
+               <td onclick="highlightRowMeanState(this)">7.61</td>
+               <td onclick="highlightRowMeanState(this)">0.344</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.894</td>
+               <td onclick="highlightRowMeanState(this)">0.892</td>
+               <td onclick="highlightRowMeanState(this)">0.977</td>
+               <td onclick="highlightRowMeanState(this)">0.914</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">252.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-90.9</td>
+               <td onclick="highlightRowMeanState(this)">94.3</td>
+               <td onclick="highlightRowMeanState(this)">1.53</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.671</td>
+               <td onclick="highlightRowMeanState(this)">0.761</td>
+               <td onclick="highlightRowMeanState(this)">0.748</td>
+               <td onclick="highlightRowMeanState(this)">0.735</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">322.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-3.77</td>
+               <td onclick="highlightRowMeanState(this)">12.2</td>
+               <td onclick="highlightRowMeanState(this)">0.258</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.904</td>
+               <td onclick="highlightRowMeanState(this)">0.803</td>
+               <td onclick="highlightRowMeanState(this)">0.983</td>
+               <td onclick="highlightRowMeanState(this)">0.873</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_eqas">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>422.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">425.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">3.00</td>
+               <td onclick="highlightRowMeanState(this)">6.14</td>
+               <td onclick="highlightRowMeanState(this)">1.03</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.505</td>
+               <td onclick="highlightRowMeanState(this)">0.341</td>
+               <td onclick="highlightRowMeanState(this)">0.930</td>
+               <td onclick="highlightRowMeanState(this)">0.529</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_euro">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>317.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">309.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-9.71</td>
+               <td onclick="highlightRowMeanState(this)">11.4</td>
+               <td onclick="highlightRowMeanState(this)">0.443</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.718</td>
+               <td onclick="highlightRowMeanState(this)">0.834</td>
+               <td onclick="highlightRowMeanState(this)">0.970</td>
+               <td onclick="highlightRowMeanState(this)">0.839</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">270.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-48.8</td>
+               <td onclick="highlightRowMeanState(this)">50.4</td>
+               <td onclick="highlightRowMeanState(this)">1.14</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.628</td>
+               <td onclick="highlightRowMeanState(this)">0.776</td>
+               <td onclick="highlightRowMeanState(this)">0.849</td>
+               <td onclick="highlightRowMeanState(this)">0.757</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">315.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-1.53</td>
+               <td onclick="highlightRowMeanState(this)">13.9</td>
+               <td onclick="highlightRowMeanState(this)">0.459</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.886</td>
+               <td onclick="highlightRowMeanState(this)">0.634</td>
+               <td onclick="highlightRowMeanState(this)">0.969</td>
+               <td onclick="highlightRowMeanState(this)">0.781</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
         <center>
         <table class="table-header-rotated" id="MeanState_table_global">
            <thead>
@@ -328,6 +728,396 @@
                <td onclick="highlightRowMeanState(this)">0.686</td>
                <td onclick="highlightRowMeanState(this)">0.961</td>
                <td onclick="highlightRowMeanState(this)">0.788</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_mide">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>338.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">326.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-6.13</td>
+               <td onclick="highlightRowMeanState(this)">9.79</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.837</td>
+               <td onclick="highlightRowMeanState(this)">0.822</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.870</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">326.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-6.13</td>
+               <td onclick="highlightRowMeanState(this)">9.79</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.837</td>
+               <td onclick="highlightRowMeanState(this)">0.822</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.870</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">331.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-5.01</td>
+               <td onclick="highlightRowMeanState(this)">11.0</td>
+               <td onclick="highlightRowMeanState(this)">0.517</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.855</td>
+               <td onclick="highlightRowMeanState(this)">0.720</td>
+               <td onclick="highlightRowMeanState(this)">0.965</td>
+               <td onclick="highlightRowMeanState(this)">0.815</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_nhaf">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>395.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">405.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">405.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)"></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">404.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">8.70</td>
+               <td onclick="highlightRowMeanState(this)">19.2</td>
+               <td onclick="highlightRowMeanState(this)">3.07</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.573</td>
+               <td onclick="highlightRowMeanState(this)">0.304</td>
+               <td onclick="highlightRowMeanState(this)">0.494</td>
+               <td onclick="highlightRowMeanState(this)">0.419</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_shaf">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>315.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">302.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-13.5</td>
+               <td onclick="highlightRowMeanState(this)">14.5</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.637</td>
+               <td onclick="highlightRowMeanState(this)">0.898</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.858</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">302.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-13.5</td>
+               <td onclick="highlightRowMeanState(this)">14.5</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.637</td>
+               <td onclick="highlightRowMeanState(this)">0.898</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.858</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">318.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">3.12</td>
+               <td onclick="highlightRowMeanState(this)">8.71</td>
+               <td onclick="highlightRowMeanState(this)">0.00</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.901</td>
+               <td onclick="highlightRowMeanState(this)">0.751</td>
+               <td onclick="highlightRowMeanState(this)">1.00</td>
+               <td onclick="highlightRowMeanState(this)">0.851</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_shsa">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>353.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">375.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">27.3</td>
+               <td onclick="highlightRowMeanState(this)">29.5</td>
+               <td onclick="highlightRowMeanState(this)">0.492</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.386</td>
+               <td onclick="highlightRowMeanState(this)">0.707</td>
+               <td onclick="highlightRowMeanState(this)">0.968</td>
+               <td onclick="highlightRowMeanState(this)">0.692</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">381.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">27.3</td>
+               <td onclick="highlightRowMeanState(this)">29.5</td>
+               <td onclick="highlightRowMeanState(this)">0.492</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.386</td>
+               <td onclick="highlightRowMeanState(this)">0.707</td>
+               <td onclick="highlightRowMeanState(this)">0.968</td>
+               <td onclick="highlightRowMeanState(this)">0.692</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">382.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">17.9</td>
+               <td onclick="highlightRowMeanState(this)">26.6</td>
+               <td onclick="highlightRowMeanState(this)">1.33</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.606</td>
+               <td onclick="highlightRowMeanState(this)">0.606</td>
+               <td onclick="highlightRowMeanState(this)">0.875</td>
+               <td onclick="highlightRowMeanState(this)">0.674</td>
+             </tr>
+          </tbody>
+        </table>
+        </center>
+        <center>
+        <table class="table-header-rotated" id="MeanState_table_tena">
+           <thead>
+             <tr>
+               <th></th>
+               <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Period Mean (original grids) [Watt m-2]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>RMSE [Watt m-2]</span></div></th>
+               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
+               <th></th>
+               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
+               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
+               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
+               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td class="row-header">Benchmark</td>
+               <td><a href="WRMC.BSRN_Benchmark.nc" download>[-]</a></td>
+               <td>313.</td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td class="divider"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_gamma.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">296.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-16.2</td>
+               <td onclick="highlightRowMeanState(this)">18.8</td>
+               <td onclick="highlightRowMeanState(this)">0.103</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.749</td>
+               <td onclick="highlightRowMeanState(this)">0.859</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
+               <td onclick="highlightRowMeanState(this)">0.865</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_omega_masked</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_omega_masked.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">296.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-16.2</td>
+               <td onclick="highlightRowMeanState(this)">18.8</td>
+               <td onclick="highlightRowMeanState(this)">0.103</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.749</td>
+               <td onclick="highlightRowMeanState(this)">0.859</td>
+               <td onclick="highlightRowMeanState(this)">0.993</td>
+               <td onclick="highlightRowMeanState(this)">0.865</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">311.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-2.01</td>
+               <td onclick="highlightRowMeanState(this)">14.0</td>
+               <td onclick="highlightRowMeanState(this)">0.376</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.881</td>
+               <td onclick="highlightRowMeanState(this)">0.771</td>
+               <td onclick="highlightRowMeanState(this)">0.975</td>
+               <td onclick="highlightRowMeanState(this)">0.849</td>
              </tr>
           </tbody>
         </table>
@@ -449,7 +1239,21 @@
         </div>
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
+        <option value='aust'>Australia</option>
+        <option value='boas'>Boreal Asia</option>
+        <option value='bona'>Boreal North America</option>
+        <option value='ceam'>Central America</option>
+        <option value='ceas'>Central Asia</option>
+        <option value='eqas'>Equatorial Asia</option>
+        <option value='euro'>Europe</option>
         <option value='global' selected="selected">Global - Land</option>
+        <option value='mide'>Middle East</option>
+        <option value='nhaf'>Northern Hemisphere Africa</option>
+        <option value='nhsa'>Northern Hemisphere South America</option>
+        <option value='seas'>Southeast Asia</option>
+        <option value='shaf'>Southern Hemisphere Africa</option>
+        <option value='shsa'>Southern Hemisphere South America</option>
+        <option value='tena'>Temperate North America</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
         <option value='timeint' selected="selected">Temporally integrated period mean</option>
