@@ -164,15 +164,19 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_4069_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_gamma_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_4069_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_gamma_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_4069').src = 'CliMA_longruns_4069_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_4069_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_gamma').src = 'CliMA_longruns_gamma_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_gamma_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
@@ -243,13 +247,12 @@
       </div>
       <select id="MeanStateRegion" onchange="changeRegionMeanState()">
         <option value='global' selected="selected">Global - Land</option>
-        <option value='nhsa'>Northern Hemisphere South America</option>
-        <option value='shsa'>Southern Hemisphere South America</option>
       </select>
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='CliMA_longruns_gamma' selected="selected">CliMA_longruns_gamma</option>
+        <option value='CliMA_longruns_4069' selected="selected">CliMA_longruns_4069</option>
+        <option value='CliMA_longruns_gamma'>CliMA_longruns_gamma</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
       </div>
@@ -297,6 +300,25 @@
                <td></td>
              </tr>
              <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_4069</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_4069.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">-0.488</td>
+               <td onclick="highlightRowMeanState(this)">-0.522</td>
+               <td onclick="highlightRowMeanState(this)">1.09</td>
+               <td onclick="highlightRowMeanState(this)">-0.359</td>
+               <td onclick="highlightRowMeanState(this)">0.153</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-1.62</td>
+               <td onclick="highlightRowMeanState(this)">4.85</td>
+               <td onclick="highlightRowMeanState(this)">1.50</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.575</td>
+               <td onclick="highlightRowMeanState(this)">0.381</td>
+               <td onclick="highlightRowMeanState(this)">0.792</td>
+               <td onclick="highlightRowMeanState(this)">0.667</td>
+               <td onclick="highlightRowMeanState(this)">0.559</td>
+             </tr>
+             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
                <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_gamma.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">-0.488</td>
@@ -333,174 +355,6 @@
                <td onclick="highlightRowMeanState(this)">0.849</td>
                <td onclick="highlightRowMeanState(this)">0.312</td>
                <td onclick="highlightRowMeanState(this)">0.450</td>
-             </tr>
-          </tbody>
-        </table>
-        </center>
-        <center>
-        <table class="table-header-rotated" id="MeanState_table_nhsa">
-           <thead>
-             <tr>
-               <th></th>
-               <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Period Mean (original grids) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Model Period Mean (intersection) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Model Period Mean (complement) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Benchmark Period Mean (complement) [W m-2]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias [W m-2]</span></div></th>
-               <th class="rotate"><div><span>RMSE [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
-               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
-               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
-               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td class="row-header">Benchmark</td>
-               <td><a href="CLASS_Benchmark.nc" download>[-]</a></td>
-               <td>0.783</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
-               <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_gamma.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">-4.63</td>
-               <td onclick="highlightRowMeanState(this)">-4.63</td>
-               <td onclick="highlightRowMeanState(this)">0.750</td>
-               <td onclick="highlightRowMeanState(this)">-4.50</td>
-               <td onclick="highlightRowMeanState(this)">1.55</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-5.39</td>
-               <td onclick="highlightRowMeanState(this)">5.60</td>
-               <td onclick="highlightRowMeanState(this)">3.39</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.000534</td>
-               <td onclick="highlightRowMeanState(this)">0.193</td>
-               <td onclick="highlightRowMeanState(this)">0.442</td>
-               <td onclick="highlightRowMeanState(this)">0.195</td>
-               <td onclick="highlightRowMeanState(this)">0.205</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
-               <td onclick="highlightRowMeanState(this)"><a href="CLASS_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">14.2</td>
-               <td onclick="highlightRowMeanState(this)">5.75</td>
-               <td onclick="highlightRowMeanState(this)">0.783</td>
-               <td onclick="highlightRowMeanState(this)">24.1</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">5.07</td>
-               <td onclick="highlightRowMeanState(this)">6.70</td>
-               <td onclick="highlightRowMeanState(this)">2.57</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.0500</td>
-               <td onclick="highlightRowMeanState(this)">0.0608</td>
-               <td onclick="highlightRowMeanState(this)">0.595</td>
-               <td onclick="highlightRowMeanState(this)">0.0630</td>
-               <td onclick="highlightRowMeanState(this)">0.166</td>
-             </tr>
-          </tbody>
-        </table>
-        </center>
-        <center>
-        <table class="table-header-rotated" id="MeanState_table_shsa">
-           <thead>
-             <tr>
-               <th></th>
-               <th class="rotate"><div><span>Download Data</span></div></th>
-               <th class="rotate"><div><span>Period Mean (original grids) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Model Period Mean (intersection) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Benchmark Period Mean (intersection) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Model Period Mean (complement) [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Benchmark Period Mean (complement) [W m-2]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias [W m-2]</span></div></th>
-               <th class="rotate"><div><span>RMSE [W m-2]</span></div></th>
-               <th class="rotate"><div><span>Phase Shift [months]</span></div></th>
-               <th></th>
-               <th class="rotate"><div><span>Bias Score [1]</span></div></th>
-               <th class="rotate"><div><span>RMSE Score [1]</span></div></th>
-               <th class="rotate"><div><span>Seasonal Cycle Score [1]</span></div></th>
-               <th class="rotate"><div><span>Spatial Distribution Score [1]</span></div></th>
-               <th class="rotate"><div><span>Overall Score [1]</span></div></th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td class="row-header">Benchmark</td>
-               <td><a href="CLASS_Benchmark.nc" download>[-]</a></td>
-               <td>0.583</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td class="divider"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_gamma</td>
-               <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_gamma.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">-2.67</td>
-               <td onclick="highlightRowMeanState(this)">-2.78</td>
-               <td onclick="highlightRowMeanState(this)">0.581</td>
-               <td onclick="highlightRowMeanState(this)">-1.54</td>
-               <td onclick="highlightRowMeanState(this)">0.853</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-3.36</td>
-               <td onclick="highlightRowMeanState(this)">4.62</td>
-               <td onclick="highlightRowMeanState(this)">2.29</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.191</td>
-               <td onclick="highlightRowMeanState(this)">0.299</td>
-               <td onclick="highlightRowMeanState(this)">0.631</td>
-               <td onclick="highlightRowMeanState(this)">0.211</td>
-               <td onclick="highlightRowMeanState(this)">0.326</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
-               <td onclick="highlightRowMeanState(this)"><a href="CLASS_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">8.94</td>
-               <td onclick="highlightRowMeanState(this)">2.90</td>
-               <td onclick="highlightRowMeanState(this)">0.583</td>
-               <td onclick="highlightRowMeanState(this)">14.3</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">2.34</td>
-               <td onclick="highlightRowMeanState(this)">5.12</td>
-               <td onclick="highlightRowMeanState(this)">2.14</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.342</td>
-               <td onclick="highlightRowMeanState(this)">0.242</td>
-               <td onclick="highlightRowMeanState(this)">0.677</td>
-               <td onclick="highlightRowMeanState(this)">0.101</td>
-               <td onclick="highlightRowMeanState(this)">0.321</td>
              </tr>
           </tbody>
         </table>
@@ -635,8 +489,6 @@
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
         <option value='global' selected="selected">Global - Land</option>
-        <option value='nhsa'>Northern Hemisphere South America</option>
-        <option value='shsa'>Southern Hemisphere South America</option>
       </select>
       <select id="AllModelsPlot" onchange="AllSelect()">
         <option value='timeint' selected="selected">Temporally integrated period mean</option>
@@ -656,6 +508,13 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_4069_div">
+          <div class="child">
+          <center>CliMA_longruns_4069</center>
+          <img src="" id="CliMA_longruns_4069" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_4069.png" id="CliMA_longruns_4069_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="CliMA_longruns_gamma_div">

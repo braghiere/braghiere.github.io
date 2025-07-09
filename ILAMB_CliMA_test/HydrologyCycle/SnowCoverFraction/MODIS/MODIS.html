@@ -23,7 +23,7 @@
     <script type='text/javascript'>
       function AllSelect() {
         var header = "CNAME / RNAME / MNAME";
-        var CNAME  = "SnowCoverFraction / MODIS / 2000-2024";
+        var CNAME  = "SnowCoverFraction / MODIS / 1849-1874";
         header     = header.replace("CNAME",CNAME);
         var rid    = document.getElementById("AllModelsRegion").selectedIndex;
         var RNAME  = document.getElementById("AllModelsRegion").options[rid].value;
@@ -125,8 +125,6 @@
       </div>
       <select id="AllModelsRegion" onchange="AllSelect()">
         <option value='global' selected="selected">Global - Land</option>
-        <option value='nhsa'>Northern Hemisphere South America</option>
-        <option value='shsa'>Southern Hemisphere South America</option>
       </select>
     </div>
     <div data-role="page" id="DataInformation">
@@ -141,7 +139,10 @@
         </div>
       </div>
       
-
+<p><dl><dt><b>&nbsp;&nbsp;History:</dt></b><dd>Mon Jul  7 13:16:52 2025: ncatted -a standard_name,scf,o,c,scf -a long_name,scf,o,c,Snow Cover Fraction DATA/scf/MODIS/MODIS_SnowCover_0.5deg_no_feb29.nc
+Thu Jul  3 12:51:17 2025: ncap2 -O -s time@units="days since 1850-01-01"</dd><dd>time@calendar="noleap" MODIS_SnowCover_0.5deg_no_feb29.nc MODIS_SnowCover_0.5deg_no_feb29_fixed.nc
+Thu Jul 03 12:49:36 2025: cdo setattribute,time@units=days since 1850-01-01 -setattribute,time@calendar=noleap MODIS_SnowCover_0.5deg_no_feb29.nc tmp.nc
+Thu Jul 03 12:32:56 2025: cdo setcalendar,365_day MODIS_SnowCover_0.5deg_no_feb29.nc tmp.nc</dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Conventions:</dt></b><dd>CF-1.6</dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Cdi:</dt></b><dd>Climate Data Interface version 2.4.1 (<a href='https://mpimet.mpg.de/cdi)'>https://mpimet.mpg.de/cdi)</a></dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Cdo:</dt></b><dd>Climate Data Operators version 2.4.1 (<a href='https://mpimet.mpg.de/cdo)'>https://mpimet.mpg.de/cdo)</a></dd></dl></p><p><dl><dt><b>&nbsp;&nbsp;Nco:</dt></b><dd>netCDF Operators version 5.0.7 (Homepage = <a href='http://nco.sf.net, Code = http://github.com/nco/nco)'>http://nco.sf.net, Code = http://github.com/nco/nco)</a></dd></dl></p>
     </div>
   </body>
 </html>
