@@ -164,6 +164,15 @@
             head      = head.replace("CNAME",CNAME).replace("RNAME",RNAME).replace("MNAME",MNAME);
             $("#RelationshipsHead").text(head);
             
+          document.getElementById('benchmark_rel_Precipitation').src =  'Benchmark_' + RNAME + '_rel_Precipitation.png'
+          document.getElementById('rel_Precipitation').src =  MNAME + '_' + RNAME + '_rel_Precipitation.png'
+          document.getElementById('rel_func_Precipitation').src =  MNAME + '_' + RNAME + '_rel_func_Precipitation.png'
+          document.getElementById('benchmark_rel_SurfaceDownwardSWRadiation').src =  'Benchmark_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
+          document.getElementById('rel_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_SurfaceDownwardSWRadiation.png'
+          document.getElementById('rel_func_SurfaceDownwardSWRadiation').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceDownwardSWRadiation.png'
+          document.getElementById('benchmark_rel_SurfaceAirTemperature').src =  'Benchmark_' + RNAME + '_rel_SurfaceAirTemperature.png'
+          document.getElementById('rel_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_SurfaceAirTemperature.png'
+          document.getElementById('rel_func_SurfaceAirTemperature').src =  MNAME + '_' + RNAME + '_rel_func_SurfaceAirTemperature.png'
         }
 
         function highlightRowRelationships(cell) {
@@ -172,13 +181,13 @@
                 var table = document.getElementById("Relationships_table_" + select.options[i].value);
                 var rows  = table.getElementsByTagName("tr");
                 for (var r = 1; r < rows.length; r++) {
-                    for (var c = 0; c < rows[r].cells.length-2; c++) {
+                    for (var c = 0; c < rows[r].cells.length-5; c++) {
                         rows[r].cells[c].style.backgroundColor = "#ffffff";
                     }
                 }
                 var r = cell.closest("tr").rowIndex;
                 document.getElementById("RelationshipsModel").selectedIndex = r-1;
-                for (var c = 0; c < rows[r].cells.length-2; c++) {
+                for (var c = 0; c < rows[r].cells.length-5; c++) {
                     rows[r].cells[c].style.backgroundColor = "#c1c1c1";
                 }
             }
@@ -193,7 +202,7 @@
             var nc = colors.length;
             var table  = document.getElementById("Relationships_table_" + RNAME);
             var rows   = table.getElementsByTagName("tr");
-            for (var c = rows[0].cells.length-1; c < rows[0].cells.length; c++) {
+            for (var c = rows[0].cells.length-4; c < rows[0].cells.length; c++) {
                 var scores = [];
                 for (var r = 1; r < rows.length; r++) {
                     val = rows[r].cells[c].innerHTML;
@@ -269,19 +278,18 @@
         var PNAME  = document.getElementById("AllModelsPlot").options[pid].value;
         header     = header.replace("RNAME",RNAME);
         $("#AllModelsHead").text(header);
-        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "iavscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
+        if(PNAME == "shift" || PNAME == "shiftscore" || PNAME == "iavscore" || PNAME == "bias" || PNAME == "biasscore" || PNAME == "rmse" || PNAME == "rmsescore" || PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_func_Precipitation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_div").style.display = 'none';
         }else{
           document.getElementById("Benchmark_div").style.display = 'inline';
         }
-        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
+        if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint" || PNAME == "rel_Precipitation" || PNAME == "rel_func_Precipitation" || PNAME == "rel_SurfaceDownwardSWRadiation" || PNAME == "rel_func_SurfaceDownwardSWRadiation" || PNAME == "rel_SurfaceAirTemperature" || PNAME == "rel_func_SurfaceAirTemperature"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ACCESS-ESM1-5_legend").style.display = 'none';
           document.getElementById("BCC-CSM2-MR_legend").style.display = 'none';
           document.getElementById("CanESM5_legend").style.display = 'none';
           document.getElementById("CESM2_legend").style.display = 'none';
           document.getElementById("CNRM-ESM2-1_legend").style.display = 'none';
-          document.getElementById("E3SM-1-1_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
           document.getElementById("GFDL_ESM4_legend").style.display = 'none';
           document.getElementById("GISS-E2-1-G_legend").style.display = 'none';
@@ -297,7 +305,6 @@
           document.getElementById("CanESM5_legend").style.display = 'inline';
           document.getElementById("CESM2_legend").style.display = 'inline';
           document.getElementById("CNRM-ESM2-1_legend").style.display = 'inline';
-          document.getElementById("E3SM-1-1_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
           document.getElementById("GFDL_ESM4_legend").style.display = 'inline';
           document.getElementById("GISS-E2-1-G_legend").style.display = 'inline';
@@ -319,8 +326,6 @@
         document.getElementById('CESM2_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CNRM-ESM2-1').src = 'CNRM-ESM2-1_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CNRM-ESM2-1_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('E3SM-1-1').src = 'E3SM-1-1_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('E3SM-1-1_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('GFDL_ESM4').src = 'GFDL_ESM4_' + RNAME + '_' + PNAME + '.png';
@@ -413,7 +418,6 @@
         <option value='CanESM5'>CanESM5</option>
         <option value='CESM2'>CESM2</option>
         <option value='CNRM-ESM2-1'>CNRM-ESM2-1</option>
-        <option value='E3SM-1-1'>E3SM-1-1</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
         <option value='GFDL_ESM4'>GFDL_ESM4</option>
         <option value='GISS-E2-1-G'>GISS-E2-1-G</option>
@@ -568,26 +572,6 @@
                <td onclick="highlightRowMeanState(this)">0.924</td>
                <td onclick="highlightRowMeanState(this)">0.224</td>
                <td onclick="highlightRowMeanState(this)">0.513</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM-1-1</td>
-               <td onclick="highlightRowMeanState(this)"><a href="CARDAMOM_E3SM-1-1.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.59e+05</td>
-               <td onclick="highlightRowMeanState(this)">1.39e+05</td>
-               <td onclick="highlightRowMeanState(this)">138.</td>
-               <td onclick="highlightRowMeanState(this)">1.98e+04</td>
-               <td onclick="highlightRowMeanState(this)">0.283</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">2.72e+03</td>
-               <td onclick="highlightRowMeanState(this)">3.20e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.17</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.00194</td>
-               <td onclick="highlightRowMeanState(this)">0.00164</td>
-               <td onclick="highlightRowMeanState(this)">0.841</td>
-               <td onclick="highlightRowMeanState(this)">2.98e-06</td>
-               <td onclick="highlightRowMeanState(this)">0.00143</td>
-               <td onclick="highlightRowMeanState(this)">0.141</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
@@ -912,7 +896,6 @@
         <option value='CanESM5'>CanESM5</option>
         <option value='CESM2'>CESM2</option>
         <option value='CNRM-ESM2-1'>CNRM-ESM2-1</option>
-        <option value='E3SM-1-1'>E3SM-1-1</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
         <option value='GFDL_ESM4'>GFDL_ESM4</option>
         <option value='GISS-E2-1-G'>GISS-E2-1-G</option>
@@ -929,7 +912,13 @@
              <tr>
                <th></th>
                <th class="rotate"><div><span>Download Data</span></div></th>
+               <th class="rotate"><div><span>Precipitation|CARDAMOM Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CARDAMOM Hellinger Distance [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature|CARDAMOM Hellinger Distance [1]</span></div></th>
                <th></th>
+               <th class="rotate"><div><span>Precipitation|CARDAMOM Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceDownwardSWRadiation|CARDAMOM Score [1]</span></div></th>
+               <th class="rotate"><div><span>SurfaceAirTemperature|CARDAMOM Score [1]</span></div></th>
                <th class="rotate"><div><span>Overall Score [1]</span></div></th>
              </tr>
            </thead>
@@ -937,90 +926,213 @@
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ACCESS-ESM1-5</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_ACCESS-ESM1-5.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.705</td>
+               <td onclick="highlightRowRelationships(this)">0.698</td>
+               <td onclick="highlightRowRelationships(this)">0.712</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.762</td>
+               <td onclick="highlightRowRelationships(this)">0.619</td>
+               <td onclick="highlightRowRelationships(this)">0.725</td>
+               <td onclick="highlightRowRelationships(this)">0.702</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">BCC-CSM2-MR</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_BCC-CSM2-MR.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.688</td>
+               <td onclick="highlightRowRelationships(this)"></td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
                <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.738</td>
+               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.738</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CanESM5</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_CanESM5.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.789</td>
+               <td onclick="highlightRowRelationships(this)">0.695</td>
+               <td onclick="highlightRowRelationships(this)">0.723</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.856</td>
+               <td onclick="highlightRowRelationships(this)">0.621</td>
+               <td onclick="highlightRowRelationships(this)">0.665</td>
+               <td onclick="highlightRowRelationships(this)">0.714</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CESM2</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_CESM2.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.750</td>
+               <td onclick="highlightRowRelationships(this)">0.672</td>
+               <td onclick="highlightRowRelationships(this)">0.686</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.834</td>
+               <td onclick="highlightRowRelationships(this)">0.816</td>
+               <td onclick="highlightRowRelationships(this)">0.793</td>
+               <td onclick="highlightRowRelationships(this)">0.814</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">CNRM-ESM2-1</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_CNRM-ESM2-1.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.777</td>
+               <td onclick="highlightRowRelationships(this)">0.720</td>
+               <td onclick="highlightRowRelationships(this)">0.760</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowRelationships(this)" class="row-header">E3SM-1-1</td>
-               <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_E3SM-1-1.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.783</td>
+               <td onclick="highlightRowRelationships(this)">0.790</td>
+               <td onclick="highlightRowRelationships(this)">0.817</td>
+               <td onclick="highlightRowRelationships(this)">0.796</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.774</td>
+               <td onclick="highlightRowRelationships(this)">0.749</td>
+               <td onclick="highlightRowRelationships(this)">0.769</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.862</td>
+               <td onclick="highlightRowRelationships(this)">0.737</td>
+               <td onclick="highlightRowRelationships(this)">0.845</td>
+               <td onclick="highlightRowRelationships(this)">0.814</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">GFDL_ESM4</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_GFDL_ESM4.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.731</td>
+               <td onclick="highlightRowRelationships(this)">0.694</td>
+               <td onclick="highlightRowRelationships(this)">0.738</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.805</td>
+               <td onclick="highlightRowRelationships(this)">0.770</td>
+               <td onclick="highlightRowRelationships(this)">0.780</td>
+               <td onclick="highlightRowRelationships(this)">0.785</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">GISS-E2-1-G</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_GISS-E2-1-G.nc" download>[-]</a></td>
-               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)">0.746</td>
+               <td onclick="highlightRowRelationships(this)">0.692</td>
                <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)" class="divider"></td>
+               <td onclick="highlightRowRelationships(this)">0.862</td>
+               <td onclick="highlightRowRelationships(this)">0.811</td>
+               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.837</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">IPSL-CM6A-LR</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_IPSL-CM6A-LR.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.797</td>
+               <td onclick="highlightRowRelationships(this)">0.741</td>
+               <td onclick="highlightRowRelationships(this)">0.774</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.816</td>
+               <td onclick="highlightRowRelationships(this)">0.676</td>
+               <td onclick="highlightRowRelationships(this)">0.828</td>
+               <td onclick="highlightRowRelationships(this)">0.773</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">MIROC-ES2L</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_MIROC-ES2L.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.750</td>
+               <td onclick="highlightRowRelationships(this)">0.727</td>
+               <td onclick="highlightRowRelationships(this)">0.714</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.772</td>
+               <td onclick="highlightRowRelationships(this)">0.786</td>
+               <td onclick="highlightRowRelationships(this)">0.793</td>
+               <td onclick="highlightRowRelationships(this)">0.783</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">MPI-ESM1-2-LR</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_MPI-ESM1-2-LR.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.735</td>
+               <td onclick="highlightRowRelationships(this)">0.694</td>
+               <td onclick="highlightRowRelationships(this)">0.737</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.750</td>
+               <td onclick="highlightRowRelationships(this)">0.697</td>
+               <td onclick="highlightRowRelationships(this)">0.703</td>
+               <td onclick="highlightRowRelationships(this)">0.717</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">NorESM2-LM</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_NorESM2-LM.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.774</td>
+               <td onclick="highlightRowRelationships(this)">0.676</td>
+               <td onclick="highlightRowRelationships(this)">0.707</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.858</td>
+               <td onclick="highlightRowRelationships(this)">0.821</td>
+               <td onclick="highlightRowRelationships(this)">0.798</td>
+               <td onclick="highlightRowRelationships(this)">0.825</td>
              </tr>
              <tr>
                <td onclick="highlightRowRelationships(this)" class="row-header">UKESM1-0-LL</td>
                <td onclick="highlightRowRelationships(this)"><a href="CARDAMOM_UKESM1-0-LL.nc" download>[-]</a></td>
+               <td onclick="highlightRowRelationships(this)">0.806</td>
+               <td onclick="highlightRowRelationships(this)">0.730</td>
+               <td onclick="highlightRowRelationships(this)">0.717</td>
                <td onclick="highlightRowRelationships(this)" class="divider"></td>
-               <td onclick="highlightRowRelationships(this)"></td>
+               <td onclick="highlightRowRelationships(this)">0.826</td>
+               <td onclick="highlightRowRelationships(this)">0.629</td>
+               <td onclick="highlightRowRelationships(this)">0.767</td>
+               <td onclick="highlightRowRelationships(this)">0.741</td>
              </tr>
           </tbody>
         </table>
         </center>
+        <div data-role="collapsible" data-collapsed="false"><h1>Precipitation/CARDAMOM</h1>
+        <div class="container" id="benchmark_rel_Precipitation_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_Precipitation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_Precipitation_div">
+          <div class="child">
+          <img src="" id="rel_Precipitation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_Precipitation_div">
+          <div class="child">
+          <img src="" id="rel_func_Precipitation" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceDownwardSWRadiation/CARDAMOM</h1>
+        <div class="container" id="benchmark_rel_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="rel_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_SurfaceDownwardSWRadiation_div">
+          <div class="child">
+          <img src="" id="rel_func_SurfaceDownwardSWRadiation" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
+        <div data-role="collapsible" data-collapsed="false"><h1>SurfaceAirTemperature/CARDAMOM</h1>
+        <div class="container" id="benchmark_rel_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="benchmark_rel_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="rel_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        <div class="container" id="rel_func_SurfaceAirTemperature_div">
+          <div class="child">
+          <img src="" id="rel_func_SurfaceAirTemperature" alt="Data not available" ></img>
+          </div>
+        </div>
+        </div>
     </div>
     <div data-role="page" id="AllModels">
       <div data-role="header" data-position="fixed" data-tap-toggle="false">
@@ -1051,6 +1163,12 @@
         <option value='cycle'>Spatially integrated regional mean cycle</option>
         <option value='dtcycle'>Spatially integrated regional mean detrended cycle</option>
         <option value='spaceint'>Spatially integrated regional mean</option>
+        <option value='rel_Precipitation'>Relationship with Precipitation</option>
+        <option value='rel_func_Precipitation'>Relationship with func_Precipitation</option>
+        <option value='rel_SurfaceDownwardSWRadiation'>Relationship with SurfaceDownwardSWRadiation</option>
+        <option value='rel_func_SurfaceDownwardSWRadiation'>Relationship with func_SurfaceDownwardSWRadiation</option>
+        <option value='rel_SurfaceAirTemperature'>Relationship with SurfaceAirTemperature</option>
+        <option value='rel_func_SurfaceAirTemperature'>Relationship with func_SurfaceAirTemperature</option>
       </select>
         <div class="container" id="Benchmark_div">
           <div class="child">
@@ -1092,13 +1210,6 @@
           <center>CNRM-ESM2-1</center>
           <img src="" id="CNRM-ESM2-1" alt="Data not available" ></img>
           <center><img src="legend_CNRM-ESM2-1.png" id="CNRM-ESM2-1_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="E3SM-1-1_div">
-          <div class="child">
-          <center>E3SM-1-1</center>
-          <img src="" id="E3SM-1-1" alt="Data not available" ></img>
-          <center><img src="legend_E3SM-1-1.png" id="E3SM-1-1_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP6_div">

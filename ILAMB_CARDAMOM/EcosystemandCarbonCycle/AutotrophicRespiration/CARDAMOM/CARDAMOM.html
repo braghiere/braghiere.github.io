@@ -172,7 +172,6 @@
           document.getElementById("CanESM5_legend").style.display = 'none';
           document.getElementById("CESM2_legend").style.display = 'none';
           document.getElementById("CNRM-ESM2-1_legend").style.display = 'none';
-          document.getElementById("E3SM-1-1_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
           document.getElementById("GFDL_ESM4_legend").style.display = 'none';
           document.getElementById("GISS-E2-1-G_legend").style.display = 'none';
@@ -188,7 +187,6 @@
           document.getElementById("CanESM5_legend").style.display = 'inline';
           document.getElementById("CESM2_legend").style.display = 'inline';
           document.getElementById("CNRM-ESM2-1_legend").style.display = 'inline';
-          document.getElementById("E3SM-1-1_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
           document.getElementById("GFDL_ESM4_legend").style.display = 'inline';
           document.getElementById("GISS-E2-1-G_legend").style.display = 'inline';
@@ -210,8 +208,6 @@
         document.getElementById('CESM2_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CNRM-ESM2-1').src = 'CNRM-ESM2-1_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CNRM-ESM2-1_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('E3SM-1-1').src = 'E3SM-1-1_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('E3SM-1-1_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('GFDL_ESM4').src = 'GFDL_ESM4_' + RNAME + '_' + PNAME + '.png';
@@ -303,7 +299,6 @@
         <option value='CanESM5'>CanESM5</option>
         <option value='CESM2'>CESM2</option>
         <option value='CNRM-ESM2-1'>CNRM-ESM2-1</option>
-        <option value='E3SM-1-1'>E3SM-1-1</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
         <option value='GFDL_ESM4'>GFDL_ESM4</option>
         <option value='GISS-E2-1-G'>GISS-E2-1-G</option>
@@ -458,26 +453,6 @@
                <td onclick="highlightRowMeanState(this)">0.858</td>
                <td onclick="highlightRowMeanState(this)">0.292</td>
                <td onclick="highlightRowMeanState(this)">0.487</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">E3SM-1-1</td>
-               <td onclick="highlightRowMeanState(this)"><a href="CARDAMOM_E3SM-1-1.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">1.03e+05</td>
-               <td onclick="highlightRowMeanState(this)">8.95e+04</td>
-               <td onclick="highlightRowMeanState(this)">63.7</td>
-               <td onclick="highlightRowMeanState(this)">1.30e+04</td>
-               <td onclick="highlightRowMeanState(this)">0.115</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.75e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.85e+03</td>
-               <td onclick="highlightRowMeanState(this)">1.38</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.00206</td>
-               <td onclick="highlightRowMeanState(this)">0.00213</td>
-               <td onclick="highlightRowMeanState(this)">0.770</td>
-               <td onclick="highlightRowMeanState(this)">1.39e-06</td>
-               <td onclick="highlightRowMeanState(this)">0.00186</td>
-               <td onclick="highlightRowMeanState(this)">0.130</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
@@ -849,13 +824,6 @@
           <center>CNRM-ESM2-1</center>
           <img src="" id="CNRM-ESM2-1" alt="Data not available" ></img>
           <center><img src="legend_CNRM-ESM2-1.png" id="CNRM-ESM2-1_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="E3SM-1-1_div">
-          <div class="child">
-          <center>E3SM-1-1</center>
-          <img src="" id="E3SM-1-1" alt="Data not available" ></img>
-          <center><img src="legend_E3SM-1-1.png" id="E3SM-1-1_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP6_div">
