@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux hpc-92-33.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
+[INFO][0][<module>] Linux hpc-53-24.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.2)
@@ -6,21 +6,20 @@
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2025-08-28 11:05:44.774660
+[INFO][0][<module>] 2025-09-10 17:17:02.525975
 [INFO][1][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
 [INFO][0][MakeComparable][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
 [INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][1][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
 [INFO][1][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Success
 [INFO][0][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 273 710]
 [INFO][0][MakeComparable][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [408  96 144] after: [408  73 142]
 [INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
@@ -30,19 +29,20 @@
 [INFO][1][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][SurfaceUpwardSWRadiation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][CARDAMOM] Success
 [INFO][0][MakeComparable][GrossPrimaryProductivity/WECANN][CARDAMOM] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
-[INFO][1][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][MakeComparable][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
+[INFO][1][MakeComparable][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/WECANN][CARDAMOM] Success
-[INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][CARDAMOM] Success
 [INFO][0][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
 [INFO][0][MakeComparable][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
-[INFO][1][MakeComparable][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
-[INFO][1][MakeComparable][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
@@ -51,29 +51,29 @@
 [INFO][1][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][SurfaceNetSWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][CARDAMOM] Success
 [INFO][1][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetSWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][0][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
-[INFO][0][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
 [INFO][1][MakeComparable][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
 [INFO][1][MakeComparable][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][CARDAMOM] Success
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 273 710]
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 72  96 144] after: [ 72  73 142]
 [INFO][1][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
 [INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
-[INFO][0][MakeComparable][Evapotranspiration/GLEAMv3.3a][CARDAMOM] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
 [INFO][1][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetSWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][0][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
 [INFO][1][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][0][MakeComparable][Evapotranspiration/GLEAMv3.3a][CARDAMOM] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 273 710]
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CARDAMOM] Success
@@ -98,20 +98,15 @@
 [INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CARDAMOM] Success
-[INFO][0][MakeComparable][Evapotranspiration/MODIS][CARDAMOM] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 273 710]
 [INFO][1][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
 [INFO][1][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][CARDAMOM] Success
-[INFO][0][MakeComparable][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 273 710]
-[INFO][0][MakeComparable][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [168  96 144] after: [168  73 142]
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Evapotranspiration/MODIS][CARDAMOM] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 273 710]
 [INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
@@ -122,15 +117,16 @@
 [INFO][1][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][SurfaceUpwardLWRadiation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CARDAMOM] Success
+[INFO][0][MakeComparable][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 273 710]
+[INFO][0][MakeComparable][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [168  96 144] after: [168  73 142]
 [INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardLWRadiation/ERA5][CARDAMOM] Success
 [INFO][1][MakeComparable][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
 [INFO][1][MakeComparable][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
-[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][CARDAMOM] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 273 710]
 [INFO][1][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
@@ -142,9 +138,8 @@
 [INFO][1][MakeComparable][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][CARDAMOM] Success
-[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 273 710]
-[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [180  96 144] after: [180  73 142]
+[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][CARDAMOM] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 273 710]
 [INFO][1][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
@@ -152,21 +147,14 @@
 [INFO][1][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetLWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][1][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
 [INFO][1][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
-[INFO][0][MakeComparable][Evapotranspiration/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/ERA5][CARDAMOM] Success
-[INFO][0][MakeComparable][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
-[INFO][0][MakeComparable][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][0][confront][Evapotranspiration/MOD16A2][CARDAMOM] Success
+[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 273 710]
+[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [180  96 144] after: [180  73 142]
 [INFO][1][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
@@ -175,7 +163,29 @@
 [INFO][1][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][1][MakeComparable][SurfaceNetRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Evapotranspiration/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
+[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetRadiation/CERESed4.2][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][1][MakeComparable][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][CARDAMOM] Success
+[INFO][0][MakeComparable][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
+[INFO][0][MakeComparable][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [hfss,FSH] in the model results
 [DEBUG][0][WorkConfront][EvaporativeFraction/FLUXCOM][CARDAMOM]
 Traceback (most recent call last):
@@ -191,20 +201,25 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceNetRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
-[INFO][1][MakeComparable][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
-[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][1][confront][SurfaceNetRadiation/GEWEX.SRB][CARDAMOM] Success
 [INFO][1][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
 [INFO][1][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][1][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceNetRadiation/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceNetRadiation/CLASS][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][1][MakeComparable][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
 [DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [hfss,FSH] in the model results
@@ -224,14 +239,8 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
 [INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSites][rns] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceNetRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][1][AnalysisMeanStateSites][rns] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceNetRadiation/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][1][confront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][GroundHeatFlux/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
 [DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [hfss,FSH] in the model results
@@ -249,11 +258,11 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceNetRadiation/CLASS][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
-[INFO][1][MakeComparable][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
+[INFO][1][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][1][confront][GroundHeatFlux/CLASS][CARDAMOM] Success
+[INFO][1][MakeComparable][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][1][MakeComparable][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][confront][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
 [DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [hfss,FSH] in the model results
@@ -271,11 +280,11 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][1][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][1][confront][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceAirTemperature/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
 [INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][GroundHeatFlux/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
 [INFO][0][confront][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
 [DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [hfls,le] in the model results
 [DEBUG][0][WorkConfront][LatentHeat/FLUXCOM][CARDAMOM]
@@ -294,15 +303,11 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
 [INFO][0][MakeComparable][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 273 710]
 [INFO][0][MakeComparable][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
-[INFO][1][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
-[INFO][1][confront][GroundHeatFlux/CLASS][CARDAMOM] Success
-[INFO][1][MakeComparable][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
-[INFO][1][MakeComparable][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
-[INFO][1][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
-[INFO][1][confront][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceAirTemperature/CRU4.02][CARDAMOM] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
+[INFO][1][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceAirTemperature/CRU4.02][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
+[INFO][1][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
@@ -325,9 +330,13 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][0][MakeComparable][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  73 142]
 [INFO][1][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceAirTemperature/CRU4.02][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [456 360 720] after: [456 273 710]
-[INFO][1][MakeComparable][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
+[INFO][1][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceAirTemperature/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
+[INFO][1][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceAirTemperature/ERA5][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
+[INFO][1][MakeComparable][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
@@ -348,6 +357,10 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
 [INFO][0][MakeComparable][LatentHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
 [INFO][0][MakeComparable][LatentHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
+[INFO][1][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][Precipitation/CMAPv1904][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
 [INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][0][confront][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
@@ -386,60 +399,56 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
+[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][0][MakeComparable][LatentHeat/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
 [INFO][0][MakeComparable][LatentHeat/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
-[INFO][1][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceAirTemperature/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
-[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][0][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceAirTemperature/ERA5][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
-[INFO][1][MakeComparable][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
-[INFO][0][MakeComparable][Runoff/LORA][CARDAMOM] Spatial data was clipped from the reference:  before: [396 360 720] after: [396 273 710]
-[INFO][1][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][Precipitation/CMAPv1904][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][0][confront][Runoff/LORA][CARDAMOM] Success
-[INFO][0][MakeComparable][Runoff/LORA][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [396 360 720] after: [396 273 710]
-[INFO][0][MakeComparable][Runoff/LORA][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [396  96 144] after: [396  73 142]
-[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][1][confront][Precipitation/CMAPv1904][CARDAMOM] Success
 [INFO][1][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
 [INFO][1][MakeComparable][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Runoff/LORA][CARDAMOM] Spatial data was clipped from the reference:  before: [396 360 720] after: [396 273 710]
 [INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][0][confront][Runoff/LORA][ENSEMBLE-CMIP6] Success
-[INFO][0][MakeComparable][Runoff/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][0][confront][Runoff/LORA][CARDAMOM] Success
 [INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][MakeComparable][Runoff/LORA][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [396 360 720] after: [396 273 710]
+[INFO][0][MakeComparable][Runoff/LORA][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [396  96 144] after: [396  73 142]
 [INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][1][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
 [INFO][1][MakeComparable][Precipitation/GPCCv2018][CARDAMOM] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
-[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][0][confront][Runoff/CLASS][CARDAMOM] Success
-[INFO][0][MakeComparable][Runoff/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
-[INFO][0][MakeComparable][Runoff/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
 [INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][1][confront][Precipitation/GPCCv2018][CARDAMOM] Success
-[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][0][confront][Runoff/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][MakeComparable][Runoff/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
 [INFO][1][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [444 360 720] after: [444 273 710]
 [INFO][1][MakeComparable][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
 [INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/LORA][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Runoff/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][CARDAMOM] Success
+[INFO][0][MakeComparable][Runoff/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][0][MakeComparable][Runoff/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
+[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][1][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][Precipitation/GPCPv2.3][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Runoff/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
+[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][1][confront][Precipitation/GPCPv2.3][CARDAMOM] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][0][confront][Runoff/ERA5][CARDAMOM] Success
+[INFO][1][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
+[INFO][1][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][MakeComparable][Runoff/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
 [INFO][0][MakeComparable][Runoff/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
@@ -464,12 +473,14 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][0][MakeComparable][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [420  96 144] after: [420  73 142]
 [INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][1][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][Precipitation/GPCPv2.3][CARDAMOM] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][Precipitation/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
 [INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][1][confront][Precipitation/GPCPv2.3][CARDAMOM] Success
+[INFO][1][confront][Precipitation/CLASS][CARDAMOM] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][MakeComparable][Precipitation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
+[INFO][1][MakeComparable][Precipitation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
 [INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][0][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
 [DEBUG][0][extractTimeSeries][CARDAMOM] Could not find [hfss,sh] in the model results
@@ -489,8 +500,10 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
 [INFO][0][MakeComparable][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
 [INFO][0][MakeComparable][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
-[INFO][1][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [480 360 720] after: [480 273 710]
-[INFO][1][MakeComparable][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][1][confront][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][Precipitation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
 [INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][0][confront][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
@@ -511,6 +524,11 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
 [INFO][0][MakeComparable][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 137 355]
 [INFO][0][MakeComparable][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 96  96 144] after: [ 96  73 142]
+[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][1][confront][Precipitation/ERA5][CARDAMOM] Success
+[INFO][1][MakeComparable][Precipitation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
+[INFO][1][MakeComparable][Precipitation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][0][confront][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
@@ -532,18 +550,27 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][0][MakeComparable][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [550 181 360] after: [550 137 360]
 [INFO][0][MakeComparable][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][1][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
 [INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][0][confront][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Success
 [INFO][0][MakeComparable] Spatial data was clipped from the reference:  before: [156 360 720] after: [156 281 720]
-[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][1][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][Precipitation/CLASS][CARDAMOM] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
-[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][1][confront][Precipitation/CLASS][CARDAMOM] Success
-[INFO][1][MakeComparable][Precipitation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 273 710]
-[INFO][1][MakeComparable][Precipitation/CLASS][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 84  96 144] after: [ 84  73 142]
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
 [INFO][0][MakeComparable][SnowWaterEquivalent/CanSISE][CARDAMOM] Spatial data was clipped from the reference:  before: [360  90 360] after: [360  83 355]
 [INFO][0][MakeComparable][SnowWaterEquivalent/CanSISE][CARDAMOM] Spatial data was clipped from the comparison:  before: [120  35  72] after: [120  22  72]
 [INFO][0][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
@@ -602,9 +629,6 @@ Traceback (most recent call last):
            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
 FloatingPointError: underflow encountered in scalar multiply
 
-[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][1][confront][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
 [DEBUG][0][WorkConfront][Permafrost/Obu2018][CARDAMOM]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -622,7 +646,6 @@ Traceback (most recent call last):
     raise ValueError
 ValueError
 
-[INFO][1][MakeComparable][Precipitation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
 [DEBUG][0][WorkConfront][Permafrost/Obu2018][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -641,35 +664,45 @@ Traceback (most recent call last):
            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
 FloatingPointError: underflow encountered in scalar multiply
 
-[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][1][confront][Precipitation/ERA5][CARDAMOM] Success
-[INFO][1][MakeComparable][Precipitation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
-[INFO][1][MakeComparable][Precipitation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][0][MakeComparable][SurfaceSoilMoisture/WangMao][CARDAMOM] Spatial data was clipped from the reference:  before: [564 360 720] after: [564 273 710]
-[INFO][1][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][1][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][1][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
+[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardSWRadiation/ERA5][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
+[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
 [INFO][0][confront][SurfaceSoilMoisture/WangMao][CARDAMOM] Success
 [INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][1][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][0][MakeComparable][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [564 360 720] after: [564 273 710]
 [INFO][0][MakeComparable][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [540  96 144] after: [540  73 142]
-[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/CERESed4.2][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
+[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
 [INFO][0][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
 [INFO][0][confront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
@@ -709,49 +742,34 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][0][confront][Albedo/CERESed4.2][CARDAMOM] Success
-[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][1][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
+[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][1][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][0][confront][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
 [INFO][0][MakeComparable][Albedo/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 281 720]
 [INFO][0][MakeComparable][Albedo/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 281 720]
 [INFO][0][MakeComparable][Albedo/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 281 720]
-[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/ERA5][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
-[INFO][1][MakeComparable][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
+[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/ERA5][CARDAMOM] Success
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
+[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
 [INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][0][confront][Albedo/GEWEX.SRB][CARDAMOM] Success
-[INFO][1][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
 [INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [178  96 144] after: [178  73 142]
-[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][CARDAMOM] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][confront][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 273 710]
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [288  96 144] after: [288  73 142]
 [INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][0][confront][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][0][MakeComparable][SurfaceUpwardSWRadiation/CERESed4.2][CARDAMOM] Spatial data was clipped from the reference:  before: [280 180 360] after: [280 137 355]
@@ -763,102 +781,90 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
 [INFO][0][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][1][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/ERA5][CARDAMOM] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
-[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/ERA5][CARDAMOM] Success
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the reference:  before: [551 181 360] after: [551 137 360]
-[INFO][1][MakeComparable][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [432  96 144] after: [432  73 142]
-[INFO][1][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][1][confront][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
 [INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CARDAMOM] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][CARDAMOM] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LeafAreaIndex/MODIS][CARDAMOM] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetSWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][0][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CARDAMOM] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CARDAMOM] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][CARDAMOM] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][CARDAMOM] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/ERA5][CARDAMOM] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][0][modelPlots][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][CARDAMOM] Success
-[INFO][0][modelPlots][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][0][modelPlots][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceNetRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceNetRadiation/WRMC.BSRN][CARDAMOM] Success
+[INFO][0][modelPlots][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][Runoff/Dai][CARDAMOM] Success
-[INFO][1][modelPlots][SurfaceNetRadiation/GEWEX.SRB][CARDAMOM] Success
-[INFO][0][modelPlots][Runoff/Dai][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][SurfaceNetRadiation/WRMC.BSRN][CARDAMOM] Success
-[INFO][0][modelPlots][Runoff/LORA][CARDAMOM] Success
-[INFO][1][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Runoff/LORA][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceNetRadiation/CLASS][CARDAMOM] Success
-[INFO][0][modelPlots][Runoff/CLASS][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Runoff/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/Dai][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][GroundHeatFlux/CLASS][CARDAMOM] Success
-[INFO][0][modelPlots][Runoff/ERA5][CARDAMOM] Success
-[INFO][0][modelPlots][Runoff/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/LORA][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceAirTemperature/CRU4.02][CARDAMOM] Success
-[INFO][0][modelPlots][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/LORA][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/CLASS][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceAirTemperature/ERA5][CARDAMOM] Success
-[INFO][0][modelPlots][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][CARDAMOM] Success
-[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/ERA5][CARDAMOM] Success
 [INFO][1][modelPlots][Precipitation/CMAPv1904][CARDAMOM] Success
+[INFO][0][modelPlots][Runoff/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Precipitation/GPCCv2018][CARDAMOM] Success
+[INFO][0][modelPlots][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Precipitation/GPCPv2.3][CARDAMOM] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][CARDAMOM] Success
+[INFO][1][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Precipitation/CLASS][CARDAMOM] Success
 [INFO][0][modelPlots][SnowWaterEquivalent/CanSISE][CARDAMOM] Success
 [DEBUG][0][WorkPost][Permafrost/Brown2002][CARDAMOM]
 Traceback (most recent call last):
@@ -928,29 +934,23 @@ Traceback (most recent call last):
   File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
 FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_ENSEMBLE-CMIP6.nc'
 
-[INFO][1][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
 [INFO][0][modelPlots][SurfaceSoilMoisture/WangMao][CARDAMOM] Success
-[INFO][1][modelPlots][Precipitation/GPCCv2018][CARDAMOM] Success
-[INFO][0][modelPlots][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Albedo/CERESed4.2][CARDAMOM] Success
-[INFO][0][modelPlots][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Precipitation/GPCPv2.3][CARDAMOM] Success
-[INFO][0][modelPlots][Albedo/GEWEX.SRB][CARDAMOM] Success
-[INFO][1][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
-[INFO][0][modelPlots][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][1][modelPlots][Precipitation/CLASS][CARDAMOM] Success
-[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CARDAMOM] Success
-[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][Precipitation/ERA5][CARDAMOM] Success
+[INFO][0][modelPlots][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Albedo/CERESed4.2][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CARDAMOM] Success
+[INFO][0][modelPlots][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][CARDAMOM] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/ERA5][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CARDAMOM] Success
@@ -961,8 +961,8 @@ FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle
 [INFO][1][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][1][modelPlots][SurfaceDownwardLWRadiation/ERA5][CARDAMOM] Success
 [INFO][1][modelPlots][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][<module>][process time] 1348.2 s
-[INFO][0][<module>][process time] 1207.8 s
-[INFO][0][<module>][total time] 1403.5 s
-[INFO][0][<module>][process balance] 1.12
+[INFO][0][<module>][process time] 1271.0 s
+[INFO][1][<module>][process time] 1281.0 s
+[INFO][0][<module>][total time] 1401.2 s
+[INFO][0][<module>][process balance] 1.01
 [INFO][0][<module>][parallel efficiency] 91%
