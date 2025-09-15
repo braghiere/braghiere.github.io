@@ -165,11 +165,13 @@
           document.getElementById("CliMA_longruns_4069_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_4086_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_4188_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_calibrated_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_4069_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_4086_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_4188_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_calibrated_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
@@ -179,6 +181,8 @@
         document.getElementById('CliMA_longruns_4086_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_4188').src = 'CliMA_longruns_4188_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_4188_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_calibrated').src = 'CliMA_longruns_calibrated_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_calibrated_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -252,6 +256,7 @@
         <option value='CliMA_longruns_4069' selected="selected">CliMA_longruns_4069</option>
         <option value='CliMA_longruns_4086'>CliMA_longruns_4086</option>
         <option value='CliMA_longruns_4188'>CliMA_longruns_4188</option>
+        <option value='CliMA_longruns_calibrated'>CliMA_longruns_calibrated</option>
       </select>
       </div>
         <center>
@@ -343,6 +348,23 @@
                <td onclick="highlightRowMeanState(this)">0.706</td>
                <td onclick="highlightRowMeanState(this)">0.974</td>
                <td onclick="highlightRowMeanState(this)">0.766</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_calibrated</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_calibrated.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">0.478</td>
+               <td onclick="highlightRowMeanState(this)">0.496</td>
+               <td onclick="highlightRowMeanState(this)">0.486</td>
+               <td onclick="highlightRowMeanState(this)">0.407</td>
+               <td onclick="highlightRowMeanState(this)">0.520</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0104</td>
+               <td onclick="highlightRowMeanState(this)">1.81</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.594</td>
+               <td onclick="highlightRowMeanState(this)">0.715</td>
+               <td onclick="highlightRowMeanState(this)">0.986</td>
+               <td onclick="highlightRowMeanState(this)">0.765</td>
              </tr>
           </tbody>
         </table>
@@ -501,6 +523,13 @@
           <center>CliMA_longruns_4188</center>
           <img src="" id="CliMA_longruns_4188" alt="Data not available" ></img>
           <center><img src="legend_CliMA_longruns_4188.png" id="CliMA_longruns_4188_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_calibrated_div">
+          <div class="child">
+          <center>CliMA_longruns_calibrated</center>
+          <img src="" id="CliMA_longruns_calibrated" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_calibrated.png" id="CliMA_longruns_calibrated_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
