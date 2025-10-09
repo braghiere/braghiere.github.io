@@ -164,23 +164,27 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("CliMA_longruns_4086_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_4188_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_4268_legend").style.display = 'none';
+          document.getElementById("CliMA_longruns_4272_legend").style.display = 'none';
           document.getElementById("CliMA_longruns_calibrated_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("CliMA_longruns_4086_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_4188_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_4268_legend").style.display = 'inline';
+          document.getElementById("CliMA_longruns_4272_legend").style.display = 'inline';
           document.getElementById("CliMA_longruns_calibrated_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_4086').src = 'CliMA_longruns_4086_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_4086_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_4188').src = 'CliMA_longruns_4188_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_4188_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_4268').src = 'CliMA_longruns_4268_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_4268_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_4272').src = 'CliMA_longruns_4272_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA_longruns_4272_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_calibrated').src = 'CliMA_longruns_calibrated_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA_longruns_calibrated_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
@@ -255,8 +259,9 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='CliMA_longruns_4086' selected="selected">CliMA_longruns_4086</option>
-        <option value='CliMA_longruns_4188'>CliMA_longruns_4188</option>
+        <option value='CliMA_longruns_4188' selected="selected">CliMA_longruns_4188</option>
+        <option value='CliMA_longruns_4268'>CliMA_longruns_4268</option>
+        <option value='CliMA_longruns_4272'>CliMA_longruns_4272</option>
         <option value='CliMA_longruns_calibrated'>CliMA_longruns_calibrated</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
       </select>
@@ -305,25 +310,6 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_4086</td>
-               <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_4086.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">40.5</td>
-               <td onclick="highlightRowMeanState(this)">44.3</td>
-               <td onclick="highlightRowMeanState(this)">36.3</td>
-               <td onclick="highlightRowMeanState(this)">25.1</td>
-               <td onclick="highlightRowMeanState(this)">40.2</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">8.05</td>
-               <td onclick="highlightRowMeanState(this)">18.4</td>
-               <td onclick="highlightRowMeanState(this)">1.14</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.590</td>
-               <td onclick="highlightRowMeanState(this)">0.480</td>
-               <td onclick="highlightRowMeanState(this)">0.816</td>
-               <td onclick="highlightRowMeanState(this)">0.962</td>
-               <td onclick="highlightRowMeanState(this)">0.665</td>
-             </tr>
-             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_4188</td>
                <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_4188.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">39.5</td>
@@ -341,6 +327,44 @@
                <td onclick="highlightRowMeanState(this)">0.813</td>
                <td onclick="highlightRowMeanState(this)">0.975</td>
                <td onclick="highlightRowMeanState(this)">0.681</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_4268</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_4268.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">40.3</td>
+               <td onclick="highlightRowMeanState(this)">43.6</td>
+               <td onclick="highlightRowMeanState(this)">36.3</td>
+               <td onclick="highlightRowMeanState(this)">27.5</td>
+               <td onclick="highlightRowMeanState(this)">40.3</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">7.28</td>
+               <td onclick="highlightRowMeanState(this)">21.2</td>
+               <td onclick="highlightRowMeanState(this)">1.39</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.586</td>
+               <td onclick="highlightRowMeanState(this)">0.420</td>
+               <td onclick="highlightRowMeanState(this)">0.789</td>
+               <td onclick="highlightRowMeanState(this)">0.964</td>
+               <td onclick="highlightRowMeanState(this)">0.636</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_4272</td>
+               <td onclick="highlightRowMeanState(this)"><a href="CLASS_CliMA_longruns_4272.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">39.7</td>
+               <td onclick="highlightRowMeanState(this)">43.3</td>
+               <td onclick="highlightRowMeanState(this)">36.3</td>
+               <td onclick="highlightRowMeanState(this)">25.6</td>
+               <td onclick="highlightRowMeanState(this)">40.3</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">6.99</td>
+               <td onclick="highlightRowMeanState(this)">16.9</td>
+               <td onclick="highlightRowMeanState(this)">1.30</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.659</td>
+               <td onclick="highlightRowMeanState(this)">0.523</td>
+               <td onclick="highlightRowMeanState(this)">0.796</td>
+               <td onclick="highlightRowMeanState(this)">0.983</td>
+               <td onclick="highlightRowMeanState(this)">0.697</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_calibrated</td>
@@ -534,18 +558,25 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CliMA_longruns_4086_div">
-          <div class="child">
-          <center>CliMA_longruns_4086</center>
-          <img src="" id="CliMA_longruns_4086" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_longruns_4086.png" id="CliMA_longruns_4086_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
         <div class="container" id="CliMA_longruns_4188_div">
           <div class="child">
           <center>CliMA_longruns_4188</center>
           <img src="" id="CliMA_longruns_4188" alt="Data not available" ></img>
           <center><img src="legend_CliMA_longruns_4188.png" id="CliMA_longruns_4188_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_4268_div">
+          <div class="child">
+          <center>CliMA_longruns_4268</center>
+          <img src="" id="CliMA_longruns_4268" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_4268.png" id="CliMA_longruns_4268_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="CliMA_longruns_4272_div">
+          <div class="child">
+          <center>CliMA_longruns_4272</center>
+          <img src="" id="CliMA_longruns_4272" alt="Data not available" ></img>
+          <center><img src="legend_CliMA_longruns_4272.png" id="CliMA_longruns_4272_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="CliMA_longruns_calibrated_div">
