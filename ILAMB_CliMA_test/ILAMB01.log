@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux hpc-34-29.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
+[INFO][0][<module>] Linux hpc-54-20.cm.cluster 5.14.0-427.13.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Apr 10 10:29:16 EDT 2024 x86_64 x86_64
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB (2.7.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/numpy (1.26.4)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/matplotlib (3.9.2)
@@ -6,7 +6,7 @@
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/cf_units (3.2.0)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/sympy (1.13.2)
 [INFO][0][<module>] /home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/mpi4py (4.0.0)
-[INFO][0][<module>] 2025-10-24 14:03:14.670387
+[INFO][0][<module>] 2025-10-27 12:57:28.095625
 [INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][1][confront][EvaporativeFraction/WECANN][default_height] Success
 [INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
@@ -20,7 +20,7 @@
 [INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][1][confront][EvaporativeFraction/WECANN][ilamb_kevin] Success
 [INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][2][confront][Runoff/CLASS][varying__height] Success
+[INFO][2][confront][Runoff/CLASS][varying_height] Success
 [INFO][4][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetSWRadiation/GEWEX.SRB][ilamb_kevin] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
@@ -29,10 +29,10 @@
 [INFO][3][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_4188] Success
-[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
-[INFO][1][confront][EvaporativeFraction/WECANN][varying__height] Success
 [INFO][3][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_calibrated] Success
+[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][1][confront][EvaporativeFraction/WECANN][varying_height] Success
 [INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
@@ -40,11 +40,11 @@
 [INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][2][confront][Runoff/ERA5][CliMA_longruns_4188] Success
 [INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][1][confront][EvaporativeFraction/ERA5][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][1][confront][EvaporativeFraction/ERA5][CliMA_longruns_4188] Success
 [INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetSWRadiation/GEWEX.SRB][varying__height] Success
+[INFO][4][confront][SurfaceNetSWRadiation/GEWEX.SRB][varying_height] Success
 [INFO][4][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
@@ -57,34 +57,34 @@
 [INFO][4][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetSWRadiation/WRMC.BSRN][default_height] Success
-[INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
 [INFO][4][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][4][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetSWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetSWRadiation/WRMC.BSRN][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][4][confront][SurfaceNetSWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][5][confront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
 [INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][2][confront][Runoff/ERA5][CliMA_longruns_4281] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][1][confront][EvaporativeFraction/ERA5][CliMA_longruns_4281] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_4281] Success
 [INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][confront][EvaporativeFraction/ERA5][CliMA_longruns_4281] Success
 [INFO][3][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][6][confront][Precipitation/CLASS][varying__height] Success
+[INFO][6][confront][Precipitation/CLASS][varying_height] Success
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceSoilMoisture/WangMao][default_height] Success
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][3][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceSoilMoisture/WangMao][default_height] Success
 [INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][2][confront][Runoff/ERA5][CliMA_longruns_calibrated] Success
@@ -95,59 +95,59 @@
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/GEWEX.SRB][default_height] Success
 [INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][6][confront][Precipitation/ERA5][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][6][confront][Precipitation/ERA5][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
 [INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
 [INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][2][confront][Runoff/ERA5][default_height] Success
-[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][1][confront][EvaporativeFraction/ERA5][default_height] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_calibrated] Success
-[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][6][confront][Precipitation/ERA5][CliMA_longruns_4281] Success
+[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
 [INFO][2][confront][Runoff/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][1][confront][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][6][confront][Precipitation/ERA5][CliMA_longruns_4281] Success
+[INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][1][confront][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
 [INFO][3][confront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][2][confront][Runoff/ERA5][ilamb_kevin] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
 [INFO][1][confront][EvaporativeFraction/ERA5][ilamb_kevin] Success
 [INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][6][confront][Precipitation/ERA5][CliMA_longruns_calibrated] Success
-[INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][2][confront][Runoff/ERA5][ilamb_kevin] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][default_height] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][default_height] Success
 [INFO][1][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
-[INFO][1][confront][EvaporativeFraction/ERA5][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][2][confront][Runoff/ERA5][varying_height] Success
+[INFO][1][confront][EvaporativeFraction/ERA5][varying_height] Success
 [INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][2][confront][Runoff/ERA5][varying__height] Success
 [INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][6][confront][Precipitation/ERA5][default_height] Success
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
@@ -156,24 +156,18 @@
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][ilamb_kevin] Success
-[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
 [INFO][3][confront][SurfaceSoilMoisture/WangMao][ilamb_kevin] Success
+[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
 [INFO][6][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][varying__height] Success
 [INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][6][confront][Precipitation/ERA5][ilamb_kevin] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/CERESed4.2][varying_height] Success
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceNetRadiation/GEWEX.SRB][varying__height] Success
+[INFO][5][confront][SurfaceNetRadiation/GEWEX.SRB][varying_height] Success
 [INFO][5][AnalysisMeanStateSites][rns] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
@@ -186,139 +180,130 @@
 [INFO][5][AnalysisMeanStateSites][rns] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/WRMC.BSRN][default_height] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][5][AnalysisMeanStateSites][rns] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
 [INFO][5][confront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
 [INFO][5][AnalysisMeanStateSites][rns] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/WRMC.BSRN][ilamb_kevin] Success
 [INFO][5][AnalysisMeanStateSites][rns] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceNetRadiation/WRMC.BSRN][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][CliMA_longruns_4188] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/FLUXCOM][CliMA_longruns_4188] Success
-[INFO][3][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][5][confront][SurfaceNetRadiation/WRMC.BSRN][varying_height] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][6][confront][Precipitation/ERA5][varying__height] Success
+[INFO][6][confront][Precipitation/ERA5][ilamb_kevin] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/FLUXCOM][CliMA_longruns_4188] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/FLUXCOM][CliMA_longruns_4188] Success
 [INFO][3][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceSoilMoisture/WangMao][varying__height] Success
+[INFO][3][confront][SurfaceSoilMoisture/WangMao][varying_height] Success
+[INFO][6][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][6][confront][Precipitation/ERA5][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceNetRadiation/CLASS][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
-[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ilamb_kevin] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceNetRadiation/CLASS][CliMA_longruns_4188] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][1][confront][LatentHeat/FLUXCOM][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
 [INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
+[INFO][3][confront][SnowCoverFraction/MODIS][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/FLUXCOM][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
-[INFO][3][confront][SnowCoverFraction/MODIS][CliMA_longruns_4188] Success
-[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/CLASS][CliMA_longruns_4281] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][varying__height] Success
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][varying_height] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceNetRadiation/CLASS][CliMA_longruns_calibrated] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/FLUXCOM][CliMA_longruns_calibrated] Success
+[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
+[INFO][3][confront][SnowCoverFraction/MODIS][CliMA_longruns_4281] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
 [INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_4188] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][default_height] Success
-[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
-[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceNetRadiation/CLASS][CliMA_longruns_calibrated] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][CliMA_longruns_calibrated] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
-[INFO][3][confront][SnowCoverFraction/MODIS][CliMA_longruns_4281] Success
+[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/FLUXCOM][CliMA_longruns_calibrated] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_calibrated] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_4281] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][ilamb_kevin] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][default_height] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/CLASS][default_height] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][default_height] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][varying__height] Success
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
 [INFO][3][confront][SnowCoverFraction/MODIS][CliMA_longruns_calibrated] Success
-[INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][default_height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][CliMA_longruns_calibrated] Success
 [INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/FLUXCOM][default_height] Success
-[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][ilamb_kevin] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/FLUXCOM][default_height] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][default_height] Success
 [INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/WECANN][varying__height] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][default_height] Success
 [INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][5][confront][SurfaceNetRadiation/CLASS][ilamb_kevin] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/CERESed4.2][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
 [INFO][3][confront][SnowCoverFraction/MODIS][default_height] Success
 [DEBUG][3][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [snow_cover_fraction,scf] in the model results
@@ -336,27 +321,58 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/FLUXCOM][default_height] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][1][confront][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
-[INFO][0][confront][LeafAreaIndex/MODIS][CliMA_longruns_4188] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][ilamb_kevin] Success
 [INFO][5][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceNetRadiation/CLASS][varying__height] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][5][confront][SurfaceNetRadiation/CLASS][varying_height] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][varying_height] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
+[INFO][3][confront][SnowCoverFraction/MODIS][ilamb_kevin] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][varying__height] Success
+[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][5][confront][GroundHeatFlux/CLASS][CliMA_longruns_4188] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/FLUXCOM][ilamb_kevin] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][CliMA_longruns_4188] Success
+[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
+[INFO][3][confront][SnowCoverFraction/MODIS][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][5][confront][GroundHeatFlux/CLASS][CliMA_longruns_4281] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][varying_height] Success
 [INFO][4][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
@@ -377,133 +393,147 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][4][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ilamb_kevin] Success
 [INFO][4][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][varying__height] Success
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
-[INFO][3][confront][SnowCoverFraction/MODIS][ilamb_kevin] Success
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
-[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][ilamb_kevin] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][5][confront][GroundHeatFlux/CLASS][CliMA_longruns_4188] Success
-[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_4188] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/FLUXCOM][ilamb_kevin] Success
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][CliMA_longruns_calibrated] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
-[INFO][3][confront][SnowCoverFraction/MODIS][varying__height] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][default_height] Success
-[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
-[INFO][5][confront][GroundHeatFlux/CLASS][CliMA_longruns_4281] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][4][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][varying_height] Success
 [INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][3][confront][Albedo/CERESed4.2][CliMA_longruns_4188] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][1][confront][LatentHeat/FLUXCOM][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][default_height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/FLUXCOM][varying__height] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][1][confront][LatentHeat/FLUXCOM][varying_height] Success
 [INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/CERESed4.2][CliMA_longruns_4281] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][default_height] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
 [INFO][5][confront][GroundHeatFlux/CLASS][CliMA_longruns_calibrated] Success
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/CERESed4.2][CliMA_longruns_4281] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][CliMA_longruns_4281] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_4188] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/FLUXCOM][ilamb_kevin] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][3][confront][Albedo/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][CliMA_longruns_4188] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/CLASS][CliMA_longruns_4188] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ilamb_kevin] Success
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][ilamb_kevin] Success
+[INFO][1][confront][LatentHeat/DOLCE][CliMA_longruns_4188] Success
 [INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
 [INFO][5][confront][GroundHeatFlux/CLASS][default_height] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][3][confront][Albedo/CERESed4.2][default_height] Success
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][ilamb_kevin] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
 [INFO][3][confront][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/CLASS][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][CliMA_longruns_calibrated] Success
 [INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
 [INFO][5][confront][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][default_height] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/CERESed4.2][ilamb_kevin] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
 [INFO][1][confront][LatentHeat/DOLCE][CliMA_longruns_4281] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/FLUXCOM][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][5][confront][GroundHeatFlux/CLASS][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/CERESed4.2][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][default_height] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][default_height] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][varying__height] Success
+[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/DOLCE][CliMA_longruns_calibrated] Success
+[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][5][confront][GroundHeatFlux/CLASS][varying_height] Success
+[INFO][3][confront][Albedo/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/CLASS][CliMA_longruns_4188] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][ilamb_kevin] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/DOLCE][default_height] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_4188] Success
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][ilamb_kevin] Success
+[INFO][4][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/CLASS][CliMA_longruns_4281] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceUpwardLWRadiation/ERA5][varying_height] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][varying_height] Success
 [INFO][6][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
 [INFO][6][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/CERESed4.2][ilamb_kevin] Success
 [INFO][6][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
 [INFO][6][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][default_height] Success
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
@@ -512,292 +542,379 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ilamb_kevin] Success
 [INFO][6][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][varying__height] Success
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][varying__height] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_4188] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/CERESed4.2][varying__height] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_4188] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/GEWEX.SRB][default_height] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/CLASS][CliMA_longruns_calibrated] Success
-[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
-[INFO][5][confront][GroundHeatFlux/CLASS][ilamb_kevin] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][CliMA_longruns_calibrated] Success
+[INFO][1][confront][LatentHeat/DOLCE][ilamb_kevin] Success
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_4281] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_4188] Success
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/GEWEX.SRB][CliMA_longruns_4188] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/CLASS][default_height] Success
-[INFO][5][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
-[INFO][5][confront][GroundHeatFlux/CLASS][varying__height] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_4188] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_calibrated] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][3][confront][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][default_height] Success
+[INFO][1][confront][LatentHeat/DOLCE][varying_height] Success
 [INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][default_height] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_4281] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/CLASS][default_height] Success
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_calibrated] Success
 [INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/GEWEX.SRB][ilamb_kevin] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_4188] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/CLASS][CliMA_longruns_4188] Success
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][default_height] Success
+[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][3][confront][Albedo/GEWEX.SRB][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][default_height] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][5][confront][SurfaceAirTemperature/CRU4.02][default_height] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/CLASS][CliMA_longruns_4281] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_4188] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/CLASS][ilamb_kevin] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/GEWEX.SRB][CliMA_longruns_calibrated] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][ilamb_kevin] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_4281] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][ilamb_kevin] Success
-[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/CLASS][varying__height] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][ilamb_kevin] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/GEWEX.SRB][default_height] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][varying__height] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][confront][LatentHeat/CLASS][CliMA_longruns_calibrated] Success
 [INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_4281] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/CLASS][varying_height] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetLWRadiation/CERESed4.2][varying_height] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][default_height] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/CLASS][default_height] Success
+[INFO][6][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardSWRadiation/ERA5][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/WECANN][CliMA_longruns_4188] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_4281] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_calibrated] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/CRU4.02][ilamb_kevin] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/WECANN][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/DOLCE][varying__height] Success
+[INFO][1][confront][LatentHeat/CLASS][ilamb_kevin] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_calibrated] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/WECANN][CliMA_longruns_calibrated] Success
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/CRU4.02][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/WECANN][default_height] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/CLASS][varying_height] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/WECANN][default_height] Success
 [INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
-[INFO][3][confront][Albedo/GEWEX.SRB][ilamb_kevin] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/CRU4.02][CliMA_longruns_calibrated] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][default_height] Success
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/CLASS][CliMA_longruns_4188] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][default_height] Success
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_4281] Success
+[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/WECANN][ilamb_kevin] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_4281] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_calibrated] Success
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_calibrated] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/GLEAMv3.3a][default_height] Success
-[INFO][3][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/WECANN][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][default_height] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][3][confront][Albedo/GEWEX.SRB][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/ERA5][default_height] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][ilamb_kevin] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/WECANN][varying__height] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/CLASS][CliMA_longruns_4281] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/CRU4.02][default_height] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][varying__height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/ERA5][CliMA_longruns_4188] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/CLASS][CliMA_longruns_calibrated] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/ERA5][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][default_height] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][1][confront][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/ERA5][CliMA_longruns_4188] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][default_height] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/CERESed4.2][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/ERA5][ilamb_kevin] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/WECANN][varying_height] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][2][confront][SensibleHeat/ERA5][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][5][confront][SurfaceAirTemperature/ERA5][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_4188] Success
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][default_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/ERA5][CliMA_longruns_calibrated] Success
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/CLASS][default_height] Success
+[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_4281] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
 [INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][default_height] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_calibrated] Success
+[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CMAPv1904][CliMA_longruns_4188] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/ERA5][default_height] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ilamb_kevin] Success
+[INFO][1][confront][LatentHeat/ERA5][default_height] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
 [INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
 [INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][ilamb_kevin] Success
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][varying_height] Success
+[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][default_height] Success
+[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ilamb_kevin] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CMAPv1904][CliMA_longruns_4281] Success
+[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/CRU4.02][ilamb_kevin] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_4188] Success
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
 [INFO][2][confront][SensibleHeat/ERA5][ilamb_kevin] Success
+[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][ilamb_kevin] Success
 [INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][1][confront][LatentHeat/ERA5][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_4281] Success
+[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/CLASS][ilamb_kevin] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/CERESed4.2][varying__height] Success
-[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][ilamb_kevin] Success
-[INFO][2][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
-[INFO][2][confront][SensibleHeat/ERA5][varying__height] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][varying__height] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][2][confront][SensibleHeat/ERA5][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][default_height] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/CLASS][varying__height] Success
-[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CMAPv1904][CliMA_longruns_calibrated] Success
 [INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][4][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][varying__height] Success
+[INFO][4][confront][SurfaceNetLWRadiation/GEWEX.SRB][varying_height] Success
 [INFO][4][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
@@ -818,72 +935,87 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][4][confront][SurfaceNetLWRadiation/WRMC.BSRN][ilamb_kevin] Success
 [INFO][4][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetLWRadiation/WRMC.BSRN][varying__height] Success
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/CRU4.02][varying__height] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_4188] Success
+[INFO][4][confront][SurfaceNetLWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][default_height] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][varying_height] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][default_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CMAPv1904][default_height] Success
 [INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_4188] Success
 [INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_4281] Success
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_4188] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_4188] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][CliMA_longruns_calibrated] Success
+[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][ilamb_kevin] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][varying_height] Success
 [INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_4281] Success
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][default_height] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ilamb_kevin] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_4188] Success
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/ERA5][CliMA_longruns_calibrated] Success
 [INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][ilamb_kevin] Success
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_4281] Success
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][CliMA_longruns_4281] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/ERA5][default_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CMAPv1904][ilamb_kevin] Success
 [INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][4][confront][SurfaceNetRadiation/CERESed4.2][default_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_4281] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][default_height] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][CliMA_longruns_calibrated] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][varying__height] Success
+[INFO][6][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][varying_height] Success
 [INFO][6][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
@@ -904,122 +1036,73 @@ ILAMB.ilamblib.VarNotInModel: VarNotInModel
 [INFO][6][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ilamb_kevin] Success
 [INFO][6][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][varying__height] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/WECANN][varying__height] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][varying_height] Success
 [INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][default_height] Success
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][4][confront][SurfaceNetRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CMAPv1904][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][ilamb_kevin] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_4188] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_4188] Success
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
 [INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/ERA5][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][varying_height] Success
 [INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][4][confront][SurfaceNetRadiation/CERESed4.2][varying_height] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][default_height] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/MODIS][CliMA_longruns_calibrated] Success
-[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/GPCCv2018][CliMA_longruns_4188] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_4281] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_4281] Success
-[INFO][5][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
 [INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
-[INFO][5][confront][SurfaceAirTemperature/ERA5][varying__height] Success
-[INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
-[INFO][4][confront][SurfaceNetRadiation/CERESed4.2][varying__height] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][4][confront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_calibrated] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][CliMA_longruns_calibrated] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ilamb_kevin] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][ENSEMBLE-CMIP6] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/GPCCv2018][CliMA_longruns_4281] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][default_height] Success
-[INFO][4][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][default_height] Success
-[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][4][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/MODIS][default_height] Success
-[INFO][4][confront][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
-[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/CMAPv1904][CliMA_longruns_4188] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
 [INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
 [INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
-[INFO][3][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][varying__height] Success
-[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
-[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
-[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][default_height] Success
-[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ilamb_kevin] Success
-[INFO][3][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][varying__height] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][ilamb_kevin] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_4188] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
 [INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
-[INFO][1][confront][LatentHeat/ERA5][varying__height] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/CMAPv1904][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][5][confront][Precipitation/GPCCv2018][CliMA_longruns_calibrated] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][ilamb_kevin] Success
 [DEBUG][2][WorkConfront][TerrestrialWaterStorageAnomaly/GRACE][ilamb_kevin]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1029,58 +1112,53 @@ Traceback (most recent call last):
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FloatingPointError: underflow encountered in exp
 
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_4281] Success
-[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
-[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
-[INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][varying__height] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_calibrated] Success
-[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/CMAPv1904][CliMA_longruns_calibrated] Success
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][default_height] Success
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][ilamb_kevin] Success
-[INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][CliMA_longruns_4188] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][2][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][ilamb_kevin] Success
+[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][ilamb_kevin] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][default_height] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/GPCCv2018][default_height] Success
 [INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][6][confront][SurfaceDownwardLWRadiation/ERA5][varying_height] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/LORA][varying_height] Success
+[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][CliMA_longruns_4188] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
 [INFO][2][confront][SnowWaterEquivalent/CanSISE][CliMA_longruns_4188] Success
 [INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][CliMA_longruns_4281] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
-[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][CliMA_longruns_4188] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/CMAPv1904][default_height] Success
+[INFO][5][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ilamb_kevin] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/CLASS][CliMA_longruns_4188] Success
 [INFO][2][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
 [INFO][2][confront][SnowWaterEquivalent/CanSISE][CliMA_longruns_4281] Success
 [INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][CliMA_longruns_calibrated] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
-[INFO][3][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceUpwardSWRadiation/ERA5][varying__height] Success
 [INFO][2][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
 [INFO][2][confront][SnowWaterEquivalent/CanSISE][CliMA_longruns_calibrated] Success
 [INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][default_height] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
 [INFO][2][confront][SnowWaterEquivalent/CanSISE][default_height] Success
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
 [DEBUG][2][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [swe,snw] in the model results
 [DEBUG][2][WorkConfront][SnowWaterEquivalent/CanSISE][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
@@ -1100,24 +1178,19 @@ Traceback (most recent call last):
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
 [INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][ilamb_kevin] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][varying__height] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/CLASS][CliMA_longruns_4281] Success
 [INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/GPCCv2018][ilamb_kevin] Success
 [INFO][2][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
 [INFO][2][confront][SnowWaterEquivalent/CanSISE][ilamb_kevin] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][CliMA_longruns_4281] Success
-[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
-[INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][varying__height] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][2][MakeComparable][SnowWaterEquivalent/CanSISE][varying_height] Spatial data was clipped from the comparison:  before: [130 202 404] after: [130 102 404]
 [INFO][2][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
-[INFO][2][confront][SnowWaterEquivalent/CanSISE][varying__height] Success
+[INFO][2][confront][SnowWaterEquivalent/CanSISE][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [DEBUG][2][WorkConfront][Permafrost/Brown2002][CliMA_longruns_4188]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1186,6 +1259,7 @@ Traceback (most recent call last):
     raise ValueError
 ValueError
 
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [DEBUG][2][WorkConfront][Permafrost/Brown2002][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1219,7 +1293,8 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][2][WorkConfront][Permafrost/Brown2002][varying__height]
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[DEBUG][2][WorkConfront][Permafrost/Brown2002][varying_height]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -1236,9 +1311,9 @@ Traceback (most recent call last):
     raise ValueError
 ValueError
 
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][0][confront][Evapotranspiration/MODIS][varying_height] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/CLASS][CliMA_longruns_calibrated] Success
 [DEBUG][2][WorkConfront][Permafrost/Obu2018][CliMA_longruns_4188]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1291,12 +1366,8 @@ Traceback (most recent call last):
     raise ValueError
 ValueError
 
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/CMAPv1904][ilamb_kevin] Success
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][default_height] Success
+[INFO][5][confront][Precipitation/GPCCv2018][varying_height] Success
 [DEBUG][2][WorkConfront][Permafrost/Obu2018][default_height]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1314,8 +1385,7 @@ Traceback (most recent call last):
     raise ValueError
 ValueError
 
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][CliMA_longruns_calibrated] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [DEBUG][2][WorkConfront][Permafrost/Obu2018][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
@@ -1334,10 +1404,8 @@ Traceback (most recent call last):
            ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
 FloatingPointError: underflow encountered in scalar multiply
 
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/CLASS][default_height] Success
 [DEBUG][2][extractTimeSeries][ilamb_kevin] Could not find [tsl,TSOI] in the model results
 [DEBUG][2][WorkConfront][Permafrost/Obu2018][ilamb_kevin]
 Traceback (most recent call last):
@@ -1353,9 +1421,7 @@ Traceback (most recent call last):
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_4188] Success
-[DEBUG][2][WorkConfront][Permafrost/Obu2018][varying__height]
+[DEBUG][2][WorkConfront][Permafrost/Obu2018][varying_height]
 Traceback (most recent call last):
   File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
@@ -1372,79 +1438,817 @@ Traceback (most recent call last):
     raise ValueError
 ValueError
 
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][ilamb_kevin] Success
-[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/CMAPv1904][varying__height] Success
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/CERESed4.2][varying__height] Success
 [INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][default_height] Success
-[INFO][2][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
-[INFO][2][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/CLASS][ENSEMBLE-CMIP6] Success
 [INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/GPCPv2.3][CliMA_longruns_4188] Success
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_4188] Success
+[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][1][confront][Runoff/CLASS][ilamb_kevin] Success
+[INFO][2][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
 [INFO][2][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_4188] Success
 [INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/GPCCv2018][CliMA_longruns_4188] Success
+[INFO][5][confront][Precipitation/GPCPv2.3][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_4281] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][ENSEMBLE-CMIP6] Success
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
 [INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/GPCCv2018][CliMA_longruns_4281] Success
+[INFO][5][confront][Precipitation/GPCPv2.3][CliMA_longruns_calibrated] Success
 [INFO][2][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
 [INFO][2][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][ilamb_kevin] Success
 [INFO][2][confront][SurfaceSoilMoisture/WangMao][CliMA_longruns_4281] Success
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/GPCPv2.3][default_height] Success
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/MOD16A2][CliMA_longruns_calibrated] Success
 [INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/GPCCv2018][CliMA_longruns_calibrated] Success
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][default_height] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/LORA][varying__height] Success
-[INFO][3][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
-[INFO][3][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
-[INFO][3][confront][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
-[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][5][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/GPCCv2018][default_height] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/CLASS][CliMA_longruns_4188] Success
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/MOD16A2][default_height] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
 [INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
-[INFO][1][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
-[INFO][1][confront][Runoff/CLASS][CliMA_longruns_4281] Success
 [INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
-[INFO][5][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][5][confront][Precipitation/GPCPv2.3][ilamb_kevin] Success
 [INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
 [INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
-[INFO][1][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/GPCPv2.3][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CLASS][CliMA_longruns_4188] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ilamb_kevin] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CLASS][CliMA_longruns_4281] Success
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CLASS][CliMA_longruns_calibrated] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][varying_height] Success
+[INFO][5][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][5][confront][Precipitation/CLASS][default_height] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns_4188] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][CliMA_longruns_calibrated] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][default_height] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][ilamb_kevin] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][CliMA_longruns_4188] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][CliMA_longruns_calibrated] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][default_height] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][ilamb_kevin] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][CliMA_longruns_4188] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][CliMA_longruns_calibrated] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][default_height] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][ilamb_kevin] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][varying_height] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/WECANN][CliMA_longruns_4188] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/WECANN][CliMA_longruns_4281] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/WECANN][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][EvaporativeFraction/WECANN][default_height] Success
+[INFO][6][modelPlots][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][Runoff/CLASS][varying_height] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][1][modelPlots][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][EvaporativeFraction/WECANN][ilamb_kevin] Success
+[INFO][6][modelPlots][Precipitation/CLASS][ilamb_kevin] Success
+[INFO][2][modelPlots][Runoff/ERA5][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][varying_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][SurfaceSoilMoisture/WangMao][default_height] Success
+[INFO][1][modelPlots][EvaporativeFraction/WECANN][varying_height] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][Runoff/ERA5][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][Precipitation/CLASS][varying_height] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_4188] Success
+[INFO][3][modelPlots][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/GEWEX.SRB][default_height] Success
+[INFO][2][modelPlots][Runoff/ERA5][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][Precipitation/ERA5][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][default_height] Success
+[INFO][1][modelPlots][EvaporativeFraction/ERA5][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][Runoff/ERA5][default_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceSoilMoisture/WangMao][ilamb_kevin] Success
+[INFO][6][modelPlots][Precipitation/ERA5][CliMA_longruns_4281] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][1][modelPlots][EvaporativeFraction/ERA5][default_height] Success
+[INFO][2][modelPlots][Runoff/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][6][modelPlots][Precipitation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][3][modelPlots][SurfaceSoilMoisture/WangMao][varying_height] Success
+[INFO][2][modelPlots][Runoff/ERA5][ilamb_kevin] Success
+[INFO][1][modelPlots][EvaporativeFraction/ERA5][ilamb_kevin] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][Precipitation/ERA5][default_height] Success
+[INFO][2][modelPlots][Runoff/ERA5][varying_height] Success
+[INFO][1][modelPlots][EvaporativeFraction/ERA5][varying_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/GEWEX.SRB][varying_height] Success
+[INFO][3][modelPlots][SnowCoverFraction/MODIS][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][default_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][6][modelPlots][Precipitation/ERA5][ilamb_kevin] Success
+[INFO][1][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_4188] Success
+[INFO][3][modelPlots][SnowCoverFraction/MODIS][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/WRMC.BSRN][default_height] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][default_height] Success
+[INFO][6][modelPlots][Precipitation/ERA5][varying_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_4281] Success
+[INFO][2][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SnowCoverFraction/MODIS][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/WRMC.BSRN][varying_height] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/FLUXCOM][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][SnowCoverFraction/MODIS][default_height] Success
+[INFO][2][modelPlots][SensibleHeat/FLUXCOM][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ilamb_kevin] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/CLASS][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/FLUXCOM][default_height] Success
+[INFO][3][modelPlots][SnowCoverFraction/MODIS][ilamb_kevin] Success
+[INFO][2][modelPlots][SensibleHeat/FLUXCOM][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][default_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/CLASS][CliMA_longruns_4281] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SnowCoverFraction/MODIS][varying_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/CLASS][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][3][modelPlots][Albedo/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][LatentHeat/FLUXCOM][ilamb_kevin] Success
+[INFO][2][modelPlots][SensibleHeat/FLUXCOM][ilamb_kevin] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][varying_height] Success
+[INFO][3][modelPlots][Albedo/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/CLASS][default_height] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/FLUXCOM][varying_height] Success
+[INFO][3][modelPlots][Albedo/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][CliMA_longruns_calibrated] Success
+[INFO][2][modelPlots][SensibleHeat/FLUXCOM][varying_height] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][default_height] Success
+[INFO][3][modelPlots][Albedo/CERESed4.2][default_height] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][default_height] Success
+[INFO][1][modelPlots][LatentHeat/DOLCE][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SensibleHeat/CLASS][CliMA_longruns_4188] Success
+[INFO][3][modelPlots][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/CLASS][ilamb_kevin] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][LatentHeat/DOLCE][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][Albedo/CERESed4.2][ilamb_kevin] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ilamb_kevin] Success
+[INFO][2][modelPlots][SensibleHeat/CLASS][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][SurfaceNetRadiation/CLASS][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][3][modelPlots][Albedo/CERESed4.2][varying_height] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][varying_height] Success
+[INFO][1][modelPlots][LatentHeat/DOLCE][CliMA_longruns_calibrated] Success
+[INFO][2][modelPlots][SensibleHeat/CLASS][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][GroundHeatFlux/CLASS][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][default_height] Success
+[INFO][3][modelPlots][Albedo/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][varying_height] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][LatentHeat/DOLCE][default_height] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SensibleHeat/CLASS][default_height] Success
+[INFO][5][modelPlots][GroundHeatFlux/CLASS][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][Albedo/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][CliMA_longruns_4281] Success
+[INFO][2][modelPlots][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][default_height] Success
+[INFO][5][modelPlots][GroundHeatFlux/CLASS][CliMA_longruns_calibrated] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][Albedo/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/DOLCE][ilamb_kevin] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][2][modelPlots][SensibleHeat/CLASS][ilamb_kevin] Success
+[INFO][5][modelPlots][GroundHeatFlux/CLASS][default_height] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][varying_height] Success
+[INFO][3][modelPlots][Albedo/GEWEX.SRB][default_height] Success
+[INFO][1][modelPlots][LatentHeat/DOLCE][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][default_height] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_4188] Success
+[INFO][5][modelPlots][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SensibleHeat/CLASS][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/CLASS][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SensibleHeat/WECANN][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][default_height] Success
+[INFO][5][modelPlots][GroundHeatFlux/CLASS][ilamb_kevin] Success
+[INFO][3][modelPlots][Albedo/GEWEX.SRB][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][2][modelPlots][SensibleHeat/WECANN][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/CLASS][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ilamb_kevin] Success
+[INFO][5][modelPlots][GroundHeatFlux/CLASS][varying_height] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/ERA5][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][2][modelPlots][SensibleHeat/WECANN][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][Albedo/GEWEX.SRB][varying_height] Success
+[INFO][1][modelPlots][LatentHeat/CLASS][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][varying_height] Success
+[INFO][2][modelPlots][SensibleHeat/WECANN][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/CRU4.02][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/ERA5][ilamb_kevin] Success
+[INFO][2][modelPlots][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/CLASS][default_height] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/CRU4.02][CliMA_longruns_4281] Success
+[INFO][4][modelPlots][SurfaceUpwardLWRadiation/ERA5][varying_height] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SensibleHeat/WECANN][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SensibleHeat/WECANN][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/ERA5][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][default_height] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/CRU4.02][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/CLASS][ilamb_kevin] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SensibleHeat/ERA5][CliMA_longruns_4188] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/CRU4.02][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/ERA5][ilamb_kevin] Success
+[INFO][2][modelPlots][SensibleHeat/ERA5][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/CLASS][varying_height] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][varying_height] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/CERESed4.2][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardSWRadiation/ERA5][varying_height] Success
+[INFO][2][modelPlots][SensibleHeat/ERA5][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/WECANN][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SensibleHeat/ERA5][default_height] Success
+[INFO][1][modelPlots][LatentHeat/WECANN][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/CRU4.02][ilamb_kevin] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][2][modelPlots][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/WECANN][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/CRU4.02][varying_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/CERESed4.2][varying_height] Success
+[INFO][2][modelPlots][SensibleHeat/ERA5][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/WECANN][default_height] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][SensibleHeat/ERA5][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ilamb_kevin] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/WECANN][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][2][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/ERA5][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][default_height] Success
+[INFO][1][modelPlots][LatentHeat/WECANN][varying_height] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][2][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][varying_height] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/ERA5][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][varying_height] Success
+[INFO][2][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][default_height] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][2][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_4188] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/ERA5][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][default_height] Success
+[INFO][2][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][varying_height] Success
+[INFO][5][modelPlots][SurfaceAirTemperature/ERA5][varying_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][varying_height] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_4281] Success
+[INFO][2][modelPlots][SnowWaterEquivalent/CanSISE][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SnowWaterEquivalent/CanSISE][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][Precipitation/CMAPv1904][CliMA_longruns_4188] Success
+[INFO][2][modelPlots][SnowWaterEquivalent/CanSISE][CliMA_longruns_calibrated] Success
+[INFO][2][modelPlots][SnowWaterEquivalent/CanSISE][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][2][modelPlots][SnowWaterEquivalent/CanSISE][ilamb_kevin] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][default_height] Success
+[INFO][2][modelPlots][SnowWaterEquivalent/CanSISE][varying_height] Success
+[DEBUG][2][WorkPost][Permafrost/Brown2002][CliMA_longruns_4188]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_CliMA_longruns_4188.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Brown2002][CliMA_longruns_4281]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_CliMA_longruns_4281.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Brown2002][CliMA_longruns_calibrated]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_CliMA_longruns_calibrated.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Brown2002][default_height]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_default_height.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Brown2002][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_ENSEMBLE-CMIP6.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Brown2002][ilamb_kevin]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_ilamb_kevin.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Brown2002][varying_height]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Brown2002//Brown2002_varying_height.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Obu2018][CliMA_longruns_4188]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_CliMA_longruns_4188.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Obu2018][CliMA_longruns_4281]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_CliMA_longruns_4281.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Obu2018][CliMA_longruns_calibrated]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_CliMA_longruns_calibrated.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Obu2018][default_height]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_default_height.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Obu2018][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_ENSEMBLE-CMIP6.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Obu2018][ilamb_kevin]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_ilamb_kevin.nc'
+
+[DEBUG][2][WorkPost][Permafrost/Obu2018][varying_height]
+Traceback (most recent call last):
+  File "/home/renatob/miniconda3/envs/ilamb/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ConfPermafrost.py", line 380, in modelPlots
+    mod = Variable(
+          ^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+          ^^^^^^^^^^^^^^^
+  File "/home/renatob/miniconda3/envs/ilamb/lib/python3.11/site-packages/ILAMB/ilamblib.py", line 806, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/netCDF4/_netCDF4.pyx", line 2470, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2107, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: './_build/HydrologyCycle/Permafrost/Obu2018//Obu2018_varying_height.nc'
+
+[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][Precipitation/CMAPv1904][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][LatentHeat/ERA5][varying_height] Success
+[INFO][1][modelPlots][Runoff/Dai][CliMA_longruns_4188] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][2][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][default_height] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][varying_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][5][modelPlots][Precipitation/CMAPv1904][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][default_height] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][Runoff/Dai][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][2][modelPlots][SurfaceSoilMoisture/WangMao][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][Precipitation/CMAPv1904][default_height] Success
+[INFO][1][modelPlots][Runoff/Dai][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ilamb_kevin] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][5][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][Runoff/Dai][default_height] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ilamb_kevin] Success
+[INFO][4][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/ERA5][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][varying_height] Success
+[INFO][5][modelPlots][Precipitation/CMAPv1904][ilamb_kevin] Success
+[INFO][1][modelPlots][Runoff/Dai][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][Runoff/Dai][ilamb_kevin] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][varying_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/ERA5][ilamb_kevin] Success
+[INFO][5][modelPlots][Precipitation/CMAPv1904][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][default_height] Success
+[INFO][3][modelPlots][SurfaceUpwardSWRadiation/ERA5][varying_height] Success
+[INFO][1][modelPlots][Runoff/Dai][varying_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][Precipitation/GPCCv2018][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ilamb_kevin] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_4188] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/CERESed4.2][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][varying_height] Success
+[INFO][5][modelPlots][Precipitation/GPCCv2018][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_4281] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/CERESed4.2][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][5][modelPlots][Precipitation/GPCCv2018][CliMA_longruns_calibrated] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/CERESed4.2][default_height] Success
+[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns_4281] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/CERESed4.2][varying_height] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA_longruns_calibrated] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/ERA5][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][5][modelPlots][Precipitation/GPCCv2018][default_height] Success
+[INFO][1][modelPlots][Runoff/LORA][CliMA_longruns_calibrated] Success
+[INFO][4][modelPlots][SurfaceNetRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/ERA5][default_height] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/CERESed4.2][ilamb_kevin] Success
+[INFO][5][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][default_height] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/CERESed4.2][varying_height] Success
+[INFO][1][modelPlots][Runoff/LORA][default_height] Success
+[INFO][5][modelPlots][Precipitation/GPCCv2018][ilamb_kevin] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/ERA5][ilamb_kevin] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_4188] Success
+[INFO][1][modelPlots][Runoff/LORA][ENSEMBLE-CMIP6] Success
+[INFO][6][modelPlots][SurfaceDownwardLWRadiation/ERA5][varying_height] Success
+[INFO][5][modelPlots][Precipitation/GPCCv2018][varying_height] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_4281] Success
+[INFO][1][modelPlots][Runoff/LORA][ilamb_kevin] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ilamb_kevin] Success
+[INFO][5][modelPlots][Precipitation/GPCPv2.3][CliMA_longruns_4188] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][Runoff/LORA][varying_height] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][varying_height] Success
+[INFO][5][modelPlots][Precipitation/GPCPv2.3][CliMA_longruns_4281] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][default_height] Success
+[INFO][1][modelPlots][Runoff/CLASS][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_4188] Success
+[INFO][5][modelPlots][Precipitation/GPCPv2.3][CliMA_longruns_calibrated] Success
+[INFO][3][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][1][modelPlots][Runoff/CLASS][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][Precipitation/GPCPv2.3][default_height] Success
+[INFO][1][modelPlots][Runoff/CLASS][CliMA_longruns_calibrated] Success
+[INFO][5][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][CliMA_longruns_calibrated] Success
+[INFO][1][modelPlots][Runoff/CLASS][default_height] Success
+[INFO][5][modelPlots][Precipitation/GPCPv2.3][ilamb_kevin] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][default_height] Success
+[INFO][1][modelPlots][Runoff/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][5][modelPlots][Precipitation/GPCPv2.3][varying_height] Success
+[INFO][1][modelPlots][Runoff/CLASS][ilamb_kevin] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][ilamb_kevin] Success
+[INFO][5][modelPlots][Precipitation/CLASS][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][varying_height] Success
+[INFO][5][modelPlots][Precipitation/CLASS][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_4188] Success
+[INFO][5][modelPlots][Precipitation/CLASS][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_4281] Success
+[INFO][5][modelPlots][Precipitation/CLASS][default_height] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][default_height] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ilamb_kevin] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][varying_height] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][CliMA_longruns_calibrated] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][default_height] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][ilamb_kevin] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][varying_height] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns_4188] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns_4281] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][CliMA_longruns_calibrated] Success
+[INFO][0][<module>][process time] 4152.5 s
+[INFO][6][<module>][process time] 2296.0 s
+[INFO][3][<module>][process time] 2335.3 s
+[INFO][4][<module>][process time] 2153.2 s
+[INFO][2][<module>][process time] 2412.3 s
+[INFO][5][<module>][process time] 3061.5 s
+[INFO][1][<module>][process time] 2586.1 s
+[INFO][0][<module>][total time] 4272.9 s
+[INFO][0][<module>][process balance] 1.93
+[INFO][0][<module>][parallel efficiency] 64%
