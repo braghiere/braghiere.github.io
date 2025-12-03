@@ -162,39 +162,47 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("CliMA_longruns_4188_legend").style.display = 'none';
-          document.getElementById("CliMA_longruns_4281_legend").style.display = 'none';
-          document.getElementById("CliMA_longruns_calibrated_legend").style.display = 'none';
-          document.getElementById("default_height_legend").style.display = 'none';
+          document.getElementById("ACCESS-ESM1-5_legend").style.display = 'none';
+          document.getElementById("CanESM5_legend").style.display = 'none';
+          document.getElementById("CESM2_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
-          document.getElementById("ilamb_kevin_legend").style.display = 'none';
-          document.getElementById("varying_height_legend").style.display = 'none';
+          document.getElementById("MIROC-ES2L_legend").style.display = 'none';
+          document.getElementById("NorESM2-LM_legend").style.display = 'none';
+          document.getElementById("output_4381_drainage_legend").style.display = 'none';
+          document.getElementById("output_4386_no_drainage_legend").style.display = 'none';
+          document.getElementById("UKESM1-0-LL_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("CliMA_longruns_4188_legend").style.display = 'inline';
-          document.getElementById("CliMA_longruns_4281_legend").style.display = 'inline';
-          document.getElementById("CliMA_longruns_calibrated_legend").style.display = 'inline';
-          document.getElementById("default_height_legend").style.display = 'inline';
+          document.getElementById("ACCESS-ESM1-5_legend").style.display = 'inline';
+          document.getElementById("CanESM5_legend").style.display = 'inline';
+          document.getElementById("CESM2_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
-          document.getElementById("ilamb_kevin_legend").style.display = 'inline';
-          document.getElementById("varying_height_legend").style.display = 'inline';
+          document.getElementById("MIROC-ES2L_legend").style.display = 'inline';
+          document.getElementById("NorESM2-LM_legend").style.display = 'inline';
+          document.getElementById("output_4381_drainage_legend").style.display = 'inline';
+          document.getElementById("output_4386_no_drainage_legend").style.display = 'inline';
+          document.getElementById("UKESM1-0-LL_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_4188').src = 'CliMA_longruns_4188_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_4188_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_4281').src = 'CliMA_longruns_4281_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_4281_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_calibrated').src = 'CliMA_longruns_calibrated_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CliMA_longruns_calibrated_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('default_height').src = 'default_height_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('default_height_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ACCESS-ESM1-5').src = 'ACCESS-ESM1-5_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ACCESS-ESM1-5_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CanESM5').src = 'CanESM5_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CanESM5_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CESM2').src = 'CESM2_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CESM2_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ilamb_kevin').src = 'ilamb_kevin_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ilamb_kevin_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('varying_height').src = 'varying_height_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('varying_height_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('MIROC-ES2L').src = 'MIROC-ES2L_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('MIROC-ES2L_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('NorESM2-LM').src = 'NorESM2-LM_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('NorESM2-LM_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('output_4381_drainage').src = 'output_4381_drainage_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('output_4381_drainage_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('output_4386_no_drainage').src = 'output_4386_no_drainage_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('output_4386_no_drainage_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('UKESM1-0-LL').src = 'UKESM1-0-LL_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('UKESM1-0-LL_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -265,13 +273,15 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='CliMA_longruns_4188' selected="selected">CliMA_longruns_4188</option>
-        <option value='CliMA_longruns_4281'>CliMA_longruns_4281</option>
-        <option value='CliMA_longruns_calibrated'>CliMA_longruns_calibrated</option>
-        <option value='default_height'>default_height</option>
+        <option value='ACCESS-ESM1-5' selected="selected">ACCESS-ESM1-5</option>
+        <option value='CanESM5'>CanESM5</option>
+        <option value='CESM2'>CESM2</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
-        <option value='ilamb_kevin'>ilamb_kevin</option>
-        <option value='varying_height'>varying_height</option>
+        <option value='MIROC-ES2L'>MIROC-ES2L</option>
+        <option value='NorESM2-LM'>NorESM2-LM</option>
+        <option value='output_4381_drainage'>output_4381_drainage</option>
+        <option value='output_4386_no_drainage'>output_4386_no_drainage</option>
+        <option value='UKESM1-0-LL'>UKESM1-0-LL</option>
       </select>
       </div>
         <center>
@@ -308,60 +318,46 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_4188</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_4188.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">142.</td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ACCESS-ESM1-5</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ACCESS-ESM1-5.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">148.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">13.7</td>
-               <td onclick="highlightRowMeanState(this)">25.9</td>
-               <td onclick="highlightRowMeanState(this)">0.339</td>
+               <td onclick="highlightRowMeanState(this)">28.3</td>
+               <td onclick="highlightRowMeanState(this)">52.3</td>
+               <td onclick="highlightRowMeanState(this)">0.408</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.756</td>
-               <td onclick="highlightRowMeanState(this)">0.771</td>
-               <td onclick="highlightRowMeanState(this)">0.978</td>
-               <td onclick="highlightRowMeanState(this)">0.819</td>
+               <td onclick="highlightRowMeanState(this)">0.700</td>
+               <td onclick="highlightRowMeanState(this)">0.618</td>
+               <td onclick="highlightRowMeanState(this)">0.973</td>
+               <td onclick="highlightRowMeanState(this)">0.727</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_4281</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_4281.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CanESM5</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CanESM5.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">140.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">11.6</td>
-               <td onclick="highlightRowMeanState(this)">25.1</td>
-               <td onclick="highlightRowMeanState(this)">0.254</td>
+               <td onclick="highlightRowMeanState(this)">17.5</td>
+               <td onclick="highlightRowMeanState(this)">42.4</td>
+               <td onclick="highlightRowMeanState(this)">0.474</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.780</td>
-               <td onclick="highlightRowMeanState(this)">0.768</td>
-               <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">0.825</td>
+               <td onclick="highlightRowMeanState(this)">0.808</td>
+               <td onclick="highlightRowMeanState(this)">0.652</td>
+               <td onclick="highlightRowMeanState(this)">0.969</td>
+               <td onclick="highlightRowMeanState(this)">0.770</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA_longruns_calibrated</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA_longruns_calibrated.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">142.</td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CESM2</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CESM2.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">141.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">13.9</td>
-               <td onclick="highlightRowMeanState(this)">25.9</td>
-               <td onclick="highlightRowMeanState(this)">0.339</td>
+               <td onclick="highlightRowMeanState(this)">22.7</td>
+               <td onclick="highlightRowMeanState(this)">53.1</td>
+               <td onclick="highlightRowMeanState(this)">0.203</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.756</td>
-               <td onclick="highlightRowMeanState(this)">0.771</td>
-               <td onclick="highlightRowMeanState(this)">0.978</td>
-               <td onclick="highlightRowMeanState(this)">0.819</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">default_height</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_default_height.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">140.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">11.6</td>
-               <td onclick="highlightRowMeanState(this)">25.1</td>
-               <td onclick="highlightRowMeanState(this)">0.254</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.780</td>
-               <td onclick="highlightRowMeanState(this)">0.768</td>
-               <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">0.825</td>
+               <td onclick="highlightRowMeanState(this)">0.752</td>
+               <td onclick="highlightRowMeanState(this)">0.653</td>
+               <td onclick="highlightRowMeanState(this)">0.987</td>
+               <td onclick="highlightRowMeanState(this)">0.761</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
@@ -378,32 +374,74 @@
                <td onclick="highlightRowMeanState(this)">0.786</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ilamb_kevin</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ilamb_kevin.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">141.</td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">MIROC-ES2L</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_MIROC-ES2L.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">144.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">12.8</td>
-               <td onclick="highlightRowMeanState(this)">24.8</td>
-               <td onclick="highlightRowMeanState(this)">0.254</td>
+               <td onclick="highlightRowMeanState(this)">23.1</td>
+               <td onclick="highlightRowMeanState(this)">56.2</td>
+               <td onclick="highlightRowMeanState(this)">0.476</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.764</td>
-               <td onclick="highlightRowMeanState(this)">0.778</td>
-               <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">0.826</td>
+               <td onclick="highlightRowMeanState(this)">0.796</td>
+               <td onclick="highlightRowMeanState(this)">0.641</td>
+               <td onclick="highlightRowMeanState(this)">0.968</td>
+               <td onclick="highlightRowMeanState(this)">0.762</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">varying_height</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_varying_height.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">NorESM2-LM</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_NorESM2-LM.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">140.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">11.6</td>
-               <td onclick="highlightRowMeanState(this)">25.2</td>
+               <td onclick="highlightRowMeanState(this)">22.8</td>
+               <td onclick="highlightRowMeanState(this)">46.9</td>
+               <td onclick="highlightRowMeanState(this)">0.271</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.724</td>
+               <td onclick="highlightRowMeanState(this)">0.649</td>
+               <td onclick="highlightRowMeanState(this)">0.982</td>
+               <td onclick="highlightRowMeanState(this)">0.751</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">output_4381_drainage</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_output_4381_drainage.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">139.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">10.6</td>
+               <td onclick="highlightRowMeanState(this)">22.3</td>
                <td onclick="highlightRowMeanState(this)">0.254</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.780</td>
-               <td onclick="highlightRowMeanState(this)">0.768</td>
+               <td onclick="highlightRowMeanState(this)">0.786</td>
+               <td onclick="highlightRowMeanState(this)">0.794</td>
                <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">0.825</td>
+               <td onclick="highlightRowMeanState(this)">0.839</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">output_4386_no_drainage</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_output_4386_no_drainage.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">139.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">10.5</td>
+               <td onclick="highlightRowMeanState(this)">22.3</td>
+               <td onclick="highlightRowMeanState(this)">0.254</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.787</td>
+               <td onclick="highlightRowMeanState(this)">0.793</td>
+               <td onclick="highlightRowMeanState(this)">0.983</td>
+               <td onclick="highlightRowMeanState(this)">0.839</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">UKESM1-0-LL</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_UKESM1-0-LL.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">138.</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">17.3</td>
+               <td onclick="highlightRowMeanState(this)">45.5</td>
+               <td onclick="highlightRowMeanState(this)">0.339</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.797</td>
+               <td onclick="highlightRowMeanState(this)">0.651</td>
+               <td onclick="highlightRowMeanState(this)">0.978</td>
+               <td onclick="highlightRowMeanState(this)">0.769</td>
              </tr>
           </tbody>
         </table>
@@ -547,32 +585,25 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CliMA_longruns_4188_div">
+        <div class="container" id="ACCESS-ESM1-5_div">
           <div class="child">
-          <center>CliMA_longruns_4188</center>
-          <img src="" id="CliMA_longruns_4188" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_longruns_4188.png" id="CliMA_longruns_4188_legend"  alt="Data not available" ></img></center>
+          <center>ACCESS-ESM1-5</center>
+          <img src="" id="ACCESS-ESM1-5" alt="Data not available" ></img>
+          <center><img src="legend_ACCESS-ESM1-5.png" id="ACCESS-ESM1-5_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CliMA_longruns_4281_div">
+        <div class="container" id="CanESM5_div">
           <div class="child">
-          <center>CliMA_longruns_4281</center>
-          <img src="" id="CliMA_longruns_4281" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_longruns_4281.png" id="CliMA_longruns_4281_legend"  alt="Data not available" ></img></center>
+          <center>CanESM5</center>
+          <img src="" id="CanESM5" alt="Data not available" ></img>
+          <center><img src="legend_CanESM5.png" id="CanESM5_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CliMA_longruns_calibrated_div">
+        <div class="container" id="CESM2_div">
           <div class="child">
-          <center>CliMA_longruns_calibrated</center>
-          <img src="" id="CliMA_longruns_calibrated" alt="Data not available" ></img>
-          <center><img src="legend_CliMA_longruns_calibrated.png" id="CliMA_longruns_calibrated_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="default_height_div">
-          <div class="child">
-          <center>default_height</center>
-          <img src="" id="default_height" alt="Data not available" ></img>
-          <center><img src="legend_default_height.png" id="default_height_legend"  alt="Data not available" ></img></center>
+          <center>CESM2</center>
+          <img src="" id="CESM2" alt="Data not available" ></img>
+          <center><img src="legend_CESM2.png" id="CESM2_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ENSEMBLE-CMIP6_div">
@@ -582,18 +613,39 @@
           <center><img src="legend_ENSEMBLE-CMIP6.png" id="ENSEMBLE-CMIP6_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ilamb_kevin_div">
+        <div class="container" id="MIROC-ES2L_div">
           <div class="child">
-          <center>ilamb_kevin</center>
-          <img src="" id="ilamb_kevin" alt="Data not available" ></img>
-          <center><img src="legend_ilamb_kevin.png" id="ilamb_kevin_legend"  alt="Data not available" ></img></center>
+          <center>MIROC-ES2L</center>
+          <img src="" id="MIROC-ES2L" alt="Data not available" ></img>
+          <center><img src="legend_MIROC-ES2L.png" id="MIROC-ES2L_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="varying_height_div">
+        <div class="container" id="NorESM2-LM_div">
           <div class="child">
-          <center>varying_height</center>
-          <img src="" id="varying_height" alt="Data not available" ></img>
-          <center><img src="legend_varying_height.png" id="varying_height_legend"  alt="Data not available" ></img></center>
+          <center>NorESM2-LM</center>
+          <img src="" id="NorESM2-LM" alt="Data not available" ></img>
+          <center><img src="legend_NorESM2-LM.png" id="NorESM2-LM_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="output_4381_drainage_div">
+          <div class="child">
+          <center>output_4381_drainage</center>
+          <img src="" id="output_4381_drainage" alt="Data not available" ></img>
+          <center><img src="legend_output_4381_drainage.png" id="output_4381_drainage_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="output_4386_no_drainage_div">
+          <div class="child">
+          <center>output_4386_no_drainage</center>
+          <img src="" id="output_4386_no_drainage" alt="Data not available" ></img>
+          <center><img src="legend_output_4386_no_drainage.png" id="output_4386_no_drainage_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="UKESM1-0-LL_div">
+          <div class="child">
+          <center>UKESM1-0-LL</center>
+          <img src="" id="UKESM1-0-LL" alt="Data not available" ></img>
+          <center><img src="legend_UKESM1-0-LL.png" id="UKESM1-0-LL_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
