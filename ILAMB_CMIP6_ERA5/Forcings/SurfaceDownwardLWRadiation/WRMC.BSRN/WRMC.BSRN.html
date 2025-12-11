@@ -163,19 +163,15 @@
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ACCESS-ESM1-5_legend").style.display = 'none';
-          document.getElementById("CanESM5_legend").style.display = 'none';
           document.getElementById("CESM2_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
-          document.getElementById("MIROC-ES2L_legend").style.display = 'none';
           document.getElementById("NorESM2-LM_legend").style.display = 'none';
           document.getElementById("UKESM1-0-LL_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("ACCESS-ESM1-5_legend").style.display = 'inline';
-          document.getElementById("CanESM5_legend").style.display = 'inline';
           document.getElementById("CESM2_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
-          document.getElementById("MIROC-ES2L_legend").style.display = 'inline';
           document.getElementById("NorESM2-LM_legend").style.display = 'inline';
           document.getElementById("UKESM1-0-LL_legend").style.display = 'inline';
         }
@@ -183,14 +179,10 @@
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ACCESS-ESM1-5').src = 'ACCESS-ESM1-5_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ACCESS-ESM1-5_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CanESM5').src = 'CanESM5_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CanESM5_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CESM2').src = 'CESM2_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CESM2_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('MIROC-ES2L').src = 'MIROC-ES2L_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('MIROC-ES2L_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('NorESM2-LM').src = 'NorESM2-LM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('NorESM2-LM_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('UKESM1-0-LL').src = 'UKESM1-0-LL_' + RNAME + '_' + PNAME + '.png';
@@ -266,10 +258,8 @@
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='ACCESS-ESM1-5' selected="selected">ACCESS-ESM1-5</option>
-        <option value='CanESM5'>CanESM5</option>
         <option value='CESM2'>CESM2</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
-        <option value='MIROC-ES2L'>MIROC-ES2L</option>
         <option value='NorESM2-LM'>NorESM2-LM</option>
         <option value='UKESM1-0-LL'>UKESM1-0-LL</option>
       </select>
@@ -322,20 +312,6 @@
                <td onclick="highlightRowMeanState(this)">0.730</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CanESM5</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CanESM5.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">305.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-6.88</td>
-               <td onclick="highlightRowMeanState(this)">23.5</td>
-               <td onclick="highlightRowMeanState(this)">0.418</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.763</td>
-               <td onclick="highlightRowMeanState(this)">0.583</td>
-               <td onclick="highlightRowMeanState(this)">0.966</td>
-               <td onclick="highlightRowMeanState(this)">0.724</td>
-             </tr>
-             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CESM2</td>
                <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CESM2.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">313.</td>
@@ -362,20 +338,6 @@
                <td onclick="highlightRowMeanState(this)">0.686</td>
                <td onclick="highlightRowMeanState(this)">0.961</td>
                <td onclick="highlightRowMeanState(this)">0.788</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">MIROC-ES2L</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_MIROC-ES2L.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">315.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">2.71</td>
-               <td onclick="highlightRowMeanState(this)">23.1</td>
-               <td onclick="highlightRowMeanState(this)">0.499</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.749</td>
-               <td onclick="highlightRowMeanState(this)">0.601</td>
-               <td onclick="highlightRowMeanState(this)">0.945</td>
-               <td onclick="highlightRowMeanState(this)">0.724</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">NorESM2-LM</td>
@@ -554,13 +516,6 @@
           <center><img src="legend_ACCESS-ESM1-5.png" id="ACCESS-ESM1-5_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CanESM5_div">
-          <div class="child">
-          <center>CanESM5</center>
-          <img src="" id="CanESM5" alt="Data not available" ></img>
-          <center><img src="legend_CanESM5.png" id="CanESM5_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
         <div class="container" id="CESM2_div">
           <div class="child">
           <center>CESM2</center>
@@ -573,13 +528,6 @@
           <center>ENSEMBLE-CMIP6</center>
           <img src="" id="ENSEMBLE-CMIP6" alt="Data not available" ></img>
           <center><img src="legend_ENSEMBLE-CMIP6.png" id="ENSEMBLE-CMIP6_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="MIROC-ES2L_div">
-          <div class="child">
-          <center>MIROC-ES2L</center>
-          <img src="" id="MIROC-ES2L" alt="Data not available" ></img>
-          <center><img src="legend_MIROC-ES2L.png" id="MIROC-ES2L_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="NorESM2-LM_div">

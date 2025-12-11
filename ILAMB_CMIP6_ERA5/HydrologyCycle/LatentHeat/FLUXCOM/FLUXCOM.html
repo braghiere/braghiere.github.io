@@ -165,19 +165,15 @@
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("ACCESS-ESM1-5_legend").style.display = 'none';
-          document.getElementById("CanESM5_legend").style.display = 'none';
           document.getElementById("CESM2_legend").style.display = 'none';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
-          document.getElementById("MIROC-ES2L_legend").style.display = 'none';
           document.getElementById("NorESM2-LM_legend").style.display = 'none';
           document.getElementById("UKESM1-0-LL_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("ACCESS-ESM1-5_legend").style.display = 'inline';
-          document.getElementById("CanESM5_legend").style.display = 'inline';
           document.getElementById("CESM2_legend").style.display = 'inline';
           document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
-          document.getElementById("MIROC-ES2L_legend").style.display = 'inline';
           document.getElementById("NorESM2-LM_legend").style.display = 'inline';
           document.getElementById("UKESM1-0-LL_legend").style.display = 'inline';
         }
@@ -185,14 +181,10 @@
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ACCESS-ESM1-5').src = 'ACCESS-ESM1-5_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ACCESS-ESM1-5_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CanESM5').src = 'CanESM5_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CanESM5_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CESM2').src = 'CESM2_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CESM2_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('MIROC-ES2L').src = 'MIROC-ES2L_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('MIROC-ES2L_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('NorESM2-LM').src = 'NorESM2-LM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('NorESM2-LM_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('UKESM1-0-LL').src = 'UKESM1-0-LL_' + RNAME + '_' + PNAME + '.png';
@@ -268,10 +260,8 @@
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='ACCESS-ESM1-5' selected="selected">ACCESS-ESM1-5</option>
-        <option value='CanESM5'>CanESM5</option>
         <option value='CESM2'>CESM2</option>
         <option value='ENSEMBLE-CMIP6'>ENSEMBLE-CMIP6</option>
-        <option value='MIROC-ES2L'>MIROC-ES2L</option>
         <option value='NorESM2-LM'>NorESM2-LM</option>
         <option value='UKESM1-0-LL'>UKESM1-0-LL</option>
       </select>
@@ -303,7 +293,7 @@
              <tr>
                <td class="row-header">Benchmark</td>
                <td><a href="FLUXCOM_Benchmark.nc" download>[-]</a></td>
-               <td>66.1</td>
+               <td>48.9</td>
                <td></td>
                <td></td>
                <td></td>
@@ -322,135 +312,97 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ACCESS-ESM1-5</td>
                <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ACCESS-ESM1-5.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">63.9</td>
-               <td onclick="highlightRowMeanState(this)">77.1</td>
-               <td onclick="highlightRowMeanState(this)">65.7</td>
-               <td onclick="highlightRowMeanState(this)">37.0</td>
+               <td onclick="highlightRowMeanState(this)">60.1</td>
+               <td onclick="highlightRowMeanState(this)">60.7</td>
+               <td onclick="highlightRowMeanState(this)">48.9</td>
+               <td onclick="highlightRowMeanState(this)">40.1</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">11.6</td>
-               <td onclick="highlightRowMeanState(this)">27.8</td>
-               <td onclick="highlightRowMeanState(this)">1.42</td>
+               <td onclick="highlightRowMeanState(this)">11.8</td>
+               <td onclick="highlightRowMeanState(this)">23.5</td>
+               <td onclick="highlightRowMeanState(this)">1.21</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.418</td>
-               <td onclick="highlightRowMeanState(this)">0.449</td>
-               <td onclick="highlightRowMeanState(this)">0.782</td>
-               <td onclick="highlightRowMeanState(this)">0.968</td>
-               <td onclick="highlightRowMeanState(this)">0.613</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CanESM5</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_CanESM5.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">59.2</td>
-               <td onclick="highlightRowMeanState(this)">69.6</td>
-               <td onclick="highlightRowMeanState(this)">65.5</td>
-               <td onclick="highlightRowMeanState(this)">37.9</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">4.18</td>
-               <td onclick="highlightRowMeanState(this)">28.8</td>
-               <td onclick="highlightRowMeanState(this)">1.61</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.461</td>
-               <td onclick="highlightRowMeanState(this)">0.370</td>
-               <td onclick="highlightRowMeanState(this)">0.734</td>
-               <td onclick="highlightRowMeanState(this)">0.971</td>
-               <td onclick="highlightRowMeanState(this)">0.581</td>
+               <td onclick="highlightRowMeanState(this)">0.482</td>
+               <td onclick="highlightRowMeanState(this)">0.520</td>
+               <td onclick="highlightRowMeanState(this)">0.798</td>
+               <td onclick="highlightRowMeanState(this)">0.944</td>
+               <td onclick="highlightRowMeanState(this)">0.653</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CESM2</td>
                <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_CESM2.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">54.8</td>
-               <td onclick="highlightRowMeanState(this)">62.4</td>
-               <td onclick="highlightRowMeanState(this)">65.9</td>
-               <td onclick="highlightRowMeanState(this)">38.6</td>
+               <td onclick="highlightRowMeanState(this)">49.0</td>
+               <td onclick="highlightRowMeanState(this)">47.3</td>
+               <td onclick="highlightRowMeanState(this)">48.9</td>
+               <td onclick="highlightRowMeanState(this)">39.5</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-3.32</td>
-               <td onclick="highlightRowMeanState(this)">18.0</td>
-               <td onclick="highlightRowMeanState(this)">1.39</td>
+               <td onclick="highlightRowMeanState(this)">-1.44</td>
+               <td onclick="highlightRowMeanState(this)">16.8</td>
+               <td onclick="highlightRowMeanState(this)">1.18</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.596</td>
-               <td onclick="highlightRowMeanState(this)">0.521</td>
-               <td onclick="highlightRowMeanState(this)">0.766</td>
-               <td onclick="highlightRowMeanState(this)">0.985</td>
-               <td onclick="highlightRowMeanState(this)">0.678</td>
+               <td onclick="highlightRowMeanState(this)">0.647</td>
+               <td onclick="highlightRowMeanState(this)">0.555</td>
+               <td onclick="highlightRowMeanState(this)">0.788</td>
+               <td onclick="highlightRowMeanState(this)">0.974</td>
+               <td onclick="highlightRowMeanState(this)">0.704</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
                <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">60.3</td>
-               <td onclick="highlightRowMeanState(this)">71.1</td>
-               <td onclick="highlightRowMeanState(this)">65.7</td>
-               <td onclick="highlightRowMeanState(this)">36.9</td>
+               <td onclick="highlightRowMeanState(this)">49.2</td>
+               <td onclick="highlightRowMeanState(this)">54.0</td>
+               <td onclick="highlightRowMeanState(this)">48.9</td>
+               <td onclick="highlightRowMeanState(this)">38.5</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">5.49</td>
-               <td onclick="highlightRowMeanState(this)">16.6</td>
-               <td onclick="highlightRowMeanState(this)">1.28</td>
+               <td onclick="highlightRowMeanState(this)">5.14</td>
+               <td onclick="highlightRowMeanState(this)">15.0</td>
+               <td onclick="highlightRowMeanState(this)">1.07</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.609</td>
-               <td onclick="highlightRowMeanState(this)">0.553</td>
-               <td onclick="highlightRowMeanState(this)">0.783</td>
-               <td onclick="highlightRowMeanState(this)">0.989</td>
-               <td onclick="highlightRowMeanState(this)">0.697</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">MIROC-ES2L</td>
-               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_MIROC-ES2L.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">71.6</td>
-               <td onclick="highlightRowMeanState(this)">86.0</td>
-               <td onclick="highlightRowMeanState(this)">65.5</td>
-               <td onclick="highlightRowMeanState(this)">41.7</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">20.6</td>
-               <td onclick="highlightRowMeanState(this)">32.1</td>
-               <td onclick="highlightRowMeanState(this)">1.74</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.338</td>
-               <td onclick="highlightRowMeanState(this)">0.487</td>
-               <td onclick="highlightRowMeanState(this)">0.707</td>
-               <td onclick="highlightRowMeanState(this)">0.903</td>
-               <td onclick="highlightRowMeanState(this)">0.584</td>
+               <td onclick="highlightRowMeanState(this)">0.661</td>
+               <td onclick="highlightRowMeanState(this)">0.611</td>
+               <td onclick="highlightRowMeanState(this)">0.807</td>
+               <td onclick="highlightRowMeanState(this)">0.971</td>
+               <td onclick="highlightRowMeanState(this)">0.732</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">NorESM2-LM</td>
                <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_NorESM2-LM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">55.8</td>
-               <td onclick="highlightRowMeanState(this)">64.7</td>
-               <td onclick="highlightRowMeanState(this)">65.9</td>
-               <td onclick="highlightRowMeanState(this)">36.3</td>
+               <td onclick="highlightRowMeanState(this)">48.9</td>
+               <td onclick="highlightRowMeanState(this)">47.7</td>
+               <td onclick="highlightRowMeanState(this)">48.9</td>
+               <td onclick="highlightRowMeanState(this)">36.8</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-1.09</td>
-               <td onclick="highlightRowMeanState(this)">18.5</td>
-               <td onclick="highlightRowMeanState(this)">1.31</td>
+               <td onclick="highlightRowMeanState(this)">-1.16</td>
+               <td onclick="highlightRowMeanState(this)">18.3</td>
+               <td onclick="highlightRowMeanState(this)">1.21</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.561</td>
-               <td onclick="highlightRowMeanState(this)">0.528</td>
-               <td onclick="highlightRowMeanState(this)">0.799</td>
-               <td onclick="highlightRowMeanState(this)">0.984</td>
-               <td onclick="highlightRowMeanState(this)">0.680</td>
+               <td onclick="highlightRowMeanState(this)">0.607</td>
+               <td onclick="highlightRowMeanState(this)">0.549</td>
+               <td onclick="highlightRowMeanState(this)">0.787</td>
+               <td onclick="highlightRowMeanState(this)">0.963</td>
+               <td onclick="highlightRowMeanState(this)">0.691</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">UKESM1-0-LL</td>
                <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_UKESM1-0-LL.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">62.4</td>
-               <td onclick="highlightRowMeanState(this)">73.8</td>
-               <td onclick="highlightRowMeanState(this)">66.0</td>
-               <td onclick="highlightRowMeanState(this)">37.5</td>
+               <td onclick="highlightRowMeanState(this)">52.3</td>
+               <td onclick="highlightRowMeanState(this)">51.6</td>
+               <td onclick="highlightRowMeanState(this)">48.9</td>
+               <td onclick="highlightRowMeanState(this)">39.0</td>
                <td onclick="highlightRowMeanState(this)"></td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">7.82</td>
-               <td onclick="highlightRowMeanState(this)">22.1</td>
-               <td onclick="highlightRowMeanState(this)">1.40</td>
+               <td onclick="highlightRowMeanState(this)">2.76</td>
+               <td onclick="highlightRowMeanState(this)">18.5</td>
+               <td onclick="highlightRowMeanState(this)">1.17</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.482</td>
-               <td onclick="highlightRowMeanState(this)">0.490</td>
-               <td onclick="highlightRowMeanState(this)">0.748</td>
-               <td onclick="highlightRowMeanState(this)">0.961</td>
-               <td onclick="highlightRowMeanState(this)">0.634</td>
+               <td onclick="highlightRowMeanState(this)">0.587</td>
+               <td onclick="highlightRowMeanState(this)">0.557</td>
+               <td onclick="highlightRowMeanState(this)">0.790</td>
+               <td onclick="highlightRowMeanState(this)">0.930</td>
+               <td onclick="highlightRowMeanState(this)">0.684</td>
              </tr>
           </tbody>
         </table>
@@ -613,13 +565,6 @@
           <center><img src="legend_ACCESS-ESM1-5.png" id="ACCESS-ESM1-5_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CanESM5_div">
-          <div class="child">
-          <center>CanESM5</center>
-          <img src="" id="CanESM5" alt="Data not available" ></img>
-          <center><img src="legend_CanESM5.png" id="CanESM5_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
         <div class="container" id="CESM2_div">
           <div class="child">
           <center>CESM2</center>
@@ -632,13 +577,6 @@
           <center>ENSEMBLE-CMIP6</center>
           <img src="" id="ENSEMBLE-CMIP6" alt="Data not available" ></img>
           <center><img src="legend_ENSEMBLE-CMIP6.png" id="ENSEMBLE-CMIP6_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="MIROC-ES2L_div">
-          <div class="child">
-          <center>MIROC-ES2L</center>
-          <img src="" id="MIROC-ES2L" alt="Data not available" ></img>
-          <center><img src="legend_MIROC-ES2L.png" id="MIROC-ES2L_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="NorESM2-LM_div">
