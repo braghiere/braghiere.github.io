@@ -1,0 +1,3 @@
+# Exclude large ILAMB data files but keep HTML/PNG for web
+*.nc
+*.pkl
