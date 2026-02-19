@@ -50,7 +50,6 @@
           document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
           document.getElementById('dtcycle').src =  MNAME + '_' + RNAME + '_dtcycle.png'
           document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
-          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
           document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
         }
 
@@ -164,23 +163,15 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
-          document.getElementById("output_4381_drainage_legend").style.display = 'none';
-          document.getElementById("output_4386_no_drainage_legend").style.display = 'none';
+          document.getElementById("CliMA-Land_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
-          document.getElementById("output_4381_drainage_legend").style.display = 'inline';
-          document.getElementById("output_4386_no_drainage_legend").style.display = 'inline';
+          document.getElementById("CliMA-Land_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('output_4381_drainage').src = 'output_4381_drainage_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('output_4381_drainage_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('output_4386_no_drainage').src = 'output_4386_no_drainage_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('output_4386_no_drainage_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA-Land').src = 'CliMA-Land_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA-Land_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -251,9 +242,7 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ENSEMBLE-CMIP6' selected="selected">ENSEMBLE-CMIP6</option>
-        <option value='output_4381_drainage'>output_4381_drainage</option>
-        <option value='output_4386_no_drainage'>output_4386_no_drainage</option>
+        <option value='CliMA-Land' selected="selected">CliMA-Land</option>
       </select>
       </div>
         <center>
@@ -283,7 +272,7 @@
              <tr>
                <td class="row-header">Benchmark</td>
                <td><a href="ERA5_Benchmark.nc" download>[-]</a></td>
-               <td>46.7</td>
+               <td>40.4</td>
                <td></td>
                <td></td>
                <td></td>
@@ -300,61 +289,23 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
-               <td onclick="highlightRowMeanState(this)"><a href="ERA5_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">44.1</td>
-               <td onclick="highlightRowMeanState(this)">44.2</td>
-               <td onclick="highlightRowMeanState(this)">46.8</td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA-Land</td>
+               <td onclick="highlightRowMeanState(this)"><a href="ERA5_CliMA-Land.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">45.7</td>
+               <td onclick="highlightRowMeanState(this)">45.7</td>
+               <td onclick="highlightRowMeanState(this)">44.0</td>
                <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">17.8</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-2.57</td>
-               <td onclick="highlightRowMeanState(this)">10.5</td>
-               <td onclick="highlightRowMeanState(this)">0.716</td>
+               <td onclick="highlightRowMeanState(this)">2.01</td>
+               <td onclick="highlightRowMeanState(this)">11.7</td>
+               <td onclick="highlightRowMeanState(this)">0.890</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.621</td>
-               <td onclick="highlightRowMeanState(this)">0.675</td>
-               <td onclick="highlightRowMeanState(this)">0.912</td>
-               <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">0.773</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">output_4381_drainage</td>
-               <td onclick="highlightRowMeanState(this)"><a href="ERA5_output_4381_drainage.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">51.6</td>
-               <td onclick="highlightRowMeanState(this)">51.6</td>
-               <td onclick="highlightRowMeanState(this)">50.0</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)">22.5</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.83</td>
-               <td onclick="highlightRowMeanState(this)">11.0</td>
-               <td onclick="highlightRowMeanState(this)">0.656</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.647</td>
-               <td onclick="highlightRowMeanState(this)">0.669</td>
-               <td onclick="highlightRowMeanState(this)">0.912</td>
-               <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">0.776</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">output_4386_no_drainage</td>
-               <td onclick="highlightRowMeanState(this)"><a href="ERA5_output_4386_no_drainage.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">51.7</td>
-               <td onclick="highlightRowMeanState(this)">51.7</td>
-               <td onclick="highlightRowMeanState(this)">50.0</td>
-               <td onclick="highlightRowMeanState(this)"></td>
-               <td onclick="highlightRowMeanState(this)">22.5</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">1.85</td>
-               <td onclick="highlightRowMeanState(this)">10.9</td>
-               <td onclick="highlightRowMeanState(this)">0.654</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.647</td>
-               <td onclick="highlightRowMeanState(this)">0.670</td>
-               <td onclick="highlightRowMeanState(this)">0.912</td>
-               <td onclick="highlightRowMeanState(this)">0.983</td>
-               <td onclick="highlightRowMeanState(this)">0.776</td>
+               <td onclick="highlightRowMeanState(this)">0.550</td>
+               <td onclick="highlightRowMeanState(this)">0.626</td>
+               <td onclick="highlightRowMeanState(this)">0.887</td>
+               <td onclick="highlightRowMeanState(this)">0.958</td>
+               <td onclick="highlightRowMeanState(this)">0.730</td>
              </tr>
           </tbody>
         </table>
@@ -468,12 +419,6 @@
           <img src="" id="dtcycle" alt="Data not available" ></img>
           </div>
         </div>
-        <div class="container" id="compcycle_div">
-          <div class="child">
-          <center>ANNUAL&nbsp;CYCLE</center>
-          <img src="" id="compcycle" alt="Data not available" ></img>
-          </div>
-        </div>
         </div>
     </div>
     <div data-role="page" id="AllModels">
@@ -510,25 +455,11 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ENSEMBLE-CMIP6_div">
+        <div class="container" id="CliMA-Land_div">
           <div class="child">
-          <center>ENSEMBLE-CMIP6</center>
-          <img src="" id="ENSEMBLE-CMIP6" alt="Data not available" ></img>
-          <center><img src="legend_ENSEMBLE-CMIP6.png" id="ENSEMBLE-CMIP6_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="output_4381_drainage_div">
-          <div class="child">
-          <center>output_4381_drainage</center>
-          <img src="" id="output_4381_drainage" alt="Data not available" ></img>
-          <center><img src="legend_output_4381_drainage.png" id="output_4381_drainage_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="output_4386_no_drainage_div">
-          <div class="child">
-          <center>output_4386_no_drainage</center>
-          <img src="" id="output_4386_no_drainage" alt="Data not available" ></img>
-          <center><img src="legend_output_4386_no_drainage.png" id="output_4386_no_drainage_legend"  alt="Data not available" ></img></center>
+          <center>CliMA-Land</center>
+          <img src="" id="CliMA-Land" alt="Data not available" ></img>
+          <center><img src="legend_CliMA-Land.png" id="CliMA-Land_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>

@@ -182,23 +182,15 @@
         }
         if(PNAME == "amazon" || PNAME == "ob" || PNAME == "lena" || PNAME == "yenisey" || PNAME == "mississippi" || PNAME == "congo" || PNAME == "mackenzie" || PNAME == "parana" || PNAME == "nile" || PNAME == "amur" || PNAME == "niger" || PNAME == "changjiang" || PNAME == "yukon" || PNAME == "nelson" || PNAME == "stlawrence" || PNAME == "kolyma" || PNAME == "murray" || PNAME == "danube" || PNAME == "indus" || PNAME == "orange" || PNAME == "ganges" || PNAME == "columbia" || PNAME == "huanghe" || PNAME == "indigirka" || PNAME == "orinoco" || PNAME == "tocantins" || PNAME == "mekong" || PNAME == "severnayadvina" || PNAME == "dnepr" || PNAME == "colorado"){
           document.getElementById("Benchmark_legend").style.display = 'none';
-          document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'none';
-          document.getElementById("output_4381_drainage_legend").style.display = 'none';
-          document.getElementById("output_4386_no_drainage_legend").style.display = 'none';
+          document.getElementById("CliMA-Land_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
-          document.getElementById("ENSEMBLE-CMIP6_legend").style.display = 'inline';
-          document.getElementById("output_4381_drainage_legend").style.display = 'inline';
-          document.getElementById("output_4386_no_drainage_legend").style.display = 'inline';
+          document.getElementById("CliMA-Land_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ENSEMBLE-CMIP6').src = 'ENSEMBLE-CMIP6_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ENSEMBLE-CMIP6_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('output_4381_drainage').src = 'output_4381_drainage_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('output_4381_drainage_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('output_4386_no_drainage').src = 'output_4386_no_drainage_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('output_4386_no_drainage_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CliMA-Land').src = 'CliMA-Land_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CliMA-Land_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -269,9 +261,7 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ENSEMBLE-CMIP6' selected="selected">ENSEMBLE-CMIP6</option>
-        <option value='output_4381_drainage'>output_4381_drainage</option>
-        <option value='output_4386_no_drainage'>output_4386_no_drainage</option>
+        <option value='CliMA-Land' selected="selected">CliMA-Land</option>
       </select>
       </div>
         <center>
@@ -300,34 +290,14 @@
                <td></td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ENSEMBLE-CMIP6</td>
-               <td onclick="highlightRowMeanState(this)"><a href="GRACE_ENSEMBLE-CMIP6.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">8.63</td>
-               <td onclick="highlightRowMeanState(this)">8.56</td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CliMA-Land</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GRACE_CliMA-Land.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">8.96</td>
+               <td onclick="highlightRowMeanState(this)">8.68</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.295</td>
-               <td onclick="highlightRowMeanState(this)">0.783</td>
-               <td onclick="highlightRowMeanState(this)">0.458</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">output_4381_drainage</td>
-               <td onclick="highlightRowMeanState(this)"><a href="GRACE_output_4381_drainage.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">78.0</td>
-               <td onclick="highlightRowMeanState(this)">77.6</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.0762</td>
-               <td onclick="highlightRowMeanState(this)">3.53e-05</td>
-               <td onclick="highlightRowMeanState(this)">0.0508</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">output_4386_no_drainage</td>
-               <td onclick="highlightRowMeanState(this)"><a href="GRACE_output_4386_no_drainage.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">44.1</td>
-               <td onclick="highlightRowMeanState(this)">43.4</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.0762</td>
-               <td onclick="highlightRowMeanState(this)">0.00469</td>
-               <td onclick="highlightRowMeanState(this)">0.0524</td>
+               <td onclick="highlightRowMeanState(this)">0.349</td>
+               <td onclick="highlightRowMeanState(this)">0.746</td>
+               <td onclick="highlightRowMeanState(this)">0.481</td>
              </tr>
           </tbody>
         </table>
@@ -607,25 +577,11 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ENSEMBLE-CMIP6_div">
+        <div class="container" id="CliMA-Land_div">
           <div class="child">
-          <center>ENSEMBLE-CMIP6</center>
-          <img src="" id="ENSEMBLE-CMIP6" alt="Data not available" ></img>
-          <center><img src="legend_ENSEMBLE-CMIP6.png" id="ENSEMBLE-CMIP6_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="output_4381_drainage_div">
-          <div class="child">
-          <center>output_4381_drainage</center>
-          <img src="" id="output_4381_drainage" alt="Data not available" ></img>
-          <center><img src="legend_output_4381_drainage.png" id="output_4381_drainage_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="output_4386_no_drainage_div">
-          <div class="child">
-          <center>output_4386_no_drainage</center>
-          <img src="" id="output_4386_no_drainage" alt="Data not available" ></img>
-          <center><img src="legend_output_4386_no_drainage.png" id="output_4386_no_drainage_legend"  alt="Data not available" ></img></center>
+          <center>CliMA-Land</center>
+          <img src="" id="CliMA-Land" alt="Data not available" ></img>
+          <center><img src="legend_CliMA-Land.png" id="CliMA-Land_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
