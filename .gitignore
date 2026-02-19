@@ -1,3 +1,29 @@
 # Exclude large ILAMB data files but keep HTML/PNG for web
+# NetCDF data files
 *.nc
+*.nc4
+*.nc3
+
+# Python pickle files
 *.pkl
+*.pickle
+
+# Log files
+*.log
+*.out
+*.err
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.cache
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large data formats
+*.hdf
+*.hdf5
+*.h5
+*.dat
+*.bin
