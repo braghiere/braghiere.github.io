@@ -163,19 +163,15 @@
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("CABLE-POP_legend").style.display = 'none';
-          document.getElementById("CARDAMOM_legend").style.display = 'none';
-          document.getElementById("CLASSIC_legend").style.display = 'none';
           document.getElementById("CliMA-Land_legend").style.display = 'none';
-          document.getElementById("CLM5.0_legend").style.display = 'none';
+          document.getElementById("CLM6.0_legend").style.display = 'none';
           document.getElementById("ED_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
           document.getElementById("IBIS_legend").style.display = 'none';
           document.getElementById("iMAPLE_legend").style.display = 'none';
-          document.getElementById("ISAM_legend").style.display = 'none';
           document.getElementById("ISBA-CTRIP_legend").style.display = 'none';
           document.getElementById("JSBACH_legend").style.display = 'none';
           document.getElementById("JULES_legend").style.display = 'none';
-          document.getElementById("LPJml_legend").style.display = 'none';
           document.getElementById("LPX_legend").style.display = 'none';
           document.getElementById("OCN_legend").style.display = 'none';
           document.getElementById("ORCHIDEE_legend").style.display = 'none';
@@ -185,19 +181,15 @@
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("CABLE-POP_legend").style.display = 'inline';
-          document.getElementById("CARDAMOM_legend").style.display = 'inline';
-          document.getElementById("CLASSIC_legend").style.display = 'inline';
           document.getElementById("CliMA-Land_legend").style.display = 'inline';
-          document.getElementById("CLM5.0_legend").style.display = 'inline';
+          document.getElementById("CLM6.0_legend").style.display = 'inline';
           document.getElementById("ED_legend").style.display = 'inline';
           document.getElementById("ELM_legend").style.display = 'inline';
           document.getElementById("IBIS_legend").style.display = 'inline';
           document.getElementById("iMAPLE_legend").style.display = 'inline';
-          document.getElementById("ISAM_legend").style.display = 'inline';
           document.getElementById("ISBA-CTRIP_legend").style.display = 'inline';
           document.getElementById("JSBACH_legend").style.display = 'inline';
           document.getElementById("JULES_legend").style.display = 'inline';
-          document.getElementById("LPJml_legend").style.display = 'inline';
           document.getElementById("LPX_legend").style.display = 'inline';
           document.getElementById("OCN_legend").style.display = 'inline';
           document.getElementById("ORCHIDEE_legend").style.display = 'inline';
@@ -209,14 +201,10 @@
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CABLE-POP').src = 'CABLE-POP_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CABLE-POP_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CARDAMOM').src = 'CARDAMOM_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CARDAMOM_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CLASSIC').src = 'CLASSIC_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CLASSIC_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA-Land').src = 'CliMA-Land_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA-Land_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CLM5.0').src = 'CLM5.0_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CLM5.0_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM6.0').src = 'CLM6.0_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM6.0_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ED').src = 'ED_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ED_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ELM').src = 'ELM_' + RNAME + '_' + PNAME + '.png';
@@ -225,16 +213,12 @@
         document.getElementById('IBIS_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('iMAPLE').src = 'iMAPLE_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('iMAPLE_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('ISAM').src = 'ISAM_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('ISAM_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ISBA-CTRIP').src = 'ISBA-CTRIP_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ISBA-CTRIP_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('JSBACH').src = 'JSBACH_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('JSBACH_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('JULES').src = 'JULES_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('JULES_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('LPJml').src = 'LPJml_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('LPJml_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('LPX').src = 'LPX_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('LPX_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('OCN').src = 'OCN_' + RNAME + '_' + PNAME + '.png';
@@ -318,19 +302,15 @@
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='CABLE-POP' selected="selected">CABLE-POP</option>
-        <option value='CARDAMOM'>CARDAMOM</option>
-        <option value='CLASSIC'>CLASSIC</option>
         <option value='CliMA-Land'>CliMA-Land</option>
-        <option value='CLM5.0'>CLM5.0</option>
+        <option value='CLM6.0'>CLM6.0</option>
         <option value='ED'>ED</option>
         <option value='ELM'>ELM</option>
         <option value='IBIS'>IBIS</option>
         <option value='iMAPLE'>iMAPLE</option>
-        <option value='ISAM'>ISAM</option>
         <option value='ISBA-CTRIP'>ISBA-CTRIP</option>
         <option value='JSBACH'>JSBACH</option>
         <option value='JULES'>JULES</option>
-        <option value='LPJml'>LPJml</option>
         <option value='LPX'>LPX</option>
         <option value='OCN'>OCN</option>
         <option value='ORCHIDEE'>ORCHIDEE</option>
@@ -387,34 +367,6 @@
                <td onclick="highlightRowMeanState(this)">0.809</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CARDAMOM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CARDAMOM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">183.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">2.38</td>
-               <td onclick="highlightRowMeanState(this)">22.6</td>
-               <td onclick="highlightRowMeanState(this)">0.701</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.835</td>
-               <td onclick="highlightRowMeanState(this)">0.747</td>
-               <td onclick="highlightRowMeanState(this)">0.927</td>
-               <td onclick="highlightRowMeanState(this)">0.814</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CLASSIC</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CLASSIC.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">182.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.00552</td>
-               <td onclick="highlightRowMeanState(this)">23.1</td>
-               <td onclick="highlightRowMeanState(this)">0.680</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.810</td>
-               <td onclick="highlightRowMeanState(this)">0.710</td>
-               <td onclick="highlightRowMeanState(this)">0.933</td>
-               <td onclick="highlightRowMeanState(this)">0.791</td>
-             </tr>
-             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">CliMA-Land</td>
                <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CliMA-Land.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">182.</td>
@@ -429,8 +381,8 @@
                <td onclick="highlightRowMeanState(this)">0.810</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CLM5.0</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CLM5.0.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM6.0</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_CLM6.0.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">177.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.880</td>
@@ -499,20 +451,6 @@
                <td onclick="highlightRowMeanState(this)">0.780</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">ISAM</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ISAM.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">179.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-1.24</td>
-               <td onclick="highlightRowMeanState(this)">27.0</td>
-               <td onclick="highlightRowMeanState(this)">0.640</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.818</td>
-               <td onclick="highlightRowMeanState(this)">0.685</td>
-               <td onclick="highlightRowMeanState(this)">0.942</td>
-               <td onclick="highlightRowMeanState(this)">0.782</td>
-             </tr>
-             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ISBA-CTRIP</td>
                <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_ISBA-CTRIP.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">182.</td>
@@ -543,20 +481,6 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">JULES</td>
                <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_JULES.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">183.</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.201</td>
-               <td onclick="highlightRowMeanState(this)">23.2</td>
-               <td onclick="highlightRowMeanState(this)">0.679</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.805</td>
-               <td onclick="highlightRowMeanState(this)">0.708</td>
-               <td onclick="highlightRowMeanState(this)">0.933</td>
-               <td onclick="highlightRowMeanState(this)">0.788</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">LPJml</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WRMC.BSRN_LPJml.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">183.</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
                <td onclick="highlightRowMeanState(this)">0.201</td>
@@ -801,20 +725,6 @@
           <center><img src="legend_CABLE-POP.png" id="CABLE-POP_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CARDAMOM_div">
-          <div class="child">
-          <center>CARDAMOM</center>
-          <img src="" id="CARDAMOM" alt="Data not available" ></img>
-          <center><img src="legend_CARDAMOM.png" id="CARDAMOM_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="CLASSIC_div">
-          <div class="child">
-          <center>CLASSIC</center>
-          <img src="" id="CLASSIC" alt="Data not available" ></img>
-          <center><img src="legend_CLASSIC.png" id="CLASSIC_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
         <div class="container" id="CliMA-Land_div">
           <div class="child">
           <center>CliMA-Land</center>
@@ -822,11 +732,11 @@
           <center><img src="legend_CliMA-Land.png" id="CliMA-Land_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CLM5.0_div">
+        <div class="container" id="CLM6.0_div">
           <div class="child">
-          <center>CLM5.0</center>
-          <img src="" id="CLM5.0" alt="Data not available" ></img>
-          <center><img src="legend_CLM5.0.png" id="CLM5.0_legend"  alt="Data not available" ></img></center>
+          <center>CLM6.0</center>
+          <img src="" id="CLM6.0" alt="Data not available" ></img>
+          <center><img src="legend_CLM6.0.png" id="CLM6.0_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ED_div">
@@ -857,13 +767,6 @@
           <center><img src="legend_iMAPLE.png" id="iMAPLE_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="ISAM_div">
-          <div class="child">
-          <center>ISAM</center>
-          <img src="" id="ISAM" alt="Data not available" ></img>
-          <center><img src="legend_ISAM.png" id="ISAM_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
         <div class="container" id="ISBA-CTRIP_div">
           <div class="child">
           <center>ISBA-CTRIP</center>
@@ -883,13 +786,6 @@
           <center>JULES</center>
           <img src="" id="JULES" alt="Data not available" ></img>
           <center><img src="legend_JULES.png" id="JULES_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="LPJml_div">
-          <div class="child">
-          <center>LPJml</center>
-          <img src="" id="LPJml" alt="Data not available" ></img>
-          <center><img src="legend_LPJml.png" id="LPJml_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="LPX_div">

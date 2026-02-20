@@ -168,7 +168,7 @@
           document.getElementById("CARDAMOM_legend").style.display = 'none';
           document.getElementById("CLASSIC_legend").style.display = 'none';
           document.getElementById("CliMA-Land_legend").style.display = 'none';
-          document.getElementById("CLM5.0_legend").style.display = 'none';
+          document.getElementById("CLM6.0_legend").style.display = 'none';
           document.getElementById("DLEM_legend").style.display = 'none';
           document.getElementById("ED_legend").style.display = 'none';
           document.getElementById("ELM_legend").style.display = 'none';
@@ -193,7 +193,7 @@
           document.getElementById("CARDAMOM_legend").style.display = 'inline';
           document.getElementById("CLASSIC_legend").style.display = 'inline';
           document.getElementById("CliMA-Land_legend").style.display = 'inline';
-          document.getElementById("CLM5.0_legend").style.display = 'inline';
+          document.getElementById("CLM6.0_legend").style.display = 'inline';
           document.getElementById("DLEM_legend").style.display = 'inline';
           document.getElementById("ED_legend").style.display = 'inline';
           document.getElementById("ELM_legend").style.display = 'inline';
@@ -223,8 +223,8 @@
         document.getElementById('CLASSIC_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('CliMA-Land').src = 'CliMA-Land_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('CliMA-Land_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('CLM5.0').src = 'CLM5.0_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('CLM5.0_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('CLM6.0').src = 'CLM6.0_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('CLM6.0_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('DLEM').src = 'DLEM_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('DLEM_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ED').src = 'ED_' + RNAME + '_' + PNAME + '.png';
@@ -335,7 +335,7 @@
         <option value='CARDAMOM'>CARDAMOM</option>
         <option value='CLASSIC'>CLASSIC</option>
         <option value='CliMA-Land'>CliMA-Land</option>
-        <option value='CLM5.0'>CLM5.0</option>
+        <option value='CLM6.0'>CLM6.0</option>
         <option value='DLEM'>DLEM</option>
         <option value='ED'>ED</option>
         <option value='ELM'>ELM</option>
@@ -476,8 +476,8 @@
                <td onclick="highlightRowMeanState(this)">0.571</td>
              </tr>
              <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">CLM5.0</td>
-               <td onclick="highlightRowMeanState(this)"><a href="WECANN_CLM5.0.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)" class="row-header">CLM6.0</td>
+               <td onclick="highlightRowMeanState(this)"><a href="WECANN_CLM6.0.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">178.</td>
                <td onclick="highlightRowMeanState(this)">153.</td>
                <td onclick="highlightRowMeanState(this)">115.</td>
@@ -1018,11 +1018,11 @@
           <center><img src="legend_CliMA-Land.png" id="CliMA-Land_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
-        <div class="container" id="CLM5.0_div">
+        <div class="container" id="CLM6.0_div">
           <div class="child">
-          <center>CLM5.0</center>
-          <img src="" id="CLM5.0" alt="Data not available" ></img>
-          <center><img src="legend_CLM5.0.png" id="CLM5.0_legend"  alt="Data not available" ></img></center>
+          <center>CLM6.0</center>
+          <img src="" id="CLM6.0" alt="Data not available" ></img>
+          <center><img src="legend_CLM6.0.png" id="CLM6.0_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="DLEM_div">
