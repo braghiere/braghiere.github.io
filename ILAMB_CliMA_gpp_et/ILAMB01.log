@@ -1,106 +1,1035 @@
-[INFO][0][<module>] Darwin MT-202641 19.6.0 Darwin Kernel Version 19.6.0: Tue Jun 22 19:49:55 PDT 2021; root:xnu-6153.141.35~1/RELEASE_X86_64 x86_64
-[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/ILAMB (2.6)
-[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/numpy (1.20.0)
-[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/matplotlib (3.4.2)
-[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/netCDF4 (1.5.7)
-[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/cf_units (3.0.1)
-[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/sympy (1.8)
-[INFO][0][<module>] /usr/local/lib/python3.9/site-packages/mpi4py (3.0.3)
-[INFO][0][<module>] 2021-09-07 12:52:24.145531
-[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP5] Success
-[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP6] Success
-[INFO][0][confront][GrossPrimaryProductivity/FLUXNET2015][CliMA] Success
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP5] Success
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP6] Success
-[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][CliMA] Success
-[DEBUG][0][extractTimeSeries][EnsembleCMIP5] Could not find [et,evspsbl] in the model results
-[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][EnsembleCMIP5]
+[INFO][0][<module>] Linux clima.gps.caltech.edu 4.18.0-553.107.1.el8_10.x86_64 #1 SMP Tue Feb 17 05:52:05 EST 2026 x86_64 x86_64
+[INFO][0][<module>] /net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB (2.7.2)
+[INFO][0][<module>] /net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/numpy (2.3.4)
+[INFO][0][<module>] /net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/matplotlib (3.10.7)
+[INFO][0][<module>] /net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/netCDF4 (1.7.3)
+[INFO][0][<module>] /net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/cf_units (3.3.0)
+[INFO][0][<module>] /net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/sympy (1.14.0)
+[INFO][0][<module>] /net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/mpi4py (4.1.1)
+[INFO][0][<module>] 2026-03-05 12:32:48.340437
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][gpp] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][gpp] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVHRR][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVHRR][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVH15C1][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVH15C1][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][nee] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][nee] RMSE scored using Collier2018
+[INFO][0][confront][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][0][confront][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/HWSD][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/NCSCDV22][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/NCSCDV22][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][cSoilAbove1m] Bias scored using Collier2018
+[INFO][0][confront][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][4597_2026-03-05_uncalib] Spatial data was clipped from the comparison:  before: [ 12 180 360] after: [ 12 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][4597_2026-03-05_uncalib] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][4598_2026-03-05_latest] Spatial data was clipped from the comparison:  before: [ 12 180 360] after: [ 12 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][4598_2026-03-05_latest] Success
+[INFO][0][MakeComparable][Biomass/ESACCI][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [ 12  96 144] after: [ 12  76 144]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/ESACCI][ENSEMBLE-CMIP6] Success
+[INFO][0][MakeComparable][Biomass/GEOCARBON][4597_2026-03-05_uncalib] Spatial data was clipped from the comparison:  before: [118 180 360] after: [118 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][4597_2026-03-05_uncalib] Success
+[INFO][0][MakeComparable][Biomass/GEOCARBON][4598_2026-03-05_latest] Spatial data was clipped from the comparison:  before: [118 180 360] after: [118 141 360]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][4598_2026-03-05_latest] Success
+[INFO][0][MakeComparable][Biomass/GEOCARBON][ENSEMBLE-CMIP6] Spatial data was clipped from the comparison:  before: [120  96 144] after: [120  75 144]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/GEOCARBON][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Saatchi2011][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Saatchi2011][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Saatchi2011][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/USForest][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/USForest][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/USForest][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/XuSaatchi2021][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/XuSaatchi2021][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][0][confront][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][EvapFrac] Bias scored using Collier2018
+[INFO][0][confront][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/DOLCE][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/DOLCE][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][0][confront][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/LORA][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/LORA][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/LORA][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][runoff] RMSE scored using Collier2018
+[INFO][0][confront][Runoff/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][surface_runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][surface_runoff] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceRunoff/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][surface_runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][surface_runoff] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceRunoff/ERA5][4598_2026-03-05_latest] Success
+[DEBUG][0][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [surface_runoff,mrros] in the model results
+[DEBUG][0][WorkConfront][SurfaceRunoff/ERA5][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
-  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
-    obs,mod = self.stageData(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
-    mod = m.extractTimeSeries(self.variable,
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    ~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+        self.variable,
+    ...<5 lines>...
+        lons=None if obs.spatial else obs.lon,
+    )
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][0][extractTimeSeries][EnsembleCMIP6] Could not find [et,evspsbl] in the model results
-[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][EnsembleCMIP6]
+[INFO][0][AnalysisMeanStateSpace][subsurface_runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][subsurface_runoff] RMSE scored using Collier2018
+[INFO][0][confront][SubsurfaceRunoff/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][subsurface_runoff] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][subsurface_runoff] RMSE scored using Collier2018
+[INFO][0][confront][SubsurfaceRunoff/ERA5][4598_2026-03-05_latest] Success
+[DEBUG][0][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [subsurface_runoff,ssro] in the model results
+[DEBUG][0][WorkConfront][SubsurfaceRunoff/ERA5][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
-  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
-    obs,mod = self.stageData(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
-    mod = m.extractTimeSeries(self.variable,
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    ~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+        self.variable,
+    ...<5 lines>...
+        lons=None if obs.spatial else obs.lon,
+    )
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][0][confront][Evapotranspiration/GLEAMv3.3a][CliMA] Success
-[DEBUG][0][extractTimeSeries][EnsembleCMIP5] Could not find [et,evspsbl] in the model results
-[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][EnsembleCMIP5]
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][0][confront][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[DEBUG][0][WorkConfront][TerrestrialWaterStorageAnomaly/ERA5][4597_2026-03-05_uncalib]
 Traceback (most recent call last):
-  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
-    obs,mod = self.stageData(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
-    mod = m.extractTimeSeries(self.variable,
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    ~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ConfTWSA.py", line 147, in confront
+    obs, mod = self.stageData(m)
+               ~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ConfTWSA.py", line 112, in stageData
+    mean = mod.integrateInTime(mean=True)
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Variable.py", line 400, in integrateInTime
+    integral = (self.data[ind] * dt).sum(axis=0)
+                ~~~~~~~~~^^^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/numpy/ma/core.py", line 3305, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: index 228 is out of bounds for axis 0 with size 228
+
+[DEBUG][0][WorkConfront][TerrestrialWaterStorageAnomaly/ERA5][4598_2026-03-05_latest]
+Traceback (most recent call last):
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+    ~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ConfTWSA.py", line 147, in confront
+    obs, mod = self.stageData(m)
+               ~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ConfTWSA.py", line 112, in stageData
+    mean = mod.integrateInTime(mean=True)
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Variable.py", line 400, in integrateInTime
+    integral = (self.data[ind] * dt).sum(axis=0)
+                ~~~~~~~~~^^^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/numpy/ma/core.py", line 3305, in __getitem__
+    dout = self.data[indx]
+           ~~~~~~~~~^^^^^^
+IndexError: index 228 is out of bounds for axis 0 with size 228
+
+[INFO][0][MakeComparable][SnowWaterEquivalent/CanSISE][4597_2026-03-05_uncalib] Spatial data was clipped from the comparison:  before: [130 180 360] after: [130  90 360]
+[INFO][0][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
+[INFO][0][confront][SnowWaterEquivalent/CanSISE][4597_2026-03-05_uncalib] Success
+[INFO][0][MakeComparable][SnowWaterEquivalent/CanSISE][4598_2026-03-05_latest] Spatial data was clipped from the comparison:  before: [130 180 360] after: [130  90 360]
+[INFO][0][AnalysisMeanStateSpace][swe] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][swe] RMSE scored using Collier2018
+[INFO][0][confront][SnowWaterEquivalent/CanSISE][4598_2026-03-05_latest] Success
+[DEBUG][0][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [swe,snw] in the model results
+[DEBUG][0][WorkConfront][SnowWaterEquivalent/CanSISE][ENSEMBLE-CMIP6]
+Traceback (most recent call last):
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 563, in WorkConfront
+    c.confront(m)
+    ~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ConfSWE.py", line 9, in stageData
+    obs, mod = super(ConfSWE, self).stageData(m)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+        self.variable,
+    ...<5 lines>...
+        lons=None if obs.spatial else obs.lon,
+    )
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[DEBUG][0][extractTimeSeries][EnsembleCMIP6] Could not find [et,evspsbl] in the model results
-[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][EnsembleCMIP6]
+[INFO][0][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceSoilMoisture/WangMao][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceSoilMoisture/WangMao][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][mrsos] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][mrsos] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
+[INFO][0][confront][SnowCoverFraction/MODIS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][snow_cover_fraction] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][snow_cover_fraction] RMSE scored using Collier2018
+[INFO][0][confront][SnowCoverFraction/MODIS][4598_2026-03-05_latest] Success
+[DEBUG][0][extractTimeSeries][ENSEMBLE-CMIP6] Could not find [snow_cover_fraction,scf] in the model results
+[DEBUG][0][WorkConfront][SnowCoverFraction/MODIS][ENSEMBLE-CMIP6]
 Traceback (most recent call last):
-  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 563, in WorkConfront
     c.confront(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
-    obs,mod = self.stageData(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
-    mod = m.extractTimeSeries(self.variable,
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
+    ~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 433, in confront
+    obs, mod = self.stageData(m)
+               ~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 371, in stageData
+    mod = m.extractTimeSeries(
+        self.variable,
+    ...<5 lines>...
+        lons=None if obs.spatial else obs.lon,
+    )
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/ModelResult.py", line 433, in extractTimeSeries
     raise il.VarNotInModel()
 ILAMB.ilamblib.VarNotInModel: VarNotInModel
 
-[INFO][0][confront][Evapotranspiration/MODIS][CliMA] Success
-[DEBUG][0][extractTimeSeries][EnsembleCMIP5] Could not find [et,evspsbl] in the model results
-[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][EnsembleCMIP5]
+[INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][0][confront][Albedo/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][0][confront][Albedo/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][0][confront][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][0][confront][Albedo/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][0][confront][Albedo/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][albedo] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][albedo] RMSE scored using Collier2018
+[INFO][0][confront][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSites][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSites][rsns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSites][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSites][rlns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][0][confront][GroundHeatFlux/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][0][confront][GroundHeatFlux/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][hfdsl] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][hfdsl] RMSE scored using Collier2018
+[INFO][0][confront][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceAirTemperature/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceAirTemperature/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][tas] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][tas] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][pr] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][pr] RMSE scored using Collier2018
+[INFO][0][confront][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSites][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rsds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rsds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSites][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][AnalysisMeanStateSpace][rlds] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlds] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVHRR][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LeafAreaIndex/AVH15C1][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][NetEcosystemExchange/FLUXCOM][ENSEMBLE-CMIP6] Success
+[DEBUG][0][WorkPost][EcosystemRespiration/FLUXCOM][4597_2026-03-05_uncalib]
 Traceback (most recent call last):
-  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
-    c.confront(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
-    obs,mod = self.stageData(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
-    mod = m.extractTimeSeries(self.variable,
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+    ~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 909, in modelPlots
+    self._relationship(m)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 1339, in _relationship
+    score = ref.scoreRMSE(com, region=region)
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Relationship.py", line 494, in scoreRMSE
+    S = np.exp(-np.linalg.norm(ref - com) / np.linalg.norm(ref))
+FloatingPointError: underflow encountered in exp
 
-[DEBUG][0][extractTimeSeries][EnsembleCMIP6] Could not find [et,evspsbl] in the model results
-[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][EnsembleCMIP6]
+[DEBUG][0][WorkPost][EcosystemRespiration/FLUXCOM][4598_2026-03-05_latest]
 Traceback (most recent call last):
-  File "/usr/local/bin/ilamb-run", line 384, in WorkConfront
-    c.confront(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 350, in confront
-    obs,mod = self.stageData(m)
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 297, in stageData
-    mod = m.extractTimeSeries(self.variable,
-  File "/usr/local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 326, in extractTimeSeries
-    raise il.VarNotInModel()
-ILAMB.ilamblib.VarNotInModel: VarNotInModel
+  File "/net/sampo/data1/ilamb/ilamb_env/bin/ilamb-run", line 618, in WorkPost
+    c.modelPlots(m)
+    ~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 909, in modelPlots
+    self._relationship(m)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Confrontation.py", line 1339, in _relationship
+    score = ref.scoreRMSE(com, region=region)
+  File "/net/sampo/data1/ilamb/ilamb_env/lib/python3.14/site-packages/ILAMB/Relationship.py", line 494, in scoreRMSE
+    S = np.exp(-np.linalg.norm(ref - com) / np.linalg.norm(ref))
+FloatingPointError: underflow encountered in exp
 
-[INFO][0][confront][Evapotranspiration/MOD16A2][CliMA] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP5] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][EnsembleCMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXNET2015][CliMA] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP5] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][EnsembleCMIP6] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/FLUXCOM][CliMA] Success
-[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][CliMA] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][CliMA] Success
-[INFO][0][modelPlots][Evapotranspiration/MOD16A2][CliMA] Success
-[INFO][0][<module>][total time] 373.8 s
+[INFO][0][modelPlots][EcosystemRespiration/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SoilCarbon/HWSD][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SoilCarbon/NCSCDV22][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/ESACCI][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Biomass/ESACCI][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Biomass/ESACCI][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Biomass/GEOCARBON][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/Saatchi2011][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Biomass/Saatchi2011][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Biomass/Saatchi2011][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/Thurner][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Biomass/Thurner][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Biomass/Thurner][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/USForest][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Biomass/USForest][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Biomass/USForest][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Biomass/XuSaatchi2021][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Biomass/XuSaatchi2021][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Biomass/XuSaatchi2021][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Evapotranspiration/GLEAMv3.3a][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Evapotranspiration/MODIS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Evapotranspiration/MOD16A2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Evapotranspiration/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][EvaporativeFraction/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][EvaporativeFraction/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][EvaporativeFraction/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][EvaporativeFraction/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][EvaporativeFraction/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][EvaporativeFraction/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LatentHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LatentHeat/DOLCE][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LatentHeat/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LatentHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LatentHeat/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LatentHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][LatentHeat/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][LatentHeat/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][LatentHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/Dai][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Runoff/Dai][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Runoff/Dai][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/LORA][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Runoff/LORA][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Runoff/LORA][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Runoff/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Runoff/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Runoff/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Runoff/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Runoff/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceRunoff/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceRunoff/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SubsurfaceRunoff/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SubsurfaceRunoff/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SensibleHeat/FLUXCOM][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SensibleHeat/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SensibleHeat/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/WECANN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SensibleHeat/WECANN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SensibleHeat/WECANN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SensibleHeat/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SensibleHeat/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SensibleHeat/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/GRACE][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][TerrestrialWaterStorageAnomaly/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SnowWaterEquivalent/CanSISE][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SnowWaterEquivalent/CanSISE][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceSoilMoisture/WangMao][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceSoilMoisture/WangMao][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceSoilMoisture/WangMao][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SnowCoverFraction/MODIS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SnowCoverFraction/MODIS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Albedo/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Albedo/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Albedo/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Albedo/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceUpwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceNetRadiation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][GroundHeatFlux/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][GroundHeatFlux/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][GroundHeatFlux/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/CRU4.02][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceAirTemperature/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Precipitation/CMAPv1904][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Precipitation/GPCCv2018][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Precipitation/GPCPv2.3][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Precipitation/CLASS][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Precipitation/CLASS][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Precipitation/CLASS][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][Precipitation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][Precipitation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][Precipitation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardSWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/CERESed4.2][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/GEWEX.SRB][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/WRMC.BSRN][ENSEMBLE-CMIP6] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/ERA5][4597_2026-03-05_uncalib] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/ERA5][4598_2026-03-05_latest] Success
+[INFO][0][modelPlots][SurfaceDownwardLWRadiation/ERA5][ENSEMBLE-CMIP6] Success
+[INFO][0][<module>][total time] 4910.6 s
